@@ -21,7 +21,7 @@
  */
 public class Accessibility.Panes.Zoom : Categories.Pane {
     public Zoom () {
-        base (_("Zoom"), "zoom-in");
+        base (_("Zoom"), "preferences-desktop-accessibility-zoom");
     }
 
     construct {

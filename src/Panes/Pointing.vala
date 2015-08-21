@@ -21,7 +21,7 @@
  */
 public class Accessibility.Panes.Pointing : Categories.Pane {
     public Pointing () {
-        base (_("Pointing"), "preferences-desktop-pointing");
+        base (_("Pointing"), "preferences-desktop-accessibility-pointing");
     }
 
     construct {

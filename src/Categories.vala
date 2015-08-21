@@ -126,14 +126,13 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
 
     public class Header : Gtk.Label {
         public Header (string header) {
-            label = "<b>%s</b>".printf (GLib.Markup.escape_text (header));
+            label = "%s".printf (GLib.Markup.escape_text (header));
             show_all ();
         }
 
         construct {
-            margin = 6;
-            use_markup = true;
             ((Gtk.Misc) this).xalign = 0;
+            get_style_context ().add_class ("h4");
         }
     }
 }
