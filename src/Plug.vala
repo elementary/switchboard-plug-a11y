@@ -41,15 +41,7 @@ namespace Accessibility {
                 paned.pack1 (categories, false, false);
                 var stack = new Gtk.Stack ();
                 paned.add2 (stack);
-
-                categories.activated.connect ((pane) => {
-                    var grid = pane.grid;
-                    if (grid.parent == null) {
-                        stack.add (grid);
-                    }
-
-                    stack.set_visible_child (grid);
-                });
+                categories.set_stack (stack);
 
                 paned.show_all ();
             }

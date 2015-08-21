@@ -20,14 +20,16 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 public class Accessibility.Categories : Gtk.ScrolledWindow {
-    public signal void activated (Pane pane);
+    private Gtk.Stack stack;
+    private Gtk.ListBox list_box;
+
     public Categories () {
         
     }
 
     construct {
         hscrollbar_policy = Gtk.PolicyType.NEVER;
-        var list_box = new Gtk.ListBox ();
+        list_box = new Gtk.ListBox ();
         list_box.expand = true;
         add (list_box);
 
@@ -69,11 +71,20 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         });
 
         list_box.row_activated.connect ((row) => {
-            activated ((Pane) row);
-        });
+            var grid = ((Pane) row).grid;
+            if (grid.parent == null) {
+                stack.add (grid);
+            }
 
-        list_box.select_row (general);
-        general.activate ();
+            stack.set_visible_child (grid);
+        });
+    }
+
+    public void set_stack (Gtk.Stack stack) {
+        this.stack = stack;
+        weak Gtk.ListBoxRow first = list_box.get_row_at_index (0);
+        list_box.select_row (first);
+        first.activate ();
     }
 
     public class Pane : Gtk.ListBoxRow {
@@ -104,9 +115,15 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             rowgrid.add (label);
 
             grid = new Gtk.Grid ();
+            grid.margin = 12;
+            grid.margin_top = 24;
+            grid.row_spacing = 12;
+            grid.column_spacing = 6;
+            grid.expand = true;
+            grid.show ();
         }
     }
-    
+
     public class Header : Gtk.Label {
         public Header (string header) {
             label = "<b>%s</b>".printf (GLib.Markup.escape_text (header));

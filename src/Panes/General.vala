@@ -25,6 +25,25 @@ public class Accessibility.Panes.General : Categories.Pane {
     }
 
     construct {
-        
+        var a11y_keyboard_label = new Gtk.Label (_("Turn accessibility features on and off using the keyboard:"));
+        a11y_keyboard_label.hexpand = true;
+        a11y_keyboard_label.halign = Gtk.Align.END;
+        var a11y_menu_label = new Gtk.Label (_("Display accessibility menu in panel:"));
+        a11y_menu_label.halign = Gtk.Align.END;
+        var a11y_keyboard_switch = new Gtk.Switch ();
+        var a11y_menu_switch = new Gtk.Switch ();
+        var a11y_keyboard_switch_grid = new Gtk.Grid ();
+        a11y_keyboard_switch_grid.hexpand = true;
+        a11y_keyboard_switch_grid.halign = Gtk.Align.START;
+        a11y_keyboard_switch_grid.add (a11y_keyboard_switch);
+        var a11y_menu_switch_grid = new Gtk.Grid ();
+        a11y_menu_switch_grid.add (a11y_menu_switch);
+
+        grid.attach (a11y_keyboard_label, 0, 0, 1, 1);
+        grid.attach (a11y_keyboard_switch_grid, 1, 0, 1, 1);
+        grid.attach (a11y_menu_label, 0, 1, 1, 1);
+        grid.attach (a11y_menu_switch_grid, 1, 1, 1, 1);
+
+        grid.show_all ();
     }
 }
