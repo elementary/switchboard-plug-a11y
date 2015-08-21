@@ -1,0 +1,27 @@
+Source: switchboard-plug-a11y
+Section: x11
+Priority: optional
+Maintainer: Corentin Noël <corentin@elementary.io>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libswitchboard-2.0-dev
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/switchboardswitchboard-plug-a11y
+
+Package: switchboard-plug-a11y
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Enhances: switchboard
+Description: Accessibility plug for Switchboard
+ Enable more accessibility feature of the desktop
+
+Package: switchboard-plug-a11y-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: switchboard-plug-a11y (= ${binary:Version}), ${misc:Depends}
+Enhances: switchboard-plug-a11y
+Description: Accessibility plug for Switchboard (debugging symbols)
+ Enable more accessibility feature of the desktop
+ .
+ This package contains debugging symbols for switchboard-plug-a11y.
