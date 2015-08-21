@@ -23,7 +23,7 @@ namespace Accessibility {
     public static Plug plug;
 
     public class Plug : Switchboard.Plug {
-        Gtk.Grid main_grid;
+        Gtk.Paned paned;
 
         public Plug () {
             Object (category: Category.SYSTEM,
@@ -35,14 +35,26 @@ namespace Accessibility {
         }
 
         public override Gtk.Widget get_widget () {
-            if (main_grid == null) {
-                main_grid = new Gtk.Grid ();
-                var hello_label = new Gtk.Label (_("Hello World"));
-                main_grid.attach (hello_label, 0, 0, 1, 1);
-                main_grid.show_all ();
+            if (paned == null) {
+                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+                var categories = new Categories ();
+                paned.pack1 (categories, false, false);
+                var stack = new Gtk.Stack ();
+                paned.add2 (stack);
+
+                categories.activated.connect ((pane) => {
+                    var grid = pane.grid;
+                    if (grid.parent == null) {
+                        stack.add (grid);
+                    }
+
+                    stack.set_visible_child (grid);
+                });
+
+                paned.show_all ();
             }
 
-            return main_grid;
+            return paned;
         }
 
         public override void shown () {
