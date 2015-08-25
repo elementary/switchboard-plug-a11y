@@ -25,6 +25,31 @@ public class Accessibility.Panes.Audio : Categories.Pane {
     }
 
     construct {
+        build_ui ();
+    }
+    
+    private void build_ui () {
+        var playback_label = new Accessibility.Widgets.Label (_("Playback"));
+        var alerts_label = new Accessibility.Widgets.Label (_("Visual Alerts"));
+        var reader_label = new Accessibility.Widgets.Label (_("Screen Reader"));
+
+        var playback_box = new Accessibility.Widgets.SettingsBox ();
+        playback_box.add_switch (_("Play stereo audio output as mono"));
         
+        var alerts_box = new Accessibility.Widgets.SettingsBox ();
+        alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
+        
+        var reader_box = new Accessibility.Widgets.SettingsBox ();
+        reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
+        reader_box.add_widget (_("Keyboard shortcut"), new Gtk.Label ("Alt+Super+S"));
+        
+        grid.add (playback_label);
+        grid.add (playback_box);
+        grid.add (alerts_label);
+        grid.add (alerts_box);
+        grid.add (reader_label);
+        grid.add (reader_box);
+        
+        grid.show_all ();
     }
 }

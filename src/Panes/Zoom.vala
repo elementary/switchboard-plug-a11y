@@ -25,6 +25,39 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
     }
 
     construct {
+          build_ui ();   
+    }
+    
+    private void build_ui () {
+        var zoom_label = new Accessibility.Widgets.Label (_("Screen Zoom"));
+        var crossh_label = new Accessibility.Widgets.Label (_("Crosshairs"));
         
+        var zoom_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+        var thickness_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+        var opacity_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+                               
+        var screen_box = new Accessibility.Widgets.SettingsBox ();
+        screen_box.add_switch (_("Screen zoom"));
+        
+        var zoom_box = new Accessibility.Widgets.SettingsBox ();
+        zoom_box.add_switch (_("Follow mouse cursor"));
+        zoom_box.add_combo_box (_("Mouse tracking"));
+        zoom_box.add_combo_box (_("Zoom position"));
+        zoom_box.add_scale (_("Zoom level"), zoom_adjustment);
+        zoom_box.add_switch (_("Desktop Scrolling"));
+        
+        var crossh_box = new Accessibility.Widgets.SettingsBox ();
+        crossh_box.add_switch (_("Display crosshairs"));
+        crossh_box.add_switch (_("Crosshair color"));
+        crossh_box.add_scale (_("Crosshair thickness"), thickness_adjustment);
+        crossh_box.add_scale (_("Crosshair opacity"), opacity_adjustment);
+        
+        grid.add (screen_box);
+        grid.add (zoom_label);
+        grid.add (zoom_box);
+        grid.add (crossh_label);
+        grid.add (crossh_box);   
+        
+        grid.show_all ();
     }
 }

@@ -25,6 +25,30 @@ public class Accessibility.Panes.Display : Categories.Pane {
     }
 
     construct {
-        
+        build_ui ();
+    }
+    
+    private void build_ui () {
+        var color_label = new Accessibility.Widgets.Label (_("Color"));
+        var reading_label = new Accessibility.Widgets.Label (_("Reading"));
+
+        var color_box = new Accessibility.Widgets.SettingsBox ();
+        var contrast_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+                                         
+        color_box.add_switch (_("High contrast theme"));
+        color_box.add_switch (_("Invert Colors"));
+        color_box.add_switch (_("Grayscale"));
+        color_box.add_scale (_("Display contrast"), contrast_adjustment);
+
+        var reading_box = new Accessibility.Widgets.SettingsBox ();
+        reading_box.add_switch (_("Text size"));
+        reading_box.add_switch (_("Dyslexic-friendly font"));
+
+        grid.add (color_label);
+        grid.add (color_box);
+        grid.add (reading_label);
+        grid.add (reading_box);
+
+        grid.show_all ();
     }
 }

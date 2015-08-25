@@ -45,9 +45,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         var audio = new Panes.Audio ();
         list_box.add (audio);
 
-        var screenreader = new Panes.ScreenReader ();
-        list_box.add (screenreader);
-
         var typing = new Panes.Typing ();
         list_box.add (typing);
 
@@ -115,6 +112,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             rowgrid.add (label);
 
             grid = new Gtk.Grid ();
+            grid.orientation = Gtk.Orientation.VERTICAL;
             grid.margin = 12;
             grid.margin_top = 24;
             grid.row_spacing = 12;
