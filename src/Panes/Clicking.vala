@@ -17,7 +17,7 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Clicking : Categories.Pane {
     public Clicking () {
@@ -25,6 +25,32 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     }
 
     construct {
+        build_ui ();
+    }
+    
+    private void build_ui () {
+        var secondary_label = new Accessibility.Widgets.Label (_("Simulated Secondary Click"));
+        var hover_label = new Accessibility.Widgets.Label (_("Hover Click"));
         
+        var adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+        
+        var click_box = new Accessibility.Widgets.SettingsBox ();
+        click_box.add_scale (_("Double-click speed"), adjustment);
+        
+        var sim_box = new Accessibility.Widgets.SettingsBox ();
+        sim_box.add_switch (_("Hold primary button to trigger secondary click"));
+        sim_box.add_scale (_("Simulated click delay"), adjustment);
+        
+        var hover_box = new Accessibility.Widgets.SettingsBox ();
+        hover_box.add_switch (_("Click when the cursor hovers"));
+        hover_box.add_scale (_("Hover delay"), adjustment);
+        hover_box.add_scale (_("Motion threshold"), adjustment);
+        
+        grid.add (click_box);
+        grid.add (secondary_label);
+        grid.add (sim_box);
+        grid.add (hover_label);
+        grid.add (hover_box);
+        grid.show_all ();
     }
 }

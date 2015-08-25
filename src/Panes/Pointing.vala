@@ -17,7 +17,7 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Pointing : Categories.Pane {
     public Pointing () {
@@ -25,6 +25,25 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     }
 
     construct {
+        build_ui ();
+    }
+    
+    private void build_ui () {
+        var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
+        var speed_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+        
+        var cursor_box = new Accessibility.Widgets.SettingsBox ();
+        cursor_box.add_combo_box (_("Cursor size"));
+        
+        var control_box = new Accessibility.Widgets.SettingsBox ();
+        control_box.add_switch (_("Control pointer using keypad"));
+        control_box.add_scale (_("Cursor speed"), speed_adjustment);
+        
+        grid.add (cursor_box);
+        grid.add (control_label);
+        grid.add (control_box);
+        grid.show_all ();
+        
         
     }
 }

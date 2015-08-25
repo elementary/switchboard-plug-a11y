@@ -17,15 +17,23 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Display : Categories.Pane {
+    private Gtk.Switch hi_contrast;
+    private Gtk.Switch invert;
+    private Gtk.Switch grayscale;
+    private Gtk.Switch dysexic_font;
+    private Gtk.Scale contrast;
+    private Gtk.ComboBox text_size;
+     
     public Display () {
         base (_("Display"), "video-display");
     }
 
     construct {
         build_ui ();
+        connect_signals ();
     }
     
     private void build_ui () {
@@ -35,14 +43,14 @@ public class Accessibility.Panes.Display : Categories.Pane {
         var color_box = new Accessibility.Widgets.SettingsBox ();
         var contrast_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
                                          
-        color_box.add_switch (_("High contrast theme"));
-        color_box.add_switch (_("Invert Colors"));
-        color_box.add_switch (_("Grayscale"));
-        color_box.add_scale (_("Display contrast"), contrast_adjustment);
+        hi_contrast = color_box.add_switch (_("High contrast theme"));
+        invert = color_box.add_switch (_("Invert Colors"));
+        grayscale = color_box.add_switch (_("Grayscale"));
+        contrast = color_box.add_scale (_("Display contrast"), contrast_adjustment);
 
         var reading_box = new Accessibility.Widgets.SettingsBox ();
-        reading_box.add_switch (_("Text size"));
-        reading_box.add_switch (_("Dyslexic-friendly font"));
+        text_size = reading_box.add_combo_box (_("Text size"));
+        dysexic_font = reading_box.add_switch (_("Dyslexic-friendly font"));
 
         grid.add (color_label);
         grid.add (color_box);
@@ -50,5 +58,9 @@ public class Accessibility.Panes.Display : Categories.Pane {
         grid.add (reading_box);
 
         grid.show_all ();
+    } 
+    
+    private void connect_signals () {
+        
     }
 }

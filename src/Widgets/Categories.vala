@@ -116,7 +116,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             grid.margin = 12;
             grid.margin_top = 24;
             grid.row_spacing = 12;
-            grid.column_spacing = 6;
+            grid.column_spacing = 0;
             grid.expand = true;
             grid.show ();
         }

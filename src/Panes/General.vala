@@ -17,24 +17,31 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.General : Categories.Pane {
+    private Gtk.Switch keyboard;
+    private Gtk.Switch panel;
+
     public General () {
         base (_("General"), "preferences-desktop-accessibility");
     }
 
     construct {
         build_ui ();
+        connect_signals ();
     }
     
     private void build_ui () {
         var general = new Accessibility.Widgets.SettingsBox ();
-        general.add_switch ("Turn accessibility features on and off using the keyboard:");
-        general.add_switch ("Display accessibility menu in panel:");   
+        keyboard = general.add_switch ("Turn accessibility features on and off using the keyboard:");
+        panel = general.add_switch ("Display accessibility menu in panel:");   
         
         grid.add (general);   
 
         grid.show_all ();
+    }
+    
+    private void connect_signals () {
     }
 }

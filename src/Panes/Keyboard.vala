@@ -17,7 +17,7 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Keyboard : Categories.Pane {
     public Keyboard () {
@@ -25,6 +25,25 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     }
 
     construct {
+        build_ui ();
+    }
+    
+    private void build_ui () {
+        var lock_label = new Accessibility.Widgets.Label (_("Lock Keys"));
+        var modifier_label = new Accessibility.Widgets.Label (_("Modifier Keys"));
+                                       
+        var lock_box = new Accessibility.Widgets.SettingsBox ();
+        lock_box.add_switch (_("Display notifications for lock keys"));
+        lock_box.add_switch (_("Beep when a lock key is pressed"));
         
+        var modifier_box = new Accessibility.Widgets.SettingsBox ();
+        modifier_box.add_switch (_("Use modifier keys in sequence (sticky keys)"));
+        modifier_box.add_switch (_("Beep when a modifier key is pressed"));
+        
+        grid.add (lock_label);
+        grid.add (lock_box);
+        grid.add (modifier_label);
+        grid.add (modifier_box);
+        grid.show_all ();
     }
 }

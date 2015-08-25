@@ -17,7 +17,7 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Zoom : Categories.Pane {
     public Zoom () {
@@ -48,7 +48,7 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         
         var crossh_box = new Accessibility.Widgets.SettingsBox ();
         crossh_box.add_switch (_("Display crosshairs"));
-        crossh_box.add_switch (_("Crosshair color"));
+        crossh_box.add_widget (_("Crosshair color"), new Gtk.ColorButton ());
         crossh_box.add_scale (_("Crosshair thickness"), thickness_adjustment);
         crossh_box.add_scale (_("Crosshair opacity"), opacity_adjustment);
         
