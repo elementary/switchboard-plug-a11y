@@ -22,6 +22,7 @@
 namespace Accessibility {
     public static Plug plug;
 
+
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
 
@@ -32,6 +33,7 @@ namespace Accessibility {
                     description: _("Universal Access Preferences"),
                     icon: "preferences-desktop-accessibility");
             plug = this;
+
         }
 
         public override Gtk.Widget get_widget () {
@@ -50,15 +52,15 @@ namespace Accessibility {
         }
 
         public override void shown () {
-            
+
         }
 
         public override void hidden () {
-            
+
         }
 
         public override void search_callback (string location) {
-            
+
         }
 
         // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")

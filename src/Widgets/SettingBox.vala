@@ -31,6 +31,10 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         combo.set_size_request (180,0);
         combo.set_margin_end (12);
         
+        var renderer = new Gtk.CellRendererText ();
+        combo.pack_start (renderer, true);
+        combo.add_attribute (renderer, "text", 0);
+        
 	    settings_box.grid.add (combo);
         list_box.add (settings_box);
         show_all ();

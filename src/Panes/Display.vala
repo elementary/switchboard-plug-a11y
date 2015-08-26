@@ -1,5 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
-/*-
+/*
+
  * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
  *
  * This library is free software; you can redistribute it and/or
@@ -19,6 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
+ 
 public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.Switch hi_contrast;
     private Gtk.Switch invert;
@@ -26,13 +27,16 @@ public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.Switch dysexic_font;
     private Gtk.Scale contrast;
     private Gtk.ComboBox text_size;
-     
+    
+    private Settings text_size_settings;
+    
     public Display () {
         base (_("Display"), "video-display");
     }
 
     construct {
         build_ui ();
+        setup ();
         connect_signals ();
     }
     
@@ -60,7 +64,23 @@ public class Accessibility.Panes.Display : Categories.Pane {
         grid.show_all ();
     } 
     
+    private void setup () {
+        // Text Size
+        Gtk.ListStore list_store = new Gtk.ListStore (1, typeof (string));
+        Gtk.TreeIter iter;
+     
+        list_store.append (out iter);
+        list_store.set (iter, 0, "Normal");
+        list_store.append (out iter);
+        list_store.set (iter, 0, "Large");
+        list_store.append (out iter);
+        list_store.set (iter, 0, "Larger");
+     
+        text_size.set_model (list_store);
+        text_size.set_active (0);
+    }
+    
     private void connect_signals () {
-        
+       
     }
 }
