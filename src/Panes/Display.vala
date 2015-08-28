@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
- 
+
 public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.Switch hi_contrast;
     private Gtk.Switch invert;
@@ -27,9 +27,9 @@ public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.Switch dysexic_font;
     private Gtk.Scale contrast;
     private Gtk.ComboBox text_size;
-    
+
     private Settings text_size_settings;
-    
+
     public Display () {
         base (_("Display"), "video-display");
     }
@@ -37,16 +37,16 @@ public class Accessibility.Panes.Display : Categories.Pane {
     construct {
         build_ui ();
         setup ();
-        connect_signals ();
+        connections ();
     }
-    
+
     private void build_ui () {
         var color_label = new Accessibility.Widgets.Label (_("Color"));
         var reading_label = new Accessibility.Widgets.Label (_("Reading"));
 
         var color_box = new Accessibility.Widgets.SettingsBox ();
         var contrast_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
-                                         
+
         hi_contrast = color_box.add_switch (_("High contrast theme"));
         invert = color_box.add_switch (_("Invert Colors"));
         grayscale = color_box.add_switch (_("Grayscale"));
@@ -62,25 +62,35 @@ public class Accessibility.Panes.Display : Categories.Pane {
         grid.add (reading_box);
 
         grid.show_all ();
-    } 
-    
+    }
+
     private void setup () {
         // Text Size
         Gtk.ListStore list_store = new Gtk.ListStore (1, typeof (string));
         Gtk.TreeIter iter;
-     
+
         list_store.append (out iter);
         list_store.set (iter, 0, "Normal");
         list_store.append (out iter);
         list_store.set (iter, 0, "Large");
         list_store.append (out iter);
         list_store.set (iter, 0, "Larger");
-     
+
         text_size.set_model (list_store);
-        text_size.set_active (0);
+        text_size.set_active (deskop_interface_settings.get_text_scale ());
+
+        hi_contrast.state = deskop_interface_settings.get_high_contrast ();
     }
-    
-    private void connect_signals () {
-       
+
+    private void connections () {
+        hi_contrast.state_set.connect ((state) => {
+            debug ("State chenged \n");
+        	deskop_interface_settings.set_high_contrast (state);
+        	return true;
+        });
+
+        text_size.changed.connect (() => {
+            deskop_interface_settings.set_text_scale (text_size.get_active ());
+        });
     }
 }

@@ -21,7 +21,15 @@
  */
 namespace Accessibility {
     public static Plug plug;
-
+    
+    public Accessibility.Backend.DesktopInterface   deskop_interface_settings;
+    public Accessibility.Backend.Keyboard           keyboard_settings;
+    public Accessibility.Backend.A11y               a11y_settings;
+    public Accessibility.Backend.Magnifier          magnifier_settings;
+    public Accessibility.Backend.Applications       applications_settings;
+    public Accessibility.Backend.WmPreferences      wm_preferences_settings;
+    public Accessibility.Backend.Peripherals        peripherals_settings;
+    public Accessibility.Backend.Mouse              mouse_settings;
 
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
@@ -32,8 +40,17 @@ namespace Accessibility {
                     display_name: _("Universal Access"),
                     description: _("Universal Access Preferences"),
                     icon: "preferences-desktop-accessibility");
+            
             plug = this;
-
+            
+            deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
+            keyboard_settings =         new Accessibility.Backend.Keyboard ();
+            a11y_settings =             new Accessibility.Backend.A11y ();
+            magnifier_settings =        new Accessibility.Backend.Magnifier ();
+            applications_settings =     new Accessibility.Backend.Applications ();  
+            wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
+            peripherals_settings =      new Accessibility.Backend.Peripherals ();
+            mouse_settings =            new Accessibility.Backend.Mouse ();
         }
 
         public override Gtk.Widget get_widget () {

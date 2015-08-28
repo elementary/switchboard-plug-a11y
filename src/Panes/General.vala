@@ -43,5 +43,7 @@ public class Accessibility.Panes.General : Categories.Pane {
     }
     
     private void connect_signals () {
+        keyboard_settings.schema.bind ("enable", keyboard, "active", SettingsBindFlags.DEFAULT);
+        a11y_settings.schema.bind ("always-show-universal-access-status", panel, "active", SettingsBindFlags.DEFAULT);
     }
 }

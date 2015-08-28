@@ -14,13 +14,16 @@
  * You should have received a copy of the GNU Library General Public
  * License along with this library; if not, write to the
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * Boston, MA 02111-1307, USA.Actualy, if you have windows just use
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 // TODO: Dyslexic Font,
 
 public class Accessibility.Backend.DesktopInterface : Granite.Services.Settings {
+    private const string HIGH_CONTRAST_THEME = "HighContrast";
+    private const double[] TEXT_SCALE = {1,1.15,1.4};
+
     public string gtk_theme { get; set; }
     public string icon_theme { get; set; }
     public double text_scaling_factor { get; set; }
@@ -28,6 +31,40 @@ public class Accessibility.Backend.DesktopInterface : Granite.Services.Settings 
 
     public DesktopInterface () {
         base ("org.gnome.desktop.interface");
+    }
+
+    public int get_text_scale () {
+        if (text_scaling_factor <= TEXT_SCALE[0]) {
+            return 0;
+        } else if (text_scaling_factor <= TEXT_SCALE[1]) {
+            return 1;
+        } else {
+            return 2;
+        }
+    }
+
+    public void set_text_scale (int option) {
+        text_scaling_factor = TEXT_SCALE[option];
+    }
+
+    public bool get_high_contrast () {
+        if (gtk_theme == HIGH_CONTRAST_THEME) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void set_high_contrast (bool state) {
+        if (state) {
+            gtk_theme = HIGH_CONTRAST_THEME;
+            icon_theme = HIGH_CONTRAST_THEME;
+            wm_preferences_settings.theme = HIGH_CONTRAST_THEME;
+        } else {
+            schema .reset ("gtk-theme");
+            schema .reset ("icon-theme");
+            wm_preferences_settings.schema .reset ("theme");
+        }
     }
 }
 
@@ -78,6 +115,71 @@ public class Accessibility.Backend.Magnifier : Granite.Services.Settings {
     public Magnifier () {
         base ("org.gnome.desktop.a11y.magnifier");
     }
+
+    public void set_crosshairs_color (Gdk.RGBA rgba) {
+        string[] colors = rgba.to_string ().split (",", 3);
+        
+        string color_string = "#%2x%2x%2x".printf (int.parse (colors[0].replace ("rgb(","")), int.parse (colors[1]), int.parse (colors[2].replace (")", "")));
+            
+        cross_hairs_color = color_string.replace (" ", "0").up ();
+    }
+
+    public Gdk.RGBA get_crosshairs_color () {
+        var color = Gdk.RGBA ();
+        color.parse (cross_hairs_color);
+        
+        return color;
+    }
+
+    public int get_position () {
+        switch (screen_position) {
+            case "full-screen": return 0;
+            case "top-half":    return 1;
+            case "bottom-half": return 2;
+            case "left-half":   return 3;
+            case "right-half":  return 4;
+        }
+        return 0;
+    }
+
+    public void set_position (int option) {
+        switch (option) {
+            case 0: 
+                screen_position = "full-screen";
+                break;
+            case 1: 
+                screen_position = "top-half";
+                break;
+            case 2: 
+                screen_position = "bottom-half";
+                break;
+            case 3: 
+                screen_position = "left-half";
+                break;
+            case 4: 
+                screen_position = "right-half";
+                break;
+        }
+    }
+
+    public int get_tracking () {
+        switch (mouse_tracking) {
+            case "centered": return 0;
+            case "push": return 1;
+        }
+        return 0;
+    }
+
+    public void set_tracking (int option) {
+        switch (option) {
+            case 0:
+                mouse_tracking = "centered";
+                break;
+            case 1:
+                mouse_tracking = "push";
+                break;
+        }
+    }
 }
 
 public class Accessibility.Backend.Applications : Granite.Services.Settings {
@@ -92,9 +194,10 @@ public class Accessibility.Backend.Applications : Granite.Services.Settings {
 
 public class Accessibility.Backend.WmPreferences : Granite.Services.Settings {
     public bool visual_bell { get; set; }
+    public string? theme { get; set; }
 
     public WmPreferences () {
-        base ("org.desktop.wm.preferences");
+        base ("org.gnome.desktop.wm.preferences");
     }
 }
 
@@ -102,7 +205,7 @@ public class Accessibility.Backend.Peripherals : Granite.Services.Settings {
     public int double_click { get; set; }
 
     public Peripherals () {
-        base ("org.gnome.settings_deamon.peripherals.mouse");
+        base ("org.gnome.settings-daemon.peripherals.mouse");
     }
 }
 
