@@ -29,8 +29,10 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
     private Gtk.Switch scrolling;
     private Gtk.Switch show_crosshairs;
     private Gtk.ColorButton crosshair_color;
-    private Gtk.Adjustment ch_thickness;
-    private Gtk.Adjustment ch_opacity;
+    private Gtk.Scale ch_thickness;
+    private Gtk.Scale ch_opacity;
+    private Gtk.Adjustment ch_thickness_adjustment;
+    private Gtk.Adjustment ch_opacity_adjustment;
 
     public Zoom () {
         base (_("Zoom"), "preferences-desktop-accessibility-zoom");
@@ -47,8 +49,8 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         var crossh_label = new Accessibility.Widgets.Label (_("Crosshairs"));
 
         zoom_level = new Gtk.Adjustment   (0, 1, 33, 1, 1, 1);
-        ch_thickness = new Gtk.Adjustment (0, 2, 18, 2, 2, 2);
-        ch_opacity = new Gtk.Adjustment   (0, 0,  1.1, 0.1, 0.1, 0.1);
+        ch_thickness_adjustment = new Gtk.Adjustment (0, 2, 18, 2, 2, 2);
+        ch_opacity_adjustment = new Gtk.Adjustment   (0, 0,  1.1, 0.1, 0.1, 0.1);
 
         var screen_box = new Accessibility.Widgets.SettingsBox ();
         zoom = screen_box.add_switch (_("Screen zoom"));
@@ -64,8 +66,8 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         crosshair_color = new Gtk.ColorButton ();
         show_crosshairs = crossh_box.add_switch (_("Display crosshairs"));
         crossh_box.add_widget (_("Crosshair color"), crosshair_color);
-        crossh_box.add_scale (_("Crosshair thickness"), ch_thickness);
-        crossh_box.add_scale (_("Crosshair opacity"), ch_opacity);
+        ch_thickness = crossh_box.add_scale (_("Crosshair thickness"), ch_thickness_adjustment);
+        ch_opacity = crossh_box.add_scale (_("Crosshair opacity"), ch_opacity_adjustment);
 
         grid.add (screen_box);
         grid.add (zoom_label);
@@ -116,9 +118,13 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         magnifier_settings.schema.bind ("lens-mode", follow_mouse, "active", SettingsBindFlags.DEFAULT);
         magnifier_settings.schema.bind ("mag-factor", zoom_level, "value", SettingsBindFlags.DEFAULT);
         magnifier_settings.schema.bind ("scroll-at-edges", scrolling, "active", SettingsBindFlags.DEFAULT);
-        magnifier_settings.schema.bind ("cross-hairs-thickness", ch_thickness, "value", SettingsBindFlags.DEFAULT);
-        magnifier_settings.schema.bind ("cross-hairs-opacity", ch_opacity, "value", SettingsBindFlags.DEFAULT);
+        magnifier_settings.schema.bind ("cross-hairs-thickness", ch_thickness_adjustment, "value", SettingsBindFlags.DEFAULT);
+        magnifier_settings.schema.bind ("cross-hairs-opacity", ch_opacity_adjustment, "value", SettingsBindFlags.DEFAULT);
         magnifier_settings.schema.bind ("show-cross-hairs", show_crosshairs, "active", SettingsBindFlags.DEFAULT);
+
+        magnifier_settings.schema.bind ("show-cross-hairs", crosshair_color, "sensitive", SettingsBindFlags.GET);
+        magnifier_settings.schema.bind ("show-cross-hairs", ch_opacity, "sensitive", SettingsBindFlags.GET);
+        magnifier_settings.schema.bind ("show-cross-hairs", ch_thickness, "sensitive", SettingsBindFlags.GET);
 
         crosshair_color.color_set.connect (() => {
             magnifier_settings.set_crosshairs_color (crosshair_color.rgba);

@@ -20,30 +20,45 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Keyboard : Categories.Pane {
+    private Gtk.Switch lk_notification;
+    private Gtk.Switch lk_beep;
+    private Gtk.Switch mk_enable;
+    private Gtk.Switch mk_beep;
+
     public Keyboard () {
         base (_("Keyboard"), "preferences-desktop-keyboard");
     }
 
     construct {
         build_ui ();
+        connect_signals ();
     }
-    
+
     private void build_ui () {
         var lock_label = new Accessibility.Widgets.Label (_("Lock Keys"));
         var modifier_label = new Accessibility.Widgets.Label (_("Modifier Keys"));
-                                       
+
         var lock_box = new Accessibility.Widgets.SettingsBox ();
-        lock_box.add_switch (_("Display notifications for lock keys"));
-        lock_box.add_switch (_("Beep when a lock key is pressed"));
-        
+        lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
+        lk_beep = lock_box.add_switch (_("Beep when a lock key is pressed"));
+
         var modifier_box = new Accessibility.Widgets.SettingsBox ();
-        modifier_box.add_switch (_("Use modifier keys in sequence (sticky keys)"));
-        modifier_box.add_switch (_("Beep when a modifier key is pressed"));
-        
+        mk_enable = modifier_box.add_switch (_("Use modifier keys in sequence (sticky keys)"));
+        mk_beep = modifier_box.add_switch (_("Beep when a modifier key is pressed"));
+
         grid.add (lock_label);
         grid.add (lock_box);
         grid.add (modifier_label);
         grid.add (modifier_box);
         grid.show_all ();
+    }
+
+    private void connect_signals () {
+        lk_notification.set_sensitive (false);
+        keyboard_settings.schema.bind ("togglekeys-enable", lk_beep, "active", SettingsBindFlags.DEFAULT);
+        keyboard_settings.schema.bind ("stickykeys-enable", mk_enable, "active", SettingsBindFlags.DEFAULT);
+        keyboard_settings.schema.bind ("stickykeys-modifier-beep", mk_beep, "active", SettingsBindFlags.DEFAULT);
+
+        keyboard_settings.schema.bind ("stickykeys-enable", mk_beep, "sensitive", SettingsBindFlags.GET);
     }
 }

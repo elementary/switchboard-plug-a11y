@@ -52,6 +52,7 @@ public class Accessibility.Panes.Display : Categories.Pane {
         grayscale = color_box.add_switch (_("Grayscale"));
         contrast = color_box.add_scale (_("Display contrast"), contrast_adjustment);
 
+
         var reading_box = new Accessibility.Widgets.SettingsBox ();
         text_size = reading_box.add_combo_box (_("Text size"));
         dysexic_font = reading_box.add_switch (_("Dyslexic-friendly font"));
@@ -83,6 +84,12 @@ public class Accessibility.Panes.Display : Categories.Pane {
     }
 
     private void connections () {
+        //TODO Connect to it's proper settings
+        invert.set_sensitive (false);
+        grayscale.set_sensitive (false);
+        contrast.set_sensitive (false);
+        dysexic_font.set_sensitive (false);
+
         hi_contrast.state_set.connect ((state) => {
             debug ("State chenged \n");
         	deskop_interface_settings.set_high_contrast (state);

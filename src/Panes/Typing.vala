@@ -27,8 +27,10 @@ public class Accessibility.Panes.Typing : Categories.Pane {
     private Gtk.Switch sk_rejected;
     private Gtk.Switch bk_enable;
     private Gtk.Switch bk_rejected;
-    private Gtk.Adjustment sk_delay;
-    private Gtk.Adjustment bk_delay;
+    private Gtk.Scale sk_delay;
+    private Gtk.Scale bk_delay;
+    private Gtk.Adjustment sk_delay_adjustment;
+    private Gtk.Adjustment bk_delay_adjustment;
 
     public Typing () {
         base (_("Typing"), "input-keyboard");
@@ -43,8 +45,8 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         var delay_label = new Accessibility.Widgets.Label (_("Typing Delays"));
         var typing_label = new Accessibility.Widgets.Label (_("Fast Typing"));
 
-        sk_delay = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
-        bk_delay = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
+        sk_delay_adjustment = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
+        bk_delay_adjustment = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
 
         var screen_box = new Accessibility.Widgets.SettingsBox ();
         screen_keyboard = screen_box.add_switch (_("On-screen keyboard"));
@@ -54,12 +56,12 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         sk_pressed = delay_box.add_switch (_("Beep when a key is pressed"));
         sk_accepted = delay_box.add_switch (_("Beep when a key is accepted"));
         sk_rejected = delay_box.add_switch (_("Beep when a key is rejected"));
-        delay_box.add_scale (_("Delay length"), sk_delay);
+        sk_delay = delay_box.add_scale (_("Delay length"), sk_delay_adjustment);
 
         var typing_box = new Accessibility.Widgets.SettingsBox ();
         bk_enable = typing_box.add_switch (_("Ignore fast duplicate keypresses (bounce keys)"));
         bk_rejected = typing_box.add_switch (_("Beep when a key is rejected"));
-        typing_box.add_scale (_("Delay length"), bk_delay);
+        bk_delay = typing_box.add_scale (_("Delay length"), bk_delay_adjustment);
 
         grid.add (screen_box);
         grid.add (delay_label);
@@ -76,10 +78,16 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         keyboard_settings.schema.bind ("slowkeys-beep-press", sk_pressed, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("slowkeys-beep-accept", sk_accepted, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("slowkeys-beep-reject", sk_rejected, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-beep-reject", sk_delay, "value", SettingsBindFlags.DEFAULT);
+        keyboard_settings.schema.bind ("slowkeys-beep-reject", sk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("bouncekeys-enable", bk_enable, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("bouncekeys-beep-reject", bk_rejected, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("bouncekeys-delay", bk_delay, "value", SettingsBindFlags.DEFAULT);
+        keyboard_settings.schema.bind ("bouncekeys-delay", bk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
 
+        keyboard_settings.schema.bind ("slowkeys-enable", sk_pressed, "sensitive", SettingsBindFlags.GET);
+        keyboard_settings.schema.bind ("slowkeys-enable", sk_accepted, "sensitive", SettingsBindFlags.GET);
+        keyboard_settings.schema.bind ("slowkeys-enable", sk_rejected, "sensitive", SettingsBindFlags.GET);
+        keyboard_settings.schema.bind ("slowkeys-enable", sk_delay, "sensitive", SettingsBindFlags.GET);
+        keyboard_settings.schema.bind ("bouncekeys-enable", bk_rejected, "sensitive", SettingsBindFlags.GET);
+        keyboard_settings.schema.bind ("bouncekeys-enable", bk_delay, "sensitive", SettingsBindFlags.GET);
     }
 }
