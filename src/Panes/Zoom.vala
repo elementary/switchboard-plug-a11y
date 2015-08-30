@@ -19,6 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
+
 public class Accessibility.Panes.Zoom : Categories.Pane {
     private Gtk.Switch zoom;
     private Gtk.Switch follow_mouse;

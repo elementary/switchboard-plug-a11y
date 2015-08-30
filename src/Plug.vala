@@ -21,7 +21,7 @@
  */
 namespace Accessibility {
     public static Plug plug;
-    
+
     public Accessibility.Backend.DesktopInterface   deskop_interface_settings;
     public Accessibility.Backend.Keyboard           keyboard_settings;
     public Accessibility.Backend.A11y               a11y_settings;
@@ -40,14 +40,14 @@ namespace Accessibility {
                     display_name: _("Universal Access"),
                     description: _("Universal Access Preferences"),
                     icon: "preferences-desktop-accessibility");
-            
+
             plug = this;
-            
+
             deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
             keyboard_settings =         new Accessibility.Backend.Keyboard ();
             a11y_settings =             new Accessibility.Backend.A11y ();
             magnifier_settings =        new Accessibility.Backend.Magnifier ();
-            applications_settings =     new Accessibility.Backend.Applications ();  
+            applications_settings =     new Accessibility.Backend.Applications ();
             wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
             peripherals_settings =      new Accessibility.Backend.Peripherals ();
             mouse_settings =            new Accessibility.Backend.Mouse ();
