@@ -9,61 +9,61 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-22 06:16+0000\n"
+"X-Launchpad-Export-Date: 2015-08-31 05:31+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 
 #: ../src/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "보기"
 
 #: ../src/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "듣기"
 
 #: ../src/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "상호 작용"
 
 #: ../src/Panes/Typing.vala:24
 msgid "Typing"
-msgstr ""
+msgstr "입력"
 
 #: ../src/Panes/ScreenReader.vala:24
 msgid "Screen Reader"
-msgstr ""
+msgstr "화면 낭독 프로그램"
 
 #: ../src/Panes/General.vala:24
 msgid "General"
-msgstr ""
+msgstr "일반 설정"
 
 #: ../src/Panes/Clicking.vala:24
 msgid "Clicking"
-msgstr ""
+msgstr "클릭"
 
 #: ../src/Panes/Zoom.vala:24
 msgid "Zoom"
-msgstr ""
+msgstr "줌"
 
 #: ../src/Panes/Keyboard.vala:24
 msgid "Keyboard"
-msgstr ""
+msgstr "키보드"
 
 #: ../src/Panes/Display.vala:24
 msgid "Display"
-msgstr ""
+msgstr "디스플레이"
 
 #: ../src/Panes/Audio.vala:24
 msgid "Audio"
-msgstr ""
+msgstr "오디오"
 
 #: ../src/Panes/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "가리킴"
 
 #: ../src/Plug.vala:31
 msgid "Universal Access"
-msgstr ""
+msgstr "보편적 접근"
 
 #: ../src/Plug.vala:32
 msgid "Universal Access Preferences"
-msgstr ""
+msgstr "보편적 접근 설정"

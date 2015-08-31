@@ -9,61 +9,61 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-22 06:14+0000\n"
+"X-Launchpad-Export-Date: 2015-08-31 05:31+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 
 #: ../src/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "Näkeminen"
 
 #: ../src/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "Kuuleminen"
 
 #: ../src/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "Vuorovaikutus"
 
 #: ../src/Panes/Typing.vala:24
 msgid "Typing"
-msgstr ""
+msgstr "Kirjoittaminen"
 
 #: ../src/Panes/ScreenReader.vala:24
 msgid "Screen Reader"
-msgstr ""
+msgstr "Näytönlukija"
 
 #: ../src/Panes/General.vala:24
 msgid "General"
-msgstr ""
+msgstr "Yleiset"
 
 #: ../src/Panes/Clicking.vala:24
 msgid "Clicking"
-msgstr ""
+msgstr "Napsauttaminen"
 
 #: ../src/Panes/Zoom.vala:24
 msgid "Zoom"
-msgstr ""
+msgstr "Zoomaus"
 
 #: ../src/Panes/Keyboard.vala:24
 msgid "Keyboard"
-msgstr ""
+msgstr "Näppäimistö"
 
 #: ../src/Panes/Display.vala:24
 msgid "Display"
-msgstr ""
+msgstr "Näyttö"
 
 #: ../src/Panes/Audio.vala:24
 msgid "Audio"
-msgstr ""
+msgstr "Ääni"
 
 #: ../src/Panes/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Osoittaminen"
 
 #: ../src/Plug.vala:31
 msgid "Universal Access"
-msgstr ""
+msgstr "Esteettömyys"
 
 #: ../src/Plug.vala:32
 msgid "Universal Access Preferences"
-msgstr ""
+msgstr "Esteettömyysasetukset"
