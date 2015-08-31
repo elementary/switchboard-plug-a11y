@@ -37,6 +37,8 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     private void build_ui () {
         var lock_label = new Accessibility.Widgets.Label (_("Lock Keys"));
         var modifier_label = new Accessibility.Widgets.Label (_("Modifier Keys"));
+        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "switchboard keyboard");
+        kb_settings_label.vexpand = true;
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();
         lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
@@ -50,6 +52,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         grid.add (lock_box);
         grid.add (modifier_label);
         grid.add (modifier_box);
+        grid.add (kb_settings_label);
         grid.show_all ();
     }
 

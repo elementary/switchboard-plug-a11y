@@ -36,6 +36,8 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         var playback_label = new Accessibility.Widgets.Label (_("Playback"));
         var alerts_label = new Accessibility.Widgets.Label (_("Visual Alerts"));
         var reader_label = new Accessibility.Widgets.Label (_("Screen Reader"));
+        var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "switchboard sound");
+        audio_settings.vexpand = true;
 
         var playback_box = new Accessibility.Widgets.SettingsBox ();
         var playback = playback_box.add_switch (_("Play stereo audio output as mono"));
@@ -54,6 +56,7 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         grid.add (alerts_box);
         grid.add (reader_label);
         grid.add (reader_box);
+        grid.add (audio_settings);
 
         grid.show_all ();
     }

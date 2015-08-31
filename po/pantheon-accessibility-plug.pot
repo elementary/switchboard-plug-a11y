@@ -41,8 +41,44 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: ../src/Panes/Clicking.vala:24
+#: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:44
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:45
+msgid "Hover Click"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:46
+msgid "Mouse settings…"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:55
+msgid "Double-click speed"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:58
+msgid "Hold primary button to trigger secondary click"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:59
+msgid "Simulated click delay"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:62
+msgid "Click when the cursor hovers"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:63
+msgid "Hover delay"
+msgstr ""
+
+#: ../src/Panes/Clicking.vala:64
+msgid "Motion threshold"
 msgstr ""
 
 #: ../src/Panes/Zoom.vala:24
@@ -53,12 +89,92 @@ msgstr ""
 msgid "Keyboard"
 msgstr ""
 
-#: ../src/Panes/Display.vala:24
+#: ../src/Panes/Display.vala:34
 msgid "Display"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:24
+#: ../src/Panes/Display.vala:44
+msgid "Color"
+msgstr ""
+
+#: ../src/Panes/Display.vala:45
+msgid "Reading"
+msgstr ""
+
+#: ../src/Panes/Display.vala:46
+msgid "Display settings…"
+msgstr ""
+
+#: ../src/Panes/Display.vala:52
+msgid "High contrast theme"
+msgstr ""
+
+#: ../src/Panes/Display.vala:53
+msgid "Invert Colors"
+msgstr ""
+
+#: ../src/Panes/Display.vala:54
+msgid "Grayscale"
+msgstr ""
+
+#: ../src/Panes/Display.vala:55
+msgid "Display contrast"
+msgstr ""
+
+#: ../src/Panes/Display.vala:59
+msgid "Text size"
+msgstr ""
+
+#: ../src/Panes/Display.vala:60
+msgid "Dyslexic-friendly font"
+msgstr ""
+
+#: ../src/Panes/Display.vala:77
+msgid "Normal"
+msgstr ""
+
+#: ../src/Panes/Display.vala:79
+msgid "Large"
+msgstr ""
+
+#: ../src/Panes/Display.vala:81
+msgid "Larger"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:27
 msgid "Audio"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:36
+msgid "Playback"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:37
+msgid "Visual Alerts"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:38
+msgid "Screen Reader"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:39
+msgid "Sound settings…"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:43
+msgid "Play stereo audio output as mono"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:47
+msgid "Flash the screen when an alert sound occurs"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:50
+msgid "Provide audio descriptions for items on the screen"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:51
+msgid "Keyboard shortcut"
 msgstr ""
 
 #: ../src/Panes/Pointing.vala:24

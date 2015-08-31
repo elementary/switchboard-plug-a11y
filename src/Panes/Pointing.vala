@@ -37,7 +37,9 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     private void build_ui () {
         var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
         speed_adjustment = new Gtk.Adjustment (0, 0, 50, 1, 1, 1);
-
+        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings..."), "switchboard mouse");
+        mouse_settings_label.vexpand = true;
+        
         var cursor_box = new Accessibility.Widgets.SettingsBox ();
         cursor_size = cursor_box.add_combo_box (_("Cursor size"));
 
@@ -48,6 +50,7 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         grid.add (cursor_box);
         grid.add (control_label);
         grid.add (control_box);
+        grid.add (mouse_settings_label);
         grid.show_all ();
     }
 
@@ -61,7 +64,7 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         list_store.append (out iter);
         list_store.set (iter, 0, "Large");
         list_store.append (out iter);
-        list_store.set (iter, 0, "Largest");
+        list_store.set (iter, 0, "Larger");
 
         cursor_size.set_model (list_store);
         cursor_size.set_active (1);
