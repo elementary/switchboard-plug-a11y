@@ -9,7 +9,6 @@ public class Accessibility.Widgets.Label : Gtk.Label {
 }
 
 public class Accessibility.Widgets.LinkLabel : Gtk.LinkButton {
-
 	public LinkLabel (string text, string command) {
 		label = text;
 		halign = Gtk.Align.END;

@@ -31,6 +31,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         hscrollbar_policy = Gtk.PolicyType.NEVER;
         list_box = new Gtk.ListBox ();
         list_box.expand = true;
+        set_size_request (176, 10);
         add (list_box);
 
         var general = new Panes.General ();
