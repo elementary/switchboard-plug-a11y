@@ -37,7 +37,7 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     private void build_ui () {
         var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
         speed_adjustment = new Gtk.Adjustment (0, 0, 50, 1, 1, 1);
-        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings..."), "switchboard mouse");
+        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings..."), "switchboard -o pantheon-mouse-touchpad");
         mouse_settings_label.vexpand = true;
         
         var cursor_box = new Accessibility.Widgets.SettingsBox ();

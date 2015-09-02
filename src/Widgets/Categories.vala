@@ -24,7 +24,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
     private Gtk.ListBox list_box;
 
     public Categories () {
-        
+
     }
 
     construct {
@@ -69,7 +69,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         });
 
         list_box.row_activated.connect ((row) => {
-            var grid = ((Pane) row).grid;
+            var grid = ((Pane) row).pane;
             if (grid.parent == null) {
                 stack.add (grid);
             }
@@ -88,7 +88,9 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
     public class Pane : Gtk.ListBoxRow {
         Gtk.Label label;
         Gtk.Image image;
+        public Gtk.ScrolledWindow pane { public get; private set; }
         public Gtk.Grid grid { public get; private set; }
+
         public Pane (string label_string, string icon_name) {
             label.label = label_string;
             image.icon_name = icon_name;
@@ -96,6 +98,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
 
         construct {
             var rowgrid = new Gtk.Grid ();
+            pane = new Gtk.ScrolledWindow (null, null);
             rowgrid.orientation = Gtk.Orientation.HORIZONTAL;
             rowgrid.column_spacing = 6;
             rowgrid.margin = 3;
@@ -120,6 +123,8 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             grid.column_spacing = 0;
             grid.expand = true;
             grid.show ();
+            pane.add (grid);
+            pane.show ();
         }
     }
 
