@@ -30,6 +30,7 @@ namespace Accessibility {
     public Accessibility.Backend.WmPreferences      wm_preferences_settings;
     public Accessibility.Backend.Peripherals        peripherals_settings;
     public Accessibility.Backend.Mouse              mouse_settings;
+    public Accessibility.Backend.MediaKeys          media_keys_settings;
 
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
@@ -51,6 +52,7 @@ namespace Accessibility {
             wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
             peripherals_settings =      new Accessibility.Backend.Peripherals ();
             mouse_settings =            new Accessibility.Backend.Mouse ();
+            media_keys_settings =       new Accessibility.Backend.MediaKeys ();
         }
 
         public override Gtk.Widget get_widget () {

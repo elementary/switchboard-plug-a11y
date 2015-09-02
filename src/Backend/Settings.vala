@@ -89,6 +89,33 @@ public class Accessibility.Backend.Keyboard : Granite.Services.Settings {
     }
 }
 
+public class Accessibility.Backend.MediaKeys : Granite.Services.Settings {
+    public string screenreader { get; set; }
+
+    public MediaKeys () {
+        base ("org.gnome.settings-daemon.plugins.media-keys");
+
+    }
+    public string clean_screenreader () {
+        var builder = new StringBuilder ();
+        if (screenreader.contains ("Alt"))     builder.append (("Alt+"));
+        if (screenreader.contains ("Shift"))   builder.append (("Shift+"));
+        if (screenreader.contains ("Super"))   builder.append (("Super+"));
+        if (screenreader.contains ("Primary")) builder.append (("Ctrl+"));
+
+        var clean = screenreader.replace ("<", "");
+        clean = clean.replace (">", "");
+        clean = clean.replace ("Alt", "");
+        clean = clean.replace ("Shift", "");
+        clean = clean.replace ("Super", "");
+        clean = clean.replace ("Primary", "");
+        builder.append (clean.up ());
+
+        return builder.str;
+    }
+    
+}
+
 public class Accessibility.Backend.A11y : Granite.Services.Settings {
     public bool always_show_universal_access_status { get; set; }
 
@@ -118,16 +145,16 @@ public class Accessibility.Backend.Magnifier : Granite.Services.Settings {
 
     public void set_crosshairs_color (Gdk.RGBA rgba) {
         string[] colors = rgba.to_string ().split (",", 3);
-        
+
         string color_string = "#%2x%2x%2x".printf (int.parse (colors[0].replace ("rgb(","")), int.parse (colors[1]), int.parse (colors[2].replace (")", "")));
-            
+
         cross_hairs_color = color_string.replace (" ", "0").up ();
     }
 
     public Gdk.RGBA get_crosshairs_color () {
         var color = Gdk.RGBA ();
         color.parse (cross_hairs_color);
-        
+
         return color;
     }
 
@@ -144,19 +171,19 @@ public class Accessibility.Backend.Magnifier : Granite.Services.Settings {
 
     public void set_position (int option) {
         switch (option) {
-            case 0: 
+            case 0:
                 screen_position = "full-screen";
                 break;
-            case 1: 
+            case 1:
                 screen_position = "top-half";
                 break;
-            case 2: 
+            case 2:
                 screen_position = "bottom-half";
                 break;
-            case 3: 
+            case 3:
                 screen_position = "left-half";
                 break;
-            case 4: 
+            case 4:
                 screen_position = "right-half";
                 break;
         }

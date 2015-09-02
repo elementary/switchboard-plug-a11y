@@ -22,6 +22,9 @@
 public class Accessibility.Panes.Audio : Categories.Pane {
     private Gtk.Switch screen_flash;
     private Gtk.Switch read_items;
+    private Gtk.Label shortcut_label;
+    private string raw_shortcut = null;
+
 
     public Audio () {
         base (_("Audio"), "preferences-desktop-sound");
@@ -47,8 +50,9 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         screen_flash = alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
 
         var reader_box = new Accessibility.Widgets.SettingsBox ();
+        shortcut_label = new Gtk.Label (media_keys_settings.clean_screenreader ());
         read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
-        reader_box.add_widget (_("Keyboard shortcut"), new Gtk.Label ("Alt+Super+S"));
+        reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
 
         grid.add (playback_label);
         grid.add (playback_box);
@@ -64,5 +68,8 @@ public class Accessibility.Panes.Audio : Categories.Pane {
     private void connect_signals () {
         wm_preferences_settings.schema.bind ("visual-bell", screen_flash, "active", SettingsBindFlags.DEFAULT);
         applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
+        media_keys_settings.notify.connect (() => {
+            shortcut_label.label = media_keys_settings.clean_screenreader ();
+        });
     }
 }
