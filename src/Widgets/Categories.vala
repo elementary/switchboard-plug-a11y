@@ -72,7 +72,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             var page = ((Pane) row);
             if (page.added == false) {
                 page.added = true;
-                stack.add (page.pane);            
+                stack.add (page.pane);
             }
 
             stack.set_visible_child (page.pane);
@@ -125,7 +125,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             grid.column_spacing = 0;
             grid.expand = true;
             grid.show ();
-            pane.add (grid); 
+            pane.add (grid);
             pane.show ();
         }
     }
@@ -141,4 +141,4 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             get_style_context ().add_class ("h4");
         }
     }
-}//((Gtk.Misc) 
+}
