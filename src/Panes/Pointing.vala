@@ -37,17 +37,18 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     private void build_ui () {
         var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
         speed_adjustment = new Gtk.Adjustment (0, 0, 50, 1, 1, 1);
+        
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings..."), "switchboard -o pantheon-mouse-touchpad");
         mouse_settings_label.vexpand = true;
         
-        var cursor_box = new Accessibility.Widgets.SettingsBox ();
-        cursor_size = cursor_box.add_combo_box (_("Cursor size"));
+        //var cursor_box = new Accessibility.Widgets.SettingsBox ();
+        //cursor_size = cursor_box.add_combo_box (_("Cursor size"));
 
         var control_box = new Accessibility.Widgets.SettingsBox ();
         keypad_control = control_box.add_switch (_("Control pointer using keypad"));
         speed_scale = control_box.add_scale (_("Cursor speed"), speed_adjustment);
 
-        grid.add (cursor_box);
+        //grid.add (cursor_box);
         grid.add (control_label);
         grid.add (control_box);
         grid.add (mouse_settings_label);
@@ -74,7 +75,6 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     private void connect_signals () {
         keyboard_settings.schema.bind ("mousekeys-enable", keypad_control, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("mousekeys-max-speed", speed_adjustment, "value", SettingsBindFlags.DEFAULT);
-
         keyboard_settings.schema.bind ("mousekeys-enable", speed_scale, "sensitive", SettingsBindFlags.GET);
     }
 }

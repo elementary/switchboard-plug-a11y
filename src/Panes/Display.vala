@@ -22,13 +22,11 @@
 
 public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.Switch hi_contrast;
-    private Gtk.Switch invert;
-    private Gtk.Switch grayscale;
-    private Gtk.Switch dysexic_font;
-    private Gtk.Scale contrast;
+    //private Gtk.Switch invert;
+    //private Gtk.Switch grayscale;
+    //private Gtk.Switch dysexic_font;
+    //private Gtk.Scale contrast;
     private Gtk.ComboBox text_size;
-
-    private Settings text_size_settings;
 
     public Display () {
         base (_("Display"), "video-display");
@@ -47,17 +45,17 @@ public class Accessibility.Panes.Display : Categories.Pane {
         display_settings.vexpand = true;
 
         var color_box = new Accessibility.Widgets.SettingsBox ();
-        var contrast_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
+        //var contrast_adjustment = new Gtk.Adjustment (0, 0, 1, 0.1, 0.1, 0.1);
 
         hi_contrast = color_box.add_switch (_("High contrast theme"));
-        invert = color_box.add_switch (_("Invert Colors"));
-        grayscale = color_box.add_switch (_("Grayscale"));
-        contrast = color_box.add_scale (_("Display contrast"), contrast_adjustment);
+        //invert = color_box.add_switch (_("Invert Colors"));
+        //grayscale = color_box.add_switch (_("Grayscale"));
+        //contrast = color_box.add_scale (_("Display contrast"), contrast_adjustment);
 
 
         var reading_box = new Accessibility.Widgets.SettingsBox ();
         text_size = reading_box.add_combo_box (_("Text size"));
-        dysexic_font = reading_box.add_switch (_("Dyslexic-friendly font"));
+        //dysexic_font = reading_box.add_switch (_("Dyslexic-friendly font"));
 
         grid.add (color_label);
         grid.add (color_box);
@@ -87,12 +85,6 @@ public class Accessibility.Panes.Display : Categories.Pane {
     }
 
     private void connections () {
-        //TODO Connect to it's proper settings
-        invert.set_sensitive (false);
-        grayscale.set_sensitive (false);
-        contrast.set_sensitive (false);
-        dysexic_font.set_sensitive (false);
-
         hi_contrast.state_set.connect ((state) => {
             debug ("State chenged \n");
         	deskop_interface_settings.set_high_contrast (state);

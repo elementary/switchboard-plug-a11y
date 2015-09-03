@@ -41,7 +41,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         kb_settings_label.vexpand = true;
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();
-        lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
+        //lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
         lk_beep = lock_box.add_switch (_("Beep when a lock key is pressed"));
 
         var modifier_box = new Accessibility.Widgets.SettingsBox ();

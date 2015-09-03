@@ -43,7 +43,7 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     private void build_ui () {
         var secondary_label = new Accessibility.Widgets.Label (_("Simulated Secondary Click"));
         var hover_label = new Accessibility.Widgets.Label (_("Hover Click"));
-        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "switchboard -o pantheon-mouse-touchpad");
+        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "switchboard mouse");
         mouse_settings_label.vexpand = true;
         
         dc_speed_adjustment = new Gtk.Adjustment (0, 300, 1500, 0.1, 0.1, 0.1);

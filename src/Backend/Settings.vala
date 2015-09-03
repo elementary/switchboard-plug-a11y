@@ -61,9 +61,9 @@ public class Accessibility.Backend.DesktopInterface : Granite.Services.Settings 
             icon_theme = HIGH_CONTRAST_THEME;
             wm_preferences_settings.theme = HIGH_CONTRAST_THEME;
         } else {
-            schema .reset ("gtk-theme");
-            schema .reset ("icon-theme");
-            wm_preferences_settings.schema .reset ("theme");
+            schema.reset ("gtk-theme");
+            schema.reset ("icon-theme");
+            wm_preferences_settings.schema.reset ("theme");
         }
     }
 }
@@ -113,7 +113,6 @@ public class Accessibility.Backend.MediaKeys : Granite.Services.Settings {
 
         return builder.str;
     }
-    
 }
 
 public class Accessibility.Backend.A11y : Granite.Services.Settings {

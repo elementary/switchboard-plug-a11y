@@ -53,7 +53,7 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         ch_opacity_adjustment = new Gtk.Adjustment   (0, 0,  1.1, 0.1, 0.1, 0.1);
 
         var screen_box = new Accessibility.Widgets.SettingsBox ();
-        zoom = screen_box.add_switch (_("Screen zoom"));
+        zoom = screen_box.add_switch (_("Screen zoom")); 
 
         var zoom_box = new Accessibility.Widgets.SettingsBox ();
         follow_mouse = zoom_box.add_switch (_("Follow mouse cursor"));
@@ -63,9 +63,9 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         scrolling = zoom_box.add_switch (_("Desktop Scrolling"));
 
         var crossh_box = new Accessibility.Widgets.SettingsBox ();
-        crosshair_color = new Gtk.ColorButton ();
+        //crosshair_color = new Gtk.ColorButton ();
         show_crosshairs = crossh_box.add_switch (_("Display crosshairs"));
-        crossh_box.add_widget (_("Crosshair color"), crosshair_color);
+        //crossh_box.add_widget (_("Crosshair color"), crosshair_color);
         ch_thickness = crossh_box.add_scale (_("Crosshair thickness"), ch_thickness_adjustment);
         ch_opacity = crossh_box.add_scale (_("Crosshair opacity"), ch_opacity_adjustment);
 
@@ -110,7 +110,7 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         zoom_position.set_active (magnifier_settings.get_tracking ());
 
         // Crosshairs color
-        crosshair_color.rgba = magnifier_settings.get_crosshairs_color ();
+        //crosshair_color.rgba = magnifier_settings.get_crosshairs_color ();
     }
 
     private void connect_signals () {
@@ -126,9 +126,9 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         magnifier_settings.schema.bind ("show-cross-hairs", ch_opacity, "sensitive", SettingsBindFlags.GET);
         magnifier_settings.schema.bind ("show-cross-hairs", ch_thickness, "sensitive", SettingsBindFlags.GET);
 
-        crosshair_color.color_set.connect (() => {
-            magnifier_settings.set_crosshairs_color (crosshair_color.rgba);
-        });
+        //crosshair_color.color_set.connect (() => {
+       //     magnifier_settings.set_crosshairs_color (crosshair_color.rgba);
+       // });
 
         mouse_tracking.changed.connect (() => {
             magnifier_settings.set_tracking (mouse_tracking.get_active ());

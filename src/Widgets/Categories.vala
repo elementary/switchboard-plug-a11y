@@ -40,8 +40,8 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         var display = new Panes.Display ();
         list_box.add (display);
 
-        var zoom = new Panes.Zoom ();
-        list_box.add (zoom);
+        //var zoom = new Panes.Zoom ();
+        //list_box.add (zoom);
 
         var audio = new Panes.Audio ();
         list_box.add (audio);
@@ -69,12 +69,13 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         });
 
         list_box.row_activated.connect ((row) => {
-            var grid = ((Pane) row).pane;
-            if (grid.parent == null) {
-                stack.add (grid);
+            var page = ((Pane) row);
+            if (page.added == false) {
+                page.added = true;
+                stack.add (page.pane);            
             }
 
-            stack.set_visible_child (grid);
+            stack.set_visible_child (page.pane);
         });
     }
 
@@ -88,6 +89,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
     public class Pane : Gtk.ListBoxRow {
         Gtk.Label label;
         Gtk.Image image;
+        public bool added = false;
         public Gtk.ScrolledWindow pane { public get; private set; }
         public Gtk.Grid grid { public get; private set; }
 
@@ -107,7 +109,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
 
             label = new Gtk.Label (null);
             label.hexpand = true;
-            ((Gtk.Misc) label).xalign = 0;
+            label.halign = Gtk.Align.START;
 
             image = new Gtk.Image ();
             image.icon_size = Gtk.IconSize.DND;
@@ -123,7 +125,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             grid.column_spacing = 0;
             grid.expand = true;
             grid.show ();
-            pane.add (grid);
+            pane.add (grid); 
             pane.show ();
         }
     }
@@ -135,8 +137,8 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         }
 
         construct {
-            ((Gtk.Misc) this).xalign = 0;
+            halign = Gtk.Align.START;
             get_style_context ().add_class ("h4");
         }
     }
-}
+}//((Gtk.Misc) 
