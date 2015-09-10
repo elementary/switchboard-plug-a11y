@@ -9,28 +9,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-02 05:59+0000\n"
+"X-Launchpad-Export-Date: 2015-09-10 06:38+0000\n"
 "X-Generator: Launchpad (build 17706)\n"
 
 #: ../src/Plug.vala:40
 msgid "Universal Access"
-msgstr ""
+msgstr "通用辅助功能"
 
 #: ../src/Plug.vala:41
 msgid "Universal Access Preferences"
-msgstr ""
+msgstr "通用辅助功能设置"
 
 #: ../src/Widgets/Categories.vala:62
 msgid "Seeing"
-msgstr ""
+msgstr "视觉"
 
 #: ../src/Widgets/Categories.vala:64
 msgid "Hearing"
-msgstr ""
+msgstr "听觉"
 
 #: ../src/Widgets/Categories.vala:66
 msgid "Interaction"
-msgstr ""
+msgstr "交互"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
@@ -42,11 +42,11 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:40
 msgid "Mouse settings..."
-msgstr ""
+msgstr "鼠标设置"
 
 #: ../src/Panes/Pointing.vala:44
 msgid "Cursor size"
-msgstr ""
+msgstr "光标大小"
 
 #: ../src/Panes/Pointing.vala:47
 msgid "Control pointer using keypad"

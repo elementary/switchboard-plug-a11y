@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-02 05:58+0000\n"
+"X-Launchpad-Export-Date: 2015-09-10 06:38+0000\n"
 "X-Generator: Launchpad (build 17706)\n"
 
 #: ../src/Plug.vala:40
@@ -38,23 +38,23 @@ msgstr "가리킴"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "키보드 콘트롤"
 
 #: ../src/Panes/Pointing.vala:40
 msgid "Mouse settings..."
-msgstr ""
+msgstr "마우스 설정"
 
 #: ../src/Panes/Pointing.vala:44
 msgid "Cursor size"
-msgstr ""
+msgstr "커서 크기"
 
 #: ../src/Panes/Pointing.vala:47
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "키패드 포인터 콘트롤"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Cursor speed"
-msgstr ""
+msgstr "커서 속도"
 
 #: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:38
 msgid "Screen Reader"
@@ -70,39 +70,39 @@ msgstr "클릭"
 
 #: ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "시뮬레이션 보조 클릭"
 
 #: ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "호버 클릭"
 
 #: ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "마우스 설정..."
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "더블 클릭 속도"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "주 버튼 홀드로 보조 클릭 실행"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "시뮬레이션 클릭 지연 시간"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "커서가 주변에 오면 클릭"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "호버 지연 시간"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "동작 임계 값"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
@@ -110,47 +110,47 @@ msgstr "입력"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "타자 지연 시간"
 
 #: ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "빠른 입력"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "스크린 키보드 설정..."
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "키보드 설정..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "스크린 키보드"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "키 입력 사이 지연 시간 (느린 키)"
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "키가 눌리면 삐 소리 내기"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "키가 허용되면 삐 소리 내기"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "키가 반려되면 삐 소리 내기"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "지연 시간"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "빠른 반복 입력 무시하기 (바운스 키)"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
@@ -158,27 +158,27 @@ msgstr "키보드"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "잠금 키"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
-msgstr ""
+msgstr "설정 키"
 
 #: ../src/Panes/Keyboard.vala:44
 msgid "Display notifications for lock keys"
-msgstr ""
+msgstr "키 잠글 때 알림 표시"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "잠금 키가 눌리면 삐 소리 내기"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "설정 키를 차례로 사용 (고정 키)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "설정 키가 눌리면 삐 소리 내기"
 
 #: ../src/Panes/Audio.vala:27
 msgid "Audio"
@@ -186,31 +186,31 @@ msgstr "오디오"
 
 #: ../src/Panes/Audio.vala:36
 msgid "Playback"
-msgstr ""
+msgstr "재생"
 
 #: ../src/Panes/Audio.vala:37
 msgid "Visual Alerts"
-msgstr ""
+msgstr "알림 표시"
 
 #: ../src/Panes/Audio.vala:39
 msgid "Sound settings…"
-msgstr ""
+msgstr "소리 설정..."
 
 #: ../src/Panes/Audio.vala:43
 msgid "Play stereo audio output as mono"
-msgstr ""
+msgstr "스테레오 오디오를 모노로 출력하기"
 
 #: ../src/Panes/Audio.vala:47
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "경고음이 나면 화면 깜빡 거리기"
 
 #: ../src/Panes/Audio.vala:50
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "화면에 표시된 항목에 오디오로 된 설명 제공하기"
 
 #: ../src/Panes/Audio.vala:51
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "키보드 단축키"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -218,51 +218,51 @@ msgstr "줌"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "화면 확대 축소"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "십자선"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "화면 확대 축소"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "마우스 커서 따르기"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "마우스 트래킹"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "줌 위치"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "줌 단계"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "데스크탑 스크롤"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "십자선 표시"
 
 #: ../src/Panes/Zoom.vala:68
 msgid "Crosshair color"
-msgstr ""
+msgstr "십자선 색"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "십자선 두께"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "십자선 불투명도"
 
 #: ../src/Panes/Display.vala:34
 msgid "Display"
@@ -270,36 +270,36 @@ msgstr "디스플레이"
 
 #: ../src/Panes/Display.vala:44
 msgid "Color"
-msgstr ""
+msgstr "색"
 
 #: ../src/Panes/Display.vala:45
 msgid "Reading"
-msgstr ""
+msgstr "읽기"
 
 #: ../src/Panes/Display.vala:46
 msgid "Display settings…"
-msgstr ""
+msgstr "디스플레이 설정..."
 
 #: ../src/Panes/Display.vala:52
 msgid "High contrast theme"
-msgstr ""
+msgstr "고대비 테마"
 
 #: ../src/Panes/Display.vala:53
 msgid "Invert Colors"
-msgstr ""
+msgstr "색상 반전"
 
 #: ../src/Panes/Display.vala:54
 msgid "Grayscale"
-msgstr ""
+msgstr "회색 톤"
 
 #: ../src/Panes/Display.vala:55
 msgid "Display contrast"
-msgstr ""
+msgstr "디스플레이 밝기"
 
 #: ../src/Panes/Display.vala:59
 msgid "Text size"
-msgstr ""
+msgstr "글자 크기"
 
 #: ../src/Panes/Display.vala:60
 msgid "Dyslexic-friendly font"
-msgstr ""
+msgstr "난독증 친화 글꼴"

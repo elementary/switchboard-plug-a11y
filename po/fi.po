@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-02 05:58+0000\n"
+"X-Launchpad-Export-Date: 2015-09-10 06:37+0000\n"
 "X-Generator: Launchpad (build 17706)\n"
 
 #: ../src/Plug.vala:40
@@ -38,23 +38,23 @@ msgstr "Osoittaminen"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "Näppäimistön sormio"
 
 #: ../src/Panes/Pointing.vala:40
 msgid "Mouse settings..."
-msgstr ""
+msgstr "Hiiren asetukset..."
 
 #: ../src/Panes/Pointing.vala:44
 msgid "Cursor size"
-msgstr ""
+msgstr "Osoittimen koko"
 
 #: ../src/Panes/Pointing.vala:47
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Ohjaa osoitinta sormiota käyttäen"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Cursor speed"
-msgstr ""
+msgstr "Osoittimen nopeus"
 
 #: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:38
 msgid "Screen Reader"
@@ -70,27 +70,28 @@ msgstr "Napsauttaminen"
 
 #: ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Kakkospainikkeen simuloitu napsautus"
 
 #: ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Napsautus kohdistamalla"
 
 #: ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Hiiren asetukset…"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "Kaksoisnapsautuksen nopeus"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
 msgstr ""
+"Toteuta kakkospainikkeen napsautus pitämällä ensisijaista painiketta pohjassa"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Simuloidun napsautuksen viive"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
@@ -102,7 +103,7 @@ msgstr ""
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Liikkeen kynnysarvo"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
@@ -118,39 +119,39 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "Virtuaalinäppäimistön asetukset..."
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "Näppäimistön asetukset..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Virtuaalinäppäimistö"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "Viive näppäinpainallusten välillä (hitaat näppäimet)"
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Toista ääni kun näppäintä painetaan"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Toista ääni kun näppäinpainallus hyväksytään"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Toista ääni kun näppäinpainallus hylätään"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "Viiveen kesto"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "Jätä huomiotta nopeat saman näppäimen painallukset (kimmonäppäimet)"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
@@ -186,31 +187,31 @@ msgstr "Ääni"
 
 #: ../src/Panes/Audio.vala:36
 msgid "Playback"
-msgstr ""
+msgstr "Toisto"
 
 #: ../src/Panes/Audio.vala:37
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Visuaaliset hälytykset"
 
 #: ../src/Panes/Audio.vala:39
 msgid "Sound settings…"
-msgstr ""
+msgstr "Ääniasetukset…"
 
 #: ../src/Panes/Audio.vala:43
 msgid "Play stereo audio output as mono"
-msgstr ""
+msgstr "Toista stereoäänet monona"
 
 #: ../src/Panes/Audio.vala:47
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Väläytä näyttöä hälytysäänen toistuessa"
 
 #: ../src/Panes/Audio.vala:50
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Tarjoa äänikuvaukset näytöllä olevista kohteista"
 
 #: ../src/Panes/Audio.vala:51
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Pikanäppäin"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -222,7 +223,7 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Tähtäimet"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
@@ -230,7 +231,7 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Seuraa hiiren osoitinta"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
@@ -242,27 +243,27 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Zoomaustaso"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "Työpöydän vieritys"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "Näytä tähtäimet"
 
 #: ../src/Panes/Zoom.vala:68
 msgid "Crosshair color"
-msgstr ""
+msgstr "Tähtäimen väri"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "Tähtäimen paksuus"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "Tähtäimen läpinäkyvyys"
 
 #: ../src/Panes/Display.vala:34
 msgid "Display"
@@ -270,36 +271,36 @@ msgstr "Näyttö"
 
 #: ../src/Panes/Display.vala:44
 msgid "Color"
-msgstr ""
+msgstr "Väri"
 
 #: ../src/Panes/Display.vala:45
 msgid "Reading"
-msgstr ""
+msgstr "Lukeminen"
 
 #: ../src/Panes/Display.vala:46
 msgid "Display settings…"
-msgstr ""
+msgstr "Näytön asetukset…"
 
 #: ../src/Panes/Display.vala:52
 msgid "High contrast theme"
-msgstr ""
+msgstr "Suuren kontrastin teema"
 
 #: ../src/Panes/Display.vala:53
 msgid "Invert Colors"
-msgstr ""
+msgstr "Käänteiset värit"
 
 #: ../src/Panes/Display.vala:54
 msgid "Grayscale"
-msgstr ""
+msgstr "Harmaasävy"
 
 #: ../src/Panes/Display.vala:55
 msgid "Display contrast"
-msgstr ""
+msgstr "Näytön kontrasti"
 
 #: ../src/Panes/Display.vala:59
 msgid "Text size"
-msgstr ""
+msgstr "Tekstin koko"
 
 #: ../src/Panes/Display.vala:60
 msgid "Dyslexic-friendly font"
-msgstr ""
+msgstr "Lukihäiriöisille tarkoitettu fontti"

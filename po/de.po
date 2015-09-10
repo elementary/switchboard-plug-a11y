@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-02 05:58+0000\n"
+"X-Launchpad-Export-Date: 2015-09-10 06:37+0000\n"
 "X-Generator: Launchpad (build 17706)\n"
 
 #: ../src/Plug.vala:40
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../src/Widgets/Categories.vala:62
 msgid "Seeing"
-msgstr ""
+msgstr "Sehen"
 
 #: ../src/Widgets/Categories.vala:64
 msgid "Hearing"
-msgstr ""
+msgstr "Hören"
 
 #: ../src/Widgets/Categories.vala:66
 msgid "Interaction"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "Zeigen"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
@@ -42,31 +42,31 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:40
 msgid "Mouse settings..."
-msgstr ""
+msgstr "Mauseinstellungen …"
 
 #: ../src/Panes/Pointing.vala:44
 msgid "Cursor size"
-msgstr ""
+msgstr "Zeigergröße"
 
 #: ../src/Panes/Pointing.vala:47
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Den Mauszeiger mit dem Tastenfeld steuern"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Cursor speed"
-msgstr ""
+msgstr "Zeigergeschwindigkeit"
 
 #: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:38
 msgid "Screen Reader"
-msgstr ""
+msgstr "Bildschirmleser"
 
 #: ../src/Panes/General.vala:27
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "Klicken"
 
 #: ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
@@ -74,15 +74,15 @@ msgstr ""
 
 #: ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Überfahrenklick"
 
 #: ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Mauseinstellungen …"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "Doppelklickgeschwindigkeit"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
@@ -94,39 +94,39 @@ msgstr ""
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Beim Überfahren mit dem Zeiger einen Klick auslösen"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Überfahrenverzögerung"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Bewegungsschwelle"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "Tippen"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "Tippverzögerungen"
 
 #: ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "Schnelles Tippen"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "Bildschirmtastatureinstellungen …"
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "Tastatureinstellungen …"
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Bildschirmtastatur"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "Verzögerungslänge"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -154,11 +154,11 @@ msgstr ""
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "Feststelltasten"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
@@ -182,11 +182,11 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:27
 msgid "Audio"
-msgstr ""
+msgstr "Ton"
 
 #: ../src/Panes/Audio.vala:36
 msgid "Playback"
-msgstr ""
+msgstr "Wiedergabe"
 
 #: ../src/Panes/Audio.vala:37
 msgid "Visual Alerts"
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:39
 msgid "Sound settings…"
-msgstr ""
+msgstr "Toneinstellungen …"
 
 #: ../src/Panes/Audio.vala:43
 msgid "Play stereo audio output as mono"
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:51
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Tastenkombination"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -278,7 +278,7 @@ msgstr ""
 
 #: ../src/Panes/Display.vala:46
 msgid "Display settings…"
-msgstr ""
+msgstr "Bildschirmeinstellungen …"
 
 #: ../src/Panes/Display.vala:52
 msgid "High contrast theme"
