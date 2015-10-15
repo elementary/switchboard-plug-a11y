@@ -13,7 +13,7 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
 
     public void add_widget (string title, Gtk.Widget widget) {
         var settings_box = new EmptyBox (title, has_childen);
-        widget.set_margin_end (12);
+        widget.set_margin_end (6);
         bind_sensitivity (widget, settings_box);
         
         settings_box.grid.add (widget);
@@ -28,7 +28,7 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         var combo = new Gtk.ComboBox ();
         bind_sensitivity (combo, settings_box);
         combo.set_size_request (180,0);
-        combo.set_margin_end (12);
+        combo.set_margin_end (6);
 
         var renderer = new Gtk.CellRendererText ();
         combo.pack_start (renderer, true);
@@ -48,7 +48,7 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         bind_sensitivity (scale, settings_box);
         scale.set_size_request (250,0);
         scale.set_draw_value (false);
-        scale.set_margin_end (12);
+        scale.set_margin_end (6);
 
          settings_box.grid.add (scale);
         list_box.add (settings_box);
@@ -62,7 +62,8 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         var settings_box = new EmptyBox (title, has_childen);
         var toggle = new Gtk.Switch ();
         bind_sensitivity (toggle, settings_box);
-        
+        toggle.set_margin_end (6);
+
         settings_box.grid.add (toggle);
         list_box.add (settings_box);
         show_all ();
