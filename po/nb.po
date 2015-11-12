@@ -2,67 +2,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-31 08:22-0500\n"
+"POT-Creation-Date: 2015-11-11 08:16-0600\n"
 "PO-Revision-Date: 2015-08-21 20:33+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-19 05:45+0000\n"
-"X-Generator: Launchpad (build 17746)\n"
+"X-Launchpad-Export-Date: 2015-11-12 05:42+0000\n"
+"X-Generator: Launchpad (build 17843)\n"
 
-#: ../src/Plug.vala:40
-msgid "Universal Access"
-msgstr "Universell tilgang"
-
-#: ../src/Plug.vala:41
-msgid "Universal Access Preferences"
-msgstr "Brukervalg for universell tilgang"
-
-#: ../src/Widgets/Categories.vala:62
+#: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
 msgstr "Syn"
 
-#: ../src/Widgets/Categories.vala:64
+#: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
 msgstr "Hørsel"
 
-#: ../src/Widgets/Categories.vala:66
+#: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
 msgstr "Interaksjon"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "Pek og klikk"
+#: ../src/Panes/Display.vala:32
+msgid "Display"
+msgstr "Skjerm"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "Tastatur kontroll"
+#: ../src/Panes/Display.vala:42
+msgid "Color"
+msgstr "Farge"
 
-#: ../src/Panes/Pointing.vala:40
-msgid "Mouse settings..."
-msgstr "Innstillinger for mus..."
+#: ../src/Panes/Display.vala:43
+msgid "Reading"
+msgstr "Leser"
 
-#: ../src/Panes/Pointing.vala:44
-msgid "Cursor size"
-msgstr "Pekerstørrelse"
+#: ../src/Panes/Display.vala:44
+msgid "Display settings…"
+msgstr "Innstillinger for skjerm..."
 
-#: ../src/Panes/Pointing.vala:47
-msgid "Control pointer using keypad"
-msgstr "Styr musepeker med tastatur"
+#: ../src/Panes/Display.vala:50
+msgid "High contrast theme"
+msgstr "Tema med høy kontrast"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Cursor speed"
-msgstr "Pekerhastighet"
-
-#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:38
-msgid "Screen Reader"
-msgstr "Skjermoppleser"
-
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr "Generelt"
+#: ../src/Panes/Display.vala:57
+msgid "Text size"
+msgstr "Tekststørrelse"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
@@ -76,7 +60,7 @@ msgstr "Simulert andreklikk"
 msgid "Hover Click"
 msgstr "Sveveklikk"
 
-#: ../src/Panes/Clicking.vala:46
+#: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
 msgid "Mouse settings…"
 msgstr "Innstillinger for mus..."
 
@@ -103,114 +87,6 @@ msgstr "Forsinkelse"
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
 msgstr "Terskelverdi for deteksjon av bevegelse"
-
-#: ../src/Panes/Typing.vala:36
-msgid "Typing"
-msgstr "Skriving"
-
-#: ../src/Panes/Typing.vala:45
-msgid "Typing Delays"
-msgstr "Forsinkelser ved skriving"
-
-#: ../src/Panes/Typing.vala:46
-msgid "Fast Typing"
-msgstr "Rask skriving"
-
-#: ../src/Panes/Typing.vala:47
-msgid "On-screen keyboard settings..."
-msgstr "Innstillinger for skjermtastatur..."
-
-#: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
-msgid "Keyboard settings..."
-msgstr "Innstillinger for tastatur..."
-
-#: ../src/Panes/Typing.vala:55
-msgid "On-screen keyboard"
-msgstr "Skjermtastatur"
-
-#: ../src/Panes/Typing.vala:58
-msgid "Delay between key presses (slow keys)"
-msgstr "Forsinkelse mellom tastetrykk (trege taster)"
-
-#: ../src/Panes/Typing.vala:59
-msgid "Beep when a key is pressed"
-msgstr "Pip når en tast trykkes ned"
-
-#: ../src/Panes/Typing.vala:60
-msgid "Beep when a key is accepted"
-msgstr "Pip når en tast godtas"
-
-#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
-msgid "Beep when a key is rejected"
-msgstr "Pip når en tast avvises"
-
-#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
-msgid "Delay length"
-msgstr "Forsinkelse"
-
-#: ../src/Panes/Typing.vala:65
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Ignorer raske dupliserte tastetrykk (filtertaster)"
-
-#: ../src/Panes/Keyboard.vala:29
-msgid "Keyboard"
-msgstr "Tastatur"
-
-#: ../src/Panes/Keyboard.vala:38
-msgid "Lock Keys"
-msgstr "Låsetaster"
-
-#: ../src/Panes/Keyboard.vala:39
-msgid "Modifier Keys"
-msgstr "Valgtaster"
-
-#: ../src/Panes/Keyboard.vala:44
-msgid "Display notifications for lock keys"
-msgstr "Vis varsler for låsetaster"
-
-#: ../src/Panes/Keyboard.vala:45
-msgid "Beep when a lock key is pressed"
-msgstr "Pip når en låsetast trykkes"
-
-#: ../src/Panes/Keyboard.vala:48
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Bruk valgstaster i sekvens (trege taster)"
-
-#: ../src/Panes/Keyboard.vala:49
-msgid "Beep when a modifier key is pressed"
-msgstr "Pip når en valgtast trykkes"
-
-#: ../src/Panes/Audio.vala:27
-msgid "Audio"
-msgstr "Lyd"
-
-#: ../src/Panes/Audio.vala:36
-msgid "Playback"
-msgstr "Avspilling"
-
-#: ../src/Panes/Audio.vala:37
-msgid "Visual Alerts"
-msgstr "Synlige varsler"
-
-#: ../src/Panes/Audio.vala:39
-msgid "Sound settings…"
-msgstr "Innstillinger for lyd..."
-
-#: ../src/Panes/Audio.vala:43
-msgid "Play stereo audio output as mono"
-msgstr "Spill stereo lyd som mono"
-
-#: ../src/Panes/Audio.vala:47
-msgid "Flash the screen when an alert sound occurs"
-msgstr "Blink skjermen ved lydvarsel"
-
-#: ../src/Panes/Audio.vala:50
-msgid "Provide audio descriptions for items on the screen"
-msgstr "Gi lydbeskrivelser for elementer på skjermen"
-
-#: ../src/Panes/Audio.vala:51
-msgid "Keyboard shortcut"
-msgstr "Tastatursnarvei"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -252,10 +128,6 @@ msgstr "Skrivebordsrulling"
 msgid "Display crosshairs"
 msgstr "Vis siktemerker"
 
-#: ../src/Panes/Zoom.vala:68
-msgid "Crosshair color"
-msgstr "Farge på siktemerke"
-
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
 msgstr "Tykkelse på siktemerke"
@@ -264,42 +136,130 @@ msgstr "Tykkelse på siktemerke"
 msgid "Crosshair opacity"
 msgstr "Ugjennomsiktighet på siktemerke"
 
-#: ../src/Panes/Display.vala:34
-msgid "Display"
-msgstr "Skjerm"
+#: ../src/Panes/Keyboard.vala:29
+msgid "Keyboard"
+msgstr "Tastatur"
 
-#: ../src/Panes/Display.vala:44
-msgid "Color"
-msgstr "Farge"
+#: ../src/Panes/Keyboard.vala:38
+msgid "Lock Keys"
+msgstr "Låsetaster"
 
-#: ../src/Panes/Display.vala:45
-msgid "Reading"
-msgstr "Leser"
+#: ../src/Panes/Keyboard.vala:39
+msgid "Modifier Keys"
+msgstr "Valgtaster"
 
-#: ../src/Panes/Display.vala:46
-msgid "Display settings…"
-msgstr "Innstillinger for skjerm..."
+#: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
+msgid "Keyboard settings..."
+msgstr "Innstillinger for tastatur..."
 
-#: ../src/Panes/Display.vala:52
-msgid "High contrast theme"
-msgstr "Tema med høy kontrast"
+#: ../src/Panes/Keyboard.vala:45
+msgid "Beep when a lock key is pressed"
+msgstr "Pip når en låsetast trykkes"
 
-#: ../src/Panes/Display.vala:53
-msgid "Invert Colors"
-msgstr "Inverter farger"
+#: ../src/Panes/Keyboard.vala:48
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "Bruk valgstaster i sekvens (trege taster)"
 
-#: ../src/Panes/Display.vala:54
-msgid "Grayscale"
-msgstr "Gråtoneskala"
+#: ../src/Panes/Keyboard.vala:49
+msgid "Beep when a modifier key is pressed"
+msgstr "Pip når en valgtast trykkes"
 
-#: ../src/Panes/Display.vala:55
-msgid "Display contrast"
-msgstr "Skjermkontrast"
+#: ../src/Panes/General.vala:27
+msgid "General"
+msgstr "Generelt"
 
-#: ../src/Panes/Display.vala:59
-msgid "Text size"
-msgstr "Tekststørrelse"
+#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
+msgid "Screen Reader"
+msgstr "Skjermoppleser"
 
-#: ../src/Panes/Display.vala:60
-msgid "Dyslexic-friendly font"
-msgstr "Dysleksivennlig skrift"
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
+msgstr "Lyd"
+
+#: ../src/Panes/Audio.vala:38
+msgid "Visual Alerts"
+msgstr "Synlige varsler"
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr "Innstillinger for lyd..."
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr "Blink skjermen ved lydvarsel"
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Gi lydbeskrivelser for elementer på skjermen"
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
+msgstr "Tastatursnarvei"
+
+#: ../src/Panes/Pointing.vala:28
+msgid "Pointing"
+msgstr "Pek og klikk"
+
+#: ../src/Panes/Pointing.vala:38
+msgid "Keypad Control"
+msgstr "Tastatur kontroll"
+
+#: ../src/Panes/Pointing.vala:48
+msgid "Control pointer using keypad"
+msgstr "Styr musepeker med tastatur"
+
+#: ../src/Panes/Pointing.vala:49
+msgid "Cursor speed"
+msgstr "Pekerhastighet"
+
+#: ../src/Panes/Typing.vala:36
+msgid "Typing"
+msgstr "Skriving"
+
+#: ../src/Panes/Typing.vala:45
+msgid "Typing Delays"
+msgstr "Forsinkelser ved skriving"
+
+#: ../src/Panes/Typing.vala:46
+msgid "Fast Typing"
+msgstr "Rask skriving"
+
+#: ../src/Panes/Typing.vala:47
+msgid "On-screen keyboard settings..."
+msgstr "Innstillinger for skjermtastatur..."
+
+#: ../src/Panes/Typing.vala:55
+msgid "On-screen keyboard"
+msgstr "Skjermtastatur"
+
+#: ../src/Panes/Typing.vala:58
+msgid "Delay between key presses (slow keys)"
+msgstr "Forsinkelse mellom tastetrykk (trege taster)"
+
+#: ../src/Panes/Typing.vala:59
+msgid "Beep when a key is pressed"
+msgstr "Pip når en tast trykkes ned"
+
+#: ../src/Panes/Typing.vala:60
+msgid "Beep when a key is accepted"
+msgstr "Pip når en tast godtas"
+
+#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
+msgid "Beep when a key is rejected"
+msgstr "Pip når en tast avvises"
+
+#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
+msgid "Delay length"
+msgstr "Forsinkelse"
+
+#: ../src/Panes/Typing.vala:65
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "Ignorer raske dupliserte tastetrykk (filtertaster)"
+
+#: ../src/Plug.vala:41
+msgid "Universal Access"
+msgstr "Universell tilgang"
+
+#: ../src/Plug.vala:42
+msgid "Universal Access Preferences"
+msgstr "Brukervalg for universell tilgang"

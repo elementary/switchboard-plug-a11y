@@ -2,67 +2,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-31 08:22-0500\n"
+"POT-Creation-Date: 2015-11-11 08:16-0600\n"
 "PO-Revision-Date: 2015-09-21 18:18+0000\n"
 "Last-Translator: Florian Greinus <florian.greinus@googlemail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-22 06:10+0000\n"
-"X-Generator: Launchpad (build 17749)\n"
+"X-Launchpad-Export-Date: 2015-11-12 05:41+0000\n"
+"X-Generator: Launchpad (build 17843)\n"
 
-#: ../src/Plug.vala:40
-msgid "Universal Access"
-msgstr "Barriere­frei­heit"
-
-#: ../src/Plug.vala:41
-msgid "Universal Access Preferences"
-msgstr "Einstellungen zur Barrierefreiheit"
-
-#: ../src/Widgets/Categories.vala:62
+#: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
 msgstr "Sehen"
 
-#: ../src/Widgets/Categories.vala:64
+#: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
 msgstr "Hören"
 
-#: ../src/Widgets/Categories.vala:66
+#: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "Interagieren"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "Zeigen"
+#: ../src/Panes/Display.vala:32
+msgid "Display"
+msgstr "Bildschirm"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "Tastenfeldsteuerung"
+#: ../src/Panes/Display.vala:42
+msgid "Color"
+msgstr "Farbe"
 
-#: ../src/Panes/Pointing.vala:40
-msgid "Mouse settings..."
-msgstr "Mauseinstellungen …"
+#: ../src/Panes/Display.vala:43
+msgid "Reading"
+msgstr "Lesen"
 
-#: ../src/Panes/Pointing.vala:44
-msgid "Cursor size"
-msgstr "Zeigergröße"
+#: ../src/Panes/Display.vala:44
+msgid "Display settings…"
+msgstr "Bildschirmeinstellungen …"
 
-#: ../src/Panes/Pointing.vala:47
-msgid "Control pointer using keypad"
-msgstr "Den Mauszeiger mit dem Tastenfeld steuern"
+#: ../src/Panes/Display.vala:50
+msgid "High contrast theme"
+msgstr "Thema mit hohem Kontrast"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Cursor speed"
-msgstr "Zeigergeschwindigkeit"
-
-#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:38
-msgid "Screen Reader"
-msgstr "Bildschirmleser"
-
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr "Allgemein"
+#: ../src/Panes/Display.vala:57
+msgid "Text size"
+msgstr "Schriftgröße"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
@@ -70,13 +54,13 @@ msgstr "Klicken"
 
 #: ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "simulierter Kontextklick"
 
 #: ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
 msgstr "Überfahrenklick"
 
-#: ../src/Panes/Clicking.vala:46
+#: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
 msgid "Mouse settings…"
 msgstr "Mauseinstellungen …"
 
@@ -86,7 +70,7 @@ msgstr "Doppelklickgeschwindigkeit"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Primäre Maustaste gedrückt halten, um einen Kontextklick auszulösen"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
@@ -103,114 +87,6 @@ msgstr "Überfahrenverzögerung"
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
 msgstr "Bewegungsschwelle"
-
-#: ../src/Panes/Typing.vala:36
-msgid "Typing"
-msgstr "Tippen"
-
-#: ../src/Panes/Typing.vala:45
-msgid "Typing Delays"
-msgstr "Tippverzögerungen"
-
-#: ../src/Panes/Typing.vala:46
-msgid "Fast Typing"
-msgstr "Schnelles Tippen"
-
-#: ../src/Panes/Typing.vala:47
-msgid "On-screen keyboard settings..."
-msgstr "Bildschirmtastatureinstellungen …"
-
-#: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
-msgid "Keyboard settings..."
-msgstr "Tastatureinstellungen …"
-
-#: ../src/Panes/Typing.vala:55
-msgid "On-screen keyboard"
-msgstr "Bildschirmtastatur"
-
-#: ../src/Panes/Typing.vala:58
-msgid "Delay between key presses (slow keys)"
-msgstr ""
-
-#: ../src/Panes/Typing.vala:59
-msgid "Beep when a key is pressed"
-msgstr ""
-
-#: ../src/Panes/Typing.vala:60
-msgid "Beep when a key is accepted"
-msgstr ""
-
-#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
-msgid "Beep when a key is rejected"
-msgstr ""
-
-#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
-msgid "Delay length"
-msgstr "Verzögerungslänge"
-
-#: ../src/Panes/Typing.vala:65
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Schnelle Tastenanschläge ignorieren (Tastenanschlagfunktion)"
-
-#: ../src/Panes/Keyboard.vala:29
-msgid "Keyboard"
-msgstr "Tastatur"
-
-#: ../src/Panes/Keyboard.vala:38
-msgid "Lock Keys"
-msgstr "Feststelltasten"
-
-#: ../src/Panes/Keyboard.vala:39
-msgid "Modifier Keys"
-msgstr "Sondertasten"
-
-#: ../src/Panes/Keyboard.vala:44
-msgid "Display notifications for lock keys"
-msgstr "Benachrichtigung über Feststelltasten einblenden"
-
-#: ../src/Panes/Keyboard.vala:45
-msgid "Beep when a lock key is pressed"
-msgstr "Signalton ausgeben, wenn Feststelltaste gedrückt"
-
-#: ../src/Panes/Keyboard.vala:48
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Sondertasten in Reihenfolge nutzen (Einrastfunktion)"
-
-#: ../src/Panes/Keyboard.vala:49
-msgid "Beep when a modifier key is pressed"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:27
-msgid "Audio"
-msgstr "Ton"
-
-#: ../src/Panes/Audio.vala:36
-msgid "Playback"
-msgstr "Wiedergabe"
-
-#: ../src/Panes/Audio.vala:37
-msgid "Visual Alerts"
-msgstr "Sichtbare Hinweise"
-
-#: ../src/Panes/Audio.vala:39
-msgid "Sound settings…"
-msgstr "Toneinstellungen …"
-
-#: ../src/Panes/Audio.vala:43
-msgid "Play stereo audio output as mono"
-msgstr "Stereoausgang in mono abspielen"
-
-#: ../src/Panes/Audio.vala:47
-msgid "Flash the screen when an alert sound occurs"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:50
-msgid "Provide audio descriptions for items on the screen"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:51
-msgid "Keyboard shortcut"
-msgstr "Tastenkombination"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -252,10 +128,6 @@ msgstr "Schreibtischbildlauf"
 msgid "Display crosshairs"
 msgstr "Fadenkreuz anzeigen"
 
-#: ../src/Panes/Zoom.vala:68
-msgid "Crosshair color"
-msgstr "Fadenkreuzfarbe"
-
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
 msgstr "Fadenkreuzdicke"
@@ -264,42 +136,130 @@ msgstr "Fadenkreuzdicke"
 msgid "Crosshair opacity"
 msgstr "Fadenkreuzdurchsichtigkeit"
 
-#: ../src/Panes/Display.vala:34
-msgid "Display"
-msgstr "Bildschirm"
+#: ../src/Panes/Keyboard.vala:29
+msgid "Keyboard"
+msgstr "Tastatur"
 
-#: ../src/Panes/Display.vala:44
-msgid "Color"
-msgstr "Farbe"
+#: ../src/Panes/Keyboard.vala:38
+msgid "Lock Keys"
+msgstr "Feststelltasten"
 
-#: ../src/Panes/Display.vala:45
-msgid "Reading"
-msgstr "Lesen"
+#: ../src/Panes/Keyboard.vala:39
+msgid "Modifier Keys"
+msgstr "Sondertasten"
 
-#: ../src/Panes/Display.vala:46
-msgid "Display settings…"
-msgstr "Bildschirmeinstellungen …"
+#: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
+msgid "Keyboard settings..."
+msgstr "Tastatureinstellungen …"
 
-#: ../src/Panes/Display.vala:52
-msgid "High contrast theme"
-msgstr "Thema mit hohem Kontrast"
+#: ../src/Panes/Keyboard.vala:45
+msgid "Beep when a lock key is pressed"
+msgstr "Signalton ausgeben, wenn Feststelltaste gedrückt"
 
-#: ../src/Panes/Display.vala:53
-msgid "Invert Colors"
-msgstr "Farben umkehren"
+#: ../src/Panes/Keyboard.vala:48
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "Sondertasten in Reihenfolge nutzen (Einrastfunktion)"
 
-#: ../src/Panes/Display.vala:54
-msgid "Grayscale"
-msgstr "Graustufen"
+#: ../src/Panes/Keyboard.vala:49
+msgid "Beep when a modifier key is pressed"
+msgstr "Signalton ausgeben, wenn eine Kombinationstaste gedrückt wird"
 
-#: ../src/Panes/Display.vala:55
-msgid "Display contrast"
-msgstr "Bildschirmkontrast"
+#: ../src/Panes/General.vala:27
+msgid "General"
+msgstr "Allgemein"
 
-#: ../src/Panes/Display.vala:59
-msgid "Text size"
-msgstr "Schriftgröße"
+#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
+msgid "Screen Reader"
+msgstr "Bildschirmleser"
 
-#: ../src/Panes/Display.vala:60
-msgid "Dyslexic-friendly font"
-msgstr "Legastheniefreundliche Schrift"
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
+msgstr "Ton"
+
+#: ../src/Panes/Audio.vala:38
+msgid "Visual Alerts"
+msgstr "Sichtbare Hinweise"
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr "Toneinstellungen …"
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr "Zeige Bildschirmblizz, wenn ein Alarmton abgespielt wird"
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Audiobeschreibung für Elemente auf dem Bildschirm anbieten"
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
+msgstr "Tastenkombination"
+
+#: ../src/Panes/Pointing.vala:28
+msgid "Pointing"
+msgstr "Zeigen"
+
+#: ../src/Panes/Pointing.vala:38
+msgid "Keypad Control"
+msgstr "Tastenfeldsteuerung"
+
+#: ../src/Panes/Pointing.vala:48
+msgid "Control pointer using keypad"
+msgstr "Den Mauszeiger mit dem Tastenfeld steuern"
+
+#: ../src/Panes/Pointing.vala:49
+msgid "Cursor speed"
+msgstr "Zeigergeschwindigkeit"
+
+#: ../src/Panes/Typing.vala:36
+msgid "Typing"
+msgstr "Tippen"
+
+#: ../src/Panes/Typing.vala:45
+msgid "Typing Delays"
+msgstr "Tippverzögerungen"
+
+#: ../src/Panes/Typing.vala:46
+msgid "Fast Typing"
+msgstr "Schnelles Tippen"
+
+#: ../src/Panes/Typing.vala:47
+msgid "On-screen keyboard settings..."
+msgstr "Bildschirmtastatureinstellungen …"
+
+#: ../src/Panes/Typing.vala:55
+msgid "On-screen keyboard"
+msgstr "Bildschirmtastatur"
+
+#: ../src/Panes/Typing.vala:58
+msgid "Delay between key presses (slow keys)"
+msgstr "Verzögerung zwischen Tastendrücken (langsame Tasten)"
+
+#: ../src/Panes/Typing.vala:59
+msgid "Beep when a key is pressed"
+msgstr "Signalton ausgeben, wenn eine Taste gedrückt wird"
+
+#: ../src/Panes/Typing.vala:60
+msgid "Beep when a key is accepted"
+msgstr "Signalton ausgeben, wenn eine Taste angenommen wird"
+
+#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
+msgid "Beep when a key is rejected"
+msgstr "Signalton ausgeben, wenn eine Taste abgewiesen wird"
+
+#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
+msgid "Delay length"
+msgstr "Verzögerungslänge"
+
+#: ../src/Panes/Typing.vala:65
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "Schnelle Tastenanschläge ignorieren (Tastenanschlagfunktion)"
+
+#: ../src/Plug.vala:41
+msgid "Universal Access"
+msgstr "Barriere­frei­heit"
+
+#: ../src/Plug.vala:42
+msgid "Universal Access Preferences"
+msgstr "Einstellungen zur Barrierefreiheit"
