@@ -34,8 +34,8 @@ public class Accessibility.Panes.General : Categories.Pane {
 
     private void build_ui () {
         var general = new Accessibility.Widgets.SettingsBox ();
-        keyboard = general.add_switch ("Turn accessibility features on and off using the keyboard:");
-        panel = general.add_switch ("Display accessibility menu in panel:");
+        keyboard = general.add_switch (_("Turn accessibility features on and off using the keyboard:"));
+        panel = general.add_switch (_("Display accessibility menu in panel:"));
 
         grid.add (general);
 
