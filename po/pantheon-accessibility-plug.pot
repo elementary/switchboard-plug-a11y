@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-11 08:16-0600\n"
+"POT-Creation-Date: 2015-11-27 13:55-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgstr ""
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
+msgstr ""
+
+#: ../src/Plug.vala:41
+msgid "Universal Access"
+msgstr ""
+
+#: ../src/Plug.vala:42
+msgid "Universal Access Preferences"
 msgstr ""
 
 #: ../src/Panes/Display.vala:32
@@ -51,6 +59,46 @@ msgstr ""
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
+msgstr ""
+
+#: ../src/Panes/General.vala:27
+msgid "General"
+msgstr ""
+
+#: ../src/Panes/General.vala:37
+msgid "Turn accessibility features on and off using the keyboard:"
+msgstr ""
+
+#: ../src/Panes/General.vala:38
+msgid "Display accessibility menu in panel:"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:29
+msgid "Keyboard"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:38
+msgid "Lock Keys"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:39
+msgid "Modifier Keys"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
+msgid "Keyboard settings..."
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:45
+msgid "Beep when a lock key is pressed"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:48
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr ""
+
+#: ../src/Panes/Keyboard.vala:49
+msgid "Beep when a modifier key is pressed"
 msgstr ""
 
 #: ../src/Panes/Clicking.vala:35
@@ -141,66 +189,6 @@ msgstr ""
 msgid "Crosshair opacity"
 msgstr ""
 
-#: ../src/Panes/Keyboard.vala:29
-msgid "Keyboard"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:38
-msgid "Lock Keys"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:39
-msgid "Modifier Keys"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
-msgid "Keyboard settings..."
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:45
-msgid "Beep when a lock key is pressed"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:48
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:49
-msgid "Beep when a modifier key is pressed"
-msgstr ""
-
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr ""
-
-#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
-msgid "Screen Reader"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:38
-msgid "Visual Alerts"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
-msgstr ""
-
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
-msgstr ""
-
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
 msgstr ""
@@ -215,6 +203,10 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
+msgstr ""
+
+#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
+msgid "Screen Reader"
 msgstr ""
 
 #: ../src/Panes/Typing.vala:36
@@ -261,10 +253,26 @@ msgstr ""
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
 
-#: ../src/Plug.vala:41
-msgid "Universal Access"
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
 msgstr ""
 
-#: ../src/Plug.vala:42
-msgid "Universal Access Preferences"
+#: ../src/Panes/Audio.vala:38
+msgid "Visual Alerts"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
 msgstr ""
