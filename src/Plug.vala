@@ -39,7 +39,7 @@ namespace Accessibility {
             Object (category: Category.SYSTEM,
                     code_name: Build.PLUGCODENAME,
                     display_name: _("Universal Access"),
-                    description: _("Universal Access Preferences"),
+                    description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility");
 
             plug = this;
