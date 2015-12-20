@@ -3,186 +3,186 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-27 13:55-0200\n"
-"PO-Revision-Date: 2015-08-21 20:32+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-12-11 12:25+0000\n"
+"Last-Translator: Jimmy Merrild Krag <jimmy@kragenet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 05:04+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2015-12-20 07:03+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "Syn"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "Hørelse"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "Interaktion"
 
 #: ../src/Plug.vala:41
 msgid "Universal Access"
-msgstr ""
+msgstr "Tilgængelighed"
 
 #: ../src/Plug.vala:42
 msgid "Universal Access Preferences"
-msgstr ""
+msgstr "Indstillinger for tilgængelighed"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "Skærm"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "Farve"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "Læsning"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr ""
+msgstr "Skærmindstillinger..."
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
-msgstr ""
+msgstr "Tema med høj kontrast"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr ""
+msgstr "Tekststørrelse"
 
 #: ../src/Panes/General.vala:27
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: ../src/Panes/General.vala:37
 msgid "Turn accessibility features on and off using the keyboard:"
-msgstr ""
+msgstr "Tænd og sluk for tilgængelighedsfunktioner med tastaturet"
 
 #: ../src/Panes/General.vala:38
 msgid "Display accessibility menu in panel:"
-msgstr ""
+msgstr "Vis tilgængelighedsmenu i panel:"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "Låsetaster"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
-msgstr ""
+msgstr "Modifikationstaster"
 
 #: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "Tastaturindstillinger..."
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "Bip når der trykkes på en låsetast"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Anvend modifikationstaster i sekvens (klæbrige taster)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "Bip når der trykkes på en modifikationstast"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "Klik"
 
 #: ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Simuleret sekundært klik"
 
 #: ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Svæveklik"
 
 #: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Museindstillinger..."
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "Dobbeltklik-hastighed"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Hold primær knap nede for at udløse et sekundært klik"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Simuleret klikforsinkelse"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Klik når markøren svæver over"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Svæveforsinkelse"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Tilbageholdenhed ved bevægelse"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "Skærm-zoom"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Sigtekorn"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "Skærm-zoom"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Følg musemarkør"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "Sporing af musen"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "Zoom-position"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Zoom-niveau"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "Skrivebordsrulning"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "Vis sigtekorn"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "Tykkelse på sigtekorn"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "Gennemsigtighed på sigtekorn"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
@@ -198,11 +198,11 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
-msgstr ""
+msgstr "Markørhastighed"
 
 #: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
 msgid "Screen Reader"
-msgstr ""
+msgstr "Skærmlæser"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
@@ -218,31 +218,31 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "Skærmtastaturindstillinger..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Skærmtastatur"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "Forsinkelse mellem tastetryk (langsomme taster)"
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Bip når der trykkes på en tast"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Bip når en tast accepteres"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Bip når en tast afvises"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "Længde på forsinkelse"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -250,19 +250,19 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "Lyd"
 
 #: ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Visuelle påmindelser"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr ""
+msgstr "Lydindstillinger..."
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Blink med skærmen når en advarselslyd afspilles"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
@@ -270,4 +270,4 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Tastaturgenvej"

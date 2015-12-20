@@ -3,62 +3,62 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-27 13:55-0200\n"
-"PO-Revision-Date: 2015-08-21 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-11-28 20:57+0000\n"
+"Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 05:04+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2015-12-20 07:04+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "დანახვა"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "მოსმენა"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "ურთიერთქმედება"
 
 #: ../src/Plug.vala:41
 msgid "Universal Access"
-msgstr ""
+msgstr "უნივერსალური წვდომა"
 
 #: ../src/Plug.vala:42
 msgid "Universal Access Preferences"
-msgstr ""
+msgstr "უნივერსალური წვდომის პარამეტრები"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "დისპლეი"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "ფერი"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "კითხვა"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr ""
+msgstr "დისპლეი პარამეტრები..."
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
-msgstr ""
+msgstr "მაღალი კონტრასტის თემა"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr ""
+msgstr "ტექსტის ზომა"
 
 #: ../src/Panes/General.vala:27
 msgid "General"
-msgstr ""
+msgstr "ზოგადი"
 
 #: ../src/Panes/General.vala:37
 msgid "Turn accessibility features on and off using the keyboard:"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "კლავიატურა"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"

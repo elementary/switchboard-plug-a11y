@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-27 13:55-0200\n"
-"PO-Revision-Date: 2015-08-21 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-12-11 11:33+0000\n"
+"Last-Translator: colindemian <dengmengpc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 05:05+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2015-12-20 07:04+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
@@ -62,11 +62,11 @@ msgstr "常规"
 
 #: ../src/Panes/General.vala:37
 msgid "Turn accessibility features on and off using the keyboard:"
-msgstr ""
+msgstr "使用键盘启用和关闭辅助功能："
 
 #: ../src/Panes/General.vala:38
 msgid "Display accessibility menu in panel:"
-msgstr ""
+msgstr "在顶栏中显示辅助功能菜单："
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
