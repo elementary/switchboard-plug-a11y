@@ -86,6 +86,12 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         first.activate ();
     }
 
+    public void set_row_number (int number) {
+        weak Gtk.ListBoxRow show_row = list_box.get_row_at_index (number);
+        list_box.select_row (show_row);
+        show_row.activate ();
+    }
+
     public class Pane : Gtk.ListBoxRow {
         Gtk.Label label;
         Gtk.Image image;
