@@ -2,34 +2,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-27 13:55-0200\n"
+"POT-Creation-Date: 2016-04-21 08:18-0300\n"
 "PO-Revision-Date: 2015-08-21 20:32+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-02-04 06:24+0000\n"
-"X-Generator: Launchpad (build 17908)\n"
+"X-Launchpad-Export-Date: 2016-04-22 05:48+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
-#: ../src/Widgets/Categories.vala:63
-msgid "Seeing"
+#: ../src/Panes/General.vala:27
+msgid "General"
 msgstr ""
 
-#: ../src/Widgets/Categories.vala:65
-msgid "Hearing"
+#: ../src/Panes/General.vala:37
+msgid "Turn accessibility features on and off using the keyboard:"
 msgstr ""
 
-#: ../src/Widgets/Categories.vala:67
-msgid "Interaction"
+#: ../src/Panes/General.vala:38
+msgid "Display accessibility menu in panel:"
 msgstr ""
 
-#: ../src/Plug.vala:41
-msgid "Universal Access"
+#: ../src/Panes/Pointing.vala:28
+msgid "Pointing"
 msgstr ""
 
-#: ../src/Plug.vala:42
-msgid "Universal Access Preferences"
+#: ../src/Panes/Pointing.vala:38
+msgid "Keypad Control"
+msgstr ""
+
+#: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
+msgid "Mouse settings…"
+msgstr ""
+
+#: ../src/Panes/Pointing.vala:48
+msgid "Control pointer using keypad"
+msgstr ""
+
+#: ../src/Panes/Pointing.vala:49
+msgid "Cursor speed"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:38 ../src/Plug.vala:119
+msgid "Visual Alerts"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
+#: ../src/Plug.vala:120
+msgid "Screen Reader"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr ""
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
 msgstr ""
 
 #: ../src/Panes/Display.vala:32
@@ -56,60 +97,16 @@ msgstr ""
 msgid "Text size"
 msgstr ""
 
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr ""
-
-#: ../src/Panes/General.vala:37
-msgid "Turn accessibility features on and off using the keyboard:"
-msgstr ""
-
-#: ../src/Panes/General.vala:38
-msgid "Display accessibility menu in panel:"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:29
-msgid "Keyboard"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:38
-msgid "Lock Keys"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:39
-msgid "Modifier Keys"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:40 ../src/Panes/Typing.vala:48
-msgid "Keyboard settings..."
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:45
-msgid "Beep when a lock key is pressed"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:48
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
-
-#: ../src/Panes/Keyboard.vala:49
-msgid "Beep when a modifier key is pressed"
-msgstr ""
-
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
 msgstr ""
 
-#: ../src/Panes/Clicking.vala:44
+#: ../src/Panes/Clicking.vala:44 ../src/Plug.vala:128
 msgid "Simulated Secondary Click"
 msgstr ""
 
-#: ../src/Panes/Clicking.vala:45
+#: ../src/Panes/Clicking.vala:45 ../src/Plug.vala:127
 msgid "Hover Click"
-msgstr ""
-
-#: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
-msgid "Mouse settings…"
 msgstr ""
 
 #: ../src/Panes/Clicking.vala:55
@@ -184,26 +181,6 @@ msgstr ""
 msgid "Crosshair opacity"
 msgstr ""
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr ""
-
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr ""
-
-#: ../src/Panes/Pointing.vala:48
-msgid "Control pointer using keypad"
-msgstr ""
-
-#: ../src/Panes/Pointing.vala:49
-msgid "Cursor speed"
-msgstr ""
-
-#: ../src/Panes/ScreenReader.vala:24 ../src/Panes/Audio.vala:39
-msgid "Screen Reader"
-msgstr ""
-
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
 msgstr ""
@@ -212,12 +189,16 @@ msgstr ""
 msgid "Typing Delays"
 msgstr ""
 
-#: ../src/Panes/Typing.vala:46
+#: ../src/Panes/Typing.vala:46 ../src/Plug.vala:123
 msgid "Fast Typing"
 msgstr ""
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
+msgstr ""
+
+#: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
+msgid "Keyboard settings..."
 msgstr ""
 
 #: ../src/Panes/Typing.vala:55
@@ -248,26 +229,94 @@ msgstr ""
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
+#: ../src/Panes/Keyboard.vala:29
+msgid "Keyboard"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:38
-msgid "Visual Alerts"
+#: ../src/Panes/Keyboard.vala:38
+msgid "Lock Keys"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
+#: ../src/Panes/Keyboard.vala:39
+msgid "Modifier Keys"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
+#: ../src/Panes/Keyboard.vala:45
+msgid "Beep when a lock key is pressed"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
+#: ../src/Panes/Keyboard.vala:48
+msgid "Use modifier keys in sequence (sticky keys)"
 msgstr ""
 
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
+#: ../src/Panes/Keyboard.vala:49
+msgid "Beep when a modifier key is pressed"
+msgstr ""
+
+#: ../src/Widgets/Categories.vala:63
+msgid "Seeing"
+msgstr ""
+
+#: ../src/Widgets/Categories.vala:65
+msgid "Hearing"
+msgstr ""
+
+#: ../src/Widgets/Categories.vala:67
+msgid "Interaction"
+msgstr ""
+
+#: ../src/Plug.vala:42
+msgid "Universal Access"
+msgstr ""
+
+#: ../src/Plug.vala:43
+msgid "Configure accessibility features"
+msgstr ""
+
+#: ../src/Plug.vala:112
+msgid "Accessibility Feaures"
+msgstr ""
+
+#: ../src/Plug.vala:113
+msgid "Accessibility Display Feaures"
+msgstr ""
+
+#: ../src/Plug.vala:114
+msgid "High Contrast Theme"
+msgstr ""
+
+#: ../src/Plug.vala:115
+msgid "Font Size"
+msgstr ""
+
+#: ../src/Plug.vala:116
+msgid "Text Size"
+msgstr ""
+
+#: ../src/Plug.vala:117
+msgid "Accessibility Audio Feaures"
+msgstr ""
+
+#: ../src/Plug.vala:118
+msgid "Accessibility Hearing Feaures"
+msgstr ""
+
+#: ../src/Plug.vala:121
+msgid "Accessibility Keyboard Feaures"
+msgstr ""
+
+#: ../src/Plug.vala:122
+msgid "On Screen Keyboard"
+msgstr ""
+
+#: ../src/Plug.vala:124
+msgid "Typing Delay"
+msgstr ""
+
+#: ../src/Plug.vala:125
+msgid "Keyboard Sounds"
+msgstr ""
+
+#: ../src/Plug.vala:126
+msgid "Accessibility Mouse Feaures"
 msgstr ""
