@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-21 08:18-0300\n"
+"POT-Creation-Date: 2016-04-25 09:01-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -279,11 +279,11 @@ msgid "Configure accessibility features"
 msgstr ""
 
 #: ../src/Plug.vala:112
-msgid "Accessibility Feaures"
+msgid "Accessibility Features"
 msgstr ""
 
 #: ../src/Plug.vala:113
-msgid "Accessibility Display Feaures"
+msgid "Accessibility Display Features"
 msgstr ""
 
 #: ../src/Plug.vala:114
@@ -299,15 +299,15 @@ msgid "Text Size"
 msgstr ""
 
 #: ../src/Plug.vala:117
-msgid "Accessibility Audio Feaures"
+msgid "Accessibility Audio Features"
 msgstr ""
 
 #: ../src/Plug.vala:118
-msgid "Accessibility Hearing Feaures"
+msgid "Accessibility Hearing Features"
 msgstr ""
 
 #: ../src/Plug.vala:121
-msgid "Accessibility Keyboard Feaures"
+msgid "Accessibility Keyboard Features"
 msgstr ""
 
 #: ../src/Plug.vala:122
@@ -323,5 +323,5 @@ msgid "Keyboard Sounds"
 msgstr ""
 
 #: ../src/Plug.vala:126
-msgid "Accessibility Mouse Feaures"
+msgid "Accessibility Mouse Features"
 msgstr ""
