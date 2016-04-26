@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-21 08:18-0300\n"
-"PO-Revision-Date: 2016-04-22 05:59+0000\n"
+"POT-Creation-Date: 2016-04-25 09:01-0300\n"
+"PO-Revision-Date: 2016-04-25 22:28+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-23 05:41+0000\n"
+"X-Launchpad-Export-Date: 2016-04-26 06:11+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: ../src/Panes/General.vala:27
@@ -18,11 +18,11 @@ msgstr "일반 설정"
 
 #: ../src/Panes/General.vala:37
 msgid "Turn accessibility features on and off using the keyboard:"
-msgstr "키보드로 접근성 기능 키고 끄기:"
+msgstr "키보드로 편리한 기능 키고 끄기:"
 
 #: ../src/Panes/General.vala:38
 msgid "Display accessibility menu in panel:"
-msgstr "패널에 접근성 메뉴 보이기:"
+msgstr "패널에 편리한 기능 메뉴 보이기:"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
@@ -38,7 +38,7 @@ msgstr "마우스 설정..."
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr "키패드 포인터 콘트롤"
+msgstr "키패드로 포인터 조종"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
@@ -55,7 +55,7 @@ msgstr "알림 표시"
 #: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
 #: ../src/Plug.vala:120
 msgid "Screen Reader"
-msgstr "화면 낭독 프로그램"
+msgstr "스크린 리더"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
@@ -103,7 +103,7 @@ msgstr "클릭"
 
 #: ../src/Panes/Clicking.vala:44 ../src/Plug.vala:128
 msgid "Simulated Secondary Click"
-msgstr "시뮬레이션 보조 클릭"
+msgstr "가상 보조 클릭"
 
 #: ../src/Panes/Clicking.vala:45 ../src/Plug.vala:127
 msgid "Hover Click"
@@ -115,11 +115,11 @@ msgstr "더블 클릭 속도"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr "주 버튼 홀드로 보조 클릭 실행"
+msgstr "주 버튼을 길게 눌러 보조 클릭 실행"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr "시뮬레이션 클릭 지연 시간"
+msgstr "가상 클릭 지연 시간"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
@@ -131,7 +131,7 @@ msgstr "호버 지연 시간"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr "동작 임계 값"
+msgstr "작동 범위"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -167,7 +167,7 @@ msgstr "줌 단계"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr "데스크탑 스크롤"
+msgstr "바탕화면 스크롤"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
@@ -187,7 +187,7 @@ msgstr "입력"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr "타자 지연 시간"
+msgstr "입력 지연시간"
 
 #: ../src/Panes/Typing.vala:46 ../src/Plug.vala:123
 msgid "Fast Typing"
@@ -215,7 +215,7 @@ msgstr "키가 눌리면 삐 소리 내기"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr "키가 허용되면 삐 소리 내기"
+msgstr "키가 적용되면 삐 소리 내기"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
@@ -271,15 +271,15 @@ msgstr "접근성 설정"
 
 #: ../src/Plug.vala:43
 msgid "Configure accessibility features"
-msgstr "편리한 기능을 설정합니다"
+msgstr "편리한 기능 설정하기"
 
 #: ../src/Plug.vala:112
-msgid "Accessibility Feaures"
+msgid "Accessibility Features"
 msgstr "편리한 기능"
 
 #: ../src/Plug.vala:113
-msgid "Accessibility Display Feaures"
-msgstr "편리한 디스플레이 기능"
+msgid "Accessibility Display Features"
+msgstr "편리한 디스플레이"
 
 #: ../src/Plug.vala:114
 msgid "High Contrast Theme"
@@ -294,16 +294,16 @@ msgid "Text Size"
 msgstr "글자 크기"
 
 #: ../src/Plug.vala:117
-msgid "Accessibility Audio Feaures"
-msgstr "편리한 오디오 기능"
+msgid "Accessibility Audio Features"
+msgstr "편리한 오디오"
 
 #: ../src/Plug.vala:118
-msgid "Accessibility Hearing Feaures"
-msgstr "듣기에 편리한 기능"
+msgid "Accessibility Hearing Features"
+msgstr "편리한 듣기 기능"
 
 #: ../src/Plug.vala:121
-msgid "Accessibility Keyboard Feaures"
-msgstr "편리한 키보드 기능"
+msgid "Accessibility Keyboard Features"
+msgstr "편리한 키보드"
 
 #: ../src/Plug.vala:122
 msgid "On Screen Keyboard"
@@ -318,5 +318,23 @@ msgid "Keyboard Sounds"
 msgstr "키보드 소리"
 
 #: ../src/Plug.vala:126
-msgid "Accessibility Mouse Feaures"
-msgstr "편리한 마우스 기능"
+msgid "Accessibility Mouse Features"
+msgstr "편리한 마우스"
+
+#~ msgid "Accessibility Hearing Feaures"
+#~ msgstr "듣기에 편리한 기능"
+
+#~ msgid "Accessibility Display Feaures"
+#~ msgstr "편리한 디스플레이 기능"
+
+#~ msgid "Accessibility Keyboard Feaures"
+#~ msgstr "편리한 키보드 기능"
+
+#~ msgid "Accessibility Audio Feaures"
+#~ msgstr "편리한 오디오 기능"
+
+#~ msgid "Accessibility Feaures"
+#~ msgstr "편리한 기능"
+
+#~ msgid "Accessibility Mouse Feaures"
+#~ msgstr "편리한 마우스 기능"
