@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-25 09:01-0300\n"
-"PO-Revision-Date: 2015-12-06 12:40+0000\n"
-"Last-Translator: Bogdan Lisnenko <Unknown>\n"
+"PO-Revision-Date: 2016-04-29 14:57+0000\n"
+"Last-Translator: neiron13 <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-26 06:12+0000\n"
+"X-Launchpad-Export-Date: 2016-04-30 05:44+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: ../src/Panes/General.vala:27
@@ -46,16 +46,16 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "Аудіо"
 
 #: ../src/Panes/Audio.vala:38 ../src/Plug.vala:119
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Візуальні оповіщення"
 
 #: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
 #: ../src/Plug.vala:120
 msgid "Screen Reader"
-msgstr ""
+msgstr "Читання з екрану"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
