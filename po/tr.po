@@ -3,18 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-25 09:01-0300\n"
-"PO-Revision-Date: 2015-08-21 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-05-02 20:46+0000\n"
+"Last-Translator: mistrafantastic <mistrafantastic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-26 06:12+0000\n"
+"X-Launchpad-Export-Date: 2016-05-03 05:47+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: ../src/Panes/General.vala:27
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ../src/Panes/General.vala:37
 msgid "Turn accessibility features on and off using the keyboard:"
@@ -26,44 +26,44 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "İşaret"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "Tuş takımı kontrolü"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Fare Ayaları..."
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Tuş takımını kullanarak işaretçi kontrolü"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
-msgstr ""
+msgstr "İşaretçi hızı"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "Ses"
 
 #: ../src/Panes/Audio.vala:38 ../src/Plug.vala:119
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Görsel Uyarılar"
 
 #: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
 #: ../src/Plug.vala:120
 msgid "Screen Reader"
-msgstr ""
+msgstr "Ekran Okuyucusu"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr ""
+msgstr "Ses Ayarları"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Uyarı sesi çalındığında ekranı karart ve aydınlat"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
-msgstr ""
+msgstr "Yüksek karşıtlık teması"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
