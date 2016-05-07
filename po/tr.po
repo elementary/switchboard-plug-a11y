@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-25 09:01-0300\n"
-"PO-Revision-Date: 2016-05-02 20:46+0000\n"
-"Last-Translator: mistrafantastic <mistrafantastic@gmail.com>\n"
+"PO-Revision-Date: 2016-05-06 21:15+0000\n"
+"Last-Translator: Melih Güçlü <melihguclu@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-03 05:47+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-07 05:17+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 
 #: ../src/Panes/General.vala:27
 msgid "General"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../src/Panes/General.vala:38
 msgid "Display accessibility menu in panel:"
-msgstr ""
+msgstr "Panelde görüntü erişilebilirliği menüsü:"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
@@ -67,27 +67,27 @@ msgstr "Uyarı sesi çalındığında ekranı karart ve aydınlat"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Ekrandaki elemenları sesli olarak tanımla."
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Klavye kısayolu"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "Görüntü"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "Okuma"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr ""
+msgstr "Görüntü ayarları..."
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
@@ -95,115 +95,115 @@ msgstr "Yüksek karşıtlık teması"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr ""
+msgstr "Yazı boyutu"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "Tıklama"
 
 #: ../src/Panes/Clicking.vala:44 ../src/Plug.vala:128
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "İkinci tıklama canlandırması"
 
 #: ../src/Panes/Clicking.vala:45 ../src/Plug.vala:127
 msgid "Hover Click"
-msgstr ""
+msgstr "Vurgu Tıklama"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "Çift tıklama hızı"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "İkinci tıklamayı tetiklemek için birinci butona basılı tut"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Tıklama gecikmesi canlandırması"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Fare üzerine geldiğinde tıkla"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Vurgu gecikmesi"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Hareket eşiği"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "Yaklaştır"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "Ekran yakınlaştırması"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Göstergeler"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "Ekran yaklaştırması"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Fare işaretçisini takip et"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "Fare takibi"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "Yakınlaştırma pozisyonu"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Yakınlaştırma seviyesi"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "Masaüstü kaydırması"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "İşaretçileri göster"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "İşaretçi kalınlığı"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "İşaretçi opaklığı"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "Yazma"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "Yazma gecikmesi"
 
 #: ../src/Panes/Typing.vala:46 ../src/Plug.vala:123
 msgid "Fast Typing"
-msgstr ""
+msgstr "Hızlı yazma"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "Ekran klavyesi ayarları"
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "Klavye ayarları..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Ekran Klavyesi"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
@@ -211,15 +211,15 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Bir tuşa basıldığında bip sesi çıkar"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Bir tuş kabul edildiğinde bip sesi çıkar"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Bir tuş reddedildiğinde bip sesi çıkar"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
