@@ -61,11 +61,11 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         Gtk.TreeIter iter;
 
         list_store.append (out iter);
-        list_store.set (iter, 0, "Normal");
+        list_store.set (iter, 0, _("Normal"));
         list_store.append (out iter);
-        list_store.set (iter, 0, "Large");
+        list_store.set (iter, 0, _("Large"));
         list_store.append (out iter);
-        list_store.set (iter, 0, "Larger");
+        list_store.set (iter, 0, _("Larger"));
 
         cursor_size.set_model (list_store);
         cursor_size.set_active (1);
