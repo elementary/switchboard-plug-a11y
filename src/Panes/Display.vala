@@ -72,11 +72,11 @@ public class Accessibility.Panes.Display : Categories.Pane {
         Gtk.TreeIter iter;
 
         list_store.append (out iter);
-        list_store.set (iter, 0, "Normal");
+        list_store.set (iter, 0, _("Normal"));
         list_store.append (out iter);
-        list_store.set (iter, 0, "Large");
+        list_store.set (iter, 0, _("Large"));
         list_store.append (out iter);
-        list_store.set (iter, 0, "Larger");
+        list_store.set (iter, 0, _("Larger"));
 
         text_size.set_model (list_store);
         text_size.set_active (deskop_interface_settings.get_text_scale ());
