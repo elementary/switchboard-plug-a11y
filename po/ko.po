@@ -2,76 +2,104 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-25 09:01-0300\n"
-"PO-Revision-Date: 2016-04-25 22:28+0000\n"
+"POT-Creation-Date: 2016-06-02 09:42-0700\n"
+"PO-Revision-Date: 2016-06-02 21:34+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-26 06:11+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-06-03 06:24+0000\n"
+"X-Generator: Launchpad (build 18086)\n"
 
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr "일반 설정"
+#: ../src/Plug.vala:42
+msgid "Universal Access"
+msgstr "편리한 기능"
 
-#: ../src/Panes/General.vala:37
-msgid "Turn accessibility features on and off using the keyboard:"
-msgstr "키보드로 편리한 기능 키고 끄기:"
+#: ../src/Plug.vala:43
+msgid "Configure accessibility features"
+msgstr "편리한 기능 설정하기"
 
-#: ../src/Panes/General.vala:38
-msgid "Display accessibility menu in panel:"
-msgstr "패널에 편리한 기능 메뉴 보이기:"
+#: ../src/Plug.vala:112
+msgid "Accessibility Features"
+msgstr "편리한 기능"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "포인터"
+#: ../src/Plug.vala:113
+msgid "Accessibility Display Features"
+msgstr "편리한 디스플레이"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "키보드 콘트롤"
+#: ../src/Plug.vala:114
+msgid "High Contrast Theme"
+msgstr "고대비 테마"
 
-#: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
-msgid "Mouse settings…"
-msgstr "마우스 설정..."
+#: ../src/Plug.vala:115
+msgid "Font Size"
+msgstr "글꼴 크기"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Control pointer using keypad"
-msgstr "키패드로 포인터 조종"
+#: ../src/Plug.vala:116
+msgid "Text Size"
+msgstr "글자 크기"
 
-#: ../src/Panes/Pointing.vala:49
-msgid "Cursor speed"
-msgstr "커서 속도"
+#: ../src/Plug.vala:117
+msgid "Accessibility Audio Features"
+msgstr "편리한 오디오"
 
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
-msgstr "오디오"
+#: ../src/Plug.vala:118
+msgid "Accessibility Hearing Features"
+msgstr "편리한 듣기 기능"
 
-#: ../src/Panes/Audio.vala:38 ../src/Plug.vala:119
+#: ../src/Plug.vala:119 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
 msgstr "알림 표시"
 
-#: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
-#: ../src/Plug.vala:120
+#: ../src/Plug.vala:120 ../src/Panes/ScreenReader.vala:24
+#: ../src/Panes/Audio.vala:39
 msgid "Screen Reader"
 msgstr "스크린 리더"
 
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
-msgstr "소리 설정..."
+#: ../src/Plug.vala:121
+msgid "Accessibility Keyboard Features"
+msgstr "편리한 키보드"
 
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
-msgstr "경고음이 나면 화면 깜빡 거리기"
+#: ../src/Plug.vala:122
+msgid "On Screen Keyboard"
+msgstr "화면 키보드"
 
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
-msgstr "화면에 표시된 항목에 오디오로 된 설명 제공하기"
+#: ../src/Plug.vala:123 ../src/Panes/Typing.vala:46
+msgid "Fast Typing"
+msgstr "빠른 입력"
 
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
-msgstr "키보드 단축키"
+#: ../src/Plug.vala:124
+msgid "Typing Delay"
+msgstr "입력 지연시간"
+
+#: ../src/Plug.vala:125
+msgid "Keyboard Sounds"
+msgstr "키보드 소리"
+
+#: ../src/Plug.vala:126
+msgid "Accessibility Mouse Features"
+msgstr "편리한 마우스"
+
+#: ../src/Plug.vala:127 ../src/Panes/Clicking.vala:45
+msgid "Hover Click"
+msgstr "호버 클릭"
+
+#: ../src/Plug.vala:128 ../src/Panes/Clicking.vala:44
+msgid "Simulated Secondary Click"
+msgstr "가상 보조 클릭"
+
+#: ../src/Widgets/Categories.vala:63
+msgid "Seeing"
+msgstr "보기"
+
+#: ../src/Widgets/Categories.vala:65
+msgid "Hearing"
+msgstr "듣기"
+
+#: ../src/Widgets/Categories.vala:67
+msgid "Interaction"
+msgstr "상호 작용"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
@@ -97,41 +125,17 @@ msgstr "고대비 테마"
 msgid "Text size"
 msgstr "글자 크기"
 
-#: ../src/Panes/Clicking.vala:35
-msgid "Clicking"
-msgstr "클릭"
+#: ../src/Panes/Display.vala:75 ../src/Panes/Pointing.vala:64
+msgid "Normal"
+msgstr "보통"
 
-#: ../src/Panes/Clicking.vala:44 ../src/Plug.vala:128
-msgid "Simulated Secondary Click"
-msgstr "가상 보조 클릭"
+#: ../src/Panes/Display.vala:77 ../src/Panes/Pointing.vala:66
+msgid "Large"
+msgstr "큰 글씨"
 
-#: ../src/Panes/Clicking.vala:45 ../src/Plug.vala:127
-msgid "Hover Click"
-msgstr "호버 클릭"
-
-#: ../src/Panes/Clicking.vala:55
-msgid "Double-click speed"
-msgstr "더블 클릭 속도"
-
-#: ../src/Panes/Clicking.vala:58
-msgid "Hold primary button to trigger secondary click"
-msgstr "주 버튼을 길게 눌러 보조 클릭 실행"
-
-#: ../src/Panes/Clicking.vala:59
-msgid "Simulated click delay"
-msgstr "가상 클릭 지연 시간"
-
-#: ../src/Panes/Clicking.vala:62
-msgid "Click when the cursor hovers"
-msgstr "커서가 주변에 오면 클릭"
-
-#: ../src/Panes/Clicking.vala:63
-msgid "Hover delay"
-msgstr "호버 지연 시간"
-
-#: ../src/Panes/Clicking.vala:64
-msgid "Motion threshold"
-msgstr "작동 범위"
+#: ../src/Panes/Display.vala:79 ../src/Panes/Pointing.vala:68
+msgid "Larger"
+msgstr "더 큰 글씨"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -189,10 +193,6 @@ msgstr "입력"
 msgid "Typing Delays"
 msgstr "입력 지연시간"
 
-#: ../src/Panes/Typing.vala:46 ../src/Plug.vala:123
-msgid "Fast Typing"
-msgstr "빠른 입력"
-
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
 msgstr "스크린 키보드 설정..."
@@ -229,6 +229,86 @@ msgstr "지연 시간"
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "빠른 반복 입력 무시하기 (바운스 키)"
 
+#: ../src/Panes/Clicking.vala:35
+msgid "Clicking"
+msgstr "클릭"
+
+#: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
+msgid "Mouse settings…"
+msgstr "마우스 설정..."
+
+#: ../src/Panes/Clicking.vala:55
+msgid "Double-click speed"
+msgstr "더블 클릭 속도"
+
+#: ../src/Panes/Clicking.vala:58
+msgid "Hold primary button to trigger secondary click"
+msgstr "주 버튼을 길게 눌러 보조 클릭 실행"
+
+#: ../src/Panes/Clicking.vala:59
+msgid "Simulated click delay"
+msgstr "가상 클릭 지연 시간"
+
+#: ../src/Panes/Clicking.vala:62
+msgid "Click when the cursor hovers"
+msgstr "커서가 주변에 오면 클릭"
+
+#: ../src/Panes/Clicking.vala:63
+msgid "Hover delay"
+msgstr "호버 지연 시간"
+
+#: ../src/Panes/Clicking.vala:64
+msgid "Motion threshold"
+msgstr "작동 범위"
+
+#: ../src/Panes/General.vala:27
+msgid "General"
+msgstr "일반 설정"
+
+#: ../src/Panes/General.vala:37
+msgid "Turn accessibility features on and off using the keyboard:"
+msgstr "키보드로 편리한 기능 키고 끄기:"
+
+#: ../src/Panes/General.vala:38
+msgid "Display accessibility menu in panel:"
+msgstr "패널에 편리한 기능 메뉴 보이기:"
+
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
+msgstr "오디오"
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr "소리 설정..."
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr "경고음이 나면 화면 깜빡 거리기"
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr "화면에 표시된 항목에 오디오로 된 설명 제공하기"
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
+msgstr "키보드 단축키"
+
+#: ../src/Panes/Pointing.vala:28
+msgid "Pointing"
+msgstr "포인터"
+
+#: ../src/Panes/Pointing.vala:38
+msgid "Keypad Control"
+msgstr "키보드 콘트롤"
+
+#: ../src/Panes/Pointing.vala:48
+msgid "Control pointer using keypad"
+msgstr "키패드로 포인터 조종"
+
+#: ../src/Panes/Pointing.vala:49
+msgid "Cursor speed"
+msgstr "커서 속도"
+
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
 msgstr "키보드"
@@ -252,89 +332,3 @@ msgstr "설정 키를 차례로 사용 (고정 키)"
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
 msgstr "설정 키가 눌리면 삐 소리 내기"
-
-#: ../src/Widgets/Categories.vala:63
-msgid "Seeing"
-msgstr "보기"
-
-#: ../src/Widgets/Categories.vala:65
-msgid "Hearing"
-msgstr "듣기"
-
-#: ../src/Widgets/Categories.vala:67
-msgid "Interaction"
-msgstr "상호 작용"
-
-#: ../src/Plug.vala:42
-msgid "Universal Access"
-msgstr "접근성 설정"
-
-#: ../src/Plug.vala:43
-msgid "Configure accessibility features"
-msgstr "편리한 기능 설정하기"
-
-#: ../src/Plug.vala:112
-msgid "Accessibility Features"
-msgstr "편리한 기능"
-
-#: ../src/Plug.vala:113
-msgid "Accessibility Display Features"
-msgstr "편리한 디스플레이"
-
-#: ../src/Plug.vala:114
-msgid "High Contrast Theme"
-msgstr "고대비 테마"
-
-#: ../src/Plug.vala:115
-msgid "Font Size"
-msgstr "글꼴 크기"
-
-#: ../src/Plug.vala:116
-msgid "Text Size"
-msgstr "글자 크기"
-
-#: ../src/Plug.vala:117
-msgid "Accessibility Audio Features"
-msgstr "편리한 오디오"
-
-#: ../src/Plug.vala:118
-msgid "Accessibility Hearing Features"
-msgstr "편리한 듣기 기능"
-
-#: ../src/Plug.vala:121
-msgid "Accessibility Keyboard Features"
-msgstr "편리한 키보드"
-
-#: ../src/Plug.vala:122
-msgid "On Screen Keyboard"
-msgstr "화면 키보드"
-
-#: ../src/Plug.vala:124
-msgid "Typing Delay"
-msgstr "입력 지연시간"
-
-#: ../src/Plug.vala:125
-msgid "Keyboard Sounds"
-msgstr "키보드 소리"
-
-#: ../src/Plug.vala:126
-msgid "Accessibility Mouse Features"
-msgstr "편리한 마우스"
-
-#~ msgid "Accessibility Hearing Feaures"
-#~ msgstr "듣기에 편리한 기능"
-
-#~ msgid "Accessibility Display Feaures"
-#~ msgstr "편리한 디스플레이 기능"
-
-#~ msgid "Accessibility Keyboard Feaures"
-#~ msgstr "편리한 키보드 기능"
-
-#~ msgid "Accessibility Audio Feaures"
-#~ msgstr "편리한 오디오 기능"
-
-#~ msgid "Accessibility Feaures"
-#~ msgstr "편리한 기능"
-
-#~ msgid "Accessibility Mouse Feaures"
-#~ msgstr "편리한 마우스 기능"

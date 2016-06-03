@@ -2,76 +2,104 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-25 09:01-0300\n"
-"PO-Revision-Date: 2016-04-25 14:11+0000\n"
+"POT-Creation-Date: 2016-06-02 09:42-0700\n"
+"PO-Revision-Date: 2016-06-02 10:49+0000\n"
 "Last-Translator: Yuly Nesterov <crow@rikka.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-26 06:12+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-06-03 06:24+0000\n"
+"X-Generator: Launchpad (build 18086)\n"
 
-#: ../src/Panes/General.vala:27
-msgid "General"
-msgstr "Общие"
+#: ../src/Plug.vala:42
+msgid "Universal Access"
+msgstr "Специальные возможности"
 
-#: ../src/Panes/General.vala:37
-msgid "Turn accessibility features on and off using the keyboard:"
-msgstr "Включать и выключать специальные возможности с помощью клавиатуры:"
+#: ../src/Plug.vala:43
+msgid "Configure accessibility features"
+msgstr "Настройка специальных возможностей"
 
-#: ../src/Panes/General.vala:38
-msgid "Display accessibility menu in panel:"
-msgstr "Отображать меню специальных возможностей на панели:"
+#: ../src/Plug.vala:112
+msgid "Accessibility Features"
+msgstr "Специальные возможности"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "Курсор"
+#: ../src/Plug.vala:113
+msgid "Accessibility Display Features"
+msgstr "Специальные возможности  дисплея"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "Настройки цифровой клавиатуры"
+#: ../src/Plug.vala:114
+msgid "High Contrast Theme"
+msgstr "Высококонтрастная тема"
 
-#: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
-msgid "Mouse settings…"
-msgstr "Настройки мыши..."
+#: ../src/Plug.vala:115
+msgid "Font Size"
+msgstr "Размер шрифта"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Control pointer using keypad"
-msgstr "Управление указателем с помощью цифровой клавиатуры"
+#: ../src/Plug.vala:116
+msgid "Text Size"
+msgstr "Размер текста"
 
-#: ../src/Panes/Pointing.vala:49
-msgid "Cursor speed"
-msgstr "Скорость курсора"
+#: ../src/Plug.vala:117
+msgid "Accessibility Audio Features"
+msgstr "Специальные возможности аудио"
 
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
-msgstr "Аудио"
+#: ../src/Plug.vala:118
+msgid "Accessibility Hearing Features"
+msgstr "Специальные возможности слуха"
 
-#: ../src/Panes/Audio.vala:38 ../src/Plug.vala:119
+#: ../src/Plug.vala:119 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
 msgstr "Визуальные уведомления"
 
-#: ../src/Panes/Audio.vala:39 ../src/Panes/ScreenReader.vala:24
-#: ../src/Plug.vala:120
+#: ../src/Plug.vala:120 ../src/Panes/ScreenReader.vala:24
+#: ../src/Panes/Audio.vala:39
 msgid "Screen Reader"
 msgstr "Экранный диктор"
 
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
-msgstr "Настройки звука..."
+#: ../src/Plug.vala:121
+msgid "Accessibility Keyboard Features"
+msgstr "Специальные возможности клавиатуры"
 
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
-msgstr "Вспышка экрана при предупреждающем звуке"
+#: ../src/Plug.vala:122
+msgid "On Screen Keyboard"
+msgstr "Экранная клавиатура"
 
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
-msgstr "Аудиоописание элементов на экране"
+#: ../src/Plug.vala:123 ../src/Panes/Typing.vala:46
+msgid "Fast Typing"
+msgstr "Быстрый ввод"
 
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
-msgstr "Сочетания клавиш"
+#: ../src/Plug.vala:124
+msgid "Typing Delay"
+msgstr "Задержка ввода"
+
+#: ../src/Plug.vala:125
+msgid "Keyboard Sounds"
+msgstr "Звуки клавиатуры"
+
+#: ../src/Plug.vala:126
+msgid "Accessibility Mouse Features"
+msgstr "Специальные возможности мыши"
+
+#: ../src/Plug.vala:127 ../src/Panes/Clicking.vala:45
+msgid "Hover Click"
+msgstr "Нажатие при наведении"
+
+#: ../src/Plug.vala:128 ../src/Panes/Clicking.vala:44
+msgid "Simulated Secondary Click"
+msgstr "Имитация повторного нажатия"
+
+#: ../src/Widgets/Categories.vala:63
+msgid "Seeing"
+msgstr "Зрение"
+
+#: ../src/Widgets/Categories.vala:65
+msgid "Hearing"
+msgstr "Слух"
+
+#: ../src/Widgets/Categories.vala:67
+msgid "Interaction"
+msgstr "Взаимодействие"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
@@ -97,41 +125,17 @@ msgstr "Высококонтрастная тема"
 msgid "Text size"
 msgstr "Размер текста"
 
-#: ../src/Panes/Clicking.vala:35
-msgid "Clicking"
-msgstr "Нажатия"
+#: ../src/Panes/Display.vala:75 ../src/Panes/Pointing.vala:64
+msgid "Normal"
+msgstr "Обычный"
 
-#: ../src/Panes/Clicking.vala:44 ../src/Plug.vala:128
-msgid "Simulated Secondary Click"
-msgstr "Имитация повторного нажатия"
+#: ../src/Panes/Display.vala:77 ../src/Panes/Pointing.vala:66
+msgid "Large"
+msgstr "Большой"
 
-#: ../src/Panes/Clicking.vala:45 ../src/Plug.vala:127
-msgid "Hover Click"
-msgstr "Нажатие при наведении"
-
-#: ../src/Panes/Clicking.vala:55
-msgid "Double-click speed"
-msgstr "Скорость двойного нажатия"
-
-#: ../src/Panes/Clicking.vala:58
-msgid "Hold primary button to trigger secondary click"
-msgstr "Удерживать основную кнопку для повторного нажатия"
-
-#: ../src/Panes/Clicking.vala:59
-msgid "Simulated click delay"
-msgstr "Имитация задержки нажатия"
-
-#: ../src/Panes/Clicking.vala:62
-msgid "Click when the cursor hovers"
-msgstr "Нажатие при наведении курсора"
-
-#: ../src/Panes/Clicking.vala:63
-msgid "Hover delay"
-msgstr "Задержка наведения"
-
-#: ../src/Panes/Clicking.vala:64
-msgid "Motion threshold"
-msgstr "Порог движения"
+#: ../src/Panes/Display.vala:79 ../src/Panes/Pointing.vala:68
+msgid "Larger"
+msgstr "Очень большой"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -189,10 +193,6 @@ msgstr "Ввод"
 msgid "Typing Delays"
 msgstr "Задержка ввода"
 
-#: ../src/Panes/Typing.vala:46 ../src/Plug.vala:123
-msgid "Fast Typing"
-msgstr "Быстрый ввод"
-
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
 msgstr "Настройки экранной клавиатуры..."
@@ -229,6 +229,86 @@ msgstr "Длительность задержки"
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Игнорировать быстро повторяющиеся нажатия клавиш"
 
+#: ../src/Panes/Clicking.vala:35
+msgid "Clicking"
+msgstr "Нажатия"
+
+#: ../src/Panes/Clicking.vala:46 ../src/Panes/Pointing.vala:41
+msgid "Mouse settings…"
+msgstr "Настройки мыши..."
+
+#: ../src/Panes/Clicking.vala:55
+msgid "Double-click speed"
+msgstr "Скорость двойного нажатия"
+
+#: ../src/Panes/Clicking.vala:58
+msgid "Hold primary button to trigger secondary click"
+msgstr "Удерживать основную кнопку для повторного нажатия"
+
+#: ../src/Panes/Clicking.vala:59
+msgid "Simulated click delay"
+msgstr "Имитация задержки нажатия"
+
+#: ../src/Panes/Clicking.vala:62
+msgid "Click when the cursor hovers"
+msgstr "Нажатие при наведении курсора"
+
+#: ../src/Panes/Clicking.vala:63
+msgid "Hover delay"
+msgstr "Задержка наведения"
+
+#: ../src/Panes/Clicking.vala:64
+msgid "Motion threshold"
+msgstr "Порог движения"
+
+#: ../src/Panes/General.vala:27
+msgid "General"
+msgstr "Общие"
+
+#: ../src/Panes/General.vala:37
+msgid "Turn accessibility features on and off using the keyboard:"
+msgstr "Включать и выключать специальные возможности с помощью клавиатуры:"
+
+#: ../src/Panes/General.vala:38
+msgid "Display accessibility menu in panel:"
+msgstr "Отображать меню специальных возможностей на панели:"
+
+#: ../src/Panes/Audio.vala:28
+msgid "Audio"
+msgstr "Аудио"
+
+#: ../src/Panes/Audio.vala:40
+msgid "Sound settings…"
+msgstr "Настройки звука..."
+
+#: ../src/Panes/Audio.vala:48
+msgid "Flash the screen when an alert sound occurs"
+msgstr "Вспышка экрана при предупреждающем звуке"
+
+#: ../src/Panes/Audio.vala:52
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Аудиоописание элементов на экране"
+
+#: ../src/Panes/Audio.vala:53
+msgid "Keyboard shortcut"
+msgstr "Сочетания клавиш"
+
+#: ../src/Panes/Pointing.vala:28
+msgid "Pointing"
+msgstr "Курсор"
+
+#: ../src/Panes/Pointing.vala:38
+msgid "Keypad Control"
+msgstr "Настройки цифровой клавиатуры"
+
+#: ../src/Panes/Pointing.vala:48
+msgid "Control pointer using keypad"
+msgstr "Управление указателем с помощью цифровой клавиатуры"
+
+#: ../src/Panes/Pointing.vala:49
+msgid "Cursor speed"
+msgstr "Скорость курсора"
+
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
 msgstr "Клавиатура"
@@ -252,89 +332,3 @@ msgstr "Использовать клавиши-модификаторы пос�
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
 msgstr "Звуковой сигнал при нажатии клавиши-модификатора"
-
-#: ../src/Widgets/Categories.vala:63
-msgid "Seeing"
-msgstr "Зрение"
-
-#: ../src/Widgets/Categories.vala:65
-msgid "Hearing"
-msgstr "Слух"
-
-#: ../src/Widgets/Categories.vala:67
-msgid "Interaction"
-msgstr "Взаимодействие"
-
-#: ../src/Plug.vala:42
-msgid "Universal Access"
-msgstr "Специальные возможности"
-
-#: ../src/Plug.vala:43
-msgid "Configure accessibility features"
-msgstr "Настройка специальных возможностей"
-
-#: ../src/Plug.vala:112
-msgid "Accessibility Features"
-msgstr "Специальные возможности"
-
-#: ../src/Plug.vala:113
-msgid "Accessibility Display Features"
-msgstr "Специальные возможности  дисплея"
-
-#: ../src/Plug.vala:114
-msgid "High Contrast Theme"
-msgstr "Высококонтрастная тема"
-
-#: ../src/Plug.vala:115
-msgid "Font Size"
-msgstr "Размер шрифта"
-
-#: ../src/Plug.vala:116
-msgid "Text Size"
-msgstr "Размер текста"
-
-#: ../src/Plug.vala:117
-msgid "Accessibility Audio Features"
-msgstr "Специальные возможности аудио"
-
-#: ../src/Plug.vala:118
-msgid "Accessibility Hearing Features"
-msgstr "Специальные возможности слуха"
-
-#: ../src/Plug.vala:121
-msgid "Accessibility Keyboard Features"
-msgstr "Специальные возможности клавиатуры"
-
-#: ../src/Plug.vala:122
-msgid "On Screen Keyboard"
-msgstr "Экранная клавиатура"
-
-#: ../src/Plug.vala:124
-msgid "Typing Delay"
-msgstr "Задержка ввода"
-
-#: ../src/Plug.vala:125
-msgid "Keyboard Sounds"
-msgstr "Звуки клавиатуры"
-
-#: ../src/Plug.vala:126
-msgid "Accessibility Mouse Features"
-msgstr "Специальные возможности мыши"
-
-#~ msgid "Accessibility Display Feaures"
-#~ msgstr "Дополнительные возможности дисплея"
-
-#~ msgid "Accessibility Keyboard Feaures"
-#~ msgstr "Дополнительные возможности клавиатуры"
-
-#~ msgid "Accessibility Audio Feaures"
-#~ msgstr "Дополнительные возможности аудио"
-
-#~ msgid "Accessibility Hearing Feaures"
-#~ msgstr "Дополнительные возможности слуха"
-
-#~ msgid "Accessibility Feaures"
-#~ msgstr "Специальные возможности"
-
-#~ msgid "Accessibility Mouse Feaures"
-#~ msgstr "Дополнительные возможности мыши"
