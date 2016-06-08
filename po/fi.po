@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-02 09:42-0700\n"
-"PO-Revision-Date: 2016-04-26 06:00+0000\n"
+"PO-Revision-Date: 2016-06-07 07:54+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-03 06:24+0000\n"
-"X-Generator: Launchpad (build 18086)\n"
+"X-Launchpad-Export-Date: 2016-06-08 06:15+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Plug.vala:42
 msgid "Universal Access"
@@ -127,15 +127,15 @@ msgstr "Tekstin koko"
 
 #: ../src/Panes/Display.vala:75 ../src/Panes/Pointing.vala:64
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: ../src/Panes/Display.vala:77 ../src/Panes/Pointing.vala:66
 msgid "Large"
-msgstr ""
+msgstr "Suuri"
 
 #: ../src/Panes/Display.vala:79 ../src/Panes/Pointing.vala:68
 msgid "Larger"
-msgstr ""
+msgstr "Suurempi"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
