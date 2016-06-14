@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-02 09:42-0700\n"
-"PO-Revision-Date: 2016-05-11 13:02+0000\n"
-"Last-Translator: Leonardo Lemos <Unknown>\n"
+"PO-Revision-Date: 2016-06-14 00:32+0000\n"
+"Last-Translator: Anderson Rodrigues <andersrodigrue@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-03 06:25+0000\n"
-"X-Generator: Launchpad (build 18086)\n"
+"X-Launchpad-Export-Date: 2016-06-14 06:29+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Plug.vala:42
 msgid "Universal Access"
@@ -127,15 +127,15 @@ msgstr "Tamanho do texto"
 
 #: ../src/Panes/Display.vala:75 ../src/Panes/Pointing.vala:64
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/Panes/Display.vala:77 ../src/Panes/Pointing.vala:66
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: ../src/Panes/Display.vala:79 ../src/Panes/Pointing.vala:68
 msgid "Larger"
-msgstr ""
+msgstr "Maior"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
