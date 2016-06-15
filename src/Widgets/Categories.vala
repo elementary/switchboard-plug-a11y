@@ -35,7 +35,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         add (list_box);
 
         var general = new Panes.General ();
-        //list_box.add (general); FIXME: These options currently do nothing
+        list_box.add (general);
 
         var display = new Panes.Display ();
         list_box.add (display);
