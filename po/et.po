@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-02-10 22:46+0000\n"
+"PO-Revision-Date: 2016-06-20 22:37+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-17 05:53+0000\n"
+"X-Launchpad-Export-Date: 2016-06-21 06:07+0000\n"
 "X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Widgets/Categories.vala:63
@@ -30,35 +30,35 @@ msgstr "Kasutaja abivahendid"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Abivahendite seadistamine"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
-msgstr ""
+msgstr "Abivahendite võimalused"
 
 #: ../src/Plug.vala:115
 msgid "Accessibility Display Features"
-msgstr ""
+msgstr "Kuvamise abivahendid"
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
-msgstr ""
+msgstr "Kõrgkontrastiga teema"
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
-msgstr ""
+msgstr "Fondi suurus"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr ""
+msgstr "Teksti suurus"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
-msgstr ""
+msgstr "Heli abivahendid"
 
 #: ../src/Plug.vala:120
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "Kuulmise abivahendid"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
@@ -71,11 +71,11 @@ msgstr "Ekraanilugeja"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "Klaviatuuri abivahendid"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
-msgstr ""
+msgstr "Ekraaniklaviatuur"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
@@ -83,15 +83,15 @@ msgstr "Kiirtippimine"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "Tippimise viivitus"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
-msgstr ""
+msgstr "Klaviatuuri helid"
 
 #: ../src/Plug.vala:128
 msgid "Accessibility Mouse Features"
-msgstr ""
+msgstr "Hiire abivahendid"
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
@@ -123,15 +123,15 @@ msgstr "Kursori kiirus"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr ""
+msgstr "Tavaline"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
-msgstr ""
+msgstr "Suur"
 
 #: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
 msgid "Larger"
-msgstr ""
+msgstr "Suurem"
 
 #: ../src/Panes/General.vala:28
 msgid "General"
@@ -139,7 +139,7 @@ msgstr "Üldine"
 
 #: ../src/Panes/General.vala:40
 msgid "Animations"
-msgstr ""
+msgstr "Animatsioonid"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
