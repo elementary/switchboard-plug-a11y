@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-07-06 21:12+0000\n"
+"PO-Revision-Date: 2016-07-07 08:52+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-07 05:59+0000\n"
+"X-Launchpad-Export-Date: 2016-07-08 05:45+0000\n"
 "X-Generator: Launchpad (build 18115)\n"
 
 #: ../src/Widgets/Categories.vala:63
@@ -103,11 +103,11 @@ msgstr "Simulirani drugi klik"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "Pokazivač"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "Upravljanje brojčanom stranom tipkovnice"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
@@ -116,6 +116,7 @@ msgstr "Postavke miša..."
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
 msgstr ""
+"Upravljanje pokazivačem pomoću tipka strelica na brojčanoj strani tipkovnice"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
@@ -263,7 +264,7 @@ msgstr "Tipkovnica"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr "Zaključavajuće tipke"
+msgstr "Tipke zaključavanja"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
@@ -271,15 +272,15 @@ msgstr "Tipke izmjenjivača"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "Zvučno upozorenje kada je tipka zaključavanja pritisnuta"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Koristi tipke izmjenjivača u slijedu (pričvrstive tipkke)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "Zvučno upozorenje kada je tipka izmjenjivača pritisnuta"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
@@ -291,11 +292,11 @@ msgstr "Postavke zvuka..."
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr "Zabljesni zaslon kada se oglasi zvučno upozorenj"
+msgstr "Zabljesni zaslon kada se oglasi zvučno upozorenje"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Omogući zvučne opise za stavke na zaslonu"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
