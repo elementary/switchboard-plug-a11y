@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-07-07 10:55+0000\n"
+"PO-Revision-Date: 2016-07-17 18:11+0000\n"
 "Last-Translator: Nikos <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-08 05:45+0000\n"
-"X-Generator: Launchpad (build 18115)\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:40+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
@@ -276,7 +276,7 @@ msgstr "Émettre un bip lorsque la touche de verrouillage est appuyée"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Utiliser les touches modificateurs en séquence (sticky keys)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
