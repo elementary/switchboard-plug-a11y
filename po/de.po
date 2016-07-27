@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-06-24 09:55+0000\n"
-"Last-Translator: Alex Luxat <alex@wefunk.de>\n"
+"PO-Revision-Date: 2016-07-26 14:53+0000\n"
+"Last-Translator: UweS <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:30+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-07-27 06:46+0000\n"
+"X-Generator: Launchpad (build 18153)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
@@ -30,7 +30,7 @@ msgstr "Barriere­frei­heit"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr "Barrierefreiheit konfigurieren"
+msgstr "Barrierefreiheit einrichten"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
@@ -46,11 +46,11 @@ msgstr "Kontrasthervorhebung"
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
-msgstr ""
+msgstr "Schriftgröße"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr ""
+msgstr "Textgröße"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
@@ -62,7 +62,7 @@ msgstr "Barrierefreiheitsfunktionen der Hörwiedergabe"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr "Sichtbare Hinweise"
+msgstr "Optische Hinweise"
 
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
@@ -75,7 +75,7 @@ msgstr "Barrierefreiheitsfunktionen der Tastatur"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
-msgstr ""
+msgstr "Bildschirmtastatur"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
@@ -115,7 +115,7 @@ msgstr "Mauseinstellungen …"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr "Den Mauszeiger mit dem Tastenfeld steuern"
+msgstr "Mauszeiger mit dem Tastenfeld steuern"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
@@ -123,15 +123,15 @@ msgstr "Zeigergeschwindigkeit"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
-msgstr ""
+msgstr "Groß"
 
 #: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
 msgid "Larger"
-msgstr ""
+msgstr "Größer"
 
 #: ../src/Panes/General.vala:28
 msgid "General"
@@ -139,7 +139,7 @@ msgstr "Allgemein"
 
 #: ../src/Panes/General.vala:40
 msgid "Animations"
-msgstr ""
+msgstr "Animationen"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
@@ -159,7 +159,7 @@ msgstr "Bildschirmvergrößerung"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr "Dem Mauszeiger folgen"
+msgstr "Mauszeiger folgen"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
@@ -211,7 +211,7 @@ msgstr "Thema mit hohem Kontrast"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr "Schriftgröße"
+msgstr "Textgröße"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
@@ -255,7 +255,8 @@ msgstr "Verzögerungslänge"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Schnelle Tastenanschläge ignorieren (Tastenanschlagfunktion)"
+msgstr ""
+"Schnelle doppelte Tastenanschläge ignorieren (Tastenanschlagfunktion)"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
@@ -279,19 +280,19 @@ msgstr "Sondertasten in Reihenfolge nutzen (Einrastfunktion)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr "Signalton ausgeben, wenn eine Kombinationstaste gedrückt wird"
+msgstr "Signalton ausgeben, wenn eine Sondertaste gedrückt wird"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr "Ton"
+msgstr "Klang"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr "Toneinstellungen …"
+msgstr "Klangeinstellungen …"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr "Zeige Bildschirmblizz, wenn ein Alarmton abgespielt wird"
+msgstr "Bildschirmblitz, wenn ein Warnklang ertönt"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
@@ -299,7 +300,7 @@ msgstr "Audiobeschreibung für Elemente auf dem Bildschirm anbieten"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr "Tastenkombination"
+msgstr "Tastenkürzel"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
