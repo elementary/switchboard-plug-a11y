@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-08-02 13:45+0000\n"
+"PO-Revision-Date: 2016-08-04 14:24+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-03 06:15+0000\n"
+"X-Launchpad-Export-Date: 2016-08-05 05:48+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/Widgets/Categories.vala:63
@@ -38,7 +38,7 @@ msgstr "Prieinamumo ypatybės"
 
 #: ../src/Plug.vala:115
 msgid "Accessibility Display Features"
-msgstr ""
+msgstr "Ekrano prieinamumo ypatybės"
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
@@ -54,15 +54,15 @@ msgstr "Teksto dydis"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
-msgstr ""
+msgstr "Garso prieinamumo ypatybės"
 
 #: ../src/Plug.vala:120
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "Girdėjimo prieinamumo ypatybės"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Vaizdiniai įspėjimai"
 
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
@@ -71,7 +71,7 @@ msgstr "Ekrano skaityklė"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "Klaviatūros prieinamumo ypatybės"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
@@ -79,11 +79,11 @@ msgstr "Ekraninė klaviatūra"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "Greitasis teksto rinkimas"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "Teksto rinkimo delsa"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
@@ -91,19 +91,19 @@ msgstr "Klaviatūros garsai"
 
 #: ../src/Plug.vala:128
 msgid "Accessibility Mouse Features"
-msgstr ""
+msgstr "Pelės prieinamumo ypatybės"
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Spustelėjimas, užvedus pelę"
 
 #: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Simuliuojamas antrinis spustelėjimas"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "Nurodymas"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
@@ -143,51 +143,51 @@ msgstr "Animacijos"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "Mastelis"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "Ekrano mastelis"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Kryžmė"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "Ekrano mastelis"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Sekti pelės žymeklį"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "Pelės sekimas"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "Mastelio pozicija"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Mastelio lygis"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "Darbalaukio slinkimas"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "Rodyti kryžmę"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "Kryžmės storis"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "Kryžmės nepermatomumas"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
@@ -264,7 +264,7 @@ msgstr "Klaviatūra"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "Užrakto klavišai"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
@@ -272,15 +272,15 @@ msgstr "Modifikavimo klavišai"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "Pyptelėti, kai nuspaudžiamas užrakto klavišas"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Naudoti modifikavimo klavišus paeiliui (atmenieji klavišai)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "Pyptelėti, kai nuspaudžiamas modifikavimo klavišas"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
@@ -292,15 +292,15 @@ msgstr "Garso nustatymai..."
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Blykstelėti ekrane, atsiradus garso įspėjimui"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Pateikti garso aprašus elementams ekrane"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Spartusis klavišas"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
@@ -313,19 +313,20 @@ msgstr "Dvikarčio spustelėjimo greitis"
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
 msgstr ""
+"Laikyti nuspaustą pirminį mygtuką, kad būtų paleistas antrinis spustelėjimas"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Simuliuojamo spustelėjimo delsa"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Spustelėti, užvedus žymeklį"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Užvedimo delsa"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Judėjimo slenkstis"
