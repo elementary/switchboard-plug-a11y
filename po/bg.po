@@ -3,34 +3,34 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2015-08-21 20:32+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-08-05 08:29+0000\n"
+"Last-Translator: Адмирал АнимЕ <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-17 05:53+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-08-06 05:50+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "Зрение"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "Слух"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "Взаимодействие"
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
-msgstr ""
+msgstr "Улеснен достъп"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Настройка на функциите за достъпност"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
@@ -42,15 +42,15 @@ msgstr ""
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
-msgstr ""
+msgstr "Тема с висок контраст"
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
-msgstr ""
+msgstr "Размер на шрифта"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr ""
+msgstr "Размер на текста"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
@@ -62,12 +62,12 @@ msgstr ""
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Зрителни известия"
 
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
 msgid "Screen Reader"
-msgstr ""
+msgstr "Екранен четец"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
@@ -75,19 +75,19 @@ msgstr ""
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
-msgstr ""
+msgstr "Екранна клавиатура"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "Бързо въвеждане"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "Забавяне при въвеждане"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
-msgstr ""
+msgstr "Звуци на клавиатурата"
 
 #: ../src/Plug.vala:128
 msgid "Accessibility Mouse Features"
@@ -95,15 +95,15 @@ msgstr ""
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Щракване при посочване"
 
 #: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Симулирано повторно щракване"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "Сочене"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Настройки на мишката..."
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
@@ -119,47 +119,47 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
-msgstr ""
+msgstr "Скорост на показалеца"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr ""
+msgstr "Нормално"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
-msgstr ""
+msgstr "Голямо"
 
 #: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
 msgid "Larger"
-msgstr ""
+msgstr "По-голямо"
 
 #: ../src/Panes/General.vala:28
 msgid "General"
-msgstr ""
+msgstr "Общи"
 
 #: ../src/Panes/General.vala:40
 msgid "Animations"
-msgstr ""
+msgstr "Анимации"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "Мащаб"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "Мащаб на екрана"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Кръстче"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "Мащаб на екрана"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Следване на показалеца на мишката"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Ниво на мащабиране"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
@@ -191,63 +191,63 @@ msgstr ""
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "Екран"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "Цвят"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "Четене"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr ""
+msgstr "Настройки на екрана..."
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
-msgstr ""
+msgstr "Тема с висок контраст"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr ""
+msgstr "Размер на текста"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "Въвеждане на знаци"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "Забавяния при въвеждане"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "Настройки на екранната клавиатура..."
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "Настройки на клавиатурата..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Екранна клавиатура"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "Забавяне между натискането на отделни клавиши (бавни клавиши)"
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Звук при натискане на клавиш"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Звук при приемане на клавиша"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Звук при отхвърляне на клавиша"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавиатура"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
@@ -283,11 +283,11 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "Звук"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr ""
+msgstr "Настройки на звука..."
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
@@ -303,15 +303,15 @@ msgstr ""
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "Щракване"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "Скорост на двойно щракване"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Задръжте главното копче за задействане на второ щракване"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
@@ -319,12 +319,12 @@ msgstr ""
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Щракване при посочване с показалеца"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Забавяне на посочването"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Праг на движение"
