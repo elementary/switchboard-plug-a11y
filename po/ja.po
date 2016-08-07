@@ -3,26 +3,26 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-08-03 06:51+0000\n"
-"Last-Translator: BALLOON a.k.a. Fu-sen. (Keiichi SHIGA) <Unknown>\n"
+"PO-Revision-Date: 2016-08-06 15:39+0000\n"
+"Last-Translator: Jun Takeda <takeda.jun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-04 05:49+0000\n"
+"X-Launchpad-Export-Date: 2016-08-07 05:50+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "視覚"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "聴覚"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "インタラクション"
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
@@ -30,15 +30,15 @@ msgstr "ユニバーサルアクセス"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "アクセシビリティ機能を設定します"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
-msgstr ""
+msgstr "アクセシビリティ機能"
 
 #: ../src/Plug.vala:115
 msgid "Accessibility Display Features"
-msgstr ""
+msgstr "アクセシビリティ視覚機能"
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
@@ -54,11 +54,11 @@ msgstr "テキストサイズ"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
-msgstr ""
+msgstr "アクセシビリティオーディオ機能"
 
 #: ../src/Plug.vala:120
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "アクセシビリティ聴覚機能"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
@@ -71,7 +71,7 @@ msgstr "スクリーンリーダー"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "アクセシビリティキーボード機能"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
@@ -103,11 +103,11 @@ msgstr "副ボタンクリックの代替"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "ポインティング"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "キーパッド・コントロール"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
@@ -115,7 +115,7 @@ msgstr "マウスの設定..."
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "キーパッドを使ってポインターをコントロールする"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
@@ -215,7 +215,7 @@ msgstr "文字サイズ"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "タイピング"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
@@ -239,15 +239,15 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "キーが押されたときにビープ音を鳴らす"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "キー入力を受け付けたときにビープ音を鳴らす"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "キー入力を拒否したときにビープ音を鳴らす"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
@@ -271,7 +271,7 @@ msgstr "修飾キー"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "ロックキーが押されたときにビープ音を鳴らす"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "修飾キーが押されたときにビープ音を鳴らす"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
@@ -291,11 +291,11 @@ msgstr "サウンド設定..."
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "警告音が発生するときに画面を点滅"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "画面上の項目について音声ガイドを提供"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
@@ -303,7 +303,7 @@ msgstr "キーボードショートカット"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "クリック"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
