@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-08-06 15:39+0000\n"
+"PO-Revision-Date: 2016-08-09 14:21+0000\n"
 "Last-Translator: Jun Takeda <takeda.jun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-07 05:50+0000\n"
+"X-Launchpad-Export-Date: 2016-08-10 05:46+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/Widgets/Categories.vala:63
@@ -79,11 +79,11 @@ msgstr "オンスクリーンキーボード"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "高速タイピング"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "タイピング遅延"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
@@ -199,7 +199,7 @@ msgstr "カラー"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "リーディング"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
@@ -219,7 +219,7 @@ msgstr "タイピング"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "タイピングの遅延"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
@@ -251,7 +251,7 @@ msgstr "キー入力を拒否したときにビープ音を鳴らす"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "遅延の長さ"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -275,7 +275,7 @@ msgstr "ロックキーが押されたときにビープ音を鳴らす"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "順番に修飾キーをつかう (固定キー)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
@@ -311,20 +311,20 @@ msgstr "ダブルクリックの速度"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "主ボタンを押し続けることで副ボタンクリックとする"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "代替クリック遅延"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "カーソルがホバーしたときにクリックする"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "ホバー遅延"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "モーションのしきい値"
