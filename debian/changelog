@@ -1,5 +1,5 @@
-switchboard-plug-a11y (0.1) unstable; urgency=low
+switchboard-plug-a11y (0.1) xenial; urgency=medium
 
   * Initial Release.
 
- -- Corentin Noël <corentin@elementary.io>  Fri, 21 Aug 2015 14:32:50 +0100
+ -- Cody Garver <cody@elementary.io>  Thu, 11 Aug 2016 01:07:54 -0500
