@@ -3,328 +3,328 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2015-08-21 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-10-14 16:56+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-17 05:54+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-10-15 06:23+0000\n"
+"X-Generator: Launchpad (build 18232)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "視覺"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "聽覺"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "互動"
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
-msgstr ""
+msgstr "無障礙環境"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "設定無障礙功能"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../src/Plug.vala:115
 msgid "Accessibility Display Features"
-msgstr ""
+msgstr "無障礙顯示功能"
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
-msgstr ""
+msgstr "高對比主題"
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
-msgstr ""
+msgstr "字型大小"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr ""
+msgstr "文字大小"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
-msgstr ""
+msgstr "無障礙音訊功能"
 
 #: ../src/Plug.vala:120
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "無障礙聽覺功能"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr ""
+msgstr "視覺警示"
 
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
 msgid "Screen Reader"
-msgstr ""
+msgstr "螢幕閱讀器"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "無障礙鍵盤功能"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
-msgstr ""
+msgstr "螢幕鍵盤"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
 msgid "Fast Typing"
-msgstr ""
+msgstr "快速打字"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "打字延遲"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
-msgstr ""
+msgstr "鍵盤聲"
 
 #: ../src/Plug.vala:128
 msgid "Accessibility Mouse Features"
-msgstr ""
+msgstr "無障礙滑鼠功能"
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "停駐即點擊"
 
 #: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "模擬次要點擊"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "指向"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "鍵盤控制"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr ""
+msgstr "滑鼠設定值…"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "使用數字鍵盤控制指標"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
-msgstr ""
+msgstr "游標速度"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr ""
+msgstr "一般"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
-msgstr ""
+msgstr "大"
 
 #: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
 msgid "Larger"
-msgstr ""
+msgstr "較大"
 
 #: ../src/Panes/General.vala:28
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: ../src/Panes/General.vala:40
 msgid "Animations"
-msgstr ""
+msgstr "動畫"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "聚焦"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "螢幕聚焦"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "十字準星"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "螢幕聚焦"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "跟隨滑鼠遊標"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "滑鼠追蹤"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "聚焦位置"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "聚焦縮放倍率"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "桌面捲動"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "顯示十字準星"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "十字準星粗細"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "十字準星不透明度"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "顯示器"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "色彩"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "閱讀"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr ""
+msgstr "顯示器設定值…"
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
-msgstr ""
+msgstr "高對比主題"
 
 #: ../src/Panes/Display.vala:57
 msgid "Text size"
-msgstr ""
+msgstr "文字大小"
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "打字"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "打字延遲"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr ""
+msgstr "螢幕鍵盤設定值…"
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr ""
+msgstr "鍵盤設定值…"
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "螢幕鍵盤"
 
 #: ../src/Panes/Typing.vala:58
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "按鍵按壓之間的延遲（緩速鍵）"
 
 #: ../src/Panes/Typing.vala:59
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "按下按鍵時發出聲響"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "接受按鍵動作時發出聲響"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "拒絕按鍵動作時發出聲響"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
-msgstr ""
+msgstr "延遲時間"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "忽略快速重複的按鍵按壓（回彈鍵）"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "鍵盤"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "鎖定鍵"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
-msgstr ""
+msgstr "組合鍵"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "鎖定鍵按壓時發生聲響"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "依序使用組合鍵（相黏鍵）"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "組合鍵按壓時發出聲響"
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "音訊"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr ""
+msgstr "聲音設定值…"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "警示聲發出時閃動螢幕"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "為螢幕上的物件提供音訊描述"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "鍵盤快捷鍵"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
-msgstr ""
+msgstr "點擊"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr ""
+msgstr "雙次點擊速度"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "按住主要鍵不放以觸發次要點擊"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "模擬點擊延遲"
 
 #: ../src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "游標停駐不動時當作點擊"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "停駐延遲"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "移動閾值"
