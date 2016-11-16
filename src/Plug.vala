@@ -38,11 +38,15 @@ namespace Accessibility {
         Accessibility.Categories categories;
 
         public Plug () {
+            var settings = new Gee.TreeMap<string, string?> (null, null);
+            settings.set ("universal-access", null);
+
             Object (category: Category.SYSTEM,
                     code_name: Build.PLUGCODENAME,
                     display_name: _("Universal Access"),
                     description: _("Configure accessibility features"),
-                    icon: "preferences-desktop-accessibility");
+                    icon: "preferences-desktop-accessibility",
+                    supported_settings: settings);
 
             plug = this;
 
