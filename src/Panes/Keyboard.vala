@@ -37,7 +37,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     private void build_ui () {
         var lock_label = new Accessibility.Widgets.Label (_("Lock Keys"));
         var modifier_label = new Accessibility.Widgets.Label (_("Modifier Keys"));
-        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "switchboard keyboard");
+        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "settings://input/keyboard/behavior");
         kb_settings_label.vexpand = true;
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();

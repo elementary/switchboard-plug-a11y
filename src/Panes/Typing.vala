@@ -44,8 +44,18 @@ public class Accessibility.Panes.Typing : Categories.Pane {
     private void build_ui () {
         var delay_label = new Accessibility.Widgets.Label (_("Typing Delays"));
         var typing_label = new Accessibility.Widgets.Label (_("Fast Typing"));
-        var onboard_settings_label = new Accessibility.Widgets.LinkLabel (_("On-screen keyboard settings..."), "onboard-settings");
-        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "switchboard keyboard");
+        var onboard_settings_label = new Gtk.LinkButton.with_label ("", _("On-screen keyboard settings..."));
+        onboard_settings_label.halign = Gtk.Align.END;
+        onboard_settings_label.clicked.connect (() => {
+            try {
+                var appinfo = AppInfo.create_from_commandline ("onboard-settings", null, AppInfoCreateFlags.NONE);
+                appinfo.launch (null, null);
+            } catch (Error e) {
+                warning ("%s\n", e.message);
+            }
+        });
+
+        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "settings://input/keyboard/behavior");
         kb_settings_label.vexpand = true;
 
         sk_delay_adjustment = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
