@@ -3,22 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2015-08-21 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-12-27 15:14+0000\n"
+"Last-Translator: ablimet <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-25 06:58+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
+"X-Launchpad-Export-Date: 2016-12-28 05:01+0000\n"
+"X-Generator: Launchpad (build 18298)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
-msgstr ""
+msgstr "كۆرۈش سېزىمى"
 
 #: ../src/Widgets/Categories.vala:65
 msgid "Hearing"
-msgstr ""
+msgstr "ئاڭلاش سېزىمى"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
-msgstr ""
+msgstr "ئۇنىۋېرسال زىيارەت"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
@@ -46,11 +46,11 @@ msgstr ""
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
-msgstr ""
+msgstr "خەت چوڭلۇقى"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr ""
+msgstr "تېكىست چوڭلۇقى"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
@@ -67,7 +67,7 @@ msgstr ""
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
 msgid "Screen Reader"
-msgstr ""
+msgstr "ئېكران ئوقۇغۇچ"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
@@ -95,11 +95,11 @@ msgstr ""
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "لەيلىتىپ چېكىش"
 
 #: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "تەقلىدلىك ئىككىنچى چېكىش"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
@@ -123,19 +123,19 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr ""
+msgstr "نورمال"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
-msgstr ""
+msgstr "چوڭ"
 
 #: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
 msgid "Larger"
-msgstr ""
+msgstr "چوڭراق"
 
 #: ../src/Panes/General.vala:28
 msgid "General"
-msgstr ""
+msgstr "ئادەتتىكى تەڭشەكلەر"
 
 #: ../src/Panes/General.vala:40
 msgid "Animations"
@@ -143,7 +143,7 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr ""
+msgstr "كىچىكلىتىش"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "چوڭايتىش دەرىجىسى"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
@@ -191,15 +191,15 @@ msgstr ""
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr ""
+msgstr "كۆرسىتىش"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
-msgstr ""
+msgstr "رەڭ"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "ئوقۇش"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:36
 msgid "Typing"
-msgstr ""
+msgstr "كىرگۈزۈۋاتىدۇ"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
@@ -243,11 +243,11 @@ msgstr ""
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "بىر كۇنۇپكا قوبۇل قىلىنسا زىل چالسۇن"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "بىر كۇنۇپكا رەت قىلىنسا ئاۋاز چىقارسۇن"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
-msgstr ""
+msgstr "كۇنۇپكا تاختىسى"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../src/Panes/Audio.vala:28
 msgid "Audio"
-msgstr ""
+msgstr "ئۈن ھججىتى"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
