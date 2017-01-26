@@ -1,40 +1,56 @@
-
-
+/*
+* Copyright (c) 2015-2016 elementary LLC. (https://launchpad.net/switchboardswitchboard-plug-a11y)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+* Boston, MA 02111-1307, USA.
+*/
 
 public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
     private Gtk.ListBox list_box;
     private bool has_childen = false;
 
-    public SettingsBox () {
+    construct {
         list_box = new Gtk.ListBox ();
         this.add (list_box);
-
     }
 
     public void add_widget (string title, Gtk.Widget widget) {
+        has_childen = true;
+        widget.margin_end = 6;
+
         var settings_box = new EmptyBox (title, has_childen);
-        widget.set_margin_end (6);
-        bind_sensitivity (widget, settings_box);
-        
         settings_box.grid.add (widget);
+        bind_sensitivity (widget, settings_box);
+
         list_box.add (settings_box);
         show_all ();
-
-        has_childen = true;
     }
 
     public Gtk.ComboBox add_combo_box (string title) {
-        var settings_box = new EmptyBox (title, has_childen);
-        var combo = new Gtk.ComboBox ();
-        bind_sensitivity (combo, settings_box);
-        combo.set_size_request (180,0);
-        combo.set_margin_end (6);
-
         var renderer = new Gtk.CellRendererText ();
+
+        var combo = new Gtk.ComboBox ();
+        combo.margin_end = 6;
+        combo.width_request = 180;
         combo.pack_start (renderer, true);
         combo.add_attribute (renderer, "text", 0);
 
+        var settings_box = new EmptyBox (title, has_childen);
         settings_box.grid.add (combo);
+        bind_sensitivity (combo, settings_box);
+
         list_box.add (settings_box);
         show_all ();
 
@@ -43,14 +59,15 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
     }
 
     public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
-        var settings_box = new EmptyBox (title, has_childen);
         var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
-        bind_sensitivity (scale, settings_box);
-        scale.set_size_request (250,0);
-        scale.set_draw_value (false);
-        scale.set_margin_end (6);
+        scale.margin_end = 6;
+        scale.width_request = 250;
+        scale.draw_value = false;
 
-         settings_box.grid.add (scale);
+        var settings_box = new EmptyBox (title, has_childen);
+        settings_box.grid.add (scale);
+        bind_sensitivity (scale, settings_box);
+
         list_box.add (settings_box);
         show_all ();
 
@@ -59,12 +76,13 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
     }
 
     public Gtk.Switch add_switch (string title) {
-        var settings_box = new EmptyBox (title, has_childen);
         var toggle = new Gtk.Switch ();
-        bind_sensitivity (toggle, settings_box);
-        toggle.set_margin_end (6);
+        toggle.margin_end = 6;
 
+        var settings_box = new EmptyBox (title, has_childen);
         settings_box.grid.add (toggle);
+        bind_sensitivity (toggle, settings_box);
+
         list_box.add (settings_box);
         show_all ();
 
@@ -81,11 +99,8 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         public Gtk.Label label;
 
         public EmptyBox (string title, bool add_separator) {
-            set_activatable (false);
-            set_selectable (false);
-
-            var main_grid = new Gtk.Grid ();
-            var separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
+            activatable = false;
+            selectable = false;
 
             label = new Gtk.Label (title);
             label.hexpand = true;
@@ -95,21 +110,21 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
             grid = new Gtk.Grid ();
             grid.hexpand = true;
             grid.halign = Gtk.Align.END;
-            grid.set_margin_end (4);
-            grid.set_margin_top (8);
-            grid.set_margin_bottom (8);
+            grid.margin_end = 4;
+            grid.margin_top = 8;
+            grid.margin_bottom = 8;
 
-            if (add_separator) {
-                main_grid.attach (separator, 0, 0, 2, 1);
-            }
-
+            var main_grid = new Gtk.Grid ();
             main_grid.attach (label, 0, 1, 1, 1);
             main_grid.attach (grid, 1, 1, 1, 1);
             add (main_grid);
+
+            if (add_separator) {
+                var separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
+                main_grid.attach (separator, 0, 0, 2, 1);
+            }
 
             show_all ();
         }
     }
 }
-
-

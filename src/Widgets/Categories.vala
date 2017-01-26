@@ -1,62 +1,52 @@
 // -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
-/*-
- * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Library General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Library General Public License for more details.
- *
- * You should have received a copy of the GNU Library General Public
- * License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
- *
- * Authored by: Corentin Noël <corentin@elementary.io>
- */
+/*
+* Copyright (c) 2015-2016 elementary LLC. (https://launchpad.net/switchboardswitchboard-plug-a11y)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+* Boston, MA 02111-1307, USA.
+*
+* Authored by: Corentin Noël <corentin@elementary.io>
+*/
+
 public class Accessibility.Categories : Gtk.ScrolledWindow {
     private Gtk.Stack stack;
     private Gtk.ListBox list_box;
 
-    public Categories () {
-
-    }
-
     construct {
         hscrollbar_policy = Gtk.PolicyType.NEVER;
-        list_box = new Gtk.ListBox ();
-        list_box.expand = true;
         set_size_request (176, 10);
-        add (list_box);
 
         var general = new Panes.General ();
-        list_box.add (general);
-
         var display = new Panes.Display ();
-        list_box.add (display);
-
-        //var zoom = new Panes.Zoom ();
-        //list_box.add (zoom);
-
         var audio = new Panes.Audio ();
-        list_box.add (audio);
-
         var typing = new Panes.Typing ();
-        list_box.add (typing);
-
         var keyboard = new Panes.Keyboard ();
-        list_box.add (keyboard);
-
         var pointing = new Panes.Pointing ();
-        list_box.add (pointing);
-
         var clicking = new Panes.Clicking ();
+
+        list_box = new Gtk.ListBox ();
+        list_box.expand = true;
+        list_box.add (general);
+        list_box.add (display);
+        list_box.add (audio);
+        list_box.add (typing);
+        list_box.add (keyboard);
+        list_box.add (pointing);
         list_box.add (clicking);
+
+        add (list_box);
 
         list_box.set_header_func ((row, before) => {
             if (row == display) {
@@ -68,7 +58,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             }
         });
 
-        list_box.row_activated.connect ((row) => {
+        list_box.row_selected.connect ((row) => {
             var page = ((Pane) row);
             if (page.added == false) {
                 page.added = true;
@@ -93,36 +83,17 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
     }
 
     public class Pane : Gtk.ListBoxRow {
-        Gtk.Label label;
-        Gtk.Image image;
         public bool added = false;
         public Gtk.ScrolledWindow pane { public get; private set; }
         public Gtk.Grid grid { public get; private set; }
+        public string icon_name { get; construct; }
+        public string label_string { get; construct; }
 
         public Pane (string label_string, string icon_name) {
-            label.label = label_string;
-            image.icon_name = icon_name;
+            Object (label_string: label_string, icon_name: icon_name);
         }
 
         construct {
-            var rowgrid = new Gtk.Grid ();
-            pane = new Gtk.ScrolledWindow (null, null);
-            rowgrid.orientation = Gtk.Orientation.HORIZONTAL;
-            rowgrid.column_spacing = 6;
-            rowgrid.margin = 3;
-            rowgrid.margin_start = 12;
-            add (rowgrid);
-
-            label = new Gtk.Label (null);
-            label.hexpand = true;
-            label.halign = Gtk.Align.START;
-
-            image = new Gtk.Image ();
-            image.icon_size = Gtk.IconSize.DND;
-
-            rowgrid.add (image);
-            rowgrid.add (label);
-
             grid = new Gtk.Grid ();
             grid.orientation = Gtk.Orientation.VERTICAL;
             grid.margin = 12;
@@ -131,8 +102,25 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             grid.column_spacing = 0;
             grid.expand = true;
             grid.show ();
+
+            pane = new Gtk.ScrolledWindow (null, null);
             pane.add (grid);
             pane.show ();
+
+            var label = new Gtk.Label (label_string);
+            label.hexpand = true;
+            label.halign = Gtk.Align.START;
+
+            var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
+
+            var rowgrid = new Gtk.Grid ();
+            rowgrid.orientation = Gtk.Orientation.HORIZONTAL;
+            rowgrid.column_spacing = 6;
+            rowgrid.margin = 3;
+            rowgrid.margin_start = 12;
+            rowgrid.add (image);
+            rowgrid.add (label);
+            add (rowgrid);
         }
     }
 
