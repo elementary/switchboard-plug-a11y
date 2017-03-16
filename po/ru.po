@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-15 19:00+0000\n"
-"PO-Revision-Date: 2017-03-16 04:37+0000\n"
+"PO-Revision-Date: 2017-03-16 04:45+0000\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <http://weblate.elementary.io/projects/desktop"
 "/switchboard-plug-a11y/ru/>\n"
@@ -127,7 +127,7 @@ msgstr "Скорость курсора"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
-msgstr "Обычный"
+msgstr "Нормальный"
 
 #: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
 msgid "Large"
@@ -147,7 +147,7 @@ msgstr "Анимации"
 
 #: ../src/Panes/Zoom.vala:38
 msgid "Zoom"
-msgstr "Масштабирование"
+msgstr "Увеличить"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
@@ -195,7 +195,7 @@ msgstr "Прозрачность перекрестия"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
-msgstr "Монитор"
+msgstr "Отображение"
 
 #: ../src/Panes/Display.vala:42
 msgid "Color"
