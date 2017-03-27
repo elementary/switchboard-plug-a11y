@@ -1,6 +1,6 @@
 // -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
+ * Copyright (c) 2015-2017 elementary LLC. (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -19,51 +19,35 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Audio : Categories.Pane {
-    private Gtk.Switch screen_flash;
-    private Gtk.Switch read_items;
-    private Gtk.Label shortcut_label;
 
+public class Accessibility.Panes.Audio : Categories.Pane {
     public Audio () {
         base (_("Audio"), "preferences-desktop-sound");
     }
 
     construct {
-        build_ui ();
-        connect_signals ();
-    }
-
-    private void build_ui () {
-        //var playback_label = new Accessibility.Widgets.Label (_("Playback"));
         var alerts_label = new Accessibility.Widgets.Label (_("Visual Alerts"));
+
+        var alerts_box = new Accessibility.Widgets.SettingsBox ();
+        var screen_flash = alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
+
         var reader_label = new Accessibility.Widgets.Label (_("Screen Reader"));
+
+        var reader_box = new Accessibility.Widgets.SettingsBox ();  
+        var read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
+        var shortcut_label = new Gtk.Label (media_keys_settings.clean_screenreader ());
+        reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
+
         var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
         audio_settings.vexpand = true;
 
-        //var playback_box = new Accessibility.Widgets.SettingsBox ();
-        //var playback = playback_box.add_switch (_("Play stereo audio output as mono"));
-        //playback.set_sensitive (false);
-
-        var alerts_box = new Accessibility.Widgets.SettingsBox ();
-        screen_flash = alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
-
-        var reader_box = new Accessibility.Widgets.SettingsBox ();
-        shortcut_label = new Gtk.Label (media_keys_settings.clean_screenreader ());
-        read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
-        reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
-
-        //grid.add (playback_label);
-        //grid.add (playback_box);
         grid.add (alerts_label);
         grid.add (alerts_box);
         grid.add (reader_label);
         grid.add (reader_box);
         grid.add (audio_settings);
-
         grid.show_all ();
-    }
 
-    private void connect_signals () {
         wm_preferences_settings.schema.bind ("visual-bell", screen_flash, "active", SettingsBindFlags.DEFAULT);
         applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
         
