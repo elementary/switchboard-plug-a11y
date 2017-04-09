@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2017-04-08 11:58+0000\n"
-"Last-Translator: Jonathan Moerman <jonathanmoerman@gmail.com>\n"
+"PO-Revision-Date: 2017-04-09 18:13+0000\n"
+"Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
 "Language-Team: Dutch <http://weblate.elementary.io/projects/desktop"
 "/switchboard-plug-a11y/nl/>\n"
 "Language: nl\n"
@@ -25,27 +25,27 @@ msgstr "Horen"
 
 #: ../src/Widgets/Categories.vala:67
 msgid "Interaction"
-msgstr ""
+msgstr "Interactie"
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
-msgstr "Universele Toegang"
+msgstr "Universele toegang"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Configureer toegankelijkheidsfuncties"
 
 #: ../src/Plug.vala:114
 msgid "Accessibility Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties"
 
 #: ../src/Plug.vala:115
 msgid "Accessibility Display Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties beeldscherm"
 
 #: ../src/Plug.vala:116
 msgid "High Contrast Theme"
-msgstr ""
+msgstr "Hoog contrast thema"
 
 #: ../src/Plug.vala:117
 msgid "Font Size"
@@ -53,19 +53,19 @@ msgstr "Lettertype grootte"
 
 #: ../src/Plug.vala:118
 msgid "Text Size"
-msgstr "Tekst grootte"
+msgstr "Tekstgrootte"
 
 #: ../src/Plug.vala:119
 msgid "Accessibility Audio Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties audio"
 
 #: ../src/Plug.vala:120
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties horen"
 
 #: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Visuele waarschuwingen"
 
 #: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
 #: ../src/Panes/ScreenReader.vala:24
@@ -74,56 +74,55 @@ msgstr "Schermlezer"
 
 #: ../src/Plug.vala:123
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties toetsenbord"
 
 #: ../src/Plug.vala:124
 msgid "On Screen Keyboard"
 msgstr "Schermtoetsenbord"
 
 #: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
-#, fuzzy
 msgid "Fast Typing"
-msgstr "Snel Typen"
+msgstr "Snel typen"
 
 #: ../src/Plug.vala:126
 msgid "Typing Delay"
-msgstr ""
+msgstr "Typvertraging"
 
 #: ../src/Plug.vala:127
 msgid "Keyboard Sounds"
-msgstr "Toetsenbord Geluiden"
+msgstr "Toetsenbordgeluiden"
 
 #: ../src/Plug.vala:128
 msgid "Accessibility Mouse Features"
-msgstr ""
+msgstr "Toegankelijkheidsfuncties muis"
 
 #: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
 msgid "Hover Click"
-msgstr ""
+msgstr "Zwevende klik"
 
 #: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Gesimuleerde secundaire klik"
 
 #: ../src/Panes/Pointing.vala:28
 msgid "Pointing"
-msgstr ""
+msgstr "Aanwijzen"
 
 #: ../src/Panes/Pointing.vala:38
 msgid "Keypad Control"
-msgstr ""
+msgstr "Instellingen keypad"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr "Muis instellingen…"
+msgstr "Muisinstellingen…"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Controleer muisaanwijzer met keypad"
 
 #: ../src/Panes/Pointing.vala:49
 msgid "Cursor speed"
-msgstr ""
+msgstr "Cursorsnelheid"
 
 #: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
 msgid "Normal"
@@ -151,47 +150,47 @@ msgstr "Vergroten"
 
 #: ../src/Panes/Zoom.vala:48
 msgid "Screen Zoom"
-msgstr ""
+msgstr "Scherm vergroten"
 
 #: ../src/Panes/Zoom.vala:49
 msgid "Crosshairs"
-msgstr ""
+msgstr "Vizier"
 
 #: ../src/Panes/Zoom.vala:56
 msgid "Screen zoom"
-msgstr ""
+msgstr "Scherm vergroten"
 
 #: ../src/Panes/Zoom.vala:59
 msgid "Follow mouse cursor"
-msgstr ""
+msgstr "Volg muisaanwijzer"
 
 #: ../src/Panes/Zoom.vala:60
 msgid "Mouse tracking"
-msgstr ""
+msgstr "Muisgeleiding"
 
 #: ../src/Panes/Zoom.vala:61
 msgid "Zoom position"
-msgstr ""
+msgstr "Zoomstand"
 
 #: ../src/Panes/Zoom.vala:62
 msgid "Zoom level"
-msgstr ""
+msgstr "Zoomniveau"
 
 #: ../src/Panes/Zoom.vala:63
 msgid "Desktop Scrolling"
-msgstr ""
+msgstr "Bureaublad scrollen"
 
 #: ../src/Panes/Zoom.vala:67
 msgid "Display crosshairs"
-msgstr ""
+msgstr "Toon vizier"
 
 #: ../src/Panes/Zoom.vala:69
 msgid "Crosshair thickness"
-msgstr ""
+msgstr "Dikte vizier"
 
 #: ../src/Panes/Zoom.vala:70
 msgid "Crosshair opacity"
-msgstr ""
+msgstr "Ondoorzichtigheid vizier"
 
 #: ../src/Panes/Display.vala:32
 msgid "Display"
@@ -203,7 +202,7 @@ msgstr "Kleur"
 
 #: ../src/Panes/Display.vala:43
 msgid "Reading"
-msgstr ""
+msgstr "Lezen"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
@@ -223,15 +222,15 @@ msgstr "Typen"
 
 #: ../src/Panes/Typing.vala:45
 msgid "Typing Delays"
-msgstr ""
+msgstr "Typvertragingen"
 
 #: ../src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
-msgstr "Schermtoetsenbord instellingen..."
+msgstr "Instellingen schermtoetsenbord..."
 
 #: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
 msgid "Keyboard settings..."
-msgstr "Toetsenbord instellingen..."
+msgstr "Instellingen toetsenbord..."
 
 #: ../src/Panes/Typing.vala:55
 msgid "On-screen keyboard"
@@ -247,11 +246,11 @@ msgstr "Piep wanneer een toets wordt ingedrukt"
 
 #: ../src/Panes/Typing.vala:60
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Piep wanneer een toets wordt geaccepteerd"
 
 #: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Piep wanneer een toets wordt verworpen"
 
 #: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
 msgid "Delay length"
@@ -259,7 +258,7 @@ msgstr "Vertragingsduur"
 
 #: ../src/Panes/Typing.vala:65
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "Negeer snelle, dubbele toetsaanslagen (stuiterende knoppen)"
 
 #: ../src/Panes/Keyboard.vala:29
 msgid "Keyboard"
@@ -267,7 +266,7 @@ msgstr "Toetsenbord"
 
 #: ../src/Panes/Keyboard.vala:38
 msgid "Lock Keys"
-msgstr ""
+msgstr "Vergrendelingstoetsen"
 
 #: ../src/Panes/Keyboard.vala:39
 msgid "Modifier Keys"
@@ -275,11 +274,11 @@ msgstr "Modificatietoetsen"
 
 #: ../src/Panes/Keyboard.vala:45
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "Piep wanneer een vergrendelingstoets wordt ingedrukt"
 
 #: ../src/Panes/Keyboard.vala:48
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Gebruik modificatietoetsen in sequentie (plaktoetsen)"
 
 #: ../src/Panes/Keyboard.vala:49
 msgid "Beep when a modifier key is pressed"
@@ -295,15 +294,15 @@ msgstr "Geluidsinstellingen…"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Knipper het scherm wanneer een waarschuwingsgeluid speelt"
 
 #: ../src/Panes/Audio.vala:52
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Voorzie audiobeschrijvingen voor onderdelen op het scherm"
 
 #: ../src/Panes/Audio.vala:53
 msgid "Keyboard shortcut"
-msgstr "Toetsenbord sneltoets"
+msgstr "Sneltoets"
 
 #: ../src/Panes/Clicking.vala:35
 msgid "Clicking"
@@ -311,25 +310,24 @@ msgstr "Klikken"
 
 #: ../src/Panes/Clicking.vala:55
 msgid "Double-click speed"
-msgstr "Dubbelklik snelheid"
+msgstr "Snelheid voor dubbelklikken"
 
 #: ../src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Houd de primaire knop ingedrukt om een secundaire klik te genereren"
 
 #: ../src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Gesimuleerde klikvertraging"
 
 #: ../src/Panes/Clicking.vala:62
-#, fuzzy
 msgid "Click when the cursor hovers"
-msgstr "Klik wanneer de cursor ergens boven hangt"
+msgstr "Klik wanneer de cursor ergens boven zweeft"
 
 #: ../src/Panes/Clicking.vala:63
 msgid "Hover delay"
-msgstr ""
+msgstr "Zweefvertraging"
 
 #: ../src/Panes/Clicking.vala:64
 msgid "Motion threshold"
-msgstr ""
+msgstr "Bewegingsdrempel"
