@@ -14,8 +14,8 @@
  *
  * You should have received a copy of the GNU Library General Public
  * License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * Free Software Foundation, Inc., 51 Franklin Street - Fifth Floor,
+ * Boston, MA 02110-1301, USA.
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
@@ -53,7 +53,7 @@ public class Accessibility.Panes.Zoom : Categories.Pane {
         ch_opacity_adjustment = new Gtk.Adjustment   (0, 0,  1.1, 0.1, 0.1, 0.1);
 
         var screen_box = new Accessibility.Widgets.SettingsBox ();
-        zoom = screen_box.add_switch (_("Screen zoom")); 
+        zoom = screen_box.add_switch (_("Screen zoom"));
 
         var zoom_box = new Accessibility.Widgets.SettingsBox ();
         follow_mouse = zoom_box.add_switch (_("Follow mouse cursor"));
