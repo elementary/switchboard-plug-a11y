@@ -14,8 +14,8 @@
  *
  * You should have received a copy of the GNU Library General Public
  * License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * Free Software Foundation, Inc., 51 Franklin Street - Fifth Floor,
+ * Boston, MA 02110-1301, USA.
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
@@ -37,10 +37,10 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     private void build_ui () {
         var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
         speed_adjustment = new Gtk.Adjustment (0, 0, 50, 1, 1, 1);
-        
+
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
         mouse_settings_label.vexpand = true;
-        
+
         //var cursor_box = new Accessibility.Widgets.SettingsBox ();
         //cursor_size = cursor_box.add_combo_box (_("Cursor size"));
 

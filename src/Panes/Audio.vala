@@ -14,8 +14,8 @@
  *
  * You should have received a copy of the GNU Library General Public
  * License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * Free Software Foundation, Inc., 51 Franklin Street - Fifth Floor,
+ * Boston, MA 02110-1301, USA.
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
@@ -33,7 +33,7 @@ public class Accessibility.Panes.Audio : Categories.Pane {
 
         var reader_label = new Accessibility.Widgets.Label (_("Screen Reader"));
 
-        var reader_box = new Accessibility.Widgets.SettingsBox ();  
+        var reader_box = new Accessibility.Widgets.SettingsBox ();
         var read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
         var shortcut_label = new Gtk.Label (media_keys_settings.clean_screenreader ());
         reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
@@ -50,7 +50,7 @@ public class Accessibility.Panes.Audio : Categories.Pane {
 
         wm_preferences_settings.schema.bind ("visual-bell", screen_flash, "active", SettingsBindFlags.DEFAULT);
         applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
-        
+
         media_keys_settings.changed.connect (() => {
             shortcut_label.label = media_keys_settings.clean_screenreader ();
         });
