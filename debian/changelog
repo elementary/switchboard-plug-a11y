@@ -1,3 +1,9 @@
+switchboard-plug-a11y (0.1.1) xenial; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Sun, 07 May 2017 20:25:51 -0500
+
 switchboard-plug-a11y (0.1) xenial; urgency=medium
 
   * Initial Release.
