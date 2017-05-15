@@ -20,7 +20,7 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Keyboard : Categories.Pane {
-    private Gtk.Switch lk_notification;
+    // private Gtk.Switch lk_notification;
     private Gtk.Switch lk_beep;
     private Gtk.Switch mk_enable;
     private Gtk.Switch mk_beep;
@@ -41,7 +41,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         kb_settings_label.vexpand = true;
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();
-        //lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
+        // lk_notification = lock_box.add_switch (_("Display notifications for lock keys"));
         lk_beep = lock_box.add_switch (_("Beep when a lock key is pressed"));
 
         var modifier_box = new Accessibility.Widgets.SettingsBox ();
@@ -57,7 +57,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     }
 
     private void connect_signals () {
-        lk_notification.set_sensitive (false);
+        // lk_notification.set_sensitive (false);
         keyboard_settings.schema.bind ("togglekeys-enable", lk_beep, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("stickykeys-enable", mk_enable, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.schema.bind ("stickykeys-modifier-beep", mk_beep, "active", SettingsBindFlags.DEFAULT);
