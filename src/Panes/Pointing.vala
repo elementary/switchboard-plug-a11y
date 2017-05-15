@@ -20,7 +20,6 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.Pointing : Categories.Pane {
-    // private Gtk.ComboBox cursor_size;
     private Gtk.Switch keypad_control;
     private Gtk.Scale speed_scale;
     private Gtk.Adjustment speed_adjustment;
@@ -41,14 +40,10 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
         mouse_settings_label.vexpand = true;
 
-        // var cursor_box = new Accessibility.Widgets.SettingsBox ();
-        // cursor_size = cursor_box.add_combo_box (_("Cursor size"));
-
         var control_box = new Accessibility.Widgets.SettingsBox ();
         keypad_control = control_box.add_switch (_("Control pointer using keypad"));
         speed_scale = control_box.add_scale (_("Cursor speed"), speed_adjustment);
 
-        // grid.add (cursor_box);
         grid.add (control_label);
         grid.add (control_box);
         grid.add (mouse_settings_label);
@@ -66,10 +61,6 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         list_store.set (iter, 0, _("Large"));
         list_store.append (out iter);
         list_store.set (iter, 0, _("Larger"));
-
-        // cursor_size.set_model (list_store);
-        // cursor_size.set_active (1);
-        // cursor_size.set_sensitive (false);
     }
 
     private void connect_signals () {
