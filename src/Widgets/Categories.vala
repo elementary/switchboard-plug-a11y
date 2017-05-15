@@ -59,7 +59,11 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         });
 
         list_box.row_selected.connect ((row) => {
-            var page = ((Pane) row);
+            var page = row as Pane;
+            if (page == null) {
+                return;
+            }
+
             if (page.added == false) {
                 page.added = true;
                 stack.add (page.pane);
