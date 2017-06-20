@@ -31,7 +31,7 @@ namespace Accessibility {
     public Accessibility.Backend.Peripherals        peripherals_settings;
     public Accessibility.Backend.Mouse              mouse_settings;
     public Accessibility.Backend.MediaKeys          media_keys_settings;
-    public Accessibility.Backend.Animations         animations_settings;
+    public Settings? animations_settings;
 
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
@@ -50,6 +50,13 @@ namespace Accessibility {
 
             plug = this;
 
+            var animations_schema = "org.pantheon.desktop.gala.animations";
+
+            var animations = SettingsSchemaSource.get_default ().lookup (animations_schema, false);
+            if (animations != null) {
+                animations_settings = new Settings (animations_schema);
+            }
+
             deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
             keyboard_settings =         new Accessibility.Backend.Keyboard ();
             a11y_settings =             new Accessibility.Backend.A11y ();
@@ -59,7 +66,6 @@ namespace Accessibility {
             peripherals_settings =      new Accessibility.Backend.Peripherals ();
             mouse_settings =            new Accessibility.Backend.Mouse ();
             media_keys_settings =       new Accessibility.Backend.MediaKeys ();
-            animations_settings =       new Accessibility.Backend.Animations ();
         }
 
         public override Gtk.Widget get_widget () {
