@@ -19,6 +19,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Widgets/SettingBox.vala
     Widgets/Label.vala
     Widgets/Switchboard/Sidebar.vala
+    Widgets/Switchboard/SidebarRow.vala
     Widgets/Switchboard/HeaderLabel.vala
     Panes/Audio.vala
     Panes/Clicking.vala

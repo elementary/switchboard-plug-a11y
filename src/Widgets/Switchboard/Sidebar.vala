@@ -18,18 +18,37 @@
 */
 
 public class Switchboard.Sidebar : Gtk.ScrolledWindow {
-    private Gtk.ListBox list_box;
+    public Gtk.Stack stack { get; construct; }
 
-    public Sidebar () {
-        Object (hscrollbar_policy: Gtk.PolicyType.NEVER);
+    public Sidebar (Gtk.Stack stack) {
+        Object (
+            hscrollbar_policy: Gtk.PolicyType.NEVER,
+            stack: stack,
+            width_request: 200
+        );
     }
 
     construct {
-        list_box = new Gtk.ListBox ();
-        add (list_box);
-    }
+        var listbox = new Gtk.ListBox ();
+        listbox.activate_on_single_click = true;
+        listbox.selection_mode = Gtk.SelectionMode.SINGLE;
 
-    public void add_row (Gtk.Widget row) {
-        list_box.add (row);
+        add (listbox);
+
+        foreach (unowned Gtk.Widget child in stack.get_children ()) {
+            string name;
+            string title;
+
+            stack.child_get (child, "name", &name, "title", &title, null);
+
+            var row = new SidebarRow (title);
+            row.name = name;
+
+            listbox.add (row);
+        }
+
+        listbox.row_selected.connect ((row) => {
+            stack.visible_child_name = ((SidebarRow) row).name;
+        });
     }
 }

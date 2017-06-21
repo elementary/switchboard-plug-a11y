@@ -35,7 +35,7 @@ namespace Accessibility {
 
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
-        Accessibility.Categories categories;
+        //Accessibility.Categories categories;
 
         public Plug () {
             var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -70,10 +70,27 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                var stack = new Gtk.Stack ();
 
-                categories = new Categories ();
-                categories.set_stack (stack);
+                var display = new Panes.Display ();
+                var audio = new Panes.Audio ();
+                var typing = new Panes.Typing ();
+                var keyboard = new Panes.Keyboard ();
+                var pointing = new Panes.Pointing ();
+                var clicking = new Panes.Clicking ();
+
+                var stack = new Gtk.Stack ();
+                if (animations_settings != null) {
+                    var general = new Panes.General ();
+                    stack.add_titled (general, "general", _("General"));
+                }
+                stack.add_titled (display, "display", _("Display"));
+                stack.add_titled (audio, "audio", _("Audio"));
+                stack.add_titled (typing, "typing", _("Typing"));
+                stack.add_titled (keyboard, "keyboard", _("Keyboard"));
+                stack.add_titled (pointing, "pointing", _("Pointing"));
+                stack.add_titled (clicking, "clicking", _("Clicking"));
+
+                var categories = new Switchboard.Sidebar (stack);
 
                 paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 paned.pack1 (categories, false, false);
@@ -97,25 +114,25 @@ namespace Accessibility {
             switch (location) {
                 default:
                 case "General":
-                    categories.set_row_number (0);
+                    //categories.set_row_number (0);
                     break;
                 case "Display":
-                    categories.set_row_number (1);
+                    //categories.set_row_number (1);
                     break;
                 case "Audio":
-                    categories.set_row_number (2);
+                    //categories.set_row_number (2);
                     break;
                 case "Typing":
-                    categories.set_row_number (3);
+                    //categories.set_row_number (3);
                     break;
                 case "Keyboard":
-                    categories.set_row_number (4);
+                    //categories.set_row_number (4);
                     break;
                 case "Pointing":
-                    categories.set_row_number (5);
+                    //categories.set_row_number (5);
                     break;
                 case "Clicking":
-                    categories.set_row_number (6);
+                    //categories.set_row_number (6);
                     break;
             }
         }
