@@ -54,11 +54,11 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
 
         list_box.set_header_func ((row, before) => {
             if (row == display) {
-                row.set_header (new Header (_("Seeing")));
+                row.set_header (new Switchboard.HeaderLabel (_("Seeing")));
             } else if (row == audio) {
-                row.set_header (new Header (_("Hearing")));
+                row.set_header (new Switchboard.HeaderLabel (_("Hearing")));
             } else if (row == typing) {
-                row.set_header (new Header (_("Interaction")));
+                row.set_header (new Switchboard.HeaderLabel (_("Interaction")));
             }
         });
 
@@ -129,18 +129,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             rowgrid.add (image);
             rowgrid.add (label);
             add (rowgrid);
-        }
-    }
-
-    public class Header : Gtk.Label {
-        public Header (string header) {
-            label = "%s".printf (GLib.Markup.escape_text (header));
-            show_all ();
-        }
-
-        construct {
-            halign = Gtk.Align.START;
-            get_style_context ().add_class ("h4");
         }
     }
 }

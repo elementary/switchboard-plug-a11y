@@ -70,12 +70,14 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-                categories = new Categories ();
-                paned.pack1 (categories, false, false);
                 var stack = new Gtk.Stack ();
-                paned.add2 (stack);
+
+                categories = new Categories ();
                 categories.set_stack (stack);
+
+                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+                paned.pack1 (categories, false, false);
+                paned.add2 (stack);
 
                 paned.show_all ();
             }
