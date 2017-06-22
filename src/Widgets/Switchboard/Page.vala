@@ -17,32 +17,10 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class Switchboard.SidebarRow : Gtk.ListBoxRow {
-    public string icon_name { get; construct; }
-    public string title { get; construct; }
-
-    public SidebarRow (string icon_name, string title) {
-        Object (
-            icon_name: icon_name,
-            title: title
-        );
-    }
+public class Switchboard.Page : Gtk.ScrolledWindow {
+    public string icon_name { get; construct;}
 
     construct {
-        var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
-        icon.pixel_size = 32;
-
-        var label = new Gtk.Label (title);
-        label.get_style_context ().add_class ("h3");
-
-        var grid = new Gtk.Grid ();
-        grid.column_spacing = 12;
-        grid.margin = 3;
-        grid.margin_start = 6;
-        grid.margin_end = 6;
-        grid.add (icon);
-        grid.add (label);
-
-        add (grid);
+        margin = 24;
     }
 }

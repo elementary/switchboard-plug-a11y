@@ -19,9 +19,9 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.General : Categories.Pane {
+public class Accessibility.Panes.General : Switchboard.Page {
     public General () {
-        base (_("General"), "preferences-desktop-accessibility");
+        Object (icon_name: "preferences-desktop-accessibility");
     }
 
     construct {
@@ -29,8 +29,10 @@ public class Accessibility.Panes.General : Categories.Pane {
 
         var animations = general.add_switch (_("Animations"));
 
+        var grid = new Gtk.Grid ();
         grid.add (general);
-        grid.show_all ();
+
+        add (grid);
 
         animations_settings.bind ("enable-animations", animations, "active", SettingsBindFlags.DEFAULT);
     }
