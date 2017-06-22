@@ -24,9 +24,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Panes/General.vala
     Panes/Keyboard.vala
     Panes/Pointing.vala
-    Panes/ScreenReader.vala
     Panes/Typing.vala
-    Panes/Zoom.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0
