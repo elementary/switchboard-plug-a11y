@@ -39,7 +39,7 @@ public class Switchboard.Sidebar : Gtk.ScrolledWindow {
             string name;
             string title;
 
-            stack.child_get (child, "name", &name, "title", &title, null);
+            stack.child_get (child, "name", out name, "title", out title, null);
 
             var row = new SidebarRow (((Switchboard.Page) child).icon_name, title);
             row.name = name;
