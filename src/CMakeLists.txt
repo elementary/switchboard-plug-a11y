@@ -15,7 +15,6 @@ include (ValaPrecompile)
 vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Plug.vala
     Backend/Settings.vala
-    Widgets/Categories.vala
     Widgets/SettingBox.vala
     Widgets/Label.vala
     Widgets/Switchboard/Page.vala
@@ -28,9 +27,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Panes/General.vala
     Panes/Keyboard.vala
     Panes/Pointing.vala
-    Panes/ScreenReader.vala
     Panes/Typing.vala
-    Panes/Zoom.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0
