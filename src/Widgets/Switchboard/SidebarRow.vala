@@ -19,8 +19,31 @@
 
 public class Switchboard.SidebarRow : Gtk.ListBoxRow {
     public string? header { get; set; }
-    public string icon_name { get; construct; }
-    public string title { get; construct; }
+
+    public string icon_name {
+        get {
+            return _icon_name;
+        }
+        set {
+            _icon_name = value;
+            icon.icon_name = value;
+        } 
+    }
+
+    public string title {
+        get {
+            return _title;
+        }
+        set {
+            _title = value;
+            title_label.label = value;
+        }
+    }
+
+    private Gtk.Image icon;
+    private Gtk.Label title_label;
+    private string _icon_name;
+    private string _title;
 
     public SidebarRow (string icon_name, string title) {
         Object (
@@ -30,10 +53,10 @@ public class Switchboard.SidebarRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
+        icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
         icon.pixel_size = 32;
 
-        var title_label = new Gtk.Label (title);
+        title_label = new Gtk.Label (title);
         title_label.ellipsize = Pango.EllipsizeMode.END;
         title_label.xalign = 0;
         title_label.get_style_context ().add_class ("h3");
