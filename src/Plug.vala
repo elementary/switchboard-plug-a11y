@@ -35,7 +35,7 @@ namespace Accessibility {
 
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
-        //Accessibility.Categories categories;
+        private Gtk.Stack stack;
 
         public Plug () {
             var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -78,7 +78,7 @@ namespace Accessibility {
                 var pointing = new Panes.Pointing ();
                 var clicking = new Panes.Clicking ();
 
-                var stack = new Gtk.Stack ();
+                stack = new Gtk.Stack ();
                 if (animations_settings != null) {
                     var general = new Panes.General ();
                     stack.add_titled (general, "general", _("General"));
@@ -111,52 +111,29 @@ namespace Accessibility {
         }
 
         public override void search_callback (string location) {
-            switch (location) {
-                default:
-                case "General":
-                    //categories.set_row_number (0);
-                    break;
-                case "Display":
-                    //categories.set_row_number (1);
-                    break;
-                case "Audio":
-                    //categories.set_row_number (2);
-                    break;
-                case "Typing":
-                    //categories.set_row_number (3);
-                    break;
-                case "Keyboard":
-                    //categories.set_row_number (4);
-                    break;
-                case "Pointing":
-                    //categories.set_row_number (5);
-                    break;
-                case "Clicking":
-                    //categories.set_row_number (6);
-                    break;
-            }
+            stack.visible_child_name = location;
         }
 
         // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
         public override async Gee.TreeMap<string, string> search (string search) {
             var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "General");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Display Features")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("High Contrast Theme")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Font Size")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Text Size")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Audio Features")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Hearing Features")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Visual Alerts")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Screen Reader")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Keyboard Features")), "Keyboard");
-            search_results.set ("%s → %s".printf (display_name, _("On Screen Keyboard")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Fast Typing")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Typing Delay")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Keyboard Sounds")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Mouse Features")), "Clicking");
-            search_results.set ("%s → %s".printf (display_name, _("Hover Click")), "Clicking");
-            search_results.set ("%s → %s".printf (display_name, _("Simulated Secondary Click")), "Clicking");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "general");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Display Features")), "display");
+            search_results.set ("%s → %s".printf (display_name, _("High Contrast Theme")), "display");
+            search_results.set ("%s → %s".printf (display_name, _("Font Size")), "display");
+            search_results.set ("%s → %s".printf (display_name, _("Text Size")), "display");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Audio Features")), "audio");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Hearing Features")), "audio");
+            search_results.set ("%s → %s".printf (display_name, _("Visual Alerts")), "audio");
+            search_results.set ("%s → %s".printf (display_name, _("Screen Reader")), "audio");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Keyboard Features")), "keyboard");
+            search_results.set ("%s → %s".printf (display_name, _("On Screen Keyboard")), "typing");
+            search_results.set ("%s → %s".printf (display_name, _("Fast Typing")), "typing");
+            search_results.set ("%s → %s".printf (display_name, _("Typing Delay")), "typing");
+            search_results.set ("%s → %s".printf (display_name, _("Keyboard Sounds")), "typing");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Mouse Features")), "clicking");
+            search_results.set ("%s → %s".printf (display_name, _("Hover Click")), "clicking");
+            search_results.set ("%s → %s".printf (display_name, _("Simulated Secondary Click")), "clicking");
             return search_results;
         }
     }
