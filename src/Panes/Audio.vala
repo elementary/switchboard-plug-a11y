@@ -24,7 +24,8 @@ public class Accessibility.Panes.Audio : Switchboard.Page {
     public Audio () {
         Object (
             header: _("Hearing"),
-            icon_name: "preferences-desktop-sound"
+            icon_name: "preferences-desktop-sound",
+            title: _("Audio")
         );
     }
 

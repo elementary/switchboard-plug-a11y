@@ -25,7 +25,10 @@ public class Accessibility.Panes.Pointing : Switchboard.Page {
     private Gtk.Adjustment speed_adjustment;
 
     public Pointing () {
-        Object (icon_name: "preferences-desktop-accessibility-pointing");
+        Object (
+            icon_name: "preferences-desktop-accessibility-pointing",
+            title: _("Pointing")
+        );
     }
 
     construct {

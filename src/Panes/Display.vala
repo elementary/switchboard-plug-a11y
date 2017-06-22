@@ -31,7 +31,8 @@ public class Accessibility.Panes.Display : Switchboard.Page {
     public Display () {
         Object (
             header: _("Seeing"),
-            icon_name: "video-display"
+            icon_name: "video-display",
+            title: _("Display")
         );
     }
 

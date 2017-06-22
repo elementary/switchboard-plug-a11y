@@ -17,7 +17,8 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class Switchboard.Page : Gtk.ScrolledWindow {
-    public string? header { get; construct;}
-    public string icon_name { get; construct;}
+public abstract class Switchboard.Page : Gtk.ScrolledWindow {
+    public string? header { get; construct; }
+    public string icon_name { get; construct; }
+    public string title { get; construct; }
 }

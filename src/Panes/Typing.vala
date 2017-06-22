@@ -35,7 +35,8 @@ public class Accessibility.Panes.Typing : Switchboard.Page {
     public Typing () {
         Object (
             header: _("Interaction"),
-            icon_name: "input-keyboard"
+            icon_name: "input-keyboard",
+            title: _("Typing")
         );
     }
 

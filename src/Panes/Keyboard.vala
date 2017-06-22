@@ -25,7 +25,10 @@ public class Accessibility.Panes.Keyboard : Switchboard.Page {
     private Gtk.Switch mk_beep;
 
     public Keyboard () {
-        Object (icon_name: "preferences-desktop-keyboard");
+        Object (
+            icon_name: "preferences-desktop-keyboard",
+            title: _("Keyboard")
+        );
     }
 
     construct {

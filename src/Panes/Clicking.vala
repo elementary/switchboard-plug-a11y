@@ -32,7 +32,10 @@ public class Accessibility.Panes.Clicking : Switchboard.Page {
     private Gtk.Adjustment hc_threshold_adjustment;
 
     public Clicking () {
-        Object (icon_name: "preferences-desktop-peripherals");
+        Object (
+            icon_name: "preferences-desktop-peripherals",
+            title: _("Clicking")
+        );
     }
 
     construct {
