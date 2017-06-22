@@ -18,6 +18,7 @@
 */
 
 public class Switchboard.SidebarRow : Gtk.ListBoxRow {
+    public string? header { get; set; }
     public string icon_name { get; construct; }
     public string title { get; construct; }
 

@@ -33,7 +33,10 @@ public class Accessibility.Panes.Typing : Switchboard.Page {
     private Gtk.Adjustment bk_delay_adjustment;
 
     public Typing () {
-        Object (icon_name: "input-keyboard");
+        Object (
+            header: _("Interaction"),
+            icon_name: "input-keyboard"
+        );
     }
 
     construct {

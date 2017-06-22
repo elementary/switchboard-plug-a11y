@@ -18,5 +18,6 @@
 */
 
 public class Switchboard.Page : Gtk.ScrolledWindow {
+    public string? header { get; construct;}
     public string icon_name { get; construct;}
 }

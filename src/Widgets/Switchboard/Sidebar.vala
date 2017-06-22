@@ -43,12 +43,20 @@ public class Switchboard.Sidebar : Gtk.ScrolledWindow {
 
             var row = new SidebarRow (((Switchboard.Page) child).icon_name, title);
             row.name = name;
+            row.header = ((Switchboard.Page) child).header;
 
             listbox.add (row);
         }
 
         listbox.row_selected.connect ((row) => {
             stack.visible_child_name = ((SidebarRow) row).name;
+        });
+
+        listbox.set_header_func ((row, before) => {
+            var header = ((SidebarRow) row).header;
+            if (header != null) {
+                row.set_header (new Switchboard.HeaderLabel (header));
+            }
         });
     }
 }

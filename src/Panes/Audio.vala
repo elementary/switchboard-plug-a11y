@@ -22,7 +22,10 @@
 
 public class Accessibility.Panes.Audio : Switchboard.Page {
     public Audio () {
-        Object (icon_name: "preferences-desktop-sound");
+        Object (
+            header: _("Hearing"),
+            icon_name: "preferences-desktop-sound"
+        );
     }
 
     construct {

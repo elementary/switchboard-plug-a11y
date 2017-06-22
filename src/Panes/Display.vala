@@ -29,7 +29,10 @@ public class Accessibility.Panes.Display : Switchboard.Page {
     private Gtk.ComboBox text_size;
 
     public Display () {
-        Object (icon_name: "video-display");
+        Object (
+            header: _("Seeing"),
+            icon_name: "video-display"
+        );
     }
 
     construct {
