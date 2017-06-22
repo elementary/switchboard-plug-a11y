@@ -26,6 +26,7 @@ public class Accessibility.Panes.General : Switchboard.Page {
 
     construct {
         var general = new Accessibility.Widgets.SettingsBox ();
+        general.margin = 24;
 
         var animations = general.add_switch (_("Animations"));
 

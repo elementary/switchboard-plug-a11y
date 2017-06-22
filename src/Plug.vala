@@ -83,12 +83,12 @@ namespace Accessibility {
                     var general = new Panes.General ();
                     stack.add_titled (general, "general", _("General"));
                 }
-                /*stack.add_titled (display, "display", _("Display"));
+                stack.add_titled (display, "display", _("Display"));
                 stack.add_titled (audio, "audio", _("Audio"));
                 stack.add_titled (typing, "typing", _("Typing"));
                 stack.add_titled (keyboard, "keyboard", _("Keyboard"));
                 stack.add_titled (pointing, "pointing", _("Pointing"));
-                stack.add_titled (clicking, "clicking", _("Clicking"));*/
+                stack.add_titled (clicking, "clicking", _("Clicking"));
 
                 var categories = new Switchboard.Sidebar (stack);
 

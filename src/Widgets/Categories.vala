@@ -28,12 +28,12 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         hscrollbar_policy = Gtk.PolicyType.NEVER;
         set_size_request (176, 10);
 
-        var display = new Panes.Display ();
+        /*var display = new Panes.Display ();
         var audio = new Panes.Audio ();
         var typing = new Panes.Typing ();
         var keyboard = new Panes.Keyboard ();
         var pointing = new Panes.Pointing ();
-        var clicking = new Panes.Clicking ();
+        var clicking = new Panes.Clicking ();*/
 
         list_box = new Gtk.ListBox ();
         list_box.expand = true;
@@ -43,7 +43,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             list_box.add (general);
         }
 
-        list_box.add (display);
+        /*list_box.add (display);
         list_box.add (audio);
         list_box.add (typing);
         list_box.add (keyboard);
@@ -60,7 +60,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
             } else if (row == typing) {
                 row.set_header (new Switchboard.HeaderLabel (_("Interaction")));
             }
-        });
+        });*/
 
         list_box.row_selected.connect ((row) => {
             var page = row as Pane;

@@ -20,9 +20,9 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 
-public class Accessibility.Panes.Audio : Categories.Pane {
+public class Accessibility.Panes.Audio : Switchboard.Page {
     public Audio () {
-        base (_("Audio"), "preferences-desktop-sound");
+        Object (icon_name: "preferences-desktop-sound");
     }
 
     construct {
@@ -41,12 +41,17 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
         audio_settings.vexpand = true;
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (alerts_label);
         grid.add (alerts_box);
         grid.add (reader_label);
         grid.add (reader_box);
         grid.add (audio_settings);
-        grid.show_all ();
+
+        add (grid);
 
         wm_preferences_settings.schema.bind ("visual-bell", screen_flash, "active", SettingsBindFlags.DEFAULT);
         applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);

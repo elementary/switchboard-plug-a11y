@@ -19,12 +19,13 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Pointing : Categories.Pane {
+public class Accessibility.Panes.Pointing : Switchboard.Page {
     private Gtk.Switch keypad_control;
     private Gtk.Scale speed_scale;
     private Gtk.Adjustment speed_adjustment;
+
     public Pointing () {
-        base (_("Pointing"), "preferences-desktop-accessibility-pointing");
+        Object (icon_name: "preferences-desktop-accessibility-pointing");
     }
 
     construct {
@@ -44,10 +45,15 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
         keypad_control = control_box.add_switch (_("Control pointer using keypad"));
         speed_scale = control_box.add_scale (_("Cursor speed"), speed_adjustment);
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (control_label);
         grid.add (control_box);
         grid.add (mouse_settings_label);
-        grid.show_all ();
+
+        add (grid);
     }
 
     private void setup () {

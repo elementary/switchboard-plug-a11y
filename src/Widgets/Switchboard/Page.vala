@@ -19,8 +19,4 @@
 
 public class Switchboard.Page : Gtk.ScrolledWindow {
     public string icon_name { get; construct;}
-
-    construct {
-        margin = 24;
-    }
 }

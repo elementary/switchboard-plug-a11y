@@ -20,7 +20,7 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 
-public class Accessibility.Panes.Display : Categories.Pane {
+public class Accessibility.Panes.Display : Switchboard.Page {
     private Gtk.Switch hi_contrast;
     //private Gtk.Switch invert;
     //private Gtk.Switch grayscale;
@@ -29,7 +29,7 @@ public class Accessibility.Panes.Display : Categories.Pane {
     private Gtk.ComboBox text_size;
 
     public Display () {
-        base (_("Display"), "video-display");
+        Object (icon_name: "video-display");
     }
 
     construct {
@@ -57,13 +57,17 @@ public class Accessibility.Panes.Display : Categories.Pane {
         text_size = reading_box.add_combo_box (_("Text size"));
         //dysexic_font = reading_box.add_switch (_("Dyslexic-friendly font"));
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (color_label);
         grid.add (color_box);
         grid.add (reading_label);
         grid.add (reading_box);
         grid.add (display_settings);
 
-        grid.show_all ();
+        add (grid);
     }
 
     private void setup () {

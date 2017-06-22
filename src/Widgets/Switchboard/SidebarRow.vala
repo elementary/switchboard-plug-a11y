@@ -32,16 +32,16 @@ public class Switchboard.SidebarRow : Gtk.ListBoxRow {
         var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
         icon.pixel_size = 32;
 
-        var label = new Gtk.Label (title);
-        label.get_style_context ().add_class ("h3");
+        var title_label = new Gtk.Label (title);
+        title_label.ellipsize = Pango.EllipsizeMode.END;
+        title_label.xalign = 0;
+        title_label.get_style_context ().add_class ("h3");
 
         var grid = new Gtk.Grid ();
-        grid.column_spacing = 12;
-        grid.margin = 3;
-        grid.margin_start = 6;
-        grid.margin_end = 6;
+        grid.column_spacing = 6;
+        grid.margin = 6;
         grid.add (icon);
-        grid.add (label);
+        grid.add (title_label);
 
         add (grid);
     }

@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Typing : Categories.Pane {
+public class Accessibility.Panes.Typing : Switchboard.Page {
     private Gtk.Switch screen_keyboard;
     private Gtk.Switch sk_enable;
     private Gtk.Switch sk_pressed;
@@ -33,7 +33,7 @@ public class Accessibility.Panes.Typing : Categories.Pane {
     private Gtk.Adjustment bk_delay_adjustment;
 
     public Typing () {
-        base (_("Typing"), "input-keyboard");
+        Object (icon_name: "input-keyboard");
     }
 
     construct {
@@ -76,6 +76,10 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         bk_rejected = typing_box.add_switch (_("Beep when a key is rejected"));
         bk_delay = typing_box.add_scale (_("Delay length"), bk_delay_adjustment);
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (screen_box);
         grid.add (onboard_settings_label);
         grid.add (delay_label);
@@ -84,7 +88,7 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         grid.add (typing_box);
         grid.add (kb_settings_label);
 
-        grid.show_all ();
+        add (grid);
     }
 
     private void connect_signals () {
