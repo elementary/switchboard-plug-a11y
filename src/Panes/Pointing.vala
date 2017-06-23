@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Pointing : Switchboard.Page {
+public class Accessibility.Panes.Pointing : Granite.SettingsPage {
     private Gtk.Switch keypad_control;
     private Gtk.Scale speed_scale;
     private Gtk.Adjustment speed_adjustment;

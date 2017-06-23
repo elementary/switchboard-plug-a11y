@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.General : Switchboard.Page {
+public class Accessibility.Panes.General : Granite.SettingsPage {
     public General () {
         Object (icon_name: "preferences-desktop-accessibility");
     }

@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Typing : Switchboard.Page {
+public class Accessibility.Panes.Typing : Granite.SettingsPage {
     private Gtk.Switch screen_keyboard;
     private Gtk.Switch sk_enable;
     private Gtk.Switch sk_pressed;

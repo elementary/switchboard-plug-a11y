@@ -20,7 +20,7 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 
-public class Accessibility.Panes.Audio : Switchboard.Page {
+public class Accessibility.Panes.Audio : Granite.SettingsPage {
     public Audio () {
         Object (
             header: _("Hearing"),

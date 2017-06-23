@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Keyboard : Switchboard.Page {
+public class Accessibility.Panes.Keyboard : Granite.SettingsPage {
     private Gtk.Switch lk_beep;
     private Gtk.Switch mk_enable;
     private Gtk.Switch mk_beep;

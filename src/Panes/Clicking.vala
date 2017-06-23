@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Clicking : Switchboard.Page {
+public class Accessibility.Panes.Clicking : Granite.SettingsPage {
     private Gtk.Scale dc_speed;
     private Gtk.Switch ssc_enable;
     private Gtk.Scale ssc_delay;

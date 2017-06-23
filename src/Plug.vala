@@ -90,7 +90,7 @@ namespace Accessibility {
                 stack.add_named (pointing, "pointing");
                 stack.add_named (clicking, "clicking");
 
-                var categories = new Switchboard.Sidebar (stack);
+                var categories = new Granite.SettingsSidebar (stack);
 
                 paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 paned.pack1 (categories, false, false);

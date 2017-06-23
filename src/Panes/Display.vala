@@ -20,7 +20,7 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 
-public class Accessibility.Panes.Display : Switchboard.Page {
+public class Accessibility.Panes.Display : Granite.SettingsPage {
     private Gtk.Switch hi_contrast;
     //private Gtk.Switch invert;
     //private Gtk.Switch grayscale;
