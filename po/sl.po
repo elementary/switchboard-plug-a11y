@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2017-07-02 09:16+0000\n"
+"PO-Revision-Date: 2017-07-02 09:17+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/sl/>\n"
@@ -115,7 +115,7 @@ msgstr "Upravljanje z numerično tipkovnico"
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr "Nastavitve miške..."
+msgstr "Nastavitve miške…"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
@@ -207,7 +207,7 @@ msgstr "Branje"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr "Nastavitve zaslona..."
+msgstr "Nastavitve zaslona…"
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
@@ -291,7 +291,7 @@ msgstr "Zvok"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr "Nastavitve zvoka..."
+msgstr "Nastavitve zvoka…"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
