@@ -246,11 +246,3 @@ public class Accessibility.Backend.Mouse : Granite.Services.Settings {
         base ("org.gnome.desktop.a11y.mouse");
     }
 }
-
-public class Accessibility.Backend.Animations : Granite.Services.Settings {
-    public bool enable_animations { get; set; }
-
-    public Animations () {
-        base ("org.pantheon.desktop.gala.animations");
-    }
-}
