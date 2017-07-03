@@ -20,33 +20,18 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 public class Accessibility.Panes.General : Categories.Pane {
-    //private Gtk.Switch keyboard;
-    //private Gtk.Switch panel;
-    private Gtk.Switch animations;
-
     public General () {
         base (_("General"), "preferences-desktop-accessibility");
     }
 
     construct {
-        build_ui ();
-        connect_signals ();
-    }
-
-    private void build_ui () {
         var general = new Accessibility.Widgets.SettingsBox ();
-        //keyboard = general.add_switch (_("Turn accessibility features on and off using the keyboard:"));
-        //panel = general.add_switch (_("Display accessibility menu in panel:"));
-        animations = general.add_switch (_("Animations"));
+
+        var animations = general.add_switch (_("Animations"));
 
         grid.add (general);
-
         grid.show_all ();
-    }
 
-    private void connect_signals () {
-        //keyboard_settings.schema.bind ("enable", keyboard, "active", SettingsBindFlags.DEFAULT);
-        //a11y_settings.schema.bind ("always-show-universal-access-status", panel, "active", SettingsBindFlags.DEFAULT);
-        animations_settings.schema.bind ("enable-animations", animations, "active", SettingsBindFlags.DEFAULT);
+        animations_settings.bind ("enable-animations", animations, "active", SettingsBindFlags.DEFAULT);
     }
 }
