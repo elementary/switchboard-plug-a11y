@@ -51,7 +51,6 @@ public class Accessibility.Panes.Display : Categories.Pane {
         grid.add (reading_label);
         grid.add (reading_box);
         grid.add (display_settings);
-        grid.show_all ();
 
         // Text Size
         Gtk.ListStore list_store = new Gtk.ListStore (1, typeof (string));
