@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-06 13:51-0700\n"
+"POT-Creation-Date: 2017-07-11 14:15-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,39 +121,43 @@ msgstr ""
 msgid "Beep when a modifier key is pressed"
 msgstr ""
 
-#: ../src/Panes/Display.vala:32
+#: ../src/Panes/Display.vala:25
 msgid "Display"
 msgstr ""
 
-#: ../src/Panes/Display.vala:42
+#: ../src/Panes/Display.vala:29
 msgid "Color"
 msgstr ""
 
-#: ../src/Panes/Display.vala:43
+#: ../src/Panes/Display.vala:30
 msgid "Reading"
 msgstr ""
 
-#: ../src/Panes/Display.vala:44
+#: ../src/Panes/Display.vala:31
 msgid "Display settings…"
 msgstr ""
 
-#: ../src/Panes/Display.vala:50
+#: ../src/Panes/Display.vala:36
 msgid "High contrast theme"
 msgstr ""
 
-#: ../src/Panes/Display.vala:57
+#: ../src/Panes/Display.vala:40
+msgid "Panel transparency"
+msgstr ""
+
+#: ../src/Panes/Display.vala:47
 msgid "Text size"
 msgstr ""
 
-#: ../src/Panes/Display.vala:75 ../src/Panes/Pointing.vala:59
+#: ../src/Panes/Display.vala:61 ../src/Panes/Pointing.vala:59
 msgid "Normal"
 msgstr ""
 
-#: ../src/Panes/Display.vala:77 ../src/Panes/Pointing.vala:61
+#: ../src/Panes/Display.vala:63 ../src/Panes/Pointing.vala:61
 msgid "Large"
 msgstr ""
 
-#: ../src/Panes/Display.vala:79 ../src/Panes/Pointing.vala:63
+#: ../src/Panes/Display.vala:65 ../src/Panes/Pointing.vala:63
 msgid "Larger"
 msgstr ""
 
