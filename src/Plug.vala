@@ -34,6 +34,8 @@ namespace Accessibility {
     public Settings? animations_settings;
 
     public class Plug : Switchboard.Plug {
+        private const string ANIMATIONS_SCHEMA = "org.pantheon.desktop.gala.animations";
+
         Gtk.Paned paned;
         private Gtk.Stack stack;
 
@@ -50,11 +52,9 @@ namespace Accessibility {
 
             plug = this;
 
-            var animations_schema = "org.pantheon.desktop.gala.animations";
-
-            var animations = SettingsSchemaSource.get_default ().lookup (animations_schema, false);
+            var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
             if (animations != null) {
-                animations_settings = new Settings (animations_schema);
+                animations_settings = new Settings (ANIMATIONS_SCHEMA);
             }
 
             deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();

@@ -19,9 +19,13 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
+
 public class Accessibility.Panes.General : Granite.SettingsPage {
     public General () {
-        Object (icon_name: "preferences-desktop-accessibility");
+        Object (
+            icon_name: "preferences-desktop-accessibility",
+            title: _("General")
+        );
     }
 
     construct {
@@ -32,7 +36,7 @@ public class Accessibility.Panes.General : Granite.SettingsPage {
 
         var grid = new Gtk.Grid ();
         grid.add (general);
-
+        
         add (grid);
 
         animations_settings.bind ("enable-animations", animations, "active", SettingsBindFlags.DEFAULT);

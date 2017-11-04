@@ -3,14 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2016-08-04 14:24+0000\n"
+"PO-Revision-Date: 2017-04-10 21:31+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-a11y/lt/>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
@@ -203,7 +207,7 @@ msgstr "Skaitymas"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr "Ekrano nustatymai..."
+msgstr "Ekrano nustatymai…"
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
@@ -288,7 +292,7 @@ msgstr "Garsas"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr "Garso nustatymai..."
+msgstr "Garso nustatymai…"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
