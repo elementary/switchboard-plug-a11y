@@ -19,7 +19,7 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Clicking : Categories.Pane {
+public class Accessibility.Panes.Clicking : Granite.SettingsPage {
     private Gtk.Scale dc_speed;
     private Gtk.Switch ssc_enable;
     private Gtk.Scale ssc_delay;
@@ -32,15 +32,13 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     private Gtk.Adjustment hc_threshold_adjustment;
 
     public Clicking () {
-        base (_("Clicking"), "preferences-desktop-peripherals");
+        Object (
+            icon_name: "preferences-desktop-peripherals",
+            title: _("Clicking")
+        );
     }
 
     construct {
-        build_ui ();
-        connect_signals ();
-    }
-
-    private void build_ui () {
         var secondary_label = new Accessibility.Widgets.Label (_("Simulated Secondary Click"));
         var hover_label = new Accessibility.Widgets.Label (_("Hover Click"));
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
@@ -63,16 +61,19 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
         hc_delay = hover_box.add_scale (_("Hover delay"), hc_delay_adjustment);
         hc_threshold = hover_box.add_scale (_("Motion threshold"), hc_threshold_adjustment);
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (click_box);
         grid.add (secondary_label);
         grid.add (sim_box);
         grid.add (hover_label);
         grid.add (hover_box);
         grid.add (mouse_settings_label);
-        grid.show_all ();
-    }
 
-    private void connect_signals () {
+        add (grid);
+
         peripherals_settings.schema.bind ("double-click", dc_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
         mouse_settings.schema.bind ("secondary-click-enabled", ssc_enable, "active", SettingsBindFlags.DEFAULT);
         mouse_settings.schema.bind ("secondary-click-time", ssc_delay_adjustment, "value", SettingsBindFlags.DEFAULT);

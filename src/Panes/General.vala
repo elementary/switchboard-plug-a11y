@@ -19,18 +19,25 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.General : Categories.Pane {
+
+public class Accessibility.Panes.General : Granite.SettingsPage {
     public General () {
-        base (_("General"), "preferences-desktop-accessibility");
+        Object (
+            icon_name: "preferences-desktop-accessibility",
+            title: _("General")
+        );
     }
 
     construct {
         var general = new Accessibility.Widgets.SettingsBox ();
+        general.margin = 24;
 
         var animations = general.add_switch (_("Animations"));
 
+        var grid = new Gtk.Grid ();
         grid.add (general);
-        grid.show_all ();
+        
+        add (grid);
 
         animations_settings.bind ("enable-animations", animations, "active", SettingsBindFlags.DEFAULT);
     }

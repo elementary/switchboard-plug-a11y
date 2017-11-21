@@ -19,10 +19,15 @@
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
 
-public class Accessibility.Panes.Display : Categories.Pane {
+public class Accessibility.Panes.Display : Granite.SettingsPage {
     private const string PANEL_SCHEMA = "org.pantheon.desktop.wingpanel";
+
     public Display () {
-        base (_("Display"), "video-display");
+        Object (
+            header: _("Seeing"),
+            icon_name: "video-display",
+            title: _("Display")
+        );
     }
 
     construct {
@@ -46,12 +51,16 @@ public class Accessibility.Panes.Display : Categories.Pane {
         var reading_box = new Accessibility.Widgets.SettingsBox ();
         var text_size = reading_box.add_combo_box (_("Text size"));
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (color_label);
         grid.add (color_box);
         grid.add (reading_label);
         grid.add (reading_box);
         grid.add (display_settings);
-        grid.show_all ();
+        add (grid);
 
         // Text Size
         Gtk.ListStore list_store = new Gtk.ListStore (1, typeof (string));

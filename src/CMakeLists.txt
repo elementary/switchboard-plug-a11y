@@ -15,7 +15,6 @@ include (ValaPrecompile)
 vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Plug.vala
     Backend/Settings.vala
-    Widgets/Categories.vala
     Widgets/SettingBox.vala
     Widgets/Label.vala
     Panes/Audio.vala

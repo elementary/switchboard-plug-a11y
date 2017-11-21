@@ -19,13 +19,16 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-public class Accessibility.Panes.Keyboard : Categories.Pane {
+public class Accessibility.Panes.Keyboard : Granite.SettingsPage {
     private Gtk.Switch lk_beep;
     private Gtk.Switch mk_enable;
     private Gtk.Switch mk_beep;
 
     public Keyboard () {
-        base (_("Keyboard"), "preferences-desktop-keyboard");
+        Object (
+            icon_name: "preferences-desktop-keyboard",
+            title: _("Keyboard")
+        );
     }
 
     construct {
@@ -46,12 +49,17 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         mk_enable = modifier_box.add_switch (_("Use modifier keys in sequence (sticky keys)"));
         mk_beep = modifier_box.add_switch (_("Beep when a modifier key is pressed"));
 
+        var grid = new Gtk.Grid  ();
+        grid.margin = 24;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 12;
         grid.add (lock_label);
         grid.add (lock_box);
         grid.add (modifier_label);
         grid.add (modifier_box);
         grid.add (kb_settings_label);
-        grid.show_all ();
+
+        add (grid);
     }
 
     private void connect_signals () {
