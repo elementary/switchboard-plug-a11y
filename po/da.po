@@ -3,14 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 19:10-0500\n"
-"PO-Revision-Date: 2015-12-11 12:25+0000\n"
-"Last-Translator: Jimmy Merrild Krag <jimmy@kragenet.dk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-02-09 00:10+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-a11y/da/>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: ../src/Widgets/Categories.vala:63
 msgid "Seeing"
@@ -26,7 +29,7 @@ msgstr "Interaktion"
 
 #: ../src/Plug.vala:43
 msgid "Universal Access"
-msgstr "Tilgængelighed"
+msgstr "Universel adgang"
 
 #: ../src/Plug.vala:44
 msgid "Configure accessibility features"
@@ -111,7 +114,7 @@ msgstr ""
 
 #: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
-msgstr "Museindstillinger..."
+msgstr "Museindstillinger…"
 
 #: ../src/Panes/Pointing.vala:48
 msgid "Control pointer using keypad"
@@ -203,7 +206,7 @@ msgstr "Læsning"
 
 #: ../src/Panes/Display.vala:44
 msgid "Display settings…"
-msgstr "Skærmindstillinger..."
+msgstr "Skærmindstillinger…"
 
 #: ../src/Panes/Display.vala:50
 msgid "High contrast theme"
@@ -287,7 +290,7 @@ msgstr "Lyd"
 
 #: ../src/Panes/Audio.vala:40
 msgid "Sound settings…"
-msgstr "Lydindstillinger..."
+msgstr "Lydindstillinger…"
 
 #: ../src/Panes/Audio.vala:48
 msgid "Flash the screen when an alert sound occurs"
