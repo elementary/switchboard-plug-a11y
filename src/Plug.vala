@@ -44,7 +44,7 @@ namespace Accessibility {
             settings.set ("universal-access", null);
 
             Object (category: Category.SYSTEM,
-                    code_name: Build.PLUGCODENAME,
+                    code_name: "pantheon-accessibility",
                     display_name: _("Universal Access"),
                     description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility",
