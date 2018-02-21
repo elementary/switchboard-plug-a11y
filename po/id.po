@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-15 19:10-0500\n"
+"POT-Creation-Date: 2018-02-20 18:55-0600\n"
 "PO-Revision-Date: 2017-07-31 14:37+0700\n"
 "Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
 "Language-Team: \n"
@@ -14,319 +14,310 @@ msgstr ""
 "X-Generator: Poedit 2.0.3\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
-#: ../src/Widgets/Categories.vala:63
-msgid "Seeing"
-msgstr "Penglihatan"
-
-#: ../src/Widgets/Categories.vala:65
-msgid "Hearing"
-msgstr "Pendengaran"
-
-#: ../src/Widgets/Categories.vala:67
-msgid "Interaction"
-msgstr "Interaksi"
-
-#: ../src/Plug.vala:43
+#: src/Plug.vala:48
 msgid "Universal Access"
 msgstr "Akses Universal"
 
-#: ../src/Plug.vala:44
+#: src/Plug.vala:49
 msgid "Configure accessibility features"
 msgstr "Mengkonfigurasi fitur aksesibilitas"
 
-#: ../src/Plug.vala:114
+#: src/Plug.vala:124
 msgid "Accessibility Features"
 msgstr "Fitur Aksesibilitas"
 
-#: ../src/Plug.vala:115
+#: src/Plug.vala:125
 msgid "Accessibility Display Features"
 msgstr "Aksesibilitas Fitur Tampilan"
 
-#: ../src/Plug.vala:116
+#: src/Plug.vala:126
 msgid "High Contrast Theme"
 msgstr "Tema dengan Kontras Tinggi"
 
-#: ../src/Plug.vala:117
+#: src/Plug.vala:127
 msgid "Font Size"
 msgstr "Ukuran Fonta"
 
-#: ../src/Plug.vala:118
+#: src/Plug.vala:128
 msgid "Text Size"
 msgstr "Ukuran Teks"
 
-#: ../src/Plug.vala:119
+#: src/Plug.vala:129
 msgid "Accessibility Audio Features"
 msgstr "Aksesibilitas Fitur Audio"
 
-#: ../src/Plug.vala:120
+#: src/Plug.vala:130
 msgid "Accessibility Hearing Features"
 msgstr "Aksesibilitas Fitur Pendengaran"
 
-#: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
+#: src/Plug.vala:131 src/Panes/Audio.vala:29
 msgid "Visual Alerts"
 msgstr "Peringatan Visual"
 
-#: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
-#: ../src/Panes/ScreenReader.vala:24
+#: src/Plug.vala:132 src/Panes/Audio.vala:34
 msgid "Screen Reader"
 msgstr "Pembaca Layar"
 
-#: ../src/Plug.vala:123
+#: src/Plug.vala:133
 msgid "Accessibility Keyboard Features"
 msgstr "Aksesibilitas Fitur Keyboard"
 
-#: ../src/Plug.vala:124
+#: src/Plug.vala:134
 msgid "On Screen Keyboard"
 msgstr "Papan Tik di Layar"
 
-#: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:46
 msgid "Fast Typing"
 msgstr "Mengetik Cepat"
 
-#: ../src/Plug.vala:126
+#: src/Plug.vala:136
 msgid "Typing Delay"
 msgstr "Jeda Pengetikan"
 
-#: ../src/Plug.vala:127
+#: src/Plug.vala:137
 msgid "Keyboard Sounds"
 msgstr "Suara Papan Tik"
 
-#: ../src/Plug.vala:128
+#: src/Plug.vala:138
 msgid "Accessibility Mouse Features"
 msgstr "Aksesibilitas Fitur Tetikus"
 
-#: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:45
 msgid "Hover Click"
 msgstr "Klik Melayang"
 
-#: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
 msgstr "Simulasi Klik Sekunder"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "Penunjuk"
+#: src/Widgets/Categories.vala:57
+msgid "Seeing"
+msgstr "Penglihatan"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "Kontrol Tombol"
+#: src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "Pendengaran"
 
-#: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
-msgid "Mouse settings…"
-msgstr "Pengaturan tetikus…"
+#: src/Widgets/Categories.vala:61
+msgid "Interaction"
+msgstr "Interaksi"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Control pointer using keypad"
-msgstr "Pointer kontrol menggunakan tombol"
-
-#: ../src/Panes/Pointing.vala:49
-msgid "Cursor speed"
-msgstr "Kecepatan kursor"
-
-#: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
-msgid "Normal"
-msgstr "Normal"
-
-#: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
-msgid "Large"
-msgstr "Besar"
-
-#: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
-msgid "Larger"
-msgstr "Lebih Besar"
-
-#: ../src/Panes/General.vala:28
-msgid "General"
-msgstr "Umum"
-
-#: ../src/Panes/General.vala:40
-msgid "Animations"
-msgstr "Animasi"
-
-#: ../src/Panes/Zoom.vala:38
-msgid "Zoom"
-msgstr "Zum"
-
-#: ../src/Panes/Zoom.vala:48
-msgid "Screen Zoom"
-msgstr "Zoom Layar"
-
-#: ../src/Panes/Zoom.vala:49
-msgid "Crosshairs"
-msgstr "Pembidik silang"
-
-#: ../src/Panes/Zoom.vala:56
-msgid "Screen zoom"
-msgstr "Zoom layar"
-
-#: ../src/Panes/Zoom.vala:59
-msgid "Follow mouse cursor"
-msgstr "Ikuti kursor tetikus"
-
-#: ../src/Panes/Zoom.vala:60
-msgid "Mouse tracking"
-msgstr "Pelacakan tetikus"
-
-#: ../src/Panes/Zoom.vala:61
-msgid "Zoom position"
-msgstr "Posisi zum"
-
-#: ../src/Panes/Zoom.vala:62
-msgid "Zoom level"
-msgstr "Tingkat zum"
-
-#: ../src/Panes/Zoom.vala:63
-msgid "Desktop Scrolling"
-msgstr "Gulir Destop"
-
-#: ../src/Panes/Zoom.vala:67
-msgid "Display crosshairs"
-msgstr "Tampilkan pembidik silang"
-
-#: ../src/Panes/Zoom.vala:69
-msgid "Crosshair thickness"
-msgstr "Ketebalan pembidik silang"
-
-#: ../src/Panes/Zoom.vala:70
-msgid "Crosshair opacity"
-msgstr "Kegelapan pembidik silang"
-
-#: ../src/Panes/Display.vala:32
-msgid "Display"
-msgstr "Tampilan"
-
-#: ../src/Panes/Display.vala:42
-msgid "Color"
-msgstr "Warna"
-
-#: ../src/Panes/Display.vala:43
-msgid "Reading"
-msgstr "Membaca"
-
-#: ../src/Panes/Display.vala:44
-msgid "Display settings…"
-msgstr "Pengaturan tampilan…"
-
-#: ../src/Panes/Display.vala:50
-msgid "High contrast theme"
-msgstr "Tema kontras tinggi"
-
-#: ../src/Panes/Display.vala:57
-msgid "Text size"
-msgstr "Ukuran teks"
-
-#: ../src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:36
 msgid "Typing"
 msgstr "Mengetik"
 
-#: ../src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:45
 msgid "Typing Delays"
 msgstr "Jeda Pengetikan"
 
-#: ../src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
 msgstr "Pengaturan papan tik di layar..."
 
-#: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
+#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
 msgid "Keyboard settings..."
 msgstr "Pengaturan papan tik..."
 
-#: ../src/Panes/Typing.vala:55
+#: src/Panes/Typing.vala:65
 msgid "On-screen keyboard"
 msgstr "Papan tik di layar"
 
-#: ../src/Panes/Typing.vala:58
+#: src/Panes/Typing.vala:68
 msgid "Delay between key presses (slow keys)"
 msgstr "Jeda antara penekanan tombol (tombol lambat)"
 
-#: ../src/Panes/Typing.vala:59
+#: src/Panes/Typing.vala:69
 msgid "Beep when a key is pressed"
 msgstr "Bunyi bip saat tombol ditekan"
 
-#: ../src/Panes/Typing.vala:60
+#: src/Panes/Typing.vala:70
 msgid "Beep when a key is accepted"
 msgstr "Bunyi bip saat tombol diterima"
 
-#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
+#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
 msgid "Beep when a key is rejected"
 msgstr "Bunyi bip saat tombol ditolak"
 
-#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
+#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
 msgid "Delay length"
 msgstr "Panjang jeda"
 
-#: ../src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:75
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Abaikan menekan tombol ganda dengan cepat (kunci bouncing)"
 
-#: ../src/Panes/Keyboard.vala:29
+#: src/Panes/Pointing.vala:27
+msgid "Pointing"
+msgstr "Penunjuk"
+
+#: src/Panes/Pointing.vala:37
+msgid "Keypad Control"
+msgstr "Kontrol Tombol"
+
+#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+msgid "Mouse settings…"
+msgstr "Pengaturan tetikus…"
+
+#: src/Panes/Pointing.vala:44
+msgid "Control pointer using keypad"
+msgstr "Pointer kontrol menggunakan tombol"
+
+#: src/Panes/Pointing.vala:45
+msgid "Cursor speed"
+msgstr "Kecepatan kursor"
+
+#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+msgid "Normal"
+msgstr "Normal"
+
+#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+msgid "Large"
+msgstr "Besar"
+
+#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+msgid "Larger"
+msgstr "Lebih Besar"
+
+#: src/Panes/Keyboard.vala:28
 msgid "Keyboard"
 msgstr "Papan Tik"
 
-#: ../src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:37
 msgid "Lock Keys"
 msgstr "Tombol Kunci"
 
-#: ../src/Panes/Keyboard.vala:39
+#: src/Panes/Keyboard.vala:38
 msgid "Modifier Keys"
 msgstr "Tombol Pengubah"
 
-#: ../src/Panes/Keyboard.vala:45
+#: src/Panes/Keyboard.vala:43
 msgid "Beep when a lock key is pressed"
 msgstr "Bunyi bip saat tombol kunci ditekan"
 
-#: ../src/Panes/Keyboard.vala:48
+#: src/Panes/Keyboard.vala:46
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Gunakan tombol pengubah secara berurutan (tombol lengket)"
 
-#: ../src/Panes/Keyboard.vala:49
+#: src/Panes/Keyboard.vala:47
 msgid "Beep when a modifier key is pressed"
 msgstr "Bunyi bip saat tombol pengubah ditekan"
 
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
-msgstr "Suara"
+#: src/Panes/General.vala:24
+msgid "General"
+msgstr "Umum"
 
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
-msgstr "Pengaturan suara…"
+#: src/Panes/General.vala:30
+msgid "Animations"
+msgstr "Animasi"
 
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
-msgstr "Flash layar saat ada suara peringatan"
+#: src/Panes/Display.vala:25
+msgid "Display"
+msgstr "Tampilan"
 
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
-msgstr "Berikan deskripsi suara untuk item di layar"
+#: src/Panes/Display.vala:29
+msgid "Color"
+msgstr "Warna"
 
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
-msgstr "Pintasan Papan Tik"
+#: src/Panes/Display.vala:30
+msgid "Reading"
+msgstr "Membaca"
 
-#: ../src/Panes/Clicking.vala:35
+#: src/Panes/Display.vala:31
+msgid "Display settings…"
+msgstr "Pengaturan tampilan…"
+
+#: src/Panes/Display.vala:36
+msgid "High contrast theme"
+msgstr "Tema kontras tinggi"
+
+#: src/Panes/Display.vala:40
+msgid "Panel transparency"
+msgstr ""
+
+#: src/Panes/Display.vala:47
+msgid "Text size"
+msgstr "Ukuran teks"
+
+#: src/Panes/Clicking.vala:35
 msgid "Clicking"
 msgstr "Mengklik"
 
-#: ../src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:55
 msgid "Double-click speed"
 msgstr "Kecepatan klik ganda"
 
-#: ../src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
 msgstr "Tahan tombol utama untuk memicu klik sekunder"
 
-#: ../src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
 msgstr "Simulasi klik jeda"
 
-#: ../src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
 msgstr "Klik saat kursor melayang"
 
-#: ../src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:63
 msgid "Hover delay"
 msgstr "Jeda melayang"
 
-#: ../src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:64
 msgid "Motion threshold"
 msgstr "Ambang gerak"
+
+#: src/Panes/Audio.vala:25
+msgid "Audio"
+msgstr "Suara"
+
+#: src/Panes/Audio.vala:32
+msgid "Flash the screen when an alert sound occurs"
+msgstr "Flash layar saat ada suara peringatan"
+
+#: src/Panes/Audio.vala:37
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Berikan deskripsi suara untuk item di layar"
+
+#: src/Panes/Audio.vala:39
+msgid "Keyboard shortcut"
+msgstr "Pintasan Papan Tik"
+
+#: src/Panes/Audio.vala:41
+msgid "Sound settings…"
+msgstr "Pengaturan suara…"
+
+#~ msgid "Zoom"
+#~ msgstr "Zum"
+
+#~ msgid "Screen Zoom"
+#~ msgstr "Zoom Layar"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Pembidik silang"
+
+#~ msgid "Screen zoom"
+#~ msgstr "Zoom layar"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "Ikuti kursor tetikus"
+
+#~ msgid "Mouse tracking"
+#~ msgstr "Pelacakan tetikus"
+
+#~ msgid "Zoom position"
+#~ msgstr "Posisi zum"
+
+#~ msgid "Zoom level"
+#~ msgstr "Tingkat zum"
+
+#~ msgid "Desktop Scrolling"
+#~ msgstr "Gulir Destop"
+
+#~ msgid "Display crosshairs"
+#~ msgstr "Tampilkan pembidik silang"
+
+#~ msgid "Crosshair thickness"
+#~ msgstr "Ketebalan pembidik silang"
+
+#~ msgid "Crosshair opacity"
+#~ msgstr "Kegelapan pembidik silang"

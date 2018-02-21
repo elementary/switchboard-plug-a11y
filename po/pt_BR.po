@@ -2,12 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-15 19:10-0500\n"
+"POT-Creation-Date: 2018-02-20 18:55-0600\n"
 "PO-Revision-Date: 2017-03-16 23:39+0000\n"
 "Last-Translator: Leonardo <leonardo@elementary.io>\n"
-"Language-Team: Portuguese (Brazil) "
-"<http://weblate.elementary.io/projects/desktop/switchboard-plug-a11y/pt_BR/>"
-"\n"
+"Language-Team: Portuguese (Brazil) <http://weblate.elementary.io/projects/"
+"desktop/switchboard-plug-a11y/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,320 +15,311 @@ msgstr ""
 "X-Generator: Weblate 2.12\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:58+0000\n"
 
-#: ../src/Widgets/Categories.vala:63
-msgid "Seeing"
-msgstr "Visão"
-
-#: ../src/Widgets/Categories.vala:65
-msgid "Hearing"
-msgstr "Audição"
-
-#: ../src/Widgets/Categories.vala:67
-msgid "Interaction"
-msgstr "Interação"
-
-#: ../src/Plug.vala:43
+#: src/Plug.vala:48
 msgid "Universal Access"
 msgstr "Acessibilidade"
 
-#: ../src/Plug.vala:44
+#: src/Plug.vala:49
 msgid "Configure accessibility features"
 msgstr "Configure recursos de acessibilidade"
 
-#: ../src/Plug.vala:114
+#: src/Plug.vala:124
 msgid "Accessibility Features"
 msgstr "Recursos de acessibilidade"
 
-#: ../src/Plug.vala:115
+#: src/Plug.vala:125
 msgid "Accessibility Display Features"
 msgstr "Recursos de acessibilidade de display"
 
-#: ../src/Plug.vala:116
+#: src/Plug.vala:126
 msgid "High Contrast Theme"
 msgstr "Tema de alto contraste"
 
-#: ../src/Plug.vala:117
+#: src/Plug.vala:127
 msgid "Font Size"
 msgstr "Tamanho da fonte"
 
-#: ../src/Plug.vala:118
+#: src/Plug.vala:128
 msgid "Text Size"
 msgstr "Tamanho do texto"
 
-#: ../src/Plug.vala:119
+#: src/Plug.vala:129
 msgid "Accessibility Audio Features"
 msgstr "Recursos de acessibilidade de áudio"
 
-#: ../src/Plug.vala:120
+#: src/Plug.vala:130
 msgid "Accessibility Hearing Features"
 msgstr "Recursos de acessibilidade de audição"
 
-#: ../src/Plug.vala:121 ../src/Panes/Audio.vala:38
+#: src/Plug.vala:131 src/Panes/Audio.vala:29
 msgid "Visual Alerts"
 msgstr "Alertas visuais"
 
-#: ../src/Plug.vala:122 ../src/Panes/Audio.vala:39
-#: ../src/Panes/ScreenReader.vala:24
+#: src/Plug.vala:132 src/Panes/Audio.vala:34
 msgid "Screen Reader"
 msgstr "Leitor de tela"
 
-#: ../src/Plug.vala:123
+#: src/Plug.vala:133
 msgid "Accessibility Keyboard Features"
 msgstr "Recursos de acessibilidade de teclado"
 
-#: ../src/Plug.vala:124
+#: src/Plug.vala:134
 msgid "On Screen Keyboard"
 msgstr "Teclado virtual"
 
-#: ../src/Plug.vala:125 ../src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:46
 msgid "Fast Typing"
 msgstr "Digitação rápida"
 
-#: ../src/Plug.vala:126
+#: src/Plug.vala:136
 msgid "Typing Delay"
 msgstr "Atraso de digitação"
 
-#: ../src/Plug.vala:127
+#: src/Plug.vala:137
 msgid "Keyboard Sounds"
 msgstr "Sons de teclado"
 
-#: ../src/Plug.vala:128
+#: src/Plug.vala:138
 msgid "Accessibility Mouse Features"
 msgstr "Recursos de acessibilidade de mouse"
 
-#: ../src/Plug.vala:129 ../src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:45
 msgid "Hover Click"
 msgstr "Clique de sobreposição"
 
-#: ../src/Plug.vala:130 ../src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:44
 msgid "Simulated Secondary Click"
 msgstr "Clique secundário simulado"
 
-#: ../src/Panes/Pointing.vala:28
-msgid "Pointing"
-msgstr "Apontando"
+#: src/Widgets/Categories.vala:57
+msgid "Seeing"
+msgstr "Visão"
 
-#: ../src/Panes/Pointing.vala:38
-msgid "Keypad Control"
-msgstr "Controle do teclado"
+#: src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "Audição"
 
-#: ../src/Panes/Pointing.vala:41 ../src/Panes/Clicking.vala:46
-msgid "Mouse settings…"
-msgstr "Configurações de mouse…"
+#: src/Widgets/Categories.vala:61
+msgid "Interaction"
+msgstr "Interação"
 
-#: ../src/Panes/Pointing.vala:48
-msgid "Control pointer using keypad"
-msgstr "Controlar o ponteiro usando o teclado"
-
-#: ../src/Panes/Pointing.vala:49
-msgid "Cursor speed"
-msgstr "Velocidade do cursor"
-
-#: ../src/Panes/Pointing.vala:64 ../src/Panes/Display.vala:75
-msgid "Normal"
-msgstr "Normal"
-
-#: ../src/Panes/Pointing.vala:66 ../src/Panes/Display.vala:77
-msgid "Large"
-msgstr "Grande"
-
-#: ../src/Panes/Pointing.vala:68 ../src/Panes/Display.vala:79
-msgid "Larger"
-msgstr "Maior"
-
-#: ../src/Panes/General.vala:28
-msgid "General"
-msgstr "Geral"
-
-#: ../src/Panes/General.vala:40
-msgid "Animations"
-msgstr "Animações"
-
-#: ../src/Panes/Zoom.vala:38
-msgid "Zoom"
-msgstr "Ampliação"
-
-#: ../src/Panes/Zoom.vala:48
-msgid "Screen Zoom"
-msgstr "Zoom na tela"
-
-#: ../src/Panes/Zoom.vala:49
-msgid "Crosshairs"
-msgstr "Mira"
-
-#: ../src/Panes/Zoom.vala:56
-msgid "Screen zoom"
-msgstr "Zoom de tela"
-
-#: ../src/Panes/Zoom.vala:59
-msgid "Follow mouse cursor"
-msgstr "Seguir o cursor do mouse"
-
-#: ../src/Panes/Zoom.vala:60
-msgid "Mouse tracking"
-msgstr "Rastreamento do mouse"
-
-#: ../src/Panes/Zoom.vala:61
-msgid "Zoom position"
-msgstr "Posição do zoom"
-
-#: ../src/Panes/Zoom.vala:62
-msgid "Zoom level"
-msgstr "Nível de zoom"
-
-#: ../src/Panes/Zoom.vala:63
-msgid "Desktop Scrolling"
-msgstr "Rolagem do desktop"
-
-#: ../src/Panes/Zoom.vala:67
-msgid "Display crosshairs"
-msgstr "Mira de tela"
-
-#: ../src/Panes/Zoom.vala:69
-msgid "Crosshair thickness"
-msgstr "Espessura da mira"
-
-#: ../src/Panes/Zoom.vala:70
-msgid "Crosshair opacity"
-msgstr "Opacidade da mira"
-
-#: ../src/Panes/Display.vala:32
-msgid "Display"
-msgstr "Tela"
-
-#: ../src/Panes/Display.vala:42
-msgid "Color"
-msgstr "Cor"
-
-#: ../src/Panes/Display.vala:43
-msgid "Reading"
-msgstr "Leitura"
-
-#: ../src/Panes/Display.vala:44
-msgid "Display settings…"
-msgstr "Mostrar configurações…"
-
-#: ../src/Panes/Display.vala:50
-msgid "High contrast theme"
-msgstr "Tema de alto contraste"
-
-#: ../src/Panes/Display.vala:57
-msgid "Text size"
-msgstr "Tamanho do texto"
-
-#: ../src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:36
 msgid "Typing"
 msgstr "Digitação"
 
-#: ../src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:45
 msgid "Typing Delays"
 msgstr "Atraso da digitação"
 
-#: ../src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:47
 msgid "On-screen keyboard settings..."
 msgstr "Configurações do teclado na tela..."
 
-#: ../src/Panes/Typing.vala:48 ../src/Panes/Keyboard.vala:40
+#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
 msgid "Keyboard settings..."
 msgstr "Configurações do teclado..."
 
-#: ../src/Panes/Typing.vala:55
+#: src/Panes/Typing.vala:65
 msgid "On-screen keyboard"
 msgstr "Teclado virtual"
 
-#: ../src/Panes/Typing.vala:58
+#: src/Panes/Typing.vala:68
 msgid "Delay between key presses (slow keys)"
 msgstr "Demora entre pressionamento de teclas (teclas devagares)"
 
-#: ../src/Panes/Typing.vala:59
+#: src/Panes/Typing.vala:69
 msgid "Beep when a key is pressed"
 msgstr "Emitir alarme sonoro quando uma tecla é pressionada"
 
-#: ../src/Panes/Typing.vala:60
+#: src/Panes/Typing.vala:70
 msgid "Beep when a key is accepted"
 msgstr "Emitir alerta quando uma tecla é aceita"
 
-#: ../src/Panes/Typing.vala:61 ../src/Panes/Typing.vala:66
+#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
 msgid "Beep when a key is rejected"
 msgstr "Bipa quando uma tecla é rejeitada"
 
-#: ../src/Panes/Typing.vala:62 ../src/Panes/Typing.vala:67
+#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
 msgid "Delay length"
 msgstr "Tempo de demora"
 
-#: ../src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:75
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
 "Ignorar duplicatas de teclas pressionadas rapidamente (teclas saltitantes)"
 
-#: ../src/Panes/Keyboard.vala:29
+#: src/Panes/Pointing.vala:27
+msgid "Pointing"
+msgstr "Apontando"
+
+#: src/Panes/Pointing.vala:37
+msgid "Keypad Control"
+msgstr "Controle do teclado"
+
+#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+msgid "Mouse settings…"
+msgstr "Configurações de mouse…"
+
+#: src/Panes/Pointing.vala:44
+msgid "Control pointer using keypad"
+msgstr "Controlar o ponteiro usando o teclado"
+
+#: src/Panes/Pointing.vala:45
+msgid "Cursor speed"
+msgstr "Velocidade do cursor"
+
+#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+msgid "Normal"
+msgstr "Normal"
+
+#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+msgid "Large"
+msgstr "Grande"
+
+#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+msgid "Larger"
+msgstr "Maior"
+
+#: src/Panes/Keyboard.vala:28
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: ../src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:37
 msgid "Lock Keys"
 msgstr "Teclas de bloqueio"
 
-#: ../src/Panes/Keyboard.vala:39
+#: src/Panes/Keyboard.vala:38
 msgid "Modifier Keys"
 msgstr "Teclas modificadoras"
 
-#: ../src/Panes/Keyboard.vala:45
+#: src/Panes/Keyboard.vala:43
 msgid "Beep when a lock key is pressed"
 msgstr "Tocar alarme quando uma tecla de bloqueio é pressionada"
 
-#: ../src/Panes/Keyboard.vala:48
+#: src/Panes/Keyboard.vala:46
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Usar teclas modificadoras em sequência (teclas fixas)"
 
-#: ../src/Panes/Keyboard.vala:49
+#: src/Panes/Keyboard.vala:47
 msgid "Beep when a modifier key is pressed"
 msgstr "Alerta quando uma tecla de modificação é pressionada"
 
-#: ../src/Panes/Audio.vala:28
-msgid "Audio"
-msgstr "Áudio"
+#: src/Panes/General.vala:24
+msgid "General"
+msgstr "Geral"
 
-#: ../src/Panes/Audio.vala:40
-msgid "Sound settings…"
-msgstr "Configurações de som…"
+#: src/Panes/General.vala:30
+msgid "Animations"
+msgstr "Animações"
 
-#: ../src/Panes/Audio.vala:48
-msgid "Flash the screen when an alert sound occurs"
-msgstr "Piscar tela quando ocorrer um alerta sonoro"
+#: src/Panes/Display.vala:25
+msgid "Display"
+msgstr "Tela"
 
-#: ../src/Panes/Audio.vala:52
-msgid "Provide audio descriptions for items on the screen"
-msgstr "Disponibilizar descrições de áudio para itens na tela"
+#: src/Panes/Display.vala:29
+msgid "Color"
+msgstr "Cor"
 
-#: ../src/Panes/Audio.vala:53
-msgid "Keyboard shortcut"
-msgstr "Atalho no teclado"
+#: src/Panes/Display.vala:30
+msgid "Reading"
+msgstr "Leitura"
 
-#: ../src/Panes/Clicking.vala:35
+#: src/Panes/Display.vala:31
+msgid "Display settings…"
+msgstr "Mostrar configurações…"
+
+#: src/Panes/Display.vala:36
+msgid "High contrast theme"
+msgstr "Tema de alto contraste"
+
+#: src/Panes/Display.vala:40
+msgid "Panel transparency"
+msgstr ""
+
+#: src/Panes/Display.vala:47
+msgid "Text size"
+msgstr "Tamanho do texto"
+
+#: src/Panes/Clicking.vala:35
 msgid "Clicking"
 msgstr "Clicando"
 
-#: ../src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:55
 msgid "Double-click speed"
 msgstr "Velocidade de clique duplo"
 
-#: ../src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:58
 msgid "Hold primary button to trigger secondary click"
 msgstr "Segura botão primário para ativar clique secundario"
 
-#: ../src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:59
 msgid "Simulated click delay"
 msgstr "Tempo de clique simulado"
 
-#: ../src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:62
 msgid "Click when the cursor hovers"
 msgstr "Clicar quando o cursor sobrepor"
 
-#: ../src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:63
 msgid "Hover delay"
 msgstr "Atraso da sobreposição"
 
-#: ../src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:64
 msgid "Motion threshold"
 msgstr "Tolerância de movimento"
+
+#: src/Panes/Audio.vala:25
+msgid "Audio"
+msgstr "Áudio"
+
+#: src/Panes/Audio.vala:32
+msgid "Flash the screen when an alert sound occurs"
+msgstr "Piscar tela quando ocorrer um alerta sonoro"
+
+#: src/Panes/Audio.vala:37
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Disponibilizar descrições de áudio para itens na tela"
+
+#: src/Panes/Audio.vala:39
+msgid "Keyboard shortcut"
+msgstr "Atalho no teclado"
+
+#: src/Panes/Audio.vala:41
+msgid "Sound settings…"
+msgstr "Configurações de som…"
+
+#~ msgid "Zoom"
+#~ msgstr "Ampliação"
+
+#~ msgid "Screen Zoom"
+#~ msgstr "Zoom na tela"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Mira"
+
+#~ msgid "Screen zoom"
+#~ msgstr "Zoom de tela"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "Seguir o cursor do mouse"
+
+#~ msgid "Mouse tracking"
+#~ msgstr "Rastreamento do mouse"
+
+#~ msgid "Zoom position"
+#~ msgstr "Posição do zoom"
+
+#~ msgid "Zoom level"
+#~ msgstr "Nível de zoom"
+
+#~ msgid "Desktop Scrolling"
+#~ msgstr "Rolagem do desktop"
+
+#~ msgid "Display crosshairs"
+#~ msgstr "Mira de tela"
+
+#~ msgid "Crosshair thickness"
+#~ msgstr "Espessura da mira"
+
+#~ msgid "Crosshair opacity"
+#~ msgstr "Opacidade da mira"
