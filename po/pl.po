@@ -3,15 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:55-0600\n"
-"PO-Revision-Date: 2016-06-20 09:22+0000\n"
-"Last-Translator: Damian Woźniak <fiszet@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-02-26 00:09+0000\n"
+"Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
+"Language-Team: Polish <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-a11y/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: src/Plug.vala:48
 msgid "Universal Access"
@@ -232,7 +235,7 @@ msgstr "Motyw o wysokim kontraście"
 
 #: src/Panes/Display.vala:40
 msgid "Panel transparency"
-msgstr ""
+msgstr "Przezroczystość panelu"
 
 #: src/Panes/Display.vala:47
 msgid "Text size"
