@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:55-0600\n"
-"PO-Revision-Date: 2018-03-29 00:11+0000\n"
+"PO-Revision-Date: 2018-03-30 17:32+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/da/>\n"
@@ -145,15 +145,15 @@ msgstr "Længde på forsinkelse"
 
 #: src/Panes/Typing.vala:75
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "Ignorer hurtige gentagne tryk på samme tast (bounce keys)"
 
 #: src/Panes/Pointing.vala:27
 msgid "Pointing"
-msgstr ""
+msgstr "Peger"
 
 #: src/Panes/Pointing.vala:37
 msgid "Keypad Control"
-msgstr ""
+msgstr "Numerisk tastatur Kontrol"
 
 #: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
 msgid "Mouse settings…"
@@ -161,7 +161,7 @@ msgstr "Museindstillinger…"
 
 #: src/Panes/Pointing.vala:44
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Kontroller markør med numerisk tastatur"
 
 #: src/Panes/Pointing.vala:45
 msgid "Cursor speed"
@@ -169,15 +169,15 @@ msgstr "Markørhastighed"
 
 #: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
 msgid "Larger"
-msgstr ""
+msgstr "Større"
 
 #: src/Panes/Keyboard.vala:28
 msgid "Keyboard"
@@ -209,7 +209,7 @@ msgstr "Generelt"
 
 #: src/Panes/General.vala:30
 msgid "Animations"
-msgstr ""
+msgstr "Animationer"
 
 #: src/Panes/Display.vala:25
 msgid "Display"
@@ -233,7 +233,7 @@ msgstr "Tema med høj kontrast"
 
 #: src/Panes/Display.vala:40
 msgid "Panel transparency"
-msgstr ""
+msgstr "Panel gennemsigtighed"
 
 #: src/Panes/Display.vala:47
 msgid "Text size"
@@ -277,7 +277,7 @@ msgstr "Blink med skærmen når en advarselslyd afspilles"
 
 #: src/Panes/Audio.vala:37
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Giv lydbeskrivelser for elementer på skærmen"
 
 #: src/Panes/Audio.vala:39
 msgid "Keyboard shortcut"
