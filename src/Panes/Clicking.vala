@@ -28,8 +28,8 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     }
 
     construct {
-        var secondary_label = new Accessibility.Widgets.Label (_("Simulated Secondary Click"));
-        var hover_label = new Accessibility.Widgets.Label (_("Hover Click"));
+        var secondary_label = new Granite.HeaderLabel (_("Simulated Secondary Click"));
+        var hover_label = new Granite.HeaderLabel (_("Hover Click"));
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
         mouse_settings_label.vexpand = true;
 
