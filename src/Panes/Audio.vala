@@ -1,6 +1,6 @@
 // -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2015-2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2015-2018 elementary LLC. (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -22,7 +22,10 @@
 
 public class Accessibility.Panes.Audio : Categories.Pane {
     public Audio () {
-        base (_("Audio"), "preferences-desktop-sound");
+        Object (
+            label_string: _("Audio"),
+            icon_name: "preferences-desktop-sound"
+        );
     }
 
     construct {

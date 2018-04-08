@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
+ * Copyright (c) 2015-2018 elementary LLC. (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -22,7 +22,10 @@
 public class Accessibility.Panes.Display : Categories.Pane {
     private const string PANEL_SCHEMA = "org.pantheon.desktop.wingpanel";
     public Display () {
-        base (_("Display"), "video-display");
+        Object (
+            label_string: _("Display"),
+            icon_name: "video-display"
+        );
     }
 
     construct {
