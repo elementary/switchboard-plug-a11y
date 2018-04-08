@@ -1,6 +1,6 @@
 // -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
+ * Copyright (c) 2015-2018 elementary LLC. (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -21,7 +21,10 @@
  */
 public class Accessibility.Panes.General : Categories.Pane {
     public General () {
-        base (_("General"), "preferences-desktop-accessibility");
+        Object (
+            label_string: _("General"),
+            icon_name: "preferences-desktop-accessibility"
+        );
     }
 
     construct {
