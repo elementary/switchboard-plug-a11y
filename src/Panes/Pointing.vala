@@ -34,7 +34,7 @@ public class Accessibility.Panes.Pointing : Categories.Pane {
     }
 
     private void build_ui () {
-        var control_label = new Accessibility.Widgets.Label (_("Keypad Control"));
+        var control_label = new Granite.HeaderLabel (_("Keypad Control"));
         speed_adjustment = new Gtk.Adjustment (0, 0, 50, 1, 1, 1);
 
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");

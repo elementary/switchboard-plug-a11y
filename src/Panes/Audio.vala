@@ -26,12 +26,12 @@ public class Accessibility.Panes.Audio : Categories.Pane {
     }
 
     construct {
-        var alerts_label = new Accessibility.Widgets.Label (_("Visual Alerts"));
+        var alerts_label = new Granite.HeaderLabel (_("Visual Alerts"));
 
         var alerts_box = new Accessibility.Widgets.SettingsBox ();
         var screen_flash = alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
 
-        var reader_label = new Accessibility.Widgets.Label (_("Screen Reader"));
+        var reader_label = new Granite.HeaderLabel (_("Screen Reader"));
 
         var reader_box = new Accessibility.Widgets.SettingsBox ();
         var read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));

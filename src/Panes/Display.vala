@@ -26,8 +26,8 @@ public class Accessibility.Panes.Display : Categories.Pane {
     }
 
     construct {
-        var color_label = new Accessibility.Widgets.Label (_("Color"));
-        var reading_label = new Accessibility.Widgets.Label (_("Reading"));
+        var color_label = new Granite.HeaderLabel (_("Color"));
+        var reading_label = new Granite.HeaderLabel (_("Reading"));
         var display_settings = new Accessibility.Widgets.LinkLabel (_("Display settings…"), "settings://display");
         display_settings.vexpand = true;
 

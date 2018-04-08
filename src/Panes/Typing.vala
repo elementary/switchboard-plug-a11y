@@ -42,8 +42,8 @@ public class Accessibility.Panes.Typing : Categories.Pane {
     }
 
     private void build_ui () {
-        var delay_label = new Accessibility.Widgets.Label (_("Typing Delays"));
-        var typing_label = new Accessibility.Widgets.Label (_("Fast Typing"));
+        var delay_label = new Granite.HeaderLabel (_("Typing Delays"));
+        var typing_label = new Granite.HeaderLabel (_("Fast Typing"));
         var onboard_settings_label = new Gtk.LinkButton.with_label ("", _("On-screen keyboard settings..."));
         onboard_settings_label.halign = Gtk.Align.END;
         onboard_settings_label.clicked.connect (() => {
