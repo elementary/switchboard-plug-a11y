@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 18:55-0600\n"
+"POT-Creation-Date: 2018-04-08 16:13-0700\n"
 "PO-Revision-Date: 2018-03-11 18:38+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
-"Language-Team: Italian <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-a11y/it/>\n"
+"Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,11 +51,11 @@ msgstr "Funzioni di accessibilità audio"
 msgid "Accessibility Hearing Features"
 msgstr "Funzioni di accessibilità per l'udito"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:29
+#: src/Plug.vala:131 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Avvisi visivi"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:34
+#: src/Plug.vala:132 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Lettore di schermo"
 
@@ -67,7 +67,7 @@ msgstr "Funzioni di accessibilità della tastiera"
 msgid "On Screen Keyboard"
 msgstr "Tastiera a schermo"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Immissione veloce"
 
@@ -83,11 +83,11 @@ msgstr "Suoni della tastiera"
 msgid "Accessibility Mouse Features"
 msgstr "Funzioni di accessibilità del mouse"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "Click automatico"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "Click secondario simulato"
 
@@ -103,189 +103,188 @@ msgstr "Udito"
 msgid "Interaction"
 msgstr "Interazione"
 
-#: src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Digitazione"
 
-#: src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Ritardo d'immissione"
 
-#: src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings..."
 msgstr "Impostazioni tastiera su schermo..."
 
-#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
+#: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings..."
 msgstr "Impostazioni della tastiera..."
 
-#: src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Tastiera a schermo"
 
-#: src/Panes/Typing.vala:68
+#: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Ritardo fra le pressioni dei tasti (tasti lenti)"
 
-#: src/Panes/Typing.vala:69
+#: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Segnale acustico quando viene premuto un tasto"
 
-#: src/Panes/Typing.vala:70
+#: src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Segnale acustico quando un tasto è accettato"
 
-#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
+#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Segnale acustico quando un tasto è rifiutato"
 
-#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
+#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "Lunghezza del ritardo"
 
-#: src/Panes/Typing.vala:75
+#: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignora le pressioni duplicate veloci (tasti di rimbalzo)"
 
-#: src/Panes/Pointing.vala:27
+#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
 msgstr "Puntamento"
 
-#: src/Panes/Pointing.vala:37
+#: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
 msgstr "Controllo del tastierino numerico"
 
-#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+#: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "Impostazioni del mouse…"
 
-#: src/Panes/Pointing.vala:44
+#: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
 msgstr "Controlla il puntatore utilizzando il tastierino numerico"
 
-#: src/Panes/Pointing.vala:45
+#: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
 msgstr "Velocità del puntatore"
 
-#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+#: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
 msgstr "Normale"
 
-#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+#: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
 msgid "Large"
 msgstr "Grande"
 
-#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+#: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "Più grande"
 
-#: src/Panes/Keyboard.vala:28
-msgid "Keyboard"
-msgstr "Tastiera"
-
-#: src/Panes/Keyboard.vala:37
+#: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "Tasti di blocco"
 
-#: src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Tasti modificatori"
 
-#: src/Panes/Keyboard.vala:43
+#: src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Segnale acustico quando si preme un tasto di blocco"
 
-#: src/Panes/Keyboard.vala:46
+#: src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Utilizza i tasti modificatori in sequenza (tasti permanenti)"
 
-#: src/Panes/Keyboard.vala:47
+#: src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Segnale acustico quando viene premuto un modificatore"
 
-#: src/Panes/General.vala:24
+#: src/Panes/General.vala:25
 msgid "General"
 msgstr "Generali"
 
-#: src/Panes/General.vala:30
+#: src/Panes/General.vala:33
 msgid "Animations"
 msgstr "Animazioni"
 
-#: src/Panes/Display.vala:25
+#: src/Panes/Display.vala:26
 msgid "Display"
 msgstr "Monitor"
 
-#: src/Panes/Display.vala:29
+#: src/Panes/Display.vala:32
 msgid "Color"
 msgstr "Colore"
 
-#: src/Panes/Display.vala:30
+#: src/Panes/Display.vala:33
 msgid "Reading"
 msgstr "Lettura"
 
-#: src/Panes/Display.vala:31
+#: src/Panes/Display.vala:34
 msgid "Display settings…"
 msgstr "Impostazioni del monitor…"
 
-#: src/Panes/Display.vala:36
+#: src/Panes/Display.vala:39
 msgid "High contrast theme"
 msgstr "Tema a contrasto elevato"
 
-#: src/Panes/Display.vala:40
+#: src/Panes/Display.vala:43
 msgid "Panel transparency"
 msgstr "Trasparenza del pannello"
 
-#: src/Panes/Display.vala:47
+#: src/Panes/Display.vala:50
 msgid "Text size"
 msgstr "Dimensione del testo"
 
-#: src/Panes/Clicking.vala:35
+#: src/Panes/Clicking.vala:25
 msgid "Clicking"
 msgstr "Click"
 
-#: src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:42
 msgid "Double-click speed"
 msgstr "Velocità doppio click"
 
-#: src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
 msgstr "Tieni premuto il pulsante primario per indurre il click secondario"
 
-#: src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "Ritardo click simulato"
 
-#: src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Esegui il click quando il puntatore passa sopra"
 
-#: src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "Ritardo al passaggio"
 
-#: src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
 msgstr "Soglia di movimento"
 
-#: src/Panes/Audio.vala:25
+#: src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Audio"
 
-#: src/Panes/Audio.vala:32
+#: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
 msgstr "Flash dello schermo quando si presenta un suono di avviso"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Fornisci descrizioni audio per gli elementi sullo schermo"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
 msgstr "Tasti di scelta rapida"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Impostazioni audio…"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastiera"
 
 #~ msgid "Zoom"
 #~ msgstr "Ingrandimento"

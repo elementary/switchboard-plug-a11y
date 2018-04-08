@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 18:55-0600\n"
+"POT-Creation-Date: 2018-04-08 16:13-0700\n"
 "PO-Revision-Date: 2016-01-11 14:00+0000\n"
 "Last-Translator: Lukáš Papík <stereo839@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,11 +49,11 @@ msgstr ""
 msgid "Accessibility Hearing Features"
 msgstr ""
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:29
+#: src/Plug.vala:131 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Vizuálne výstrahy"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:34
+#: src/Plug.vala:132 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Čítačka obrazovky"
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "On Screen Keyboard"
 msgstr ""
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Rychlé písanie"
 
@@ -81,11 +81,11 @@ msgstr ""
 msgid "Accessibility Mouse Features"
 msgstr ""
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "Kliknutie zotrvaním"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "Simulované sekundárne kliknutie"
 
@@ -101,189 +101,188 @@ msgstr "Sluch"
 msgid "Interaction"
 msgstr "Interakcia"
 
-#: src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Písanie"
 
-#: src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Oneskorenie písania"
 
-#: src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings..."
 msgstr "Nastavenie klávesnice na obrazovke..."
 
-#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
+#: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings..."
 msgstr "Nastavenia klávesnice"
 
-#: src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Klávesnica na obrazovke"
 
-#: src/Panes/Typing.vala:68
+#: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Oneskorenie medzi stlačenými klávesami (pomalé klávesy)"
 
-#: src/Panes/Typing.vala:69
+#: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Pípnuť keď je klávesa stlačená"
 
-#: src/Panes/Typing.vala:70
+#: src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Zapípať pri prijatí klávesy"
 
-#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
+#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Zapípať pri odmietnutí klávesy"
 
-#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
+#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "Dĺžka oneskorenia"
 
-#: src/Panes/Typing.vala:75
+#: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorovať rýchle duplicitne stlačené klávesy (odskakujúce klávesy)"
 
-#: src/Panes/Pointing.vala:27
+#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
 msgstr "Ukazovanie"
 
-#: src/Panes/Pointing.vala:37
+#: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
 msgstr ""
 
-#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+#: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "Nastavenie myši"
 
-#: src/Panes/Pointing.vala:44
+#: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
 msgstr "Kontrolný ukazovateľ pomocou klávesnice"
 
-#: src/Panes/Pointing.vala:45
+#: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
 msgstr "Rýchlosť ukazateľa"
 
-#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+#: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
 msgstr ""
 
-#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+#: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
 msgid "Large"
 msgstr ""
 
-#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+#: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr ""
 
-#: src/Panes/Keyboard.vala:28
-msgid "Keyboard"
-msgstr "Klávesnica"
-
-#: src/Panes/Keyboard.vala:37
+#: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "Zamykacie klávesy"
 
-#: src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Modifikačné klávesy"
 
-#: src/Panes/Keyboard.vala:43
+#: src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Pípnuť keď je zamykacia klávesa stlačená"
 
-#: src/Panes/Keyboard.vala:46
+#: src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Použiť modifikačné klávesy za sebou (lepkavé klávesy)"
 
-#: src/Panes/Keyboard.vala:47
+#: src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Pípnuť keď modifikačná klávesa je stlačená"
 
-#: src/Panes/General.vala:24
+#: src/Panes/General.vala:25
 msgid "General"
 msgstr "Všeobecné"
 
-#: src/Panes/General.vala:30
+#: src/Panes/General.vala:33
 msgid "Animations"
 msgstr ""
 
-#: src/Panes/Display.vala:25
+#: src/Panes/Display.vala:26
 msgid "Display"
 msgstr "Zobrazenie"
 
-#: src/Panes/Display.vala:29
+#: src/Panes/Display.vala:32
 msgid "Color"
 msgstr "Farba"
 
-#: src/Panes/Display.vala:30
+#: src/Panes/Display.vala:33
 msgid "Reading"
 msgstr "Čítanie"
 
-#: src/Panes/Display.vala:31
+#: src/Panes/Display.vala:34
 msgid "Display settings…"
 msgstr "Nastavenia zobrazenia"
 
-#: src/Panes/Display.vala:36
+#: src/Panes/Display.vala:39
 msgid "High contrast theme"
 msgstr "Téma s vysokým kontrastom"
 
-#: src/Panes/Display.vala:40
+#: src/Panes/Display.vala:43
 msgid "Panel transparency"
 msgstr ""
 
-#: src/Panes/Display.vala:47
+#: src/Panes/Display.vala:50
 msgid "Text size"
 msgstr "Veľkosť textu"
 
-#: src/Panes/Clicking.vala:35
+#: src/Panes/Clicking.vala:25
 msgid "Clicking"
 msgstr "Klikanie"
 
-#: src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:42
 msgid "Double-click speed"
 msgstr "Rýchlosť dvojitého stlačenia"
 
-#: src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
 msgstr "Držte hlavné tlačidlo pre spustenie sekundárneho kliku"
 
-#: src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "Simulovať oneskorenie kliku"
 
-#: src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Kliknite na tlačidlo, keď sa kurzor pohybuje"
 
-#: src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "Oneskorenie prechádzania"
 
-#: src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
 msgstr ""
 
-#: src/Panes/Audio.vala:25
+#: src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Zvuk"
 
-#: src/Panes/Audio.vala:32
+#: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
 msgstr "Blikať obrazovku keď nastane nejaké zvukové upozornenie"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Poskytovať zvukový popis pre položky na obrazovke"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
 msgstr "Klávesové skratky"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Zvukové nastavenia..."
+
+#~ msgid "Keyboard"
+#~ msgstr "Klávesnica"
 
 #~ msgid "Zoom"
 #~ msgstr "Priblíženie"

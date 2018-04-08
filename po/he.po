@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 18:55-0600\n"
+"POT-Creation-Date: 2018-04-08 16:13-0700\n"
 "PO-Revision-Date: 2018-02-21 12:21+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-a11y/he/>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,11 +51,11 @@ msgstr "תכונות נגישות שמע"
 msgid "Accessibility Hearing Features"
 msgstr "תכונות נגישות שמיעה"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:29
+#: src/Plug.vala:131 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "אזהרות חזותיות"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:34
+#: src/Plug.vala:132 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "מקריא מסך"
 
@@ -67,7 +67,7 @@ msgstr "תכונות מקלדת נגישות"
 msgid "On Screen Keyboard"
 msgstr "מקלדת על גבי המסך"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "הקלדה מהירה"
 
@@ -83,11 +83,11 @@ msgstr "צלילי מקלדת"
 msgid "Accessibility Mouse Features"
 msgstr "תכונות עכבר נגישות"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "הקשה במעבר מעל"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "הקשה משנית מדומה"
 
@@ -103,189 +103,188 @@ msgstr "שמיעה"
 msgid "Interaction"
 msgstr "אינטראקציה"
 
-#: src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "הקלדה"
 
-#: src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "השהייה בהקלדה"
 
-#: src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings..."
 msgstr "הגדרות מקלדת על גבי מסך…"
 
-#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
+#: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings..."
 msgstr "הגדרות מקלדת…"
 
-#: src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "מקלדת על גבי מסך"
 
-#: src/Panes/Typing.vala:68
+#: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "השהיה בין לחיצות מקשים (מקשים אטיים)"
 
-#: src/Panes/Typing.vala:69
+#: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "להשמיע צפצוף כשמקש נלחץ"
 
-#: src/Panes/Typing.vala:70
+#: src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "להשמיע צפצוף כשלחיצת מקש מתקבלת"
 
-#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
+#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "להשמיע צפצוף כשלחיצת מקש נדחית"
 
-#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
+#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "משך ההשהיה"
 
-#: src/Panes/Typing.vala:75
+#: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "התעלמות מלחיצות כפולות מהירות (מקשים חוזרים)"
 
-#: src/Panes/Pointing.vala:27
+#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
 msgstr "הצבעה"
 
-#: src/Panes/Pointing.vala:37
+#: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
 msgstr "שליטה עם מקשי המספרים"
 
-#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+#: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "הגדרות עכבר…"
 
-#: src/Panes/Pointing.vala:44
+#: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
 msgstr "שליטה בסמן באמצעות מקשי המספרים"
 
-#: src/Panes/Pointing.vala:45
+#: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
 msgstr "מהירות הסמן"
 
-#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+#: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
 msgstr "רגיל"
 
-#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+#: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
 msgid "Large"
 msgstr "גדול"
 
-#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+#: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "גדול יותר"
 
-#: src/Panes/Keyboard.vala:28
-msgid "Keyboard"
-msgstr "מקלדת"
-
-#: src/Panes/Keyboard.vala:37
+#: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "מקשי נעילה"
 
-#: src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "מקשי החלפה"
 
-#: src/Panes/Keyboard.vala:43
+#: src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "להשמיע צפצוף כאשר נלחץ מקש נעילה"
 
-#: src/Panes/Keyboard.vala:46
+#: src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "שימוש במקשי החלפה ברצף (מקשים דביקים)"
 
-#: src/Panes/Keyboard.vala:47
+#: src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "להשמיע צפצוף כאשר נלחץ מקש החלפה"
 
-#: src/Panes/General.vala:24
+#: src/Panes/General.vala:25
 msgid "General"
 msgstr "כללי"
 
-#: src/Panes/General.vala:30
+#: src/Panes/General.vala:33
 msgid "Animations"
 msgstr "הנפשות"
 
-#: src/Panes/Display.vala:25
+#: src/Panes/Display.vala:26
 msgid "Display"
 msgstr "תצוגה"
 
-#: src/Panes/Display.vala:29
+#: src/Panes/Display.vala:32
 msgid "Color"
 msgstr "צבע"
 
-#: src/Panes/Display.vala:30
+#: src/Panes/Display.vala:33
 msgid "Reading"
 msgstr "קריאה"
 
-#: src/Panes/Display.vala:31
+#: src/Panes/Display.vala:34
 msgid "Display settings…"
 msgstr "הגדרות תצוגה…"
 
-#: src/Panes/Display.vala:36
+#: src/Panes/Display.vala:39
 msgid "High contrast theme"
 msgstr "ערכת צבע עם ניגודיות גבוהה"
 
-#: src/Panes/Display.vala:40
+#: src/Panes/Display.vala:43
 msgid "Panel transparency"
 msgstr "שקיפות לוח"
 
-#: src/Panes/Display.vala:47
+#: src/Panes/Display.vala:50
 msgid "Text size"
 msgstr "גודל הטקסט"
 
-#: src/Panes/Clicking.vala:35
+#: src/Panes/Clicking.vala:25
 msgid "Clicking"
 msgstr "הקשה"
 
-#: src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:42
 msgid "Double-click speed"
 msgstr "מהירות הקשה כפולה"
 
-#: src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
 msgstr "החזקת הכפתור העיקרי כדי לגרום להקשה משנית"
 
-#: src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "השהיית הקשה מדומה"
 
-#: src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "להקיש כאשר הסמן עובר מעל"
 
-#: src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "השהיית מעבר מעל"
 
-#: src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
 msgstr "סף תנועה"
 
-#: src/Panes/Audio.vala:25
+#: src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "שמע"
 
-#: src/Panes/Audio.vala:32
+#: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
 msgstr "יש להבהב את המסך כאשר מתרחש אירוע צליל אזהרה"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
 msgstr "אספקת תיאור קולי לפריטים שעל המסך"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
 msgstr "קיצורי מקלדת"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "הגדרות צליל…"
+
+#~ msgid "Keyboard"
+#~ msgstr "מקלדת"
 
 #~ msgid "Zoom"
 #~ msgstr "תקריב"

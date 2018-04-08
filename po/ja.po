@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 18:55-0600\n"
+"POT-Creation-Date: 2018-04-08 16:13-0700\n"
 "PO-Revision-Date: 2018-02-21 14:47+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-a11y/ja/>\n"
+"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,11 +51,11 @@ msgstr "アクセシビリティオーディオ機能"
 msgid "Accessibility Hearing Features"
 msgstr "アクセシビリティ聴覚機能"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:29
+#: src/Plug.vala:131 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "視覚的な警告"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:34
+#: src/Plug.vala:132 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "スクリーンリーダー"
 
@@ -67,7 +67,7 @@ msgstr "アクセシビリティキーボード機能"
 msgid "On Screen Keyboard"
 msgstr "オンスクリーンキーボード"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:46
+#: src/Plug.vala:135 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "高速タイピング"
 
@@ -83,11 +83,11 @@ msgstr "キーボードサウンド"
 msgid "Accessibility Mouse Features"
 msgstr "マウス機能のアクセシビリティ"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:45
+#: src/Plug.vala:139 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "ホバークリック"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:44
+#: src/Plug.vala:140 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "副ボタンクリックの代替"
 
@@ -103,189 +103,188 @@ msgstr "聴覚"
 msgid "Interaction"
 msgstr "インタラクション"
 
-#: src/Panes/Typing.vala:36
+#: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "タイピング"
 
-#: src/Panes/Typing.vala:45
+#: src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "タイピングの遅延"
 
-#: src/Panes/Typing.vala:47
+#: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings..."
 msgstr "オンスクリーンキーボードの設定..."
 
-#: src/Panes/Typing.vala:58 src/Panes/Keyboard.vala:39
+#: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings..."
 msgstr "キーボードの設定..."
 
-#: src/Panes/Typing.vala:65
+#: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "オンスクリーンキーボード"
 
-#: src/Panes/Typing.vala:68
+#: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "キーの押下間の遅延 (スローキー)"
 
-#: src/Panes/Typing.vala:69
+#: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "キーが押されたときにビープ音を鳴らす"
 
-#: src/Panes/Typing.vala:70
+#: src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "キー入力を受け付けたときにビープ音を鳴らす"
 
-#: src/Panes/Typing.vala:71 src/Panes/Typing.vala:76
+#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "キー入力を拒否したときにビープ音を鳴らす"
 
-#: src/Panes/Typing.vala:72 src/Panes/Typing.vala:77
+#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "遅延の長さ"
 
-#: src/Panes/Typing.vala:75
+#: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "高速な重複キー押下の無視 (バウンスキー)"
 
-#: src/Panes/Pointing.vala:27
+#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
 msgstr "ポインティング"
 
-#: src/Panes/Pointing.vala:37
+#: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
 msgstr "キーパッド・コントロール"
 
-#: src/Panes/Pointing.vala:40 src/Panes/Clicking.vala:46
+#: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "マウスの設定…"
 
-#: src/Panes/Pointing.vala:44
+#: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
 msgstr "キーパッドを使ってポインターをコントロールする"
 
-#: src/Panes/Pointing.vala:45
+#: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
 msgstr "カーソルの速度"
 
-#: src/Panes/Pointing.vala:59 src/Panes/Display.vala:61
+#: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
 msgstr "標準"
 
-#: src/Panes/Pointing.vala:61 src/Panes/Display.vala:63
+#: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
 msgid "Large"
 msgstr "大"
 
-#: src/Panes/Pointing.vala:63 src/Panes/Display.vala:65
+#: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "特大"
 
-#: src/Panes/Keyboard.vala:28
-msgid "Keyboard"
-msgstr "キーボード"
-
-#: src/Panes/Keyboard.vala:37
+#: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "ロックキー"
 
-#: src/Panes/Keyboard.vala:38
+#: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "修飾キー"
 
-#: src/Panes/Keyboard.vala:43
+#: src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "ロックキーが押されたときにビープ音を鳴らす"
 
-#: src/Panes/Keyboard.vala:46
+#: src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "順番に修飾キーをつかう (固定キー)"
 
-#: src/Panes/Keyboard.vala:47
+#: src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "修飾キーが押されたときにビープ音を鳴らす"
 
-#: src/Panes/General.vala:24
+#: src/Panes/General.vala:25
 msgid "General"
 msgstr "一般"
 
-#: src/Panes/General.vala:30
+#: src/Panes/General.vala:33
 msgid "Animations"
 msgstr "アニメーション"
 
-#: src/Panes/Display.vala:25
+#: src/Panes/Display.vala:26
 msgid "Display"
 msgstr "画面"
 
-#: src/Panes/Display.vala:29
+#: src/Panes/Display.vala:32
 msgid "Color"
 msgstr "カラー"
 
-#: src/Panes/Display.vala:30
+#: src/Panes/Display.vala:33
 msgid "Reading"
 msgstr "リーディング"
 
-#: src/Panes/Display.vala:31
+#: src/Panes/Display.vala:34
 msgid "Display settings…"
 msgstr "ディスプレイの設定…"
 
-#: src/Panes/Display.vala:36
+#: src/Panes/Display.vala:39
 msgid "High contrast theme"
 msgstr "ハイコントラストテーマ"
 
-#: src/Panes/Display.vala:40
+#: src/Panes/Display.vala:43
 msgid "Panel transparency"
 msgstr "パネルの透明度"
 
-#: src/Panes/Display.vala:47
+#: src/Panes/Display.vala:50
 msgid "Text size"
 msgstr "文字サイズ"
 
-#: src/Panes/Clicking.vala:35
+#: src/Panes/Clicking.vala:25
 msgid "Clicking"
 msgstr "クリック"
 
-#: src/Panes/Clicking.vala:55
+#: src/Panes/Clicking.vala:42
 msgid "Double-click speed"
 msgstr "ダブルクリックの速度"
 
-#: src/Panes/Clicking.vala:58
+#: src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
 msgstr "主ボタンを押し続けることで副ボタンクリックとする"
 
-#: src/Panes/Clicking.vala:59
+#: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "代替クリック遅延"
 
-#: src/Panes/Clicking.vala:62
+#: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "カーソルがホバーしたときにクリックする"
 
-#: src/Panes/Clicking.vala:63
+#: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "ホバー遅延"
 
-#: src/Panes/Clicking.vala:64
+#: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
 msgstr "モーションのしきい値"
 
-#: src/Panes/Audio.vala:25
+#: src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "オーディオ"
 
-#: src/Panes/Audio.vala:32
+#: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
 msgstr "警告音が発生するときに画面を点滅する"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
 msgstr "画面上の項目について音声ガイドを提供する"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
 msgstr "キーボードショートカット"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "サウンド設定…"
+
+#~ msgid "Keyboard"
+#~ msgstr "キーボード"
 
 #~ msgid "Zoom"
 #~ msgstr "ズーム"
