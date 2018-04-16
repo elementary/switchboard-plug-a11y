@@ -49,27 +49,26 @@ namespace Accessibility {
                     description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility",
                     supported_settings: settings);
-
             plug = this;
-
-            var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
-            if (animations != null) {
-                animations_settings = new Settings (ANIMATIONS_SCHEMA);
-            }
-
-            deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
-            keyboard_settings =         new Accessibility.Backend.Keyboard ();
-            a11y_settings =             new Accessibility.Backend.A11y ();
-            magnifier_settings =        new Accessibility.Backend.Magnifier ();
-            applications_settings =     new Accessibility.Backend.Applications ();
-            wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
-            peripherals_settings =      new Accessibility.Backend.Peripherals ();
-            mouse_settings =            new Accessibility.Backend.Mouse ();
-            media_keys_settings =       new Accessibility.Backend.MediaKeys ();
         }
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
+                var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
+                if (animations != null) {
+                    animations_settings = new Settings (ANIMATIONS_SCHEMA);
+                }    
+
+                deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
+                keyboard_settings =         new Accessibility.Backend.Keyboard ();
+                a11y_settings =             new Accessibility.Backend.A11y ();
+                magnifier_settings =        new Accessibility.Backend.Magnifier ();
+                applications_settings =     new Accessibility.Backend.Applications ();
+                wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
+                peripherals_settings =      new Accessibility.Backend.Peripherals ();
+                mouse_settings =            new Accessibility.Backend.Mouse ();
+                media_keys_settings =       new Accessibility.Backend.MediaKeys ();
+
                 paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 categories = new Categories ();
                 paned.pack1 (categories, false, false);
