@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-04-27 00:03+0000\n"
+"PO-Revision-Date: 2018-05-11 00:07+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/cs/>\n"
@@ -149,11 +149,11 @@ msgstr ""
 
 #: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
-msgstr ""
+msgstr "Najíždění"
 
 #: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
-msgstr ""
+msgstr "Ovládání klávesnicí"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
@@ -185,7 +185,7 @@ msgstr "Zamykací klávesy"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
-msgstr ""
+msgstr "Modifikační klávesy"
 
 #: src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
@@ -257,11 +257,11 @@ msgstr "Kliknout při najetí kurzorem"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr ""
+msgstr "Zpoždění při přejetí myší"
 
 #: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
-msgstr ""
+msgstr "Hranice pohybu"
 
 #: src/Panes/Audio.vala:26
 msgid "Audio"
@@ -269,7 +269,7 @@ msgstr "Audio"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Bliknout obrazovkou při zvuku upozornění"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
