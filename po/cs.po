@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-05-11 00:07+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"PO-Revision-Date: 2018-05-16 14:12+0000\n"
+"Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/cs/>\n"
 "Language: cs\n"
@@ -49,7 +49,7 @@ msgstr "Možnosti přístupnosti audia"
 
 #: src/Plug.vala:130
 msgid "Accessibility Hearing Features"
-msgstr ""
+msgstr "Pomocné nástroje pro sluch"
 
 #: src/Plug.vala:131 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
@@ -61,7 +61,7 @@ msgstr "Čtečka obrazovky"
 
 #: src/Plug.vala:133
 msgid "Accessibility Keyboard Features"
-msgstr ""
+msgstr "Pomocné nástroje pro klávesnici"
 
 #: src/Plug.vala:134
 msgid "On Screen Keyboard"
@@ -73,7 +73,7 @@ msgstr "Rychlé psaní"
 
 #: src/Plug.vala:136
 msgid "Typing Delay"
-msgstr ""
+msgstr "Prodleva při psaní"
 
 #: src/Plug.vala:137
 msgid "Keyboard Sounds"
@@ -81,7 +81,7 @@ msgstr "Zvuky klávesnice"
 
 #: src/Plug.vala:138
 msgid "Accessibility Mouse Features"
-msgstr ""
+msgstr "Pomocné nástroje pro myš"
 
 #: src/Plug.vala:139 src/Panes/Clicking.vala:32
 msgid "Hover Click"
@@ -89,7 +89,7 @@ msgstr "Kliknutí přejetím"
 
 #: src/Plug.vala:140 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Simulovaný pravý klik"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
@@ -109,7 +109,7 @@ msgstr "Psaní"
 
 #: src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr ""
+msgstr "Prodlevy při psaní"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings..."
@@ -145,7 +145,7 @@ msgstr "Délka zpoždění"
 
 #: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "Ignorovat rychlé duplicitní stisknutí klávesnice (odrážet klávesy)"
 
 #: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
 msgid "Pointing"
@@ -157,7 +157,7 @@ msgstr "Ovládání klávesnicí"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Nastavení myši..."
+msgstr "Nastavení myši…"
 
 #: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
@@ -193,7 +193,7 @@ msgstr "Pípnout při stisknutí zamykací klávesy"
 
 #: src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Použít funkční klávesy v sekvenci (lepící klávesy)"
 
 #: src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
@@ -221,7 +221,7 @@ msgstr "Čtení"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Nastavení obrazu..."
+msgstr "Nastavení obrazu…"
 
 #: src/Panes/Display.vala:39
 msgid "High contrast theme"
@@ -245,11 +245,11 @@ msgstr "Rychlost dvojkliku"
 
 #: src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Držení primárního tlačítka provede sekundární klik"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Simulovaná prodleva kliknutí"
 
 #: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
@@ -281,7 +281,7 @@ msgstr "Klávesová zkratka"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "Nastavení zvuku..."
+msgstr "Nastavení zvuku…"
 
 #~ msgid "Keyboard"
 #~ msgstr "Klávesnice"
