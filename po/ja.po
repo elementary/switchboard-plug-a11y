@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-05-30 00:04+0000\n"
+"PO-Revision-Date: 2018-05-31 00:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/ja/>\n"
@@ -73,7 +73,7 @@ msgstr "高速タイピング"
 
 #: src/Plug.vala:136
 msgid "Typing Delay"
-msgstr "タイピング遅延"
+msgstr "タイピングの遅延"
 
 #: src/Plug.vala:137
 msgid "Keyboard Sounds"
