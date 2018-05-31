@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-05-31 14:45+0000\n"
+"PO-Revision-Date: 2018-06-01 00:08+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/hu/>\n"
@@ -221,7 +221,7 @@ msgstr "Olvasás"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Kijelző beállítások"
+msgstr "Kijelző beállítások…"
 
 #: src/Panes/Display.vala:39
 msgid "High contrast theme"
