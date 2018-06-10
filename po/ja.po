@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-05-31 00:03+0000\n"
+"PO-Revision-Date: 2018-06-12 19:46+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/ja/>\n"
@@ -153,7 +153,7 @@ msgstr "ポインティング"
 
 #: src/Panes/Pointing.vala:31
 msgid "Keypad Control"
-msgstr "キーパッド・コントロール"
+msgstr "キーパッドコントロール"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
@@ -161,7 +161,7 @@ msgstr "マウスの設定…"
 
 #: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
-msgstr "キーパッドを使ってポインターをコントロールする"
+msgstr "キーパッドを使ってポインターをコントロール"
 
 #: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
@@ -253,7 +253,7 @@ msgstr "代替クリック遅延"
 
 #: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
-msgstr "カーソルがホバーしたときにクリックする"
+msgstr "カーソルがホバーしたときにクリック"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
@@ -269,11 +269,11 @@ msgstr "オーディオ"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
-msgstr "警告音が発生するときに画面を点滅する"
+msgstr "警告音が発生するときに画面を点滅させる"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr "画面上の項目について音声ガイドを提供する"
+msgstr "画面上の項目について音声ガイドを提供"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
