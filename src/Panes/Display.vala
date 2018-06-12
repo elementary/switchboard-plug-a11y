@@ -20,7 +20,7 @@
  */
 
 public class Accessibility.Panes.Display : Categories.Pane {
-    private const string PANEL_SCHEMA = "org.pantheon.desktop.wingpanel";
+    private const string PANEL_SCHEMA = "io.elementary.desktop.wingpanel";
     public Display () {
         Object (
             label_string: _("Display"),
