@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-06-02 00:07+0000\n"
+"PO-Revision-Date: 2018-06-15 00:11+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/hu/>\n"
@@ -253,7 +253,7 @@ msgstr "Szimulált kattintás késleltetése"
 
 #: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
-msgstr "Kattintás ha a kurzor lebeg"
+msgstr "Kattintás, ha a kurzor lebeg"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
