@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-08 16:13-0700\n"
-"PO-Revision-Date: 2018-06-15 00:11+0000\n"
+"PO-Revision-Date: 2018-06-18 00:06+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-a11y/hu/>\n"
@@ -21,7 +21,7 @@ msgstr "Kisegítő lehetőségek"
 
 #: src/Plug.vala:49
 msgid "Configure accessibility features"
-msgstr "Állítsa be a kisegítő lehetőségeket"
+msgstr "Kisegítő lehetőségeket beállítása"
 
 #: src/Plug.vala:124
 msgid "Accessibility Features"
