@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-08 16:13-0700\n"
+"POT-Creation-Date: 2018-07-06 16:00+0200\n"
 "PO-Revision-Date: 2018-03-30 17:32+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
@@ -23,71 +23,71 @@ msgstr "Universel Tilgængelighed"
 msgid "Configure accessibility features"
 msgstr "Konfigurer tilgængelighedsfunktioner"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:123
 msgid "Accessibility Features"
 msgstr "Tilgængelighedsfunktioner"
 
-#: src/Plug.vala:125
+#: src/Plug.vala:124
 msgid "Accessibility Display Features"
 msgstr "Tilgængelighed Skærmfunktioner"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:125
 msgid "High Contrast Theme"
 msgstr "Høj Kontrast Tema"
 
-#: src/Plug.vala:127
+#: src/Plug.vala:126
 msgid "Font Size"
 msgstr "Font Størrelse"
 
-#: src/Plug.vala:128
+#: src/Plug.vala:127
 msgid "Text Size"
 msgstr "Tekst Størrelse"
 
-#: src/Plug.vala:129
+#: src/Plug.vala:128
 msgid "Accessibility Audio Features"
 msgstr "Tilgængelighed Lydfunktioner"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:129
 msgid "Accessibility Hearing Features"
 msgstr "Tilgængelighed Hørelsefunktioner"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Visuelle Advarsler"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:37
+#: src/Plug.vala:131 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Skærmlæser"
 
-#: src/Plug.vala:133
+#: src/Plug.vala:132
 msgid "Accessibility Keyboard Features"
 msgstr "Tilgængelighedstastaturfunktioner"
 
-#: src/Plug.vala:134
+#: src/Plug.vala:133
 msgid "On Screen Keyboard"
 msgstr "Skærmtastatur"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:32
+#: src/Plug.vala:134 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Hurtigt Indtastning"
 
-#: src/Plug.vala:136
+#: src/Plug.vala:135
 msgid "Typing Delay"
 msgstr "Indtast Udsættelse"
 
-#: src/Plug.vala:137
+#: src/Plug.vala:136
 msgid "Keyboard Sounds"
 msgstr "Tastatur Lyde"
 
-#: src/Plug.vala:138
+#: src/Plug.vala:137
 msgid "Accessibility Mouse Features"
 msgstr "Tilgængelighed Mus Funktioner"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:32
+#: src/Plug.vala:138 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "Svæveklik"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:31
+#: src/Plug.vala:139 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "Simuleret sekundært klik"
 
@@ -147,7 +147,7 @@ msgstr "Længde på forsinkelse"
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorer hurtige gentagne tryk på samme tast (bounce keys)"
 
-#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
+#: src/Panes/Pointing.vala:25
 msgid "Pointing"
 msgstr "Peger"
 
@@ -178,6 +178,10 @@ msgstr "Stor"
 #: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "Større"
+
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "Tastatur"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -282,9 +286,6 @@ msgstr "Tastaturgenvej"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Lydindstillinger…"
-
-#~ msgid "Keyboard"
-#~ msgstr "Tastatur"
 
 #~ msgid "Zoom"
 #~ msgstr "Zoom"

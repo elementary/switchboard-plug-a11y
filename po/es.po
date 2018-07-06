@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-08 16:13-0700\n"
+"POT-Creation-Date: 2018-07-06 16:00+0200\n"
 "PO-Revision-Date: 2018-04-24 20:18+0000\n"
 "Last-Translator: Jonathan GN <jonathan@jamdigitalstudio.com>\n"
-"Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-a11y/es/>\n"
+"Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,71 +23,71 @@ msgstr "Acceso universal"
 msgid "Configure accessibility features"
 msgstr "Configurar las funciones de accesibilidad"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:123
 msgid "Accessibility Features"
 msgstr "Características de accesibilidad"
 
-#: src/Plug.vala:125
+#: src/Plug.vala:124
 msgid "Accessibility Display Features"
 msgstr "Características de accesibilidad de la pantalla"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:125
 msgid "High Contrast Theme"
 msgstr "Tema de alto contraste"
 
-#: src/Plug.vala:127
+#: src/Plug.vala:126
 msgid "Font Size"
 msgstr "Tamaño de la fuente"
 
-#: src/Plug.vala:128
+#: src/Plug.vala:127
 msgid "Text Size"
 msgstr "Tamaño del texto"
 
-#: src/Plug.vala:129
+#: src/Plug.vala:128
 msgid "Accessibility Audio Features"
 msgstr "Características de accesibilidad del sonido"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:129
 msgid "Accessibility Hearing Features"
 msgstr "Características de accesibilidad auditiva"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Alertas visuales"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:37
+#: src/Plug.vala:131 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Lector de pantalla"
 
-#: src/Plug.vala:133
+#: src/Plug.vala:132
 msgid "Accessibility Keyboard Features"
 msgstr "Características de accesibilidad del teclado"
 
-#: src/Plug.vala:134
+#: src/Plug.vala:133
 msgid "On Screen Keyboard"
 msgstr "Teclado en pantalla"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:32
+#: src/Plug.vala:134 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Escritura rápida"
 
-#: src/Plug.vala:136
+#: src/Plug.vala:135
 msgid "Typing Delay"
 msgstr "Retardo de escritura"
 
-#: src/Plug.vala:137
+#: src/Plug.vala:136
 msgid "Keyboard Sounds"
 msgstr "Sonidos del teclado"
 
-#: src/Plug.vala:138
+#: src/Plug.vala:137
 msgid "Accessibility Mouse Features"
 msgstr "Características de accesibilidad del ratón"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:32
+#: src/Plug.vala:138 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "Pulsar al posicionarse"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:31
+#: src/Plug.vala:139 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "Clic secundario simulado"
 
@@ -147,7 +147,7 @@ msgstr "Duración del retardo"
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorar el duplicado rápido al presionar teclas (teclas rebotadas)"
 
-#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
+#: src/Panes/Pointing.vala:25
 msgid "Pointing"
 msgstr "Apuntadores"
 
@@ -178,6 +178,10 @@ msgstr "Grande"
 #: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "Más grandes"
+
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "Teclado"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -283,9 +287,6 @@ msgstr "Atajo de teclado"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Ajustes de sonido…"
-
-#~ msgid "Keyboard"
-#~ msgstr "Teclado"
 
 #~ msgid "Zoom"
 #~ msgstr "Escala"

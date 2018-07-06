@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-08 16:13-0700\n"
+"POT-Creation-Date: 2018-07-06 16:00+0200\n"
 "PO-Revision-Date: 2018-02-21 12:21+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
@@ -23,71 +23,71 @@ msgstr "גישה אוניברסלית"
 msgid "Configure accessibility features"
 msgstr "הגדרת תכונות נגישות"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:123
 msgid "Accessibility Features"
 msgstr "תכונות נגישות"
 
-#: src/Plug.vala:125
+#: src/Plug.vala:124
 msgid "Accessibility Display Features"
 msgstr "תכונות נגישות תצוגה"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:125
 msgid "High Contrast Theme"
 msgstr "ערכת עיצוב עם ניגודיות גבוהה"
 
-#: src/Plug.vala:127
+#: src/Plug.vala:126
 msgid "Font Size"
 msgstr "גודל הגופן"
 
-#: src/Plug.vala:128
+#: src/Plug.vala:127
 msgid "Text Size"
 msgstr "גודל הטקסט"
 
-#: src/Plug.vala:129
+#: src/Plug.vala:128
 msgid "Accessibility Audio Features"
 msgstr "תכונות נגישות שמע"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:129
 msgid "Accessibility Hearing Features"
 msgstr "תכונות נגישות שמיעה"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "אזהרות חזותיות"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:37
+#: src/Plug.vala:131 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "מקריא מסך"
 
-#: src/Plug.vala:133
+#: src/Plug.vala:132
 msgid "Accessibility Keyboard Features"
 msgstr "תכונות מקלדת נגישות"
 
-#: src/Plug.vala:134
+#: src/Plug.vala:133
 msgid "On Screen Keyboard"
 msgstr "מקלדת על גבי המסך"
 
-#: src/Plug.vala:135 src/Panes/Typing.vala:32
+#: src/Plug.vala:134 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "הקלדה מהירה"
 
-#: src/Plug.vala:136
+#: src/Plug.vala:135
 msgid "Typing Delay"
 msgstr "השהיית הקלדה"
 
-#: src/Plug.vala:137
+#: src/Plug.vala:136
 msgid "Keyboard Sounds"
 msgstr "צלילי מקלדת"
 
-#: src/Plug.vala:138
+#: src/Plug.vala:137
 msgid "Accessibility Mouse Features"
 msgstr "תכונות עכבר נגישות"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:32
+#: src/Plug.vala:138 src/Panes/Clicking.vala:32
 msgid "Hover Click"
 msgstr "הקשה במעבר מעל"
 
-#: src/Plug.vala:140 src/Panes/Clicking.vala:31
+#: src/Plug.vala:139 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
 msgstr "הקשה משנית מדומה"
 
@@ -147,7 +147,7 @@ msgstr "משך ההשהיה"
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "התעלמות מלחיצות כפולות מהירות (מקשים חוזרים)"
 
-#: src/Panes/Pointing.vala:25 src/Panes/Keyboard.vala:25
+#: src/Panes/Pointing.vala:25
 msgid "Pointing"
 msgstr "הצבעה"
 
@@ -178,6 +178,10 @@ msgstr "גדול"
 #: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
 msgstr "גדול יותר"
+
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "מקלדת"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -282,9 +286,6 @@ msgstr "קיצורי מקלדת"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "הגדרות צליל…"
-
-#~ msgid "Keyboard"
-#~ msgstr "מקלדת"
 
 #~ msgid "Zoom"
 #~ msgstr "תקריב"
