@@ -22,7 +22,7 @@
 public class Accessibility.Panes.Keyboard : Categories.Pane {
     public Keyboard () {
         Object (
-            label_string: _("Pointing"),
+            label_string: _("Keyboard"),
             icon_name: "preferences-desktop-keyboard"
         );
     }
