@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-06 16:00+0200\n"
-"PO-Revision-Date: 2017-04-15 00:54+0000\n"
+"PO-Revision-Date: 2018-07-16 21:13+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
+"Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:48
@@ -233,7 +233,7 @@ msgstr "Thème à fort contraste"
 
 #: src/Panes/Display.vala:43
 msgid "Panel transparency"
-msgstr ""
+msgstr "Transparence du panneau supérieur"
 
 #: src/Panes/Display.vala:50
 msgid "Text size"
