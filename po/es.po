@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-06 16:00+0200\n"
+"POT-Creation-Date: 2018-09-18 10:32-0700\n"
 "PO-Revision-Date: 2018-04-24 20:18+0000\n"
 "Last-Translator: Jonathan GN <jonathan@jamdigitalstudio.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
@@ -112,11 +112,13 @@ msgid "Typing Delays"
 msgstr "Retardos de escritura"
 
 #: src/Panes/Typing.vala:34
-msgid "On-screen keyboard settings..."
+#, fuzzy
+msgid "On-screen keyboard settings…"
 msgstr "Configuración del teclado en pantalla..."
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-msgid "Keyboard settings..."
+#, fuzzy
+msgid "Keyboard settings…"
 msgstr "Configuración de teclado..."
 
 #: src/Panes/Typing.vala:44

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-06 16:00+0200\n"
+"POT-Creation-Date: 2018-09-18 10:32-0700\n"
 "PO-Revision-Date: 2015-08-21 23:06+0000\n"
 "Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,11 +110,11 @@ msgid "Typing Delays"
 msgstr ""
 
 #: src/Panes/Typing.vala:34
-msgid "On-screen keyboard settings..."
+msgid "On-screen keyboard settings…"
 msgstr ""
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-msgid "Keyboard settings..."
+msgid "Keyboard settings…"
 msgstr ""
 
 #: src/Panes/Typing.vala:44

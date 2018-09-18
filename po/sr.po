@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-06 16:00+0200\n"
+"POT-Creation-Date: 2018-09-18 10:32-0700\n"
 "PO-Revision-Date: 2017-01-07 14:57+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -111,11 +111,13 @@ msgid "Typing Delays"
 msgstr "Застоји куцања"
 
 #: src/Panes/Typing.vala:34
-msgid "On-screen keyboard settings..."
+#, fuzzy
+msgid "On-screen keyboard settings…"
 msgstr "Подешавања тастатуре на екрану..."
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-msgid "Keyboard settings..."
+#, fuzzy
+msgid "Keyboard settings…"
 msgstr "Подешавања тастатуре..."
 
 #: src/Panes/Typing.vala:44

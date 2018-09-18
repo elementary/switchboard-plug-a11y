@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-06 16:00+0200\n"
+"POT-Creation-Date: 2018-09-18 10:32-0700\n"
 "PO-Revision-Date: 2018-02-26 20:16+0000\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
@@ -113,11 +113,13 @@ msgid "Typing Delays"
 msgstr "Задержка ввода"
 
 #: src/Panes/Typing.vala:34
-msgid "On-screen keyboard settings..."
+#, fuzzy
+msgid "On-screen keyboard settings…"
 msgstr "Параметры экранной клавиатуры..."
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-msgid "Keyboard settings..."
+#, fuzzy
+msgid "Keyboard settings…"
 msgstr "Параметры клавиатуры..."
 
 #: src/Panes/Typing.vala:44
