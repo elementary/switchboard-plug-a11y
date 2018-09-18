@@ -30,7 +30,7 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     construct {
         var lock_label = new Granite.HeaderLabel (_("Lock Keys"));
         var modifier_label = new Granite.HeaderLabel (_("Modifier Keys"));
-        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings..."), "settings://input/keyboard/behavior");
+        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings…"), "settings://input/keyboard/behavior");
         kb_settings_label.vexpand = true;
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();
