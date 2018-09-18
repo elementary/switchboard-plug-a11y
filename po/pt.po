@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-06 16:00+0200\n"
-"PO-Revision-Date: 2018-03-01 00:03+0000\n"
-"Last-Translator: Luís Lima <geral@liqensoft.com>\n"
+"PO-Revision-Date: 2018-09-18 17:32+0000\n"
+"Last-Translator: Nuno Alexandre MS ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/pt/>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:48
@@ -21,7 +21,7 @@ msgstr "Acessibilidade"
 
 #: src/Plug.vala:49
 msgid "Configure accessibility features"
-msgstr "Configurar as opções de acessibilidade."
+msgstr "Configurar as opções de acessibilidade"
 
 #: src/Plug.vala:123
 msgid "Accessibility Features"
@@ -157,7 +157,7 @@ msgstr "Controlo por teclado numérico"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Definições do rato..."
+msgstr "Definições do rato…"
 
 #: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
@@ -225,7 +225,7 @@ msgstr "Leitura"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Definições de ecrã..."
+msgstr "Definições de ecrã…"
 
 #: src/Panes/Display.vala:39
 msgid "High contrast theme"
@@ -285,7 +285,7 @@ msgstr "Tecla de atalho"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "Definições de som..."
+msgstr "Definições de som…"
 
 #~ msgid "Zoom"
 #~ msgstr "Ampliação"
