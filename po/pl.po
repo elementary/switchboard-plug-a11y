@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 10:32-0700\n"
-"PO-Revision-Date: 2018-02-26 00:09+0000\n"
-"Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
+"PO-Revision-Date: 2018-09-19 11:22+0000\n"
+"Last-Translator: Cleiton Floss <cleitonfloss@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/pl/>\n"
 "Language: pl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:48
@@ -161,7 +161,7 @@ msgstr "Sterowanie klawiaturą numeryczną"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Ustawienia myszy..."
+msgstr "Ustawienia myszy…"
 
 #: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
@@ -229,7 +229,7 @@ msgstr "Czytanie"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Ustawienia ekranu..."
+msgstr "Ustawienia ekranu…"
 
 #: src/Panes/Display.vala:39
 msgid "High contrast theme"
@@ -289,7 +289,7 @@ msgstr "Skróty klawiszowe"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "Ustawienia dźwięku..."
+msgstr "Ustawienia dźwięku…"
 
 #~ msgid "Zoom"
 #~ msgstr "Powiększenie"
