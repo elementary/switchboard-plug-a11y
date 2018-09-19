@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 10:32-0700\n"
-"PO-Revision-Date: 2018-09-19 00:09+0000\n"
-"Last-Translator: Fernando da Silva Sousa <wild.nando@gmail.com>\n"
+"PO-Revision-Date: 2018-09-19 05:43+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -116,9 +116,8 @@ msgid "On-screen keyboard settings…"
 msgstr "Configurações do teclado virtual…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Configurações do teclado..."
+msgstr "Configurações do teclado…"
 
 #: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
