@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 10:32-0700\n"
-"PO-Revision-Date: 2018-09-26 06:18+0000\n"
+"PO-Revision-Date: 2018-09-27 00:10+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/de/>\n"
@@ -113,7 +113,7 @@ msgstr "Verzögerung bei Texteingabe"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings…"
-msgstr "Einstellungen für die Bildschirmtastatur…"
+msgstr "Bildschirmtastatureinstellungen…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings…"
@@ -125,7 +125,7 @@ msgstr "Bildschirmtastatur"
 
 #: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr "Verzögerung zwischen Tastendrücken (langsame Tasten)"
+msgstr "Verzögerung zwischen Tastatureingaben (Tastenverzögerung)"
 
 #: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
@@ -146,8 +146,8 @@ msgstr "Verzögerungsdauer"
 #: src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
-"Schnell aufeinander folgende doppelte Tastenanschläge ignorieren "
-"(Tastenprellen)"
+"Ignorieren von schnell aufeinanderfolgenden Tastatureingaben "
+"(Tastenanschlagfunktion)"
 
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
@@ -159,11 +159,11 @@ msgstr "Mauszeigersteuerung mit dem Nummerntastenblock"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Mauseinstellungen …"
+msgstr "Mauseinstellungen…"
 
 #: src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
-msgstr "Mauszeiger mit dem Nummertastenblock steuern"
+msgstr "Mauszeiger mit dem Nummernblock steuern"
 
 #: src/Panes/Pointing.vala:39
 msgid "Cursor speed"
@@ -227,7 +227,7 @@ msgstr "Lesen"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Bildschirmeinstellungen …"
+msgstr "Bildschirmeinstellungen…"
 
 #: src/Panes/Display.vala:39
 msgid "High contrast theme"
@@ -271,11 +271,11 @@ msgstr "Bewegungsschwelle"
 
 #: src/Panes/Audio.vala:26
 msgid "Audio"
-msgstr "Klang"
+msgstr "Audio"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
-msgstr "Bildschirmblitz, wenn ein Warnklang ertönt"
+msgstr "Bildschirmblitz, wenn ein Warnton erfolgt"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
@@ -287,7 +287,7 @@ msgstr "Tastenkürzel"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "Klangeinstellungen …"
+msgstr "Audioeinstellungen…"
 
 #~ msgid "Zoom"
 #~ msgstr "Vergrößerung"
