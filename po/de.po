@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 10:32-0700\n"
-"PO-Revision-Date: 2018-09-27 00:10+0000\n"
+"PO-Revision-Date: 2018-09-29 00:09+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/de/>\n"
@@ -73,7 +73,7 @@ msgstr "Schnelle Texteingabe"
 
 #: src/Plug.vala:135
 msgid "Typing Delay"
-msgstr "Schreibverzögerung"
+msgstr "Eingabeverzögerung"
 
 #: src/Plug.vala:136
 msgid "Keyboard Sounds"
@@ -85,11 +85,11 @@ msgstr "Barrierefreiheitsfunktionen der Maus"
 
 #: src/Plug.vala:138 src/Panes/Clicking.vala:32
 msgid "Hover Click"
-msgstr "Überfahrenklick"
+msgstr "Überfahren-Klick"
 
 #: src/Plug.vala:139 src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
-msgstr "simulierter Kontextklick"
+msgstr "Simulierter Kontextklick"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
@@ -125,7 +125,7 @@ msgstr "Bildschirmtastatur"
 
 #: src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr "Verzögerung zwischen Tastatureingaben (Tastenverzögerung)"
+msgstr "Verzögerung zwischen Tastatureingaben (Anschlagverzögerung)"
 
 #: src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
@@ -255,7 +255,7 @@ msgstr "Primäre Maustaste gedrückt halten, um einen Kontextklick auszulösen"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr "Simulierte Klickverzögerung"
+msgstr "Verzögerungsdauer für simulierten Klick"
 
 #: src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
@@ -263,7 +263,7 @@ msgstr "Beim Überfahren mit dem Zeiger einen Klick auslösen"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr "Überfahrenverzögerung"
+msgstr "Überfahren-Verzögerung"
 
 #: src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -279,7 +279,8 @@ msgstr "Bildschirmblitz, wenn ein Warnton erfolgt"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Audiobeschreibung für Elemente auf dem Bildschirm anbieten"
+msgstr ""
+"Audiobeschreibung zum Vorlesen der Benutzeroberfläche zur Verfügung stellen"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
