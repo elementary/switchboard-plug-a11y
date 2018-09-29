@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 10:32-0700\n"
-"PO-Revision-Date: 2018-03-30 17:32+0000\n"
+"PO-Revision-Date: 2018-09-29 18:38+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/da/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:48
@@ -112,14 +112,12 @@ msgid "Typing Delays"
 msgstr "Indtastningsudsættelser"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "Skærmtastaturindstillinger..."
+msgstr "Skærm tastatur indstillinger…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Tastaturindstillinger..."
+msgstr "Tastatur indstillinger…"
 
 #: src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
