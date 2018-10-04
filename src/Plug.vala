@@ -57,7 +57,7 @@ namespace Accessibility {
                 var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
                 if (animations != null) {
                     animations_settings = new Settings (ANIMATIONS_SCHEMA);
-                }    
+                }
 
                 deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
                 keyboard_settings =         new Accessibility.Backend.Keyboard ();
@@ -120,23 +120,47 @@ namespace Accessibility {
         // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
         public override async Gee.TreeMap<string, string> search (string search) {
             var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "General");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Display Features")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("High Contrast Theme")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Font Size")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Text Size")), "Display");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Audio Features")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Hearing Features")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Visual Alerts")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Screen Reader")), "Audio");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Keyboard Features")), "Keyboard");
-            search_results.set ("%s → %s".printf (display_name, _("On Screen Keyboard")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Fast Typing")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Typing Delay")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Keyboard Sounds")), "Typing");
-            search_results.set ("%s → %s".printf (display_name, _("Accessibility Mouse Features")), "Clicking");
-            search_results.set ("%s → %s".printf (display_name, _("Hover Click")), "Clicking");
-            search_results.set ("%s → %s".printf (display_name, _("Simulated Secondary Click")), "Clicking");
+            search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "");
+            search_results.set ("%s → %s → %s".printf (display_name, _("General"), _("Animations")), "General");
+            search_results.set ("%s → %s".printf (display_name, _("Display")), "Display");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("High contrast theme")), "Display");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Panel transparency")), "Display");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Text size")), "Display");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Font size")), "Display");
+            search_results.set ("%s → %s".printf (display_name, _("Audio")), "Audio");
+            search_results.set ("%s → %s".printf (display_name, _("Hearing")), "Audio");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Visual Alerts")), "Audio");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Flash screen")), "Audio");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Screen Reader")), "Audio");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Audio descriptions")), "Audio");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("keyboard shortcut")), "Audio");
+            search_results.set ("%s → %s".printf (display_name, _("Typing")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("On-screen keyboard")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Typing Delays")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Delay between key presses (slow keys)")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Beep when a key is pressed")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Beep when a key is accepted")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Beep when a key is rejected")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Typing Delay length")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Fast Typing")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Ignore fast duplicate keypresses (bounce keys)")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Beep when a key is rejected")), "Typing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Typing"), _("Fast Typing Delay length")), "Typing");
+            search_results.set ("%s → %s".printf (display_name, _("Keyboard")), "Keyboard");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a lock key is pressed")), "Keyboard");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Use modifier keys in sequence (sticky keys)")), "Keyboard");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a modifier key is pressed")), "Keyboard");
+            search_results.set ("%s → %s".printf (display_name, _("Pointing")), "Pointing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Keypad Control")), "Pointing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Control pointer using keypad")), "Pointing");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Cursor speed")), "Pointing");
+            search_results.set ("%s → %s".printf (display_name, _("Clicking")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Double-click speed")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Hold primary button to trigger secondary click")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Simulated click delay")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Click when the cursor hovers")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Hover delay")), "Clicking");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Motion threshold")), "Clicking");
             return search_results;
         }
     }
