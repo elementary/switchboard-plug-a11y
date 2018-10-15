@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-19 08:00+0000\n"
+"PO-Revision-Date: 2018-10-16 00:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/he/>\n"
@@ -53,9 +53,8 @@ msgid "Text size"
 msgstr "גודל הטקסט"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
-msgstr "גודל הגופן"
+msgstr "גודל גופן"
 
 #: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
 #: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
@@ -72,7 +71,7 @@ msgstr "אזהרות חזותיות"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "הבהוב המסך"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "מקריא מסך"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "תיאורי קטעי שמע"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "קיצורי מקלדת"
 
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "להשמיע צפצוף כשלחיצת מקש נדחית"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "השהיית הקלדה"
+msgstr "משך השהיית הקלדה"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
