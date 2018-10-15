@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 10:32-0700\n"
+"POT-Creation-Date: 2018-10-15 16:47-0500\n"
 "PO-Revision-Date: 2016-12-30 17:33+0000\n"
 "Last-Translator: ablimet <Unknown>\n"
 "Language-Team: \n"
@@ -25,89 +25,189 @@ msgstr "قۇشۇمچە ئىقتىدارلىرىنى تەڭشەش"
 msgid "Accessibility Features"
 msgstr "قۇشۇمچە ئىقتىدارلىرى"
 
-#: src/Plug.vala:124
-msgid "Accessibility Display Features"
-msgstr "قوشۇمچە كۆرسىتىش ئىقتىدارلىرى"
+#: src/Plug.vala:124 src/Panes/General.vala:25
+msgid "General"
+msgstr "ئادەتتىكى تەڭشەكلەر"
 
-#: src/Plug.vala:125
-msgid "High Contrast Theme"
+#: src/Plug.vala:124 src/Panes/General.vala:33
+msgid "Animations"
+msgstr "ھەركەتلىك رەسىملەر"
+
+#: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
+#: src/Plug.vala:129 src/Panes/Display.vala:26
+msgid "Display"
+msgstr "كۆرسىتىش"
+
+#: src/Plug.vala:126 src/Panes/Display.vala:39
+msgid "High contrast theme"
 msgstr "يۇقىرى سىلىشتۇرمىلىق ئۇسلۇب"
 
-#: src/Plug.vala:126
-msgid "Font Size"
-msgstr "خەت چوڭلۇقى"
+#: src/Plug.vala:127 src/Panes/Display.vala:43
+msgid "Panel transparency"
+msgstr ""
 
-#: src/Plug.vala:127
-msgid "Text Size"
-msgstr "تېكىست چوڭلۇقى"
-
-#: src/Plug.vala:128
-msgid "Accessibility Audio Features"
-msgstr "قوشۇمچە ئۈن ھۆججىتى ئىقتىدارلىرى"
+#: src/Plug.vala:128 src/Panes/Display.vala:50
+msgid "Text size"
+msgstr "تېكست چوڭلۇقى"
 
 #: src/Plug.vala:129
-msgid "Accessibility Hearing Features"
-msgstr "قوشۇمچە ئاڭلاش ئىقتىدارلىرى"
+#, fuzzy
+msgid "Font size"
+msgstr "خەت چوڭلۇقى"
 
-#: src/Plug.vala:130 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
+msgid "Audio"
+msgstr "ئۈن ھججىتى"
+
+#: src/Plug.vala:131 src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "ئاڭلاش سېزىمى"
+
+#: src/Plug.vala:132 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "كۆرۈنمە يۈزلۈك ئاگاھلاندۇرۇش"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:37
+#: src/Plug.vala:133
+msgid "Flash screen"
+msgstr ""
+
+#: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "ئېكران ئوقۇغۇچ"
 
-#: src/Plug.vala:132
-msgid "Accessibility Keyboard Features"
-msgstr "قوشۇمچە كۇنۇپكا تاختىسى ئىقتىدارلىرى"
+#: src/Plug.vala:135
+msgid "Audio descriptions"
+msgstr ""
 
-#: src/Plug.vala:133
-msgid "On Screen Keyboard"
+#: src/Plug.vala:136
+#, fuzzy
+msgid "keyboard shortcut"
+msgstr "كۇنۇپكا تاختىسى قولاي كۇنۇپكىلىرى"
+
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
+#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
+#: src/Panes/Typing.vala:25
+msgid "Typing"
+msgstr "كىرگۈزۈۋاتىدۇ"
+
+#: src/Plug.vala:138 src/Panes/Typing.vala:44
+msgid "On-screen keyboard"
 msgstr "ئىكران كۇنۇپكا تاختىسى"
 
-#: src/Plug.vala:134 src/Panes/Typing.vala:32
+#: src/Plug.vala:139 src/Panes/Typing.vala:31
+msgid "Typing Delays"
+msgstr "كىرگۈزۈشنى كىچىكتۈرۈش"
+
+#: src/Plug.vala:140 src/Panes/Typing.vala:47
+msgid "Delay between key presses (slow keys)"
+msgstr "كۇنۇپكا بىسىلىشنى كىچىكتۈرۈش (ئاستا)"
+
+#: src/Plug.vala:141 src/Panes/Typing.vala:48
+msgid "Beep when a key is pressed"
+msgstr "كۇنۇپكا بىسىلغاندا زىل چىلىش"
+
+#: src/Plug.vala:142 src/Panes/Typing.vala:49
+msgid "Beep when a key is accepted"
+msgstr "كۇنۇپكا قوبۇل قىلىنغاندا زىل چىلىش"
+
+#: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
+#: src/Panes/Typing.vala:55
+msgid "Beep when a key is rejected"
+msgstr "كۇنۇپكا رەت قىلىنغاندا زىل چىلىش"
+
+#: src/Plug.vala:144
+#, fuzzy
+msgid "Typing Delay length"
+msgstr "كىرگۈزۈشنى كىچىكتۈرۈش"
+
+#: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "تىز سۈرئەتتە بىسىش"
 
-#: src/Plug.vala:135
-msgid "Typing Delay"
+#: src/Plug.vala:146 src/Panes/Typing.vala:54
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "تەكرار بىسىلغان كۇنۇپكىلارنى ھىسابلىماسلىق (تىز)"
+
+#: src/Plug.vala:148
+#, fuzzy
+msgid "Fast Typing Delay length"
 msgstr "كىرگۈزۈشنى كىچىكتۈرۈش"
 
-#: src/Plug.vala:136
-msgid "Keyboard Sounds"
-msgstr "كۇنۇپكا تاختىسى ئاۋاز ئۈنۈمى"
+#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "كۇنۇپكا تاختىسى"
 
-#: src/Plug.vala:137
-msgid "Accessibility Mouse Features"
-msgstr "قوشۇمچە مائۇس ئىقتىدارلىرى"
+#: src/Plug.vala:150 src/Panes/Keyboard.vala:37
+msgid "Beep when a lock key is pressed"
+msgstr "قۇلۇپلانغان كۇنۇپكا بىسىلغاندا زىل چىلىش"
 
-#: src/Plug.vala:138 src/Panes/Clicking.vala:32
-msgid "Hover Click"
-msgstr "لەيلىتىپ چېكىش"
+#: src/Plug.vala:151 src/Panes/Keyboard.vala:40
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "قوشۇمچە كۇنۇپكىلارنى تەرتىپ بويىچە ئىشلىتىش"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:31
-msgid "Simulated Secondary Click"
+#: src/Plug.vala:152 src/Panes/Keyboard.vala:41
+msgid "Beep when a modifier key is pressed"
+msgstr "قوشۇمچە كۇنۇپكا بىسىلغاندا زىل چىلىش"
+
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Panes/Pointing.vala:25
+msgid "Pointing"
+msgstr "مائۇس ئىسترېلكىسى"
+
+#: src/Plug.vala:154 src/Panes/Pointing.vala:31
+msgid "Keypad Control"
+msgstr "كۇنۇپكا تاختىسى كونترولى"
+
+#: src/Plug.vala:155 src/Panes/Pointing.vala:38
+msgid "Control pointer using keypad"
+msgstr "كۇنۇپكا تاختىسى كونترول ئىسترېلكىسى"
+
+#: src/Plug.vala:156 src/Panes/Pointing.vala:39
+msgid "Cursor speed"
+msgstr "مائۇس ئىسترېلكىسى سۈرئىتى"
+
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
+#: src/Panes/Clicking.vala:25
+msgid "Clicking"
+msgstr "چىكىش"
+
+#: src/Plug.vala:158 src/Panes/Clicking.vala:42
+msgid "Double-click speed"
+msgstr "قوش بىسىش سۈرئىتى"
+
+#: src/Plug.vala:159 src/Panes/Clicking.vala:45
+msgid "Hold primary button to trigger secondary click"
+msgstr "مائۇسنىڭ ئاساسىي كۇنۇپكىسى بىسىلغاندا ئىككىنچىلىك چىكىشنى قوزغىتىش"
+
+#: src/Plug.vala:160
+#, fuzzy
+msgid "Simulated secondary click delay"
 msgstr "تەقلىدلىك ئىككىنچى چېكىش"
+
+#: src/Plug.vala:161 src/Panes/Clicking.vala:49
+msgid "Click when the cursor hovers"
+msgstr "مائۇس ئىسترېلكىسى ئۆتكەندە چىكىشنى قوزغىتىش"
+
+#: src/Plug.vala:162
+#, fuzzy
+msgid "Hover click delay"
+msgstr "ئۈستىدىن ئۆتۈشنى كىچىكتۈرۈش"
+
+#: src/Plug.vala:163 src/Panes/Clicking.vala:51
+msgid "Motion threshold"
+msgstr "ھەركەت چەك قىممىتى"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
 msgstr "كۆرۈش سېزىمى"
 
-#: src/Widgets/Categories.vala:59
-msgid "Hearing"
-msgstr "ئاڭلاش سېزىمى"
-
 #: src/Widgets/Categories.vala:61
 msgid "Interaction"
 msgstr "دىئالوگ"
-
-#: src/Panes/Typing.vala:25
-msgid "Typing"
-msgstr "كىرگۈزۈۋاتىدۇ"
-
-#: src/Panes/Typing.vala:31
-msgid "Typing Delays"
-msgstr "كىرگۈزۈشنى كىچىكتۈرۈش"
 
 #: src/Panes/Typing.vala:34
 #, fuzzy
@@ -119,53 +219,13 @@ msgstr "ئىكران كۇنۇپكا تاختىسى تەڭشەكلىرى...."
 msgid "Keyboard settings…"
 msgstr "كۇنۇپكا تاختىسى تەڭشەكلىرى...."
 
-#: src/Panes/Typing.vala:44
-msgid "On-screen keyboard"
-msgstr "ئىكران كۇنۇپكا تاختىسى"
-
-#: src/Panes/Typing.vala:47
-msgid "Delay between key presses (slow keys)"
-msgstr "كۇنۇپكا بىسىلىشنى كىچىكتۈرۈش (ئاستا)"
-
-#: src/Panes/Typing.vala:48
-msgid "Beep when a key is pressed"
-msgstr "كۇنۇپكا بىسىلغاندا زىل چىلىش"
-
-#: src/Panes/Typing.vala:49
-msgid "Beep when a key is accepted"
-msgstr "كۇنۇپكا قوبۇل قىلىنغاندا زىل چىلىش"
-
-#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
-msgid "Beep when a key is rejected"
-msgstr "كۇنۇپكا رەت قىلىنغاندا زىل چىلىش"
-
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "كىچىكىش ۋاقتى"
 
-#: src/Panes/Typing.vala:54
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "تەكرار بىسىلغان كۇنۇپكىلارنى ھىسابلىماسلىق (تىز)"
-
-#: src/Panes/Pointing.vala:25
-msgid "Pointing"
-msgstr "مائۇس ئىسترېلكىسى"
-
-#: src/Panes/Pointing.vala:31
-msgid "Keypad Control"
-msgstr "كۇنۇپكا تاختىسى كونترولى"
-
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "مائۇس تەڭشەكلىرى"
-
-#: src/Panes/Pointing.vala:38
-msgid "Control pointer using keypad"
-msgstr "كۇنۇپكا تاختىسى كونترول ئىسترېلكىسى"
-
-#: src/Panes/Pointing.vala:39
-msgid "Cursor speed"
-msgstr "مائۇس ئىسترېلكىسى سۈرئىتى"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -179,10 +239,6 @@ msgstr "چوڭ"
 msgid "Larger"
 msgstr "چوڭراق"
 
-#: src/Panes/Keyboard.vala:25
-msgid "Keyboard"
-msgstr "كۇنۇپكا تاختىسى"
-
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "كۇنۇپكىلارنى قۇلۇپلاش"
@@ -190,30 +246,6 @@ msgstr "كۇنۇپكىلارنى قۇلۇپلاش"
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "قوشۇمچە كۇنۇپكىلار"
-
-#: src/Panes/Keyboard.vala:37
-msgid "Beep when a lock key is pressed"
-msgstr "قۇلۇپلانغان كۇنۇپكا بىسىلغاندا زىل چىلىش"
-
-#: src/Panes/Keyboard.vala:40
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "قوشۇمچە كۇنۇپكىلارنى تەرتىپ بويىچە ئىشلىتىش"
-
-#: src/Panes/Keyboard.vala:41
-msgid "Beep when a modifier key is pressed"
-msgstr "قوشۇمچە كۇنۇپكا بىسىلغاندا زىل چىلىش"
-
-#: src/Panes/General.vala:25
-msgid "General"
-msgstr "ئادەتتىكى تەڭشەكلەر"
-
-#: src/Panes/General.vala:33
-msgid "Animations"
-msgstr "ھەركەتلىك رەسىملەر"
-
-#: src/Panes/Display.vala:26
-msgid "Display"
-msgstr "كۆرسىتىش"
 
 #: src/Panes/Display.vala:32
 msgid "Color"
@@ -227,49 +259,21 @@ msgstr "ئوقۇش"
 msgid "Display settings…"
 msgstr "تەڭشەكلەرنى كۆرسىتىش"
 
-#: src/Panes/Display.vala:39
-msgid "High contrast theme"
-msgstr "يۇقىرى سىلىشتۇرمىلىق ئۇسلۇب"
+#: src/Panes/Clicking.vala:31
+msgid "Simulated Secondary Click"
+msgstr "تەقلىدلىك ئىككىنچى چېكىش"
 
-#: src/Panes/Display.vala:43
-msgid "Panel transparency"
-msgstr ""
-
-#: src/Panes/Display.vala:50
-msgid "Text size"
-msgstr "تېكست چوڭلۇقى"
-
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "چىكىش"
-
-#: src/Panes/Clicking.vala:42
-msgid "Double-click speed"
-msgstr "قوش بىسىش سۈرئىتى"
-
-#: src/Panes/Clicking.vala:45
-msgid "Hold primary button to trigger secondary click"
-msgstr "مائۇسنىڭ ئاساسىي كۇنۇپكىسى بىسىلغاندا ئىككىنچىلىك چىكىشنى قوزغىتىش"
+#: src/Panes/Clicking.vala:32
+msgid "Hover Click"
+msgstr "لەيلىتىپ چېكىش"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "تەقلىدلىك چىكىشنى كىچىكتۈرۈش"
 
-#: src/Panes/Clicking.vala:49
-msgid "Click when the cursor hovers"
-msgstr "مائۇس ئىسترېلكىسى ئۆتكەندە چىكىشنى قوزغىتىش"
-
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "ئۈستىدىن ئۆتۈشنى كىچىكتۈرۈش"
-
-#: src/Panes/Clicking.vala:51
-msgid "Motion threshold"
-msgstr "ھەركەت چەك قىممىتى"
-
-#: src/Panes/Audio.vala:26
-msgid "Audio"
-msgstr "ئۈن ھججىتى"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -286,6 +290,33 @@ msgstr "كۇنۇپكا تاختىسى قولاي كۇنۇپكىلىرى"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "ئاۋاز تەڭشەكلىرى...."
+
+#~ msgid "Accessibility Display Features"
+#~ msgstr "قوشۇمچە كۆرسىتىش ئىقتىدارلىرى"
+
+#~ msgid "High Contrast Theme"
+#~ msgstr "يۇقىرى سىلىشتۇرمىلىق ئۇسلۇب"
+
+#~ msgid "Text Size"
+#~ msgstr "تېكىست چوڭلۇقى"
+
+#~ msgid "Accessibility Audio Features"
+#~ msgstr "قوشۇمچە ئۈن ھۆججىتى ئىقتىدارلىرى"
+
+#~ msgid "Accessibility Hearing Features"
+#~ msgstr "قوشۇمچە ئاڭلاش ئىقتىدارلىرى"
+
+#~ msgid "Accessibility Keyboard Features"
+#~ msgstr "قوشۇمچە كۇنۇپكا تاختىسى ئىقتىدارلىرى"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "ئىكران كۇنۇپكا تاختىسى"
+
+#~ msgid "Keyboard Sounds"
+#~ msgstr "كۇنۇپكا تاختىسى ئاۋاز ئۈنۈمى"
+
+#~ msgid "Accessibility Mouse Features"
+#~ msgstr "قوشۇمچە مائۇس ئىقتىدارلىرى"
 
 #~ msgid "Zoom"
 #~ msgstr "كىچىكلىتىش"

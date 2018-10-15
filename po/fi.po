@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 10:32-0700\n"
+"POT-Creation-Date: 2018-10-15 16:47-0500\n"
 "PO-Revision-Date: 2018-09-19 16:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
@@ -27,89 +27,190 @@ msgstr "Hallitse esteettömyysasetuksia"
 msgid "Accessibility Features"
 msgstr "Esteettömyysominaisuudet"
 
-#: src/Plug.vala:124
-msgid "Accessibility Display Features"
-msgstr "Näytön esteettömyysominaisuudet"
+#: src/Plug.vala:124 src/Panes/General.vala:25
+msgid "General"
+msgstr "Yleiset"
 
-#: src/Plug.vala:125
-msgid "High Contrast Theme"
-msgstr "Korkean kontrastin teema"
+#: src/Plug.vala:124 src/Panes/General.vala:33
+msgid "Animations"
+msgstr "Animaatiot"
 
-#: src/Plug.vala:126
-msgid "Font Size"
-msgstr "Fontin koko"
+#: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
+#: src/Plug.vala:129 src/Panes/Display.vala:26
+msgid "Display"
+msgstr "Näyttö"
 
-#: src/Plug.vala:127
-msgid "Text Size"
+#: src/Plug.vala:126 src/Panes/Display.vala:39
+msgid "High contrast theme"
+msgstr "Suuren kontrastin teema"
+
+#: src/Plug.vala:127 src/Panes/Display.vala:43
+msgid "Panel transparency"
+msgstr "Paneelin läpinäkyvyys"
+
+#: src/Plug.vala:128 src/Panes/Display.vala:50
+msgid "Text size"
 msgstr "Tekstin koko"
 
-#: src/Plug.vala:128
-msgid "Accessibility Audio Features"
-msgstr "Äänen esteettömyysominaisuudet"
-
 #: src/Plug.vala:129
-msgid "Accessibility Hearing Features"
-msgstr "Kuulemisen esteettömyysominaisuudet"
+#, fuzzy
+msgid "Font size"
+msgstr "Fontin koko"
 
-#: src/Plug.vala:130 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
+msgid "Audio"
+msgstr "Ääni"
+
+#: src/Plug.vala:131 src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "Kuuleminen"
+
+#: src/Plug.vala:132 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Visuaaliset hälytykset"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:37
+#: src/Plug.vala:133
+msgid "Flash screen"
+msgstr ""
+
+#: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Näytönlukija"
 
-#: src/Plug.vala:132
-msgid "Accessibility Keyboard Features"
-msgstr "Näppäimistön esteettömyysominaisuudet"
+#: src/Plug.vala:135
+msgid "Audio descriptions"
+msgstr ""
 
-#: src/Plug.vala:133
-msgid "On Screen Keyboard"
+#: src/Plug.vala:136
+#, fuzzy
+msgid "keyboard shortcut"
+msgstr "Pikanäppäin"
+
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
+#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
+#: src/Panes/Typing.vala:25
+msgid "Typing"
+msgstr "Kirjoittaminen"
+
+#: src/Plug.vala:138 src/Panes/Typing.vala:44
+msgid "On-screen keyboard"
 msgstr "Virtuaalinäppäimistö"
 
-#: src/Plug.vala:134 src/Panes/Typing.vala:32
+#: src/Plug.vala:139 src/Panes/Typing.vala:31
+msgid "Typing Delays"
+msgstr "Kirjoitusviiveet"
+
+#: src/Plug.vala:140 src/Panes/Typing.vala:47
+msgid "Delay between key presses (slow keys)"
+msgstr "Viive näppäinpainallusten välillä (hitaat näppäimet)"
+
+#: src/Plug.vala:141 src/Panes/Typing.vala:48
+msgid "Beep when a key is pressed"
+msgstr "Toista ääni kun näppäintä painetaan"
+
+#: src/Plug.vala:142 src/Panes/Typing.vala:49
+msgid "Beep when a key is accepted"
+msgstr "Toista ääni kun näppäinpainallus hyväksytään"
+
+#: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
+#: src/Panes/Typing.vala:55
+msgid "Beep when a key is rejected"
+msgstr "Toista ääni kun näppäinpainallus hylätään"
+
+#: src/Plug.vala:144
+#, fuzzy
+msgid "Typing Delay length"
+msgstr "Kirjoitusviive"
+
+#: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Nopea kirjoittaminen"
 
-#: src/Plug.vala:135
-msgid "Typing Delay"
+#: src/Plug.vala:146 src/Panes/Typing.vala:54
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "Jätä huomiotta nopeat saman näppäimen painallukset (kimmonäppäimet)"
+
+#: src/Plug.vala:148
+#, fuzzy
+msgid "Fast Typing Delay length"
 msgstr "Kirjoitusviive"
 
-#: src/Plug.vala:136
-msgid "Keyboard Sounds"
-msgstr "Näppäimistöäänet"
+#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "Näppäimistö"
 
-#: src/Plug.vala:137
-msgid "Accessibility Mouse Features"
-msgstr "Hiiren esteettömyysominaisuudet"
+#: src/Plug.vala:150 src/Panes/Keyboard.vala:37
+msgid "Beep when a lock key is pressed"
+msgstr "Toista ääni, kun lukitusnäppäintä painetaan"
 
-#: src/Plug.vala:138 src/Panes/Clicking.vala:32
-msgid "Hover Click"
-msgstr "Napsautus kohdistamalla"
+#: src/Plug.vala:151 src/Panes/Keyboard.vala:40
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "Käytä muuntonäppäimiä sarjassa (pohjaan jäävät näppäimet)"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:31
-msgid "Simulated Secondary Click"
+#: src/Plug.vala:152 src/Panes/Keyboard.vala:41
+msgid "Beep when a modifier key is pressed"
+msgstr "Toista ääni, kun muuntonäppäintä painetaan"
+
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Panes/Pointing.vala:25
+msgid "Pointing"
+msgstr "Osoittaminen"
+
+#: src/Plug.vala:154 src/Panes/Pointing.vala:31
+msgid "Keypad Control"
+msgstr "Näppäimistön sormio"
+
+#: src/Plug.vala:155 src/Panes/Pointing.vala:38
+msgid "Control pointer using keypad"
+msgstr "Ohjaa osoitinta sormiota käyttäen"
+
+#: src/Plug.vala:156 src/Panes/Pointing.vala:39
+msgid "Cursor speed"
+msgstr "Osoittimen nopeus"
+
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
+#: src/Panes/Clicking.vala:25
+msgid "Clicking"
+msgstr "Napsauttaminen"
+
+#: src/Plug.vala:158 src/Panes/Clicking.vala:42
+msgid "Double-click speed"
+msgstr "Kaksoisnapsautuksen nopeus"
+
+#: src/Plug.vala:159 src/Panes/Clicking.vala:45
+msgid "Hold primary button to trigger secondary click"
+msgstr ""
+"Toteuta kakkospainikkeen napsautus pitämällä ensisijaista painiketta pohjassa"
+
+#: src/Plug.vala:160
+#, fuzzy
+msgid "Simulated secondary click delay"
 msgstr "Kakkospainikkeen simuloitu napsautus"
+
+#: src/Plug.vala:161 src/Panes/Clicking.vala:49
+msgid "Click when the cursor hovers"
+msgstr "Suorita napsautus, kun hiiri kohdistetaan"
+
+#: src/Plug.vala:162
+#, fuzzy
+msgid "Hover click delay"
+msgstr "Kohdistuksen viive"
+
+#: src/Plug.vala:163 src/Panes/Clicking.vala:51
+msgid "Motion threshold"
+msgstr "Liikkeen kynnysarvo"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
 msgstr "Näkeminen"
 
-#: src/Widgets/Categories.vala:59
-msgid "Hearing"
-msgstr "Kuuleminen"
-
 #: src/Widgets/Categories.vala:61
 msgid "Interaction"
 msgstr "Vuorovaikutus"
-
-#: src/Panes/Typing.vala:25
-msgid "Typing"
-msgstr "Kirjoittaminen"
-
-#: src/Panes/Typing.vala:31
-msgid "Typing Delays"
-msgstr "Kirjoitusviiveet"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings…"
@@ -119,53 +220,13 @@ msgstr "Virtuaalinäppäimistön asetukset…"
 msgid "Keyboard settings…"
 msgstr "Näppäimistön asetukset…"
 
-#: src/Panes/Typing.vala:44
-msgid "On-screen keyboard"
-msgstr "Virtuaalinäppäimistö"
-
-#: src/Panes/Typing.vala:47
-msgid "Delay between key presses (slow keys)"
-msgstr "Viive näppäinpainallusten välillä (hitaat näppäimet)"
-
-#: src/Panes/Typing.vala:48
-msgid "Beep when a key is pressed"
-msgstr "Toista ääni kun näppäintä painetaan"
-
-#: src/Panes/Typing.vala:49
-msgid "Beep when a key is accepted"
-msgstr "Toista ääni kun näppäinpainallus hyväksytään"
-
-#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
-msgid "Beep when a key is rejected"
-msgstr "Toista ääni kun näppäinpainallus hylätään"
-
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "Viiveen kesto"
 
-#: src/Panes/Typing.vala:54
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Jätä huomiotta nopeat saman näppäimen painallukset (kimmonäppäimet)"
-
-#: src/Panes/Pointing.vala:25
-msgid "Pointing"
-msgstr "Osoittaminen"
-
-#: src/Panes/Pointing.vala:31
-msgid "Keypad Control"
-msgstr "Näppäimistön sormio"
-
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "Hiiren asetukset…"
-
-#: src/Panes/Pointing.vala:38
-msgid "Control pointer using keypad"
-msgstr "Ohjaa osoitinta sormiota käyttäen"
-
-#: src/Panes/Pointing.vala:39
-msgid "Cursor speed"
-msgstr "Osoittimen nopeus"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -179,10 +240,6 @@ msgstr "Suuri"
 msgid "Larger"
 msgstr "Suurempi"
 
-#: src/Panes/Keyboard.vala:25
-msgid "Keyboard"
-msgstr "Näppäimistö"
-
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "Lukitusnäppäimet"
@@ -190,30 +247,6 @@ msgstr "Lukitusnäppäimet"
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Muuntonäppäimet"
-
-#: src/Panes/Keyboard.vala:37
-msgid "Beep when a lock key is pressed"
-msgstr "Toista ääni, kun lukitusnäppäintä painetaan"
-
-#: src/Panes/Keyboard.vala:40
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Käytä muuntonäppäimiä sarjassa (pohjaan jäävät näppäimet)"
-
-#: src/Panes/Keyboard.vala:41
-msgid "Beep when a modifier key is pressed"
-msgstr "Toista ääni, kun muuntonäppäintä painetaan"
-
-#: src/Panes/General.vala:25
-msgid "General"
-msgstr "Yleiset"
-
-#: src/Panes/General.vala:33
-msgid "Animations"
-msgstr "Animaatiot"
-
-#: src/Panes/Display.vala:26
-msgid "Display"
-msgstr "Näyttö"
 
 #: src/Panes/Display.vala:32
 msgid "Color"
@@ -227,50 +260,21 @@ msgstr "Lukeminen"
 msgid "Display settings…"
 msgstr "Näytön asetukset…"
 
-#: src/Panes/Display.vala:39
-msgid "High contrast theme"
-msgstr "Suuren kontrastin teema"
+#: src/Panes/Clicking.vala:31
+msgid "Simulated Secondary Click"
+msgstr "Kakkospainikkeen simuloitu napsautus"
 
-#: src/Panes/Display.vala:43
-msgid "Panel transparency"
-msgstr "Paneelin läpinäkyvyys"
-
-#: src/Panes/Display.vala:50
-msgid "Text size"
-msgstr "Tekstin koko"
-
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Napsauttaminen"
-
-#: src/Panes/Clicking.vala:42
-msgid "Double-click speed"
-msgstr "Kaksoisnapsautuksen nopeus"
-
-#: src/Panes/Clicking.vala:45
-msgid "Hold primary button to trigger secondary click"
-msgstr ""
-"Toteuta kakkospainikkeen napsautus pitämällä ensisijaista painiketta pohjassa"
+#: src/Panes/Clicking.vala:32
+msgid "Hover Click"
+msgstr "Napsautus kohdistamalla"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "Simuloidun napsautuksen viive"
 
-#: src/Panes/Clicking.vala:49
-msgid "Click when the cursor hovers"
-msgstr "Suorita napsautus, kun hiiri kohdistetaan"
-
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "Kohdistuksen viive"
-
-#: src/Panes/Clicking.vala:51
-msgid "Motion threshold"
-msgstr "Liikkeen kynnysarvo"
-
-#: src/Panes/Audio.vala:26
-msgid "Audio"
-msgstr "Ääni"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -287,6 +291,33 @@ msgstr "Pikanäppäin"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Ääniasetukset…"
+
+#~ msgid "Accessibility Display Features"
+#~ msgstr "Näytön esteettömyysominaisuudet"
+
+#~ msgid "High Contrast Theme"
+#~ msgstr "Korkean kontrastin teema"
+
+#~ msgid "Text Size"
+#~ msgstr "Tekstin koko"
+
+#~ msgid "Accessibility Audio Features"
+#~ msgstr "Äänen esteettömyysominaisuudet"
+
+#~ msgid "Accessibility Hearing Features"
+#~ msgstr "Kuulemisen esteettömyysominaisuudet"
+
+#~ msgid "Accessibility Keyboard Features"
+#~ msgstr "Näppäimistön esteettömyysominaisuudet"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "Virtuaalinäppäimistö"
+
+#~ msgid "Keyboard Sounds"
+#~ msgstr "Näppäimistöäänet"
+
+#~ msgid "Accessibility Mouse Features"
+#~ msgstr "Hiiren esteettömyysominaisuudet"
 
 #~ msgid "Zoom"
 #~ msgstr "Zoomaus"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 10:32-0700\n"
+"POT-Creation-Date: 2018-10-15 16:47-0500\n"
 "PO-Revision-Date: 2018-06-18 00:06+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard/"
@@ -27,89 +27,190 @@ msgstr "Kisegítő lehetőségeket beállítása"
 msgid "Accessibility Features"
 msgstr "Kisegítő lehetőségek"
 
-#: src/Plug.vala:124
-msgid "Accessibility Display Features"
-msgstr "Kisegítő lehetőségek a kijelzőhöz"
+#: src/Plug.vala:124 src/Panes/General.vala:25
+msgid "General"
+msgstr "Álatlános"
 
-#: src/Plug.vala:125
-msgid "High Contrast Theme"
-msgstr "Nagy kontrasztos téma"
+#: src/Plug.vala:124 src/Panes/General.vala:33
+msgid "Animations"
+msgstr "Animációk"
 
-#: src/Plug.vala:126
-msgid "Font Size"
-msgstr "Betűméret"
+#: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
+#: src/Plug.vala:129 src/Panes/Display.vala:26
+msgid "Display"
+msgstr "Kijelző"
 
-#: src/Plug.vala:127
-msgid "Text Size"
+#: src/Plug.vala:126 src/Panes/Display.vala:39
+msgid "High contrast theme"
+msgstr "Nagy kontrasztú téma"
+
+#: src/Plug.vala:127 src/Panes/Display.vala:43
+msgid "Panel transparency"
+msgstr "A panel átlátszósága"
+
+#: src/Plug.vala:128 src/Panes/Display.vala:50
+msgid "Text size"
 msgstr "Szövegméret"
 
-#: src/Plug.vala:128
-msgid "Accessibility Audio Features"
-msgstr "Hangjelzéses kisegítő lehetőségek"
-
 #: src/Plug.vala:129
-msgid "Accessibility Hearing Features"
-msgstr "Kisegítő lehetőségek a halláshoz"
+#, fuzzy
+msgid "Font size"
+msgstr "Betűméret"
 
-#: src/Plug.vala:130 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
+msgid "Audio"
+msgstr "Hang"
+
+#: src/Plug.vala:131 src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "Hallás"
+
+#: src/Plug.vala:132 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Vizuális figyelmeztetések"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:37
+#: src/Plug.vala:133
+msgid "Flash screen"
+msgstr ""
+
+#: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Képernyőolvasó"
 
-#: src/Plug.vala:132
-msgid "Accessibility Keyboard Features"
-msgstr "Kisegítő lehetőségek a billentyűzethez"
+#: src/Plug.vala:135
+msgid "Audio descriptions"
+msgstr ""
 
-#: src/Plug.vala:133
-msgid "On Screen Keyboard"
-msgstr "Képernyő-billentyűzet"
+#: src/Plug.vala:136
+#, fuzzy
+msgid "keyboard shortcut"
+msgstr "Billentyűparancs"
 
-#: src/Plug.vala:134 src/Panes/Typing.vala:32
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
+#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
+#: src/Panes/Typing.vala:25
+msgid "Typing"
+msgstr "Gépelés"
+
+#: src/Plug.vala:138 src/Panes/Typing.vala:44
+msgid "On-screen keyboard"
+msgstr "Képernyő billentyűzet"
+
+#: src/Plug.vala:139 src/Panes/Typing.vala:31
+msgid "Typing Delays"
+msgstr "Gépelés késleltetések"
+
+#: src/Plug.vala:140 src/Panes/Typing.vala:47
+msgid "Delay between key presses (slow keys)"
+msgstr "Gombnyomások közti késleltetés (lassú gombok)"
+
+#: src/Plug.vala:141 src/Panes/Typing.vala:48
+msgid "Beep when a key is pressed"
+msgstr "Hangjelzés gombnyomáskor"
+
+#: src/Plug.vala:142 src/Panes/Typing.vala:49
+msgid "Beep when a key is accepted"
+msgstr "Hangjelzés gombnyomás elfogadásakor"
+
+#: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
+#: src/Panes/Typing.vala:55
+msgid "Beep when a key is rejected"
+msgstr "Hangjelzés gombnyomás elutasításakor"
+
+#: src/Plug.vala:144
+#, fuzzy
+msgid "Typing Delay length"
+msgstr "Gépelés késleltetés"
+
+#: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Gyorsírás"
 
-#: src/Plug.vala:135
-msgid "Typing Delay"
+#: src/Plug.vala:146 src/Panes/Typing.vala:54
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "Gyorsan ismétlődő gombnyomások figyelmen kívül hagyása"
+
+#: src/Plug.vala:148
+#, fuzzy
+msgid "Fast Typing Delay length"
 msgstr "Gépelés késleltetés"
 
-#: src/Plug.vala:136
-msgid "Keyboard Sounds"
+#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
+#: src/Panes/Keyboard.vala:25
+#, fuzzy
+msgid "Keyboard"
 msgstr "Billentyűzet hangok"
 
-#: src/Plug.vala:137
-msgid "Accessibility Mouse Features"
-msgstr "Kisegítő lehetőségek az egérhez"
+#: src/Plug.vala:150 src/Panes/Keyboard.vala:37
+msgid "Beep when a lock key is pressed"
+msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
 
-#: src/Plug.vala:138 src/Panes/Clicking.vala:32
-msgid "Hover Click"
-msgstr "Lebegő kattintás"
+#: src/Plug.vala:151 src/Panes/Keyboard.vala:40
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "Módosítóbillentyűk sorozatos használata (ragadós billentyűk)"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:31
-msgid "Simulated Secondary Click"
+#: src/Plug.vala:152 src/Panes/Keyboard.vala:41
+msgid "Beep when a modifier key is pressed"
+msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
+
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Panes/Pointing.vala:25
+msgid "Pointing"
+msgstr "Mutatás"
+
+#: src/Plug.vala:154 src/Panes/Pointing.vala:31
+msgid "Keypad Control"
+msgstr "Számbillentyűzet vezérlés"
+
+#: src/Plug.vala:155 src/Panes/Pointing.vala:38
+msgid "Control pointer using keypad"
+msgstr "Mutató vezérlése a számbillentyűzettel"
+
+#: src/Plug.vala:156 src/Panes/Pointing.vala:39
+msgid "Cursor speed"
+msgstr "Kurzorsebesség"
+
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
+#: src/Panes/Clicking.vala:25
+msgid "Clicking"
+msgstr "Kattintás"
+
+#: src/Plug.vala:158 src/Panes/Clicking.vala:42
+msgid "Double-click speed"
+msgstr "Dupla kattintás sebessége"
+
+#: src/Plug.vala:159 src/Panes/Clicking.vala:45
+msgid "Hold primary button to trigger secondary click"
+msgstr "Az elsődleges gomb nyomva tartása másodlagos kattintást eredményez"
+
+#: src/Plug.vala:160
+#, fuzzy
+msgid "Simulated secondary click delay"
 msgstr "Szimulált másodlagos kattintás"
+
+#: src/Plug.vala:161 src/Panes/Clicking.vala:49
+msgid "Click when the cursor hovers"
+msgstr "Kattintás, ha a kurzor lebeg"
+
+#: src/Plug.vala:162
+#, fuzzy
+msgid "Hover click delay"
+msgstr "Lebegés ideje"
+
+#: src/Plug.vala:163 src/Panes/Clicking.vala:51
+msgid "Motion threshold"
+msgstr "Mozgási küszöb"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
 msgstr "Látás"
 
-#: src/Widgets/Categories.vala:59
-msgid "Hearing"
-msgstr "Hallás"
-
 #: src/Widgets/Categories.vala:61
 msgid "Interaction"
 msgstr "Interakció"
-
-#: src/Panes/Typing.vala:25
-msgid "Typing"
-msgstr "Gépelés"
-
-#: src/Panes/Typing.vala:31
-msgid "Typing Delays"
-msgstr "Gépelés késleltetések"
 
 #: src/Panes/Typing.vala:34
 #, fuzzy
@@ -121,53 +222,13 @@ msgstr "A képernyő-billentyűzet beállításai..."
 msgid "Keyboard settings…"
 msgstr "Billentyűzet beállítások..."
 
-#: src/Panes/Typing.vala:44
-msgid "On-screen keyboard"
-msgstr "Képernyő billentyűzet"
-
-#: src/Panes/Typing.vala:47
-msgid "Delay between key presses (slow keys)"
-msgstr "Gombnyomások közti késleltetés (lassú gombok)"
-
-#: src/Panes/Typing.vala:48
-msgid "Beep when a key is pressed"
-msgstr "Hangjelzés gombnyomáskor"
-
-#: src/Panes/Typing.vala:49
-msgid "Beep when a key is accepted"
-msgstr "Hangjelzés gombnyomás elfogadásakor"
-
-#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
-msgid "Beep when a key is rejected"
-msgstr "Hangjelzés gombnyomás elutasításakor"
-
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "Késleltetés hosszúsága"
 
-#: src/Panes/Typing.vala:54
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Gyorsan ismétlődő gombnyomások figyelmen kívül hagyása"
-
-#: src/Panes/Pointing.vala:25
-msgid "Pointing"
-msgstr "Mutatás"
-
-#: src/Panes/Pointing.vala:31
-msgid "Keypad Control"
-msgstr "Számbillentyűzet vezérlés"
-
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "Egér beállítások…"
-
-#: src/Panes/Pointing.vala:38
-msgid "Control pointer using keypad"
-msgstr "Mutató vezérlése a számbillentyűzettel"
-
-#: src/Panes/Pointing.vala:39
-msgid "Cursor speed"
-msgstr "Kurzorsebesség"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -181,11 +242,6 @@ msgstr "Nagy"
 msgid "Larger"
 msgstr "Nagyobb"
 
-#: src/Panes/Keyboard.vala:25
-#, fuzzy
-msgid "Keyboard"
-msgstr "Billentyűzet hangok"
-
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "Zároló gombok"
@@ -193,30 +249,6 @@ msgstr "Zároló gombok"
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Módosítóbillentyűk"
-
-#: src/Panes/Keyboard.vala:37
-msgid "Beep when a lock key is pressed"
-msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
-
-#: src/Panes/Keyboard.vala:40
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Módosítóbillentyűk sorozatos használata (ragadós billentyűk)"
-
-#: src/Panes/Keyboard.vala:41
-msgid "Beep when a modifier key is pressed"
-msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
-
-#: src/Panes/General.vala:25
-msgid "General"
-msgstr "Álatlános"
-
-#: src/Panes/General.vala:33
-msgid "Animations"
-msgstr "Animációk"
-
-#: src/Panes/Display.vala:26
-msgid "Display"
-msgstr "Kijelző"
 
 #: src/Panes/Display.vala:32
 msgid "Color"
@@ -230,49 +262,21 @@ msgstr "Olvasás"
 msgid "Display settings…"
 msgstr "Kijelző beállítások…"
 
-#: src/Panes/Display.vala:39
-msgid "High contrast theme"
-msgstr "Nagy kontrasztú téma"
+#: src/Panes/Clicking.vala:31
+msgid "Simulated Secondary Click"
+msgstr "Szimulált másodlagos kattintás"
 
-#: src/Panes/Display.vala:43
-msgid "Panel transparency"
-msgstr "A panel átlátszósága"
-
-#: src/Panes/Display.vala:50
-msgid "Text size"
-msgstr "Szövegméret"
-
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Kattintás"
-
-#: src/Panes/Clicking.vala:42
-msgid "Double-click speed"
-msgstr "Dupla kattintás sebessége"
-
-#: src/Panes/Clicking.vala:45
-msgid "Hold primary button to trigger secondary click"
-msgstr "Az elsődleges gomb nyomva tartása másodlagos kattintást eredményez"
+#: src/Panes/Clicking.vala:32
+msgid "Hover Click"
+msgstr "Lebegő kattintás"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "Szimulált kattintás késleltetése"
 
-#: src/Panes/Clicking.vala:49
-msgid "Click when the cursor hovers"
-msgstr "Kattintás, ha a kurzor lebeg"
-
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "Lebegés ideje"
-
-#: src/Panes/Clicking.vala:51
-msgid "Motion threshold"
-msgstr "Mozgási küszöb"
-
-#: src/Panes/Audio.vala:26
-msgid "Audio"
-msgstr "Hang"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -289,3 +293,30 @@ msgstr "Billentyűparancs"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Hangbeállítások…"
+
+#~ msgid "Accessibility Display Features"
+#~ msgstr "Kisegítő lehetőségek a kijelzőhöz"
+
+#~ msgid "High Contrast Theme"
+#~ msgstr "Nagy kontrasztos téma"
+
+#~ msgid "Text Size"
+#~ msgstr "Szövegméret"
+
+#~ msgid "Accessibility Audio Features"
+#~ msgstr "Hangjelzéses kisegítő lehetőségek"
+
+#~ msgid "Accessibility Hearing Features"
+#~ msgstr "Kisegítő lehetőségek a halláshoz"
+
+#~ msgid "Accessibility Keyboard Features"
+#~ msgstr "Kisegítő lehetőségek a billentyűzethez"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "Képernyő-billentyűzet"
+
+#~ msgid "Keyboard Sounds"
+#~ msgstr "Billentyűzet hangok"
+
+#~ msgid "Accessibility Mouse Features"
+#~ msgstr "Kisegítő lehetőségek az egérhez"

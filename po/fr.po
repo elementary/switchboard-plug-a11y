@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 10:32-0700\n"
+"POT-Creation-Date: 2018-10-15 16:47-0500\n"
 "PO-Revision-Date: 2018-07-16 21:13+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
@@ -27,89 +27,189 @@ msgstr "Configuration des fonctionnalités d'accessibilité"
 msgid "Accessibility Features"
 msgstr "Fonctionnalités d'accessibilité"
 
-#: src/Plug.vala:124
-msgid "Accessibility Display Features"
-msgstr "Fonctionnalités d'accessibilité de l'affichage"
+#: src/Plug.vala:124 src/Panes/General.vala:25
+msgid "General"
+msgstr "Général"
 
-#: src/Plug.vala:125
-msgid "High Contrast Theme"
-msgstr "Thème à haut niveau de contrastes"
+#: src/Plug.vala:124 src/Panes/General.vala:33
+msgid "Animations"
+msgstr "Animations"
 
-#: src/Plug.vala:126
-msgid "Font Size"
-msgstr "Taille de la police"
+#: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
+#: src/Plug.vala:129 src/Panes/Display.vala:26
+msgid "Display"
+msgstr "Affichage"
 
-#: src/Plug.vala:127
-msgid "Text Size"
+#: src/Plug.vala:126 src/Panes/Display.vala:39
+msgid "High contrast theme"
+msgstr "Thème à fort contraste"
+
+#: src/Plug.vala:127 src/Panes/Display.vala:43
+msgid "Panel transparency"
+msgstr "Transparence du panneau supérieur"
+
+#: src/Plug.vala:128 src/Panes/Display.vala:50
+msgid "Text size"
 msgstr "Taille du texte"
 
-#: src/Plug.vala:128
-msgid "Accessibility Audio Features"
-msgstr "Fonctionnalités d'accessibilité de l'audio"
-
 #: src/Plug.vala:129
-msgid "Accessibility Hearing Features"
-msgstr "Fonctionnalités d'accessibilité de l'écoute"
+#, fuzzy
+msgid "Font size"
+msgstr "Taille de la police"
 
-#: src/Plug.vala:130 src/Panes/Audio.vala:32
+#: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
+msgid "Audio"
+msgstr "Audio"
+
+#: src/Plug.vala:131 src/Widgets/Categories.vala:59
+msgid "Hearing"
+msgstr "Audition"
+
+#: src/Plug.vala:132 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
 msgstr "Alertes visuelles"
 
-#: src/Plug.vala:131 src/Panes/Audio.vala:37
+#: src/Plug.vala:133
+msgid "Flash screen"
+msgstr ""
+
+#: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
 msgstr "Lecteur d'écran"
 
-#: src/Plug.vala:132
-msgid "Accessibility Keyboard Features"
-msgstr "Fonctionnalités d'accessibilité du clavier"
+#: src/Plug.vala:135
+msgid "Audio descriptions"
+msgstr ""
 
-#: src/Plug.vala:133
-msgid "On Screen Keyboard"
-msgstr "Clavier virtuel"
+#: src/Plug.vala:136
+#, fuzzy
+msgid "keyboard shortcut"
+msgstr "Raccourcis clavier"
 
-#: src/Plug.vala:134 src/Panes/Typing.vala:32
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
+#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
+#: src/Panes/Typing.vala:25
+msgid "Typing"
+msgstr "Saisie"
+
+#: src/Plug.vala:138 src/Panes/Typing.vala:44
+msgid "On-screen keyboard"
+msgstr "Clavier visuel"
+
+#: src/Plug.vala:139 src/Panes/Typing.vala:31
+msgid "Typing Delays"
+msgstr "Délais de saisie"
+
+#: src/Plug.vala:140 src/Panes/Typing.vala:47
+msgid "Delay between key presses (slow keys)"
+msgstr "Délais avant la prise en compte de l'appui de touches (touches lentes)"
+
+#: src/Plug.vala:141 src/Panes/Typing.vala:48
+msgid "Beep when a key is pressed"
+msgstr "Émettre un bip lors d'un appui sur une touche"
+
+#: src/Plug.vala:142 src/Panes/Typing.vala:49
+msgid "Beep when a key is accepted"
+msgstr "Émettre un bip lorsqu'une touche est acceptée"
+
+#: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
+#: src/Panes/Typing.vala:55
+msgid "Beep when a key is rejected"
+msgstr "Émettre un bip lorsqu'une touche est refusée"
+
+#: src/Plug.vala:144
+#, fuzzy
+msgid "Typing Delay length"
+msgstr "Délais de la saisie"
+
+#: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Saisie rapide"
 
-#: src/Plug.vala:135
-msgid "Typing Delay"
+#: src/Plug.vala:146 src/Panes/Typing.vala:54
+msgid "Ignore fast duplicate keypresses (bounce keys)"
+msgstr "Ignorer les répétitions d'appui (touches filtes)"
+
+#: src/Plug.vala:148
+#, fuzzy
+msgid "Fast Typing Delay length"
 msgstr "Délais de la saisie"
 
-#: src/Plug.vala:136
-msgid "Keyboard Sounds"
-msgstr "Sons du clavier"
+#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
+#: src/Panes/Keyboard.vala:25
+msgid "Keyboard"
+msgstr "Clavier"
 
-#: src/Plug.vala:137
-msgid "Accessibility Mouse Features"
-msgstr "Fonctionnalités d'accessibilité de la souris"
+#: src/Plug.vala:150 src/Panes/Keyboard.vala:37
+msgid "Beep when a lock key is pressed"
+msgstr "Émettre un bip lorsque la touche de verrouillage est appuyée"
 
-#: src/Plug.vala:138 src/Panes/Clicking.vala:32
-msgid "Hover Click"
-msgstr "Clic par survol"
+#: src/Plug.vala:151 src/Panes/Keyboard.vala:40
+msgid "Use modifier keys in sequence (sticky keys)"
+msgstr "Utiliser les touches modificateurs en séquence (sticky keys)"
 
-#: src/Plug.vala:139 src/Panes/Clicking.vala:31
-msgid "Simulated Secondary Click"
+#: src/Plug.vala:152 src/Panes/Keyboard.vala:41
+msgid "Beep when a modifier key is pressed"
+msgstr "Émettre un bip lorsqu'une touche de mofication est appuée"
+
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Panes/Pointing.vala:25
+msgid "Pointing"
+msgstr "Pointer"
+
+#: src/Plug.vala:154 src/Panes/Pointing.vala:31
+msgid "Keypad Control"
+msgstr "Contrôle avec le clavier"
+
+#: src/Plug.vala:155 src/Panes/Pointing.vala:38
+msgid "Control pointer using keypad"
+msgstr "Contrôler le pointeur en utilisant le clavier"
+
+#: src/Plug.vala:156 src/Panes/Pointing.vala:39
+msgid "Cursor speed"
+msgstr "Vitesse du pointeur"
+
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
+#: src/Panes/Clicking.vala:25
+msgid "Clicking"
+msgstr "Cliquer"
+
+#: src/Plug.vala:158 src/Panes/Clicking.vala:42
+msgid "Double-click speed"
+msgstr "Vitesse du double-clic"
+
+#: src/Plug.vala:159 src/Panes/Clicking.vala:45
+msgid "Hold primary button to trigger secondary click"
+msgstr "Maintenir le bouton principal appuyé pour effectuer un clic secondaire"
+
+#: src/Plug.vala:160
+#, fuzzy
+msgid "Simulated secondary click delay"
 msgstr "Simulation du clic secondaire"
+
+#: src/Plug.vala:161 src/Panes/Clicking.vala:49
+msgid "Click when the cursor hovers"
+msgstr "Clic lorsque le pointeur reste sur une zone"
+
+#: src/Plug.vala:162
+#, fuzzy
+msgid "Hover click delay"
+msgstr "Délais avant le clic"
+
+#: src/Plug.vala:163 src/Panes/Clicking.vala:51
+msgid "Motion threshold"
+msgstr "Sensibilité du mouvement"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
 msgstr "Vision"
 
-#: src/Widgets/Categories.vala:59
-msgid "Hearing"
-msgstr "Audition"
-
 #: src/Widgets/Categories.vala:61
 msgid "Interaction"
 msgstr "Interaction"
-
-#: src/Panes/Typing.vala:25
-msgid "Typing"
-msgstr "Saisie"
-
-#: src/Panes/Typing.vala:31
-msgid "Typing Delays"
-msgstr "Délais de saisie"
 
 #: src/Panes/Typing.vala:34
 #, fuzzy
@@ -121,53 +221,13 @@ msgstr "Paramètres du clavier visuel…"
 msgid "Keyboard settings…"
 msgstr "Paramètres du clavier…"
 
-#: src/Panes/Typing.vala:44
-msgid "On-screen keyboard"
-msgstr "Clavier visuel"
-
-#: src/Panes/Typing.vala:47
-msgid "Delay between key presses (slow keys)"
-msgstr "Délais avant la prise en compte de l'appui de touches (touches lentes)"
-
-#: src/Panes/Typing.vala:48
-msgid "Beep when a key is pressed"
-msgstr "Émettre un bip lors d'un appui sur une touche"
-
-#: src/Panes/Typing.vala:49
-msgid "Beep when a key is accepted"
-msgstr "Émettre un bip lorsqu'une touche est acceptée"
-
-#: src/Panes/Typing.vala:50 src/Panes/Typing.vala:55
-msgid "Beep when a key is rejected"
-msgstr "Émettre un bip lorsqu'une touche est refusée"
-
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
 msgstr "Durée du délais"
 
-#: src/Panes/Typing.vala:54
-msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Ignorer les répétitions d'appui (touches filtes)"
-
-#: src/Panes/Pointing.vala:25
-msgid "Pointing"
-msgstr "Pointer"
-
-#: src/Panes/Pointing.vala:31
-msgid "Keypad Control"
-msgstr "Contrôle avec le clavier"
-
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
 msgstr "Paramètres de la souris…"
-
-#: src/Panes/Pointing.vala:38
-msgid "Control pointer using keypad"
-msgstr "Contrôler le pointeur en utilisant le clavier"
-
-#: src/Panes/Pointing.vala:39
-msgid "Cursor speed"
-msgstr "Vitesse du pointeur"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -181,10 +241,6 @@ msgstr "Grande"
 msgid "Larger"
 msgstr "Plus grande"
 
-#: src/Panes/Keyboard.vala:25
-msgid "Keyboard"
-msgstr "Clavier"
-
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
 msgstr "Touches de verrouillage"
@@ -192,30 +248,6 @@ msgstr "Touches de verrouillage"
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Touches de modification"
-
-#: src/Panes/Keyboard.vala:37
-msgid "Beep when a lock key is pressed"
-msgstr "Émettre un bip lorsque la touche de verrouillage est appuyée"
-
-#: src/Panes/Keyboard.vala:40
-msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Utiliser les touches modificateurs en séquence (sticky keys)"
-
-#: src/Panes/Keyboard.vala:41
-msgid "Beep when a modifier key is pressed"
-msgstr "Émettre un bip lorsqu'une touche de mofication est appuée"
-
-#: src/Panes/General.vala:25
-msgid "General"
-msgstr "Général"
-
-#: src/Panes/General.vala:33
-msgid "Animations"
-msgstr "Animations"
-
-#: src/Panes/Display.vala:26
-msgid "Display"
-msgstr "Affichage"
 
 #: src/Panes/Display.vala:32
 msgid "Color"
@@ -229,49 +261,21 @@ msgstr "Lecture"
 msgid "Display settings…"
 msgstr "Paramètres de l'affichage…"
 
-#: src/Panes/Display.vala:39
-msgid "High contrast theme"
-msgstr "Thème à fort contraste"
+#: src/Panes/Clicking.vala:31
+msgid "Simulated Secondary Click"
+msgstr "Simulation du clic secondaire"
 
-#: src/Panes/Display.vala:43
-msgid "Panel transparency"
-msgstr "Transparence du panneau supérieur"
-
-#: src/Panes/Display.vala:50
-msgid "Text size"
-msgstr "Taille du texte"
-
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Cliquer"
-
-#: src/Panes/Clicking.vala:42
-msgid "Double-click speed"
-msgstr "Vitesse du double-clic"
-
-#: src/Panes/Clicking.vala:45
-msgid "Hold primary button to trigger secondary click"
-msgstr "Maintenir le bouton principal appuyé pour effectuer un clic secondaire"
+#: src/Panes/Clicking.vala:32
+msgid "Hover Click"
+msgstr "Clic par survol"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
 msgstr "Délais avant le clic simulé"
 
-#: src/Panes/Clicking.vala:49
-msgid "Click when the cursor hovers"
-msgstr "Clic lorsque le pointeur reste sur une zone"
-
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
 msgstr "Délais avant le clic"
-
-#: src/Panes/Clicking.vala:51
-msgid "Motion threshold"
-msgstr "Sensibilité du mouvement"
-
-#: src/Panes/Audio.vala:26
-msgid "Audio"
-msgstr "Audio"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -288,6 +292,33 @@ msgstr "Raccourcis clavier"
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
 msgstr "Paramètres du son…"
+
+#~ msgid "Accessibility Display Features"
+#~ msgstr "Fonctionnalités d'accessibilité de l'affichage"
+
+#~ msgid "High Contrast Theme"
+#~ msgstr "Thème à haut niveau de contrastes"
+
+#~ msgid "Text Size"
+#~ msgstr "Taille du texte"
+
+#~ msgid "Accessibility Audio Features"
+#~ msgstr "Fonctionnalités d'accessibilité de l'audio"
+
+#~ msgid "Accessibility Hearing Features"
+#~ msgstr "Fonctionnalités d'accessibilité de l'écoute"
+
+#~ msgid "Accessibility Keyboard Features"
+#~ msgstr "Fonctionnalités d'accessibilité du clavier"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "Clavier virtuel"
+
+#~ msgid "Keyboard Sounds"
+#~ msgstr "Sons du clavier"
+
+#~ msgid "Accessibility Mouse Features"
+#~ msgstr "Fonctionnalités d'accessibilité de la souris"
 
 #~ msgid "Zoom"
 #~ msgstr "Zoom"
