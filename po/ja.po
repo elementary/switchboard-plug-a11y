@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-18 23:47+0000\n"
+"PO-Revision-Date: 2018-10-15 21:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "テキストサイズ"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "フォントサイズ"
 
@@ -72,7 +71,7 @@ msgstr "視覚的な警告"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "画面の点滅"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "スクリーンリーダー"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "音声ガイド"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "キーボードショートカット"
 
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "キー入力を拒否したときにビープ音を鳴らす"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "タイピングの遅延"
+msgstr "タイピングの遅延の長さ"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "高速な重複キー押下の無視 (バウンスキー)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "タイピングの遅延"
+msgstr "高速タイピングの遅延の長さ"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "主ボタンを押し続けることで副ボタンクリックとする"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "副ボタンクリックの代替"
+msgstr "副ボタンクリックの代替の遅延"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "カーソルがホバーしたときにクリック"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "ホバー遅延"
+msgstr "ホバークリック遅延"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
