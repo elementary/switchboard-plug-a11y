@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-19 11:22+0000\n"
+"PO-Revision-Date: 2018-10-16 10:33+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/pl/>\n"
@@ -54,7 +54,6 @@ msgid "Text size"
 msgstr "Rozmiar tekstu"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Rozmiar czcionki"
 
@@ -73,7 +72,7 @@ msgstr "Alarmy wizualne"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Migający ekran"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -81,12 +80,11 @@ msgstr "Czytnik ekranowy"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Opisy dźwiękowe"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Skróty klawiszowe"
+msgstr "skrót klawiszowy"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -121,9 +119,8 @@ msgid "Beep when a key is rejected"
 msgstr "Sygnał dźwiękowy po odrzuceniu klawisza"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Opóźnienie pisania"
+msgstr "Długość opóźnienia w pisaniu"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -135,9 +132,8 @@ msgstr ""
 "Ignoruj szybkie zduplikowane naciśnięcia klawiszy (odskakujące klawisze)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Opóźnienie pisania"
+msgstr "Długość opóźnienia w szybkim pisaniu"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -188,18 +184,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "Przytrzymaj główny przycisk, aby wywołać ponowne kliknięcie"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Symulowanie przycisku pomocniczego"
+msgstr "Opóźnienie kliknięcia symulowanego przycisku pomocniczego"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Kliknij, gdy najedziesz kursorem"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Opóźnienie wskazania kursora"
+msgstr "Opóźnienie odstąpienia kliknięcia"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
