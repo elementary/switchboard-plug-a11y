@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-19 12:16+0000\n"
+"PO-Revision-Date: 2018-10-16 00:54+0000\n"
 "Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/it/>\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Dimensione del testo"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Dimensione dei caratteri"
 
@@ -72,7 +71,7 @@ msgstr "Avvisi visivi"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Fai brillare lo schermo"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,12 +79,11 @@ msgstr "Lettore di schermo"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Descrizioni audio"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Tasti di scelta rapida"
+msgstr "tasti di scelta rapida"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "Segnale acustico quando un tasto è rifiutato"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Ritardo digitazione"
+msgstr "Lunghezza del ritardo durante la digitazione"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignora le pressioni duplicate veloci (tasti di rimbalzo)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Ritardo digitazione"
+msgstr "Lunghezza del ritardo durante la digitazione rapida"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "Tieni premuto il pulsante primario per indurre il click secondario"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Click secondario simulato"
+msgstr "Ritardo del clic secondario simulato"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Esegui il click quando il puntatore passa sopra"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Ritardo al passaggio"
+msgstr "Ritardo del clic al passaggio"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
