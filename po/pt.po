@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-10-16 12:32+0000\n"
+"PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/pt/>\n"
@@ -195,11 +195,11 @@ msgstr "Atraso do clique de sobreposição"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
-msgstr "Tolerância de movimento"
+msgstr "Limite do movimento"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
-msgstr "Visão"
+msgstr "Ver"
 
 #: src/Widgets/Categories.vala:61
 msgid "Interaction"
@@ -215,7 +215,7 @@ msgstr "Definições do teclado…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr "Tempo de atraso"
+msgstr "Duração do atraso"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
@@ -235,7 +235,7 @@ msgstr "Maior"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
-msgstr "Teclas Bloqueadas"
+msgstr "Teclas de bloqueio"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
@@ -259,15 +259,15 @@ msgstr "Simulação de Clique Secundário"
 
 #: src/Panes/Clicking.vala:32
 msgid "Hover Click"
-msgstr "Clique ao Sobrevoar"
+msgstr "Clique de sobreposição"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr "Simular atraso no clique"
+msgstr "Simulação do atraso do clique"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr "Atraso do clique"
+msgstr "Atraso da sobreposição"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -275,7 +275,7 @@ msgstr "Piscar ecrã quando um alerta sonoro é emitido"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Usar áudio descrição para os itens no ecrã"
+msgstr "Disponibilizar descrições áudio para os itens no ecrã"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
