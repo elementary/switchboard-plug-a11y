@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-10-16 09:25+0000\n"
+"PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/da/>\n"
@@ -119,11 +119,11 @@ msgstr "Bip når en tast afvises"
 
 #: src/Plug.vala:144
 msgid "Typing Delay length"
-msgstr "Taste Udsættelseslængde"
+msgstr "Tasteforsinkelseslængde"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr "Hurtigt Indtastning"
+msgstr "Hurtigt Tastning"
 
 #: src/Plug.vala:146 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -153,7 +153,7 @@ msgstr "Bip når der trykkes på en modifikationstast"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
-msgstr "Peger"
+msgstr "Markør"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
