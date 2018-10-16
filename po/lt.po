@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-18 17:50+0000\n"
+"PO-Revision-Date: 2018-10-16 20:11+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/lt/>\n"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
@@ -54,7 +54,6 @@ msgid "Text size"
 msgstr "Teksto dydis"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Šrifto dydis"
 
@@ -73,7 +72,7 @@ msgstr "Vaizdiniai įspėjimai"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Blyksėti ekrane"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -81,12 +80,11 @@ msgstr "Ekrano skaityklė"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Garsiniai aprašai"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Spartusis klavišas"
+msgstr "spartusis klavišas"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -121,9 +119,8 @@ msgid "Beep when a key is rejected"
 msgstr "Pyptelėti, kai klavišas yra atmetamas"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Teksto rinkimo delsa"
+msgstr "Teksto rinkimo delsos trukmė"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -135,9 +132,8 @@ msgstr ""
 "Nepaisyti greitų identiškų klavišų paspaudimų (pasikartojantys klavišai)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Teksto rinkimo delsa"
+msgstr "Greitojo rinkimo delsos trukmė"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -189,18 +185,16 @@ msgstr ""
 "Laikyti nuspaustą pirminį mygtuką, kad būtų paleistas antrinis spustelėjimas"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Simuliuojamas antrinis spustelėjimas"
+msgstr "Simuliuojamo antrinio spustelėjimo delsa"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Spustelėti, užvedus žymeklį"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Užvedimo delsa"
+msgstr "Spustelėjimo užvedus pelę delsa"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
