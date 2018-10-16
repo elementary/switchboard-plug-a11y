@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-19 10:09+0000\n"
-"Last-Translator: Nuno Alexandre MS ribeiro <nuno.anarresti@gmail.com>\n"
+"PO-Revision-Date: 2018-10-16 12:32+0000\n"
+"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/pt/>\n"
 "Language: pt\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Tamanho do texto"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Tamanho do tipo de letra"
 
@@ -72,7 +71,7 @@ msgstr "Alertas Visuais"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Ecrã flash"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "Leitor de Ecrã"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Descrições audio"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "Tecla de atalho"
 
@@ -92,19 +90,19 @@ msgstr "Tecla de atalho"
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Panes/Typing.vala:25
 msgid "Typing"
-msgstr "Escrita"
+msgstr "Digitar"
 
 #: src/Plug.vala:138 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr "Teclado no ecrã"
+msgstr "Teclado virtual"
 
 #: src/Plug.vala:139 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr "Atrasos de escrita"
+msgstr "Atraso ao digitar"
 
 #: src/Plug.vala:140 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr "Atrao entre teclas premidas (teclas lentas)"
+msgstr "Atraso entre teclas premidas (teclas lentas)"
 
 #: src/Plug.vala:141 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
@@ -120,22 +118,20 @@ msgid "Beep when a key is rejected"
 msgstr "Emitir som quando uma tecla é rejeitada"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Atraso de Escrita"
+msgstr "Duração do Atraso ao Digitar"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr "Escrita rápida"
+msgstr "Digitação rápida"
 
 #: src/Plug.vala:146 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Ignorar teclas premidas duplicadas (teclas soltas)"
+msgstr "Ignorar duplicação das teclas premidas rapidamente (teclas elásticas)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Atraso de Escrita"
+msgstr "Duração do atraso na Digitação Rápida"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -144,11 +140,11 @@ msgstr "Teclado"
 
 #: src/Plug.vala:150 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr "Emitir um som quando uma tecla bloqueada é premida"
+msgstr "Emitir um som quando uma tecla de bloqueio é premida"
 
 #: src/Plug.vala:151 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Usar teclas modificadoras em sequência (teclas conjuntas)"
+msgstr "Usar teclas modificadoras em sequência (teclas fixas)"
 
 #: src/Plug.vala:152 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
@@ -157,11 +153,11 @@ msgstr "Emitir um som ao premir uma tecla modificadora"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
-msgstr "Ponteiro"
+msgstr "Apontando"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
-msgstr "Controlo por teclado numérico"
+msgstr "Controlo do teclado numérico"
 
 #: src/Plug.vala:155 src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
@@ -183,21 +179,19 @@ msgstr "Velocidade de duplo clique"
 
 #: src/Plug.vala:159 src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
-msgstr "Manter botão primário pressionado para despoletar clique segundário"
+msgstr "Manter botão primário pressionado para acionar clique secundário"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Simulação de Clique Secundário"
+msgstr "Simulação do atraso do clique secundário"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
-msgstr "Clicar quando o ponteiro está sobre um elemento"
+msgstr "Clicar quando o cursor se sobrepõe"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Atraso do clique"
+msgstr "Atraso do clique de sobreposição"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
