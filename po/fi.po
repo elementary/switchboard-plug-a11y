@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-19 16:03+0000\n"
+"PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fi/>\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Tekstin koko"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Fontin koko"
 
@@ -80,12 +79,11 @@ msgstr "Näytönlukija"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Äänikuvaukset"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Pikanäppäin"
+msgstr "pikanäppäin"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
