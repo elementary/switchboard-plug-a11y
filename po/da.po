@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-09-30 00:10+0000\n"
+"PO-Revision-Date: 2018-10-16 09:25+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/da/>\n"
@@ -53,9 +53,8 @@ msgid "Text size"
 msgstr "Tekststørrelse"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
-msgstr "Font Størrelse"
+msgstr "Font størrelse"
 
 #: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
 #: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
@@ -72,7 +71,7 @@ msgstr "Visuelle Advarsler"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Flash skærmen"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,12 +79,11 @@ msgstr "Skærmlæser"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Lydbeskrivelser"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Tastaturgenvej"
+msgstr "tastaturgenvej"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "Bip når en tast afvises"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Indtast Udsættelse"
+msgstr "Taste Udsættelseslængde"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorer hurtige gentagne tryk på samme tast (bounce keys)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Indtast Udsættelse"
+msgstr "Hurtig Taste Udsættelseslængde"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "Hold primær knap nede for at udløse et sekundært klik"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Simuleret sekundært klik"
+msgstr "Simuleret sekundært klik udsættelse"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Klik når markøren svæver over"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Svæveforsinkelse"
+msgstr "Svæveklik udsættelse"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
