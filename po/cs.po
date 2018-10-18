@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-10-03 14:32+0000\n"
-"Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
+"PO-Revision-Date: 2018-10-18 07:11+0000\n"
+"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/cs/>\n"
 "Language: cs\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Velikost textu"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Velikost písma"
 
@@ -72,7 +71,7 @@ msgstr "Vizuální upozornění"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Blikání obrazovky"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,12 +79,11 @@ msgstr "Čtečka obrazovky"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Audio popisy"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Klávesová zkratka"
+msgstr "klávesová zkratka"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -120,7 +118,6 @@ msgid "Beep when a key is rejected"
 msgstr "Pípnout při odmítnutí klávesy"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
 msgstr "Prodleva při psaní"
 
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorovat rychlé duplicitní stisknutí klávesnice (odrážet klávesy)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Prodleva při psaní"
+msgstr "Prodleva při rychlém psaní"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "Držení primárního tlačítka provede sekundární klik"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Simulovaný pravý klik"
+msgstr "Prodleva simulovaného sekundárního kliknutí"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Kliknout při najetí kurzorem"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Zpoždění při přejetí myší"
+msgstr "Zpoždění při kliknutí najetím myší"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
