@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-10-17 00:07+0000\n"
+"PO-Revision-Date: 2018-10-24 09:06+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fi/>\n"
@@ -71,7 +71,7 @@ msgstr "Visuaaliset hälytykset"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Vilkuta näyttöä"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
