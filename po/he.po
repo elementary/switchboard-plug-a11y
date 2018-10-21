@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-10-16 00:09+0000\n"
+"PO-Revision-Date: 2018-10-21 12:15+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/he/>\n"
@@ -130,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "התעלמות מלחיצות כפולות מהירות (מקשים חוזרים)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "השהיית הקלדה"
+msgstr "משך השהיית הקלדה מהירה"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -183,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "החזקת הכפתור העיקרי כדי לגרום להקשה משנית"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "הקשה משנית מדומה"
+msgstr "השהיית הקשה משנית מדומה"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "להקיש כאשר הסמן עובר מעל"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "השהיית מעבר מעל"
+msgstr "השהיית הקשה במעבר מעל"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
