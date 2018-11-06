@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-05-27 00:06+0000\n"
-"Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
+"PO-Revision-Date: 2018-11-06 21:22+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-19 06:00+0000\n"
 
 #: src/Plug.vala:48
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Yazı boyutu"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Yazı Tipi Boyutu"
 
@@ -72,7 +71,7 @@ msgstr "Görsel Uyarılar"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Ekranı yakıp söndür"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "Ekran Okuyucusu"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Ses açıklamaları"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "Klavye kısayolu"
 
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "Bir tuş reddedildiğinde bip sesi çıkar"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Yazma Gecikmesi"
+msgstr "Yazma Gecikmesi uzunluğu"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Hızlı yinelenen tuş vuruşlarını yoksay (Zıplayan tuşlar)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Yazma Gecikmesi"
+msgstr "Hızlı Yazma Gecikmesi uzunluğu"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "İkinci tıklamayı tetiklemek için birinci butona basılı tut"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "İkinci tıklama canlandırması"
+msgstr "Taklit edilmiş ikinci tıklama gecikmesi"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Fare üzerine geldiğinde tıkla"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Vurgu gecikmesi"
+msgstr "Üstüne gelince vurgulama gecikmesi"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -212,14 +206,12 @@ msgid "Interaction"
 msgstr "Etkileşim"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "Ekran klavyesi ayarları"
+msgstr "Ekran klavyesi ayarları…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Klavye ayarları..."
+msgstr "Klavye ayarları…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
