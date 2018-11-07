@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-11-06 21:22+0000\n"
+"PO-Revision-Date: 2018-11-07 01:54+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/tr/>\n"
@@ -219,7 +219,7 @@ msgstr "Gecikme uzunluğu"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Fare Ayaları..."
+msgstr "Fare Ayaları…"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -251,7 +251,7 @@ msgstr "Okuma"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "Görüntü ayarları..."
+msgstr "Görüntü ayarları…"
 
 #: src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
@@ -275,7 +275,7 @@ msgstr "Uyarı sesi çalındığında ekranı karart ve aydınlat"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Ekrandaki elemenları sesli olarak tanımla."
+msgstr "Ekrandaki ögeleri sesli tanımla"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
@@ -283,7 +283,7 @@ msgstr "Klavye kısayolu"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "Ses Ayarları"
+msgstr "Ses Ayarları…"
 
 #~ msgid "Accessibility Display Features"
 #~ msgstr "Ekran Özelliklerine Erişilebilirlik"
