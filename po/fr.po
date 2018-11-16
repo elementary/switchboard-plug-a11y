@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
 "PO-Revision-Date: 2018-11-16 08:26+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"Last-Translator: lolo <phantom.re@outlook.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fr/>\n"
 "Language: fr\n"
@@ -206,9 +206,8 @@ msgid "Interaction"
 msgstr "Interaction"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "Paramètres du clavier visuel…"
+msgstr "Paramètres du clavier virtuel…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings…"
