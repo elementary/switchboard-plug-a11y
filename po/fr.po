@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-07-16 21:13+0000\n"
+"PO-Revision-Date: 2018-11-16 08:26+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fr/>\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "Taille du texte"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "Taille de la police"
 
@@ -72,7 +71,7 @@ msgstr "Alertes visuelles"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Flasher l'écran"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "Lecteur d'écran"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Descriptions sonores"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "Raccourcis clavier"
 
@@ -120,7 +118,6 @@ msgid "Beep when a key is rejected"
 msgstr "Émettre un bip lorsqu'une touche est refusée"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
 msgstr "Délais de la saisie"
 
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorer les répétitions d'appui (touches filtes)"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Délais de la saisie"
+msgstr "Délais de la saisie rapide"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,18 +182,16 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "Maintenir le bouton principal appuyé pour effectuer un clic secondaire"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
-msgstr "Simulation du clic secondaire"
+msgstr "Délais de simulation du clic secondaire"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
 msgstr "Clic lorsque le pointeur reste sur une zone"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "Délais avant le clic"
+msgstr "Délais avant le clic par survol"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -217,7 +211,6 @@ msgid "On-screen keyboard settings…"
 msgstr "Paramètres du clavier visuel…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
 msgid "Keyboard settings…"
 msgstr "Paramètres du clavier…"
 
