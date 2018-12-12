@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>io.elementary.switchboard-plug-a11y</id>
+  <id>io.elementary.switchboard.a11y</id>
   <extends>io.elementary.switchboard</extends>
   <name>Universal Access Settings</name>
   <summary>Configure accessibility features</summary>
