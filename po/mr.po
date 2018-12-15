@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-12-15 13:18+0000\n"
+"PO-Revision-Date: 2018-12-16 19:37+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/mr/>\n"
@@ -102,7 +102,7 @@ msgstr "टाइपिंग विलंब"
 
 #: src/Plug.vala:140 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "की प्रेस मधील विलंब(स्लो कीज)"
 
 #: src/Plug.vala:141 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
@@ -144,7 +144,7 @@ msgstr "लॉक की दाबल्यावर बीप"
 
 #: src/Plug.vala:151 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "कीज चा वापर अणुक्रमांकाने करा (स्टिकी कीज)"
 
 #: src/Plug.vala:152 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
@@ -175,7 +175,7 @@ msgstr "क्लिक करत आहे"
 
 #: src/Plug.vala:158 src/Panes/Clicking.vala:42
 msgid "Double-click speed"
-msgstr "डबल क्लिकचा वेग "
+msgstr "डबल क्लिकचा वेग"
 
 #: src/Plug.vala:159 src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
