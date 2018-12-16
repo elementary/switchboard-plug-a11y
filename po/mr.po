@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-12-16 19:37+0000\n"
+"PO-Revision-Date: 2018-12-18 00:01+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/mr/>\n"
@@ -207,11 +207,11 @@ msgstr "संवाद"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings…"
-msgstr "ऑन-स्क्रीन कीबोर्ड सेटिंग्ज ..."
+msgstr "ऑन-स्क्रीन कीबोर्ड सेटिंग्ज …"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings…"
-msgstr "कीबोर्ड सेटिंग्ज ..."
+msgstr "कीबोर्ड सेटिंग्ज …"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
@@ -219,7 +219,7 @@ msgstr "विलंब लांबी"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "माउस सेटिंग्ज ..."
+msgstr "माउस सेटिंग्ज …"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -251,7 +251,7 @@ msgstr "वाचन"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr "प्रदर्शन सेटिंग्ज..."
+msgstr "प्रदर्शन सेटिंग्ज…"
 
 #: src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
@@ -283,4 +283,4 @@ msgstr "कीबोर्ड शॉर्टकट"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr "ध्वनी सेटिंग्ज ..."
+msgstr "ध्वनी सेटिंग्ज …"
