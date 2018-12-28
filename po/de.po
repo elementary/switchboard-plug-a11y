@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-12-28 14:20+0000\n"
+"PO-Revision-Date: 2018-12-29 00:01+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/de/>\n"
@@ -261,7 +261,7 @@ msgstr "Simulierter Kontextklick"
 
 #: src/Panes/Clicking.vala:32
 msgid "Hover Click"
-msgstr "Überfahren-Klick"
+msgstr "Schwebe-Klick"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
@@ -269,11 +269,11 @@ msgstr "Verzögerungsdauer für simulierten Klick"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr "Überfahren-Verzögerung"
+msgstr "Schwebe-Verzögerung"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
-msgstr "Bildschirmblitz, wenn ein Warnton erfolgt"
+msgstr "Visuellen Alarm auslösen, wenn ein Warnton abgespielt wird"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
