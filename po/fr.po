@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-11-16 08:26+0000\n"
-"Last-Translator: lolo <phantom.re@outlook.com>\n"
+"PO-Revision-Date: 2019-01-14 00:10+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/Plug.vala:48
 msgid "Universal Access"
-msgstr "Accès universel"
+msgstr "Accessibilité"
 
 #: src/Plug.vala:49
 msgid "Configure accessibility features"
@@ -42,7 +42,7 @@ msgstr "Affichage"
 
 #: src/Plug.vala:126 src/Panes/Display.vala:39
 msgid "High contrast theme"
-msgstr "Thème à fort contraste"
+msgstr "Thème à contraste élevé"
 
 #: src/Plug.vala:127 src/Panes/Display.vala:43
 msgid "Panel transparency"
@@ -83,7 +83,7 @@ msgstr "Descriptions sonores"
 
 #: src/Plug.vala:136
 msgid "keyboard shortcut"
-msgstr "Raccourcis clavier"
+msgstr "Raccourci clavier"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -98,11 +98,11 @@ msgstr "Clavier visuel"
 
 #: src/Plug.vala:139 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr "Délais de saisie"
+msgstr "Délai de saisie"
 
 #: src/Plug.vala:140 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr "Délais avant la prise en compte de l'appui de touches (touches lentes)"
+msgstr "Délai avant la prise en compte de l'appui de touches (touches lentes)"
 
 #: src/Plug.vala:141 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
@@ -119,7 +119,7 @@ msgstr "Émettre un bip lorsqu'une touche est refusée"
 
 #: src/Plug.vala:144
 msgid "Typing Delay length"
-msgstr "Délais de la saisie"
+msgstr "Délai de la saisie"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -127,11 +127,11 @@ msgstr "Saisie rapide"
 
 #: src/Plug.vala:146 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Ignorer les répétitions d'appui (touches filtes)"
+msgstr "Ignorer les répétitions d'appui (touches filtres)"
 
 #: src/Plug.vala:148
 msgid "Fast Typing Delay length"
-msgstr "Délais de la saisie rapide"
+msgstr "Délai de la saisie rapide"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -148,12 +148,12 @@ msgstr "Utiliser les touches modificateurs en séquence (sticky keys)"
 
 #: src/Plug.vala:152 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
-msgstr "Émettre un bip lorsqu'une touche de mofication est appuée"
+msgstr "Émettre un bip lorsqu'une touche de modification est appuyée"
 
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
-msgstr "Pointer"
+msgstr "Pointage"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
@@ -171,7 +171,7 @@ msgstr "Vitesse du pointeur"
 #: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
 #: src/Panes/Clicking.vala:25
 msgid "Clicking"
-msgstr "Cliquer"
+msgstr "Clic"
 
 #: src/Plug.vala:158 src/Panes/Clicking.vala:42
 msgid "Double-click speed"
@@ -183,7 +183,7 @@ msgstr "Maintenir le bouton principal appuyé pour effectuer un clic secondaire"
 
 #: src/Plug.vala:160
 msgid "Simulated secondary click delay"
-msgstr "Délais de simulation du clic secondaire"
+msgstr "Délai de simulation du clic secondaire"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
@@ -191,7 +191,7 @@ msgstr "Clic lorsque le pointeur reste sur une zone"
 
 #: src/Plug.vala:162
 msgid "Hover click delay"
-msgstr "Délais avant le clic par survol"
+msgstr "Délai avant le clic par survol"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -215,7 +215,7 @@ msgstr "Paramètres du clavier…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr "Durée du délais"
+msgstr "Durée du délai"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
@@ -263,11 +263,11 @@ msgstr "Clic par survol"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr "Délais avant le clic simulé"
+msgstr "Délai avant le clic simulé"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr "Délais avant le clic"
+msgstr "Délai avant le clic"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
