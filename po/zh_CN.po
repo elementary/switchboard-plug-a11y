@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-08-12 14:07+0000\n"
+"PO-Revision-Date: 2019-01-14 13:45+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/zh_Hans/>\n"
@@ -53,7 +53,6 @@ msgid "Text size"
 msgstr "文字大小"
 
 #: src/Plug.vala:129
-#, fuzzy
 msgid "Font size"
 msgstr "字体大小"
 
@@ -72,7 +71,7 @@ msgstr "视觉警告"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "闪烁屏幕"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -80,10 +79,9 @@ msgstr "屏幕阅读"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "音频介绍"
 
 #: src/Plug.vala:136
-#, fuzzy
 msgid "keyboard shortcut"
 msgstr "键盘快捷键"
 
@@ -120,9 +118,8 @@ msgid "Beep when a key is rejected"
 msgstr "按键被拒时蜂鸣"
 
 #: src/Plug.vala:144
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "输入延迟"
+msgstr "输入延迟长度"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -133,9 +130,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "忽略重复（快速）"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "输入延迟"
+msgstr "快速输入延迟"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -186,7 +182,6 @@ msgid "Hold primary button to trigger secondary click"
 msgstr "按住鼠标主键时触发次级点击"
 
 #: src/Plug.vala:160
-#, fuzzy
 msgid "Simulated secondary click delay"
 msgstr "模拟次级点击"
 
@@ -195,9 +190,8 @@ msgid "Click when the cursor hovers"
 msgstr "鼠标悬停时触发次级点击"
 
 #: src/Plug.vala:162
-#, fuzzy
 msgid "Hover click delay"
-msgstr "悬停延时"
+msgstr "悬停点击延时"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -212,14 +206,12 @@ msgid "Interaction"
 msgstr "交互"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "屏幕键盘设置..."
+msgstr "屏幕键盘设置…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "键盘设置..."
+msgstr "键盘设置…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
