@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2018-12-18 00:01+0000\n"
+"PO-Revision-Date: 2019-02-12 00:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -90,7 +90,7 @@ msgstr "キーボードショートカット"
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Panes/Typing.vala:25
 msgid "Typing"
-msgstr "タイピング"
+msgstr "文字入力"
 
 #: src/Plug.vala:138 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
@@ -98,7 +98,7 @@ msgstr "オンスクリーンキーボード"
 
 #: src/Plug.vala:139 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr "タイピングの遅延"
+msgstr "文字入力の遅延"
 
 #: src/Plug.vala:140 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
@@ -119,11 +119,11 @@ msgstr "キー入力を拒否したときにビープ音を鳴らす"
 
 #: src/Plug.vala:144
 msgid "Typing Delay length"
-msgstr "タイピングの遅延の長さ"
+msgstr "文字入力の遅延の長さ"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr "高速タイピング"
+msgstr "高速文字入力"
 
 #: src/Plug.vala:146 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -131,7 +131,7 @@ msgstr "高速な重複キー押下の無視 (バウンスキー)"
 
 #: src/Plug.vala:148
 msgid "Fast Typing Delay length"
-msgstr "高速タイピングの遅延の長さ"
+msgstr "高速文字入力の遅延の長さ"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
