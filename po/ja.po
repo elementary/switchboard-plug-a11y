@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2019-02-12 00:07+0000\n"
+"PO-Revision-Date: 2019-02-24 00:02+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -161,7 +161,7 @@ msgstr "キーパッドコントロール"
 
 #: src/Plug.vala:155 src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
-msgstr "キーパッドを使ってポインターをコントロール"
+msgstr "キーパッドを使用してポインターを制御"
 
 #: src/Plug.vala:156 src/Panes/Pointing.vala:39
 msgid "Cursor speed"
