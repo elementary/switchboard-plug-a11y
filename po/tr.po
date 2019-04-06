@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2019-04-04 19:52+0000\n"
+"PO-Revision-Date: 2019-04-08 00:07+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/tr/>\n"
@@ -50,7 +50,7 @@ msgstr "Panel şeffaflığı"
 
 #: src/Plug.vala:128 src/Panes/Display.vala:50
 msgid "Text size"
-msgstr "Yazı boyutu"
+msgstr "Metin boyutu"
 
 #: src/Plug.vala:129
 msgid "Font size"
@@ -79,7 +79,7 @@ msgstr "Ekran Okuyucusu"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr "Ses açıklamaları"
+msgstr "Sesli açıklamalar"
 
 #: src/Plug.vala:136
 msgid "keyboard shortcut"
@@ -94,7 +94,7 @@ msgstr "Yazma"
 
 #: src/Plug.vala:138 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr "Ekran Klavyesi"
+msgstr "Ekran klavyesi"
 
 #: src/Plug.vala:139 src/Panes/Typing.vala:31
 msgid "Typing Delays"
@@ -140,7 +140,7 @@ msgstr "Klavye"
 
 #: src/Plug.vala:150 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr "Bir kilit tuşuna basıldığında bip sesi"
+msgstr "Bir kilit tuşuna basıldığında bip sesi çıkar"
 
 #: src/Plug.vala:151 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
@@ -148,7 +148,7 @@ msgstr "Yapışkan tuşları kullan"
 
 #: src/Plug.vala:152 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
-msgstr "Değiştirici bir tuşa basıldığında bip sesi"
+msgstr "Değiştirici bir tuşa basıldığında bip sesi çıkar"
 
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
@@ -157,11 +157,11 @@ msgstr "İşaret"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
-msgstr "Tuş takımı kontrolü"
+msgstr "Tuş Takımı Kontrolü"
 
 #: src/Plug.vala:155 src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
-msgstr "Tuş takımını kullanarak işaretçi kontrolü"
+msgstr "İşaretçiyi tuş takımını kullanarak kontrol et"
 
 #: src/Plug.vala:156 src/Panes/Pointing.vala:39
 msgid "Cursor speed"
@@ -179,11 +179,11 @@ msgstr "Çift tıklama hızı"
 
 #: src/Plug.vala:159 src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
-msgstr "İkinci tıklamayı tetiklemek için birinci tuşa basılı tut"
+msgstr "İkincil tıklamayı tetiklemek için birinci tuşa basılı tut"
 
 #: src/Plug.vala:160
 msgid "Simulated secondary click delay"
-msgstr "Taklit edilmiş ikinci tıklama gecikmesi"
+msgstr "Simüle edilmiş ikincil tıklama gecikmesi"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
@@ -191,7 +191,7 @@ msgstr "Fare üzerine geldiğinde tıkla"
 
 #: src/Plug.vala:162
 msgid "Hover click delay"
-msgstr "Üstüne gelince vurgulama gecikmesi"
+msgstr "Üzerine gelince tıklama gecikmesi"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
@@ -219,7 +219,7 @@ msgstr "Gecikme uzunluğu"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr "Fare Ayaları…"
+msgstr "Fare ayaları…"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
@@ -255,19 +255,19 @@ msgstr "Görüntü ayarları…"
 
 #: src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
-msgstr "İkinci Tıklama Canlandırması"
+msgstr "Simüle Edilmiş İkincil Tıklama"
 
 #: src/Panes/Clicking.vala:32
 msgid "Hover Click"
-msgstr "Vurgu Tıklama"
+msgstr "Üzerine Gelindiğinde Tıkla"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr "Tıklama canlandırması gecikmesi"
+msgstr "Simüle edilmiş tıklama gecikmesi"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr "Vurgu gecikmesi"
+msgstr "Üzerine gelindiğinde tıklama gecikmesi"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
@@ -275,7 +275,7 @@ msgstr "Uyarı sesi çalındığında ekranı yakıp söndür"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Ekrandaki ögeleri sesli tanımla"
+msgstr "Ekrandaki öğeler için sesli açıklamalar sağlar"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
