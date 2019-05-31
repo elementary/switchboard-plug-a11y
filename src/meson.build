@@ -7,7 +7,6 @@ plug_files = files(
     'Panes/Pointing.vala',
     'Panes/Keyboard.vala',
     'Panes/General.vala',
-    'Panes/Display.vala',
     'Panes/Clicking.vala',
     'Panes/Audio.vala',
     'Backend/Settings.vala'
