@@ -37,11 +37,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         list_box = new Gtk.ListBox ();
         list_box.expand = true;
 
-        if (animations_settings != null) {
-            var general = new Panes.General ();
-            list_box.add (general);
-        }
-
         list_box.add (audio);
         list_box.add (typing);
         list_box.add (keyboard);
