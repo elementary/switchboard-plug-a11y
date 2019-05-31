@@ -33,8 +33,6 @@ namespace Accessibility {
     public Settings? animations_settings;
 
     public class Plug : Switchboard.Plug {
-        private const string ANIMATIONS_SCHEMA = "org.pantheon.desktop.gala.animations";
-
         Gtk.Paned paned;
         Accessibility.Categories categories;
 
@@ -53,11 +51,6 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
-                if (animations != null) {
-                    animations_settings = new Settings (ANIMATIONS_SCHEMA);
-                }
-
                 keyboard_settings =         new Accessibility.Backend.Keyboard ();
                 a11y_settings =             new Accessibility.Backend.A11y ();
                 magnifier_settings =        new Accessibility.Backend.Magnifier ();
@@ -116,7 +109,6 @@ namespace Accessibility {
         public override async Gee.TreeMap<string, string> search (string search) {
             var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
             search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "");
-            search_results.set ("%s → %s → %s".printf (display_name, _("General"), _("Animations")), "General");
             search_results.set ("%s → %s".printf (display_name, _("Audio")), "Audio");
             search_results.set ("%s → %s".printf (display_name, _("Hearing")), "Audio");
             search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Visual Alerts")), "Audio");
