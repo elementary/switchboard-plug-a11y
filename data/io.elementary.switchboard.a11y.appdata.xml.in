@@ -2,7 +2,7 @@
 <component type="addon">
   <id>io.elementary.switchboard.a11y</id>
   <extends>io.elementary.switchboard</extends>
-  <name>Universal Access Settings</name>
+  <name>Universal Design Settings</name>
   <summary>Configure accessibility features</summary>
   <screenshots>
       <screenshot type="default">
