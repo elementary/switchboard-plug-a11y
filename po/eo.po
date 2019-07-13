@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2019-07-12 03:28+0000\n"
+"PO-Revision-Date: 2019-07-14 01:28+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/eo/>\n"
@@ -235,7 +235,7 @@ msgstr "Grandega"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
-msgstr "Ŝlosaj klavoj"
+msgstr "Baskulaj klavoj"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
