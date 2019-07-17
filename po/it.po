@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2018-12-10 20:08+0000\n"
+"POT-Creation-Date: 2018-10-15 16:47-0500\n"
+"PO-Revision-Date: 2019-07-02 15:46+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
-"Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:48
@@ -231,7 +231,7 @@ msgstr "Grande"
 
 #: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
-msgstr "Più grande"
+msgstr "Molto grande"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
