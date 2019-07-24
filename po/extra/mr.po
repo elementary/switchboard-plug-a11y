@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 09:22-0800\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2019-05-15 18:14+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -19,10 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: data/io.elementary.switchboard-plug-a11y.appdata.xml.in:5
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
 msgstr "सार्वत्रिक प्रवेश सेटिंग्ज"
 
-#: data/io.elementary.switchboard-plug-a11y.appdata.xml.in:6
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
 msgstr "प्रवेशयोग्यता वैशिष्ट्ये कॉन्फिगर करा"

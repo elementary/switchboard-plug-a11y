@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:47-0500\n"
-"PO-Revision-Date: 2015-08-21 23:06+0000\n"
-"Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-07-14 01:28+0000\n"
+"Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
+"Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/eo/>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: src/Plug.vala:48
 msgid "Universal Access"
@@ -19,11 +21,11 @@ msgstr "Alirebleco"
 
 #: src/Plug.vala:49
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Agordi faciluzilojn"
 
 #: src/Plug.vala:123
 msgid "Accessibility Features"
-msgstr ""
+msgstr "Faciluzilojn"
 
 #: src/Plug.vala:124 src/Panes/General.vala:25
 msgid "General"
@@ -31,7 +33,7 @@ msgstr "Ĝenerala"
 
 #: src/Plug.vala:124 src/Panes/General.vala:33
 msgid "Animations"
-msgstr ""
+msgstr "Animacioj"
 
 #: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
 #: src/Plug.vala:129 src/Panes/Display.vala:26
@@ -40,19 +42,19 @@ msgstr "Ekrano"
 
 #: src/Plug.vala:126 src/Panes/Display.vala:39
 msgid "High contrast theme"
-msgstr ""
+msgstr "Altkontrasta temo"
 
 #: src/Plug.vala:127 src/Panes/Display.vala:43
 msgid "Panel transparency"
-msgstr ""
+msgstr "Travidebleco de la panelo"
 
 #: src/Plug.vala:128 src/Panes/Display.vala:50
 msgid "Text size"
-msgstr ""
+msgstr "Teksta amplekso"
 
 #: src/Plug.vala:129
 msgid "Font size"
-msgstr ""
+msgstr "Tipara amplekso"
 
 #: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
 #: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
@@ -65,11 +67,11 @@ msgstr "Aŭdado"
 
 #: src/Plug.vala:132 src/Panes/Audio.vala:32
 msgid "Visual Alerts"
-msgstr ""
+msgstr "Vidaj avertoj"
 
 #: src/Plug.vala:133
 msgid "Flash screen"
-msgstr ""
+msgstr "Ekrana fulmlumigo"
 
 #: src/Plug.vala:134 src/Panes/Audio.vala:37
 msgid "Screen Reader"
@@ -77,11 +79,11 @@ msgstr "Ekranlegilo"
 
 #: src/Plug.vala:135
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Aŭdaj priskriboj"
 
 #: src/Plug.vala:136
 msgid "keyboard shortcut"
-msgstr ""
+msgstr "klavkomando"
 
 #: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
@@ -92,44 +94,44 @@ msgstr "Tajpado"
 
 #: src/Plug.vala:138 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Ekrana klavaro"
 
 #: src/Plug.vala:139 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr ""
+msgstr "Tajpa prokrasto"
 
 #: src/Plug.vala:140 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "Prokrasto inter klavpremoj (malrapidaj klavoj)"
 
 #: src/Plug.vala:141 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Sonorili ĉe klavpremo"
 
 #: src/Plug.vala:142 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "Sonorili ĉe akceptita klavo"
 
 #: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Sonorili ĉe malakceptita klavo"
 
 #: src/Plug.vala:144
 msgid "Typing Delay length"
-msgstr ""
+msgstr "Daŭro de tajpa prokrasto"
 
 #: src/Plug.vala:145 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr ""
+msgstr "Rapida Tajpado"
 
 #: src/Plug.vala:146 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr ""
+msgstr "Ignori rapidan duoblan klavpremon (resaltaj klavoj)"
 
 #: src/Plug.vala:148
 msgid "Fast Typing Delay length"
-msgstr ""
+msgstr "Daŭro de Rapida Tajpado"
 
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
 #: src/Panes/Keyboard.vala:25
@@ -138,32 +140,32 @@ msgstr "Klavaro"
 
 #: src/Plug.vala:150 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr ""
+msgstr "Sonorili ĉe premo de ŝlosklavo"
 
 #: src/Plug.vala:151 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Uzi modifiajn sinsekvajn klavojn (gluitaj klavoj) "
 
 #: src/Plug.vala:152 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "Sonorili ĉe premo de modifa klavo"
 
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
-msgstr ""
+msgstr "Indikilo"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
-msgstr ""
+msgstr "Komando per Cifera Klavaro"
 
 #: src/Plug.vala:155 src/Panes/Pointing.vala:38
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Stiri la indikilon per la ciferklavaro"
 
 #: src/Plug.vala:156 src/Panes/Pointing.vala:39
 msgid "Cursor speed"
-msgstr ""
+msgstr "Indikila rapideco"
 
 #: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
 #: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
@@ -173,27 +175,27 @@ msgstr "Alklakado"
 
 #: src/Plug.vala:158 src/Panes/Clicking.vala:42
 msgid "Double-click speed"
-msgstr ""
+msgstr "Rapideco de duobla klako"
 
 #: src/Plug.vala:159 src/Panes/Clicking.vala:45
 msgid "Hold primary button to trigger secondary click"
-msgstr ""
+msgstr "Premadeti la ĉefan butonon por duaranga klako"
 
 #: src/Plug.vala:160
 msgid "Simulated secondary click delay"
-msgstr ""
+msgstr "Daŭro de premo por duaranga klako"
 
 #: src/Plug.vala:161 src/Panes/Clicking.vala:49
 msgid "Click when the cursor hovers"
-msgstr ""
+msgstr "Klaki ĉe ŝvebo de la indikilo"
 
 #: src/Plug.vala:162
 msgid "Hover click delay"
-msgstr ""
+msgstr "Daŭro de la ŝveba klako"
 
 #: src/Plug.vala:163 src/Panes/Clicking.vala:51
 msgid "Motion threshold"
-msgstr ""
+msgstr "Sojla valoro de movo"
 
 #: src/Widgets/Categories.vala:57
 msgid "Seeing"
@@ -205,83 +207,83 @@ msgstr "Interago"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings…"
-msgstr ""
+msgstr "Agordoj de la ekrana klavaro…"
 
 #: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
 msgid "Keyboard settings…"
-msgstr ""
+msgstr "Klavaraj agordoj…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr ""
+msgstr "Prokrasta daŭro"
 
 #: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
 msgid "Mouse settings…"
-msgstr ""
+msgstr "Musaj agordoj…"
 
 #: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
 msgid "Normal"
-msgstr ""
+msgstr "Normala"
 
 #: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
 msgid "Large"
-msgstr ""
+msgstr "Granda"
 
 #: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
 msgid "Larger"
-msgstr ""
+msgstr "Grandega"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
-msgstr ""
+msgstr "Baskulaj klavoj"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
-msgstr ""
+msgstr "Modifaj Klavoj"
 
 #: src/Panes/Display.vala:32
 msgid "Color"
-msgstr ""
+msgstr "Koloroj"
 
 #: src/Panes/Display.vala:33
 msgid "Reading"
-msgstr ""
+msgstr "Legado"
 
 #: src/Panes/Display.vala:34
 msgid "Display settings…"
-msgstr ""
+msgstr "Ekranaj agordoj…"
 
 #: src/Panes/Clicking.vala:31
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Simulita Duaranga Klako"
 
 #: src/Panes/Clicking.vala:32
 msgid "Hover Click"
-msgstr ""
+msgstr "Ŝveba Klako"
 
 #: src/Panes/Clicking.vala:46
 msgid "Simulated click delay"
-msgstr ""
+msgstr "Daŭro por simuli klakon"
 
 #: src/Panes/Clicking.vala:50
 msgid "Hover delay"
-msgstr ""
+msgstr "Ŝveba daŭro"
 
 #: src/Panes/Audio.vala:35
 msgid "Flash the screen when an alert sound occurs"
-msgstr ""
+msgstr "Fulmlumigi la ekranon ĉe sonorila averto"
 
 #: src/Panes/Audio.vala:40
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Provizi aŭdajn priskribojn de ekranaj elementoj"
 
 #: src/Panes/Audio.vala:42
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Klavkomando"
 
 #: src/Panes/Audio.vala:44
 msgid "Sound settings…"
-msgstr ""
+msgstr "Sonaj agordoj…"
 
 #~ msgid "Zoom"
 #~ msgstr "Pligrandigo"
