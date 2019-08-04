@@ -28,7 +28,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         hscrollbar_policy = Gtk.PolicyType.NEVER;
         set_size_request (176, 10);
 
-        var display = new Panes.Display ();
         var audio = new Panes.Audio ();
         var typing = new Panes.Typing ();
         var keyboard = new Panes.Keyboard ();
@@ -38,12 +37,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         list_box = new Gtk.ListBox ();
         list_box.expand = true;
 
-        if (animations_settings != null) {
-            var general = new Panes.General ();
-            list_box.add (general);
-        }
-
-        list_box.add (display);
         list_box.add (audio);
         list_box.add (typing);
         list_box.add (keyboard);
@@ -53,9 +46,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         add (list_box);
 
         list_box.set_header_func ((row, before) => {
-            if (row == display) {
-                row.set_header (new Granite.HeaderLabel (_("Seeing")));
-            } else if (row == audio) {
+            if (row == audio) {
                 row.set_header (new Granite.HeaderLabel (_("Hearing")));
             } else if (row == typing) {
                 row.set_header (new Granite.HeaderLabel (_("Interaction")));
