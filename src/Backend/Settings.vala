@@ -18,55 +18,6 @@
  *
  * Authored by: Felipe Escoto <felescoto95@hotmail.com>
  */
-// TODO: Dyslexic Font,
-
-public class Accessibility.Backend.DesktopInterface : Granite.Services.Settings {
-    private const string HIGH_CONTRAST_THEME = "HighContrast";
-    private const double[] TEXT_SCALE = {1,1.15,1.4};
-
-    public string gtk_theme { get; set; }
-    public string icon_theme { get; set; }
-    public double text_scaling_factor { get; set; }
-    public int cursor_size { get; set; }
-
-    public DesktopInterface () {
-        base ("org.gnome.desktop.interface");
-    }
-
-    public int get_text_scale () {
-        if (text_scaling_factor <= TEXT_SCALE[0]) {
-            return 0;
-        } else if (text_scaling_factor <= TEXT_SCALE[1]) {
-            return 1;
-        } else {
-            return 2;
-        }
-    }
-
-    public void set_text_scale (int option) {
-        text_scaling_factor = TEXT_SCALE[option];
-    }
-
-    public bool get_high_contrast () {
-        if (gtk_theme == HIGH_CONTRAST_THEME) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public void set_high_contrast (bool state) {
-        if (state) {
-            gtk_theme = HIGH_CONTRAST_THEME;
-            icon_theme = HIGH_CONTRAST_THEME;
-            wm_preferences_settings.theme = HIGH_CONTRAST_THEME;
-        } else {
-            schema.reset ("gtk-theme");
-            schema.reset ("icon-theme");
-            wm_preferences_settings.schema.reset ("theme");
-        }
-    }
-}
 
 public class Accessibility.Backend.Keyboard : Granite.Services.Settings {
     public bool enable  { get; set; }

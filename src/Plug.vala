@@ -22,7 +22,6 @@
 namespace Accessibility {
     public static Plug plug;
 
-    public Accessibility.Backend.DesktopInterface   deskop_interface_settings;
     public Accessibility.Backend.Keyboard           keyboard_settings;
     public Accessibility.Backend.A11y               a11y_settings;
     public Accessibility.Backend.Magnifier          magnifier_settings;
@@ -34,8 +33,6 @@ namespace Accessibility {
     public Settings? animations_settings;
 
     public class Plug : Switchboard.Plug {
-        private const string ANIMATIONS_SCHEMA = "org.pantheon.desktop.gala.animations";
-
         Gtk.Paned paned;
         Accessibility.Categories categories;
 
@@ -54,12 +51,6 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                var animations = SettingsSchemaSource.get_default ().lookup (ANIMATIONS_SCHEMA, false);
-                if (animations != null) {
-                    animations_settings = new Settings (ANIMATIONS_SCHEMA);
-                }
-
-                deskop_interface_settings = new Accessibility.Backend.DesktopInterface ();
                 keyboard_settings =         new Accessibility.Backend.Keyboard ();
                 a11y_settings =             new Accessibility.Backend.A11y ();
                 magnifier_settings =        new Accessibility.Backend.Magnifier ();
@@ -96,9 +87,6 @@ namespace Accessibility {
                 case "General":
                     categories.set_row_number (0);
                     break;
-                case "Display":
-                    categories.set_row_number (1);
-                    break;
                 case "Audio":
                     categories.set_row_number (2);
                     break;
@@ -121,12 +109,6 @@ namespace Accessibility {
         public override async Gee.TreeMap<string, string> search (string search) {
             var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
             search_results.set ("%s → %s".printf (display_name, _("Accessibility Features")), "");
-            search_results.set ("%s → %s → %s".printf (display_name, _("General"), _("Animations")), "General");
-            search_results.set ("%s → %s".printf (display_name, _("Display")), "Display");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("High contrast theme")), "Display");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Panel transparency")), "Display");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Text size")), "Display");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Display"), _("Font size")), "Display");
             search_results.set ("%s → %s".printf (display_name, _("Audio")), "Audio");
             search_results.set ("%s → %s".printf (display_name, _("Hearing")), "Audio");
             search_results.set ("%s → %s → %s".printf (display_name, _("Audio"), _("Visual Alerts")), "Audio");
