@@ -28,15 +28,15 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     }
 
     construct {
-        var click_box = new Accessibility.Widgets.SettingsBox ();
-        var dc_speed = click_box.add_scale (_("Double-click speed"), dc_speed_adjustment);
-
-        var hover_label = new Granite.HeaderLabel (_("Hover Click"));
-
         var dc_speed_adjustment = new Gtk.Adjustment (0, 300, 1500, 0.1, 0.1, 0.1);
         var ssc_delay_adjustment = new Gtk.Adjustment (0, 0, 2, 0.1, 0.1, 0.1);
         var hc_delay_adjustment = new Gtk.Adjustment (0, 0, 2, 0.1, 0.1, 0.1);
         var hc_threshold_adjustment = new Gtk.Adjustment (0, 0, 30, 0.1, 0.1, 0.1);
+
+        var click_box = new Accessibility.Widgets.SettingsBox ();
+        click_box.add_scale (_("Double-click speed"), dc_speed_adjustment);
+
+        var hover_label = new Granite.HeaderLabel (_("Hover Click"));
 
         var hover_box = new Accessibility.Widgets.SettingsBox ();
         var hc_enable = hover_box.add_switch (_("Click when the cursor hovers"));
