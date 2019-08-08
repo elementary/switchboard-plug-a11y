@@ -31,7 +31,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         var audio = new Panes.Audio ();
         var typing = new Panes.Typing ();
         var keyboard = new Panes.Keyboard ();
-        var pointing = new Panes.Pointing ();
         var clicking = new Panes.Clicking ();
 
         list_box = new Gtk.ListBox ();
@@ -40,7 +39,6 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
         list_box.add (audio);
         list_box.add (typing);
         list_box.add (keyboard);
-        list_box.add (pointing);
         list_box.add (clicking);
 
         add (list_box);

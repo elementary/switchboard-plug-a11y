@@ -32,8 +32,6 @@ public class Accessibility.Backend.Keyboard : Granite.Services.Settings {
     public bool togglekeys_enable { get; set; }
     public bool stickykeys_enable { get; set; }
     public bool stickykeys_modifier_beep { get; set; }
-    public bool mousekeys_enable { get; set; }
-    public int mousekeys_max_speed { get; set; }
 
     public Keyboard () {
         base ("org.gnome.desktop.a11y.keyboard");

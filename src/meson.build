@@ -4,7 +4,6 @@ plug_files = files(
     'Widgets/Label.vala',
     'Widgets/Categories.vala',
     'Panes/Typing.vala',
-    'Panes/Pointing.vala',
     'Panes/Keyboard.vala',
     'Panes/Clicking.vala',
     'Panes/Audio.vala',

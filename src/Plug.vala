@@ -132,10 +132,6 @@ namespace Accessibility {
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a lock key is pressed")), "Keyboard");
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Use modifier keys in sequence (sticky keys)")), "Keyboard");
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a modifier key is pressed")), "Keyboard");
-            search_results.set ("%s → %s".printf (display_name, _("Pointing")), "Pointing");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Keypad Control")), "Pointing");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Control pointer using keypad")), "Pointing");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Pointing"), _("Cursor speed")), "Pointing");
             search_results.set ("%s → %s".printf (display_name, _("Clicking")), "Clicking");
             search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Double-click speed")), "Clicking");
             search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Hold primary button to trigger secondary click")), "Clicking");
