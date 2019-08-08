@@ -28,45 +28,37 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     }
 
     construct {
-        var secondary_label = new Granite.HeaderLabel (_("Simulated Secondary Click"));
+        var click_box = new Accessibility.Widgets.SettingsBox ();
+        var dc_speed = click_box.add_scale (_("Double-click speed"), dc_speed_adjustment);
+
         var hover_label = new Granite.HeaderLabel (_("Hover Click"));
-        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
-        mouse_settings_label.vexpand = true;
 
         var dc_speed_adjustment = new Gtk.Adjustment (0, 300, 1500, 0.1, 0.1, 0.1);
         var ssc_delay_adjustment = new Gtk.Adjustment (0, 0, 2, 0.1, 0.1, 0.1);
         var hc_delay_adjustment = new Gtk.Adjustment (0, 0, 2, 0.1, 0.1, 0.1);
         var hc_threshold_adjustment = new Gtk.Adjustment (0, 0, 30, 0.1, 0.1, 0.1);
 
-        var click_box = new Accessibility.Widgets.SettingsBox ();
-        var dc_speed = click_box.add_scale (_("Double-click speed"), dc_speed_adjustment);
-
-        var sim_box = new Accessibility.Widgets.SettingsBox ();
-        var ssc_enable = sim_box.add_switch (_("Hold primary button to trigger secondary click"));
-        var ssc_delay = sim_box.add_scale (_("Simulated click delay"), ssc_delay_adjustment);
-
         var hover_box = new Accessibility.Widgets.SettingsBox ();
         var hc_enable = hover_box.add_switch (_("Click when the cursor hovers"));
         var hc_delay = hover_box.add_scale (_("Hover delay"), hc_delay_adjustment);
         var hc_threshold = hover_box.add_scale (_("Motion threshold"), hc_threshold_adjustment);
 
+        var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
+        mouse_settings_label.vexpand = true;
+
         grid.add (click_box);
-        grid.add (secondary_label);
-        grid.add (sim_box);
         grid.add (hover_label);
         grid.add (hover_box);
         grid.add (mouse_settings_label);
         grid.show_all ();
 
         peripherals_settings.schema.bind ("double-click", dc_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
-        mouse_settings.schema.bind ("secondary-click-enabled", ssc_enable, "active", SettingsBindFlags.DEFAULT);
-        mouse_settings.schema.bind ("secondary-click-time", ssc_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
+
+        mouse_settings.schema.bind ("dwell-click-enabled", hc_delay, "sensitive", SettingsBindFlags.GET);
         mouse_settings.schema.bind ("dwell-click-enabled", hc_enable, "active", SettingsBindFlags.DEFAULT);
+        mouse_settings.schema.bind ("dwell-click-enabled", hc_threshold, "sensitive", SettingsBindFlags.GET);
+
         mouse_settings.schema.bind ("dwell-time", hc_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
         mouse_settings.schema.bind ("dwell-threshold", hc_threshold_adjustment, "value", SettingsBindFlags.DEFAULT);
-
-        mouse_settings.schema.bind ("secondary-click-enabled", ssc_delay, "sensitive", SettingsBindFlags.GET);
-        mouse_settings.schema.bind ("dwell-click-enabled", hc_delay, "sensitive", SettingsBindFlags.GET);
-        mouse_settings.schema.bind ("dwell-click-enabled", hc_threshold, "sensitive", SettingsBindFlags.GET);
     }
 }
