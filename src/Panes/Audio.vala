@@ -29,11 +29,6 @@ public class Accessibility.Panes.Audio : Categories.Pane {
     }
 
     construct {
-        var alerts_label = new Granite.HeaderLabel (_("Visual Alerts"));
-
-        var alerts_box = new Accessibility.Widgets.SettingsBox ();
-        var screen_flash = alerts_box.add_switch (_("Flash the screen when an alert sound occurs"));
-
         var reader_label = new Granite.HeaderLabel (_("Screen Reader"));
 
         var reader_box = new Accessibility.Widgets.SettingsBox ();
@@ -44,14 +39,11 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
         audio_settings.vexpand = true;
 
-        grid.add (alerts_label);
-        grid.add (alerts_box);
         grid.add (reader_label);
         grid.add (reader_box);
         grid.add (audio_settings);
         grid.show_all ();
 
-        wm_preferences_settings.schema.bind ("visual-bell", screen_flash, "active", SettingsBindFlags.DEFAULT);
         applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
 
         media_keys_settings.changed.connect (() => {
