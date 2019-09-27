@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2019-04-08 00:07+0000\n"
+"PO-Revision-Date: 2019-09-28 13:23+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/tr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-19 06:00+0000\n"
 
 #: src/Plug.vala:48
@@ -153,7 +153,7 @@ msgstr "Değiştirici bir tuşa basıldığında bip sesi çıkar"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Panes/Pointing.vala:25
 msgid "Pointing"
-msgstr "İşaret"
+msgstr "İşaretçi"
 
 #: src/Plug.vala:154 src/Panes/Pointing.vala:31
 msgid "Keypad Control"
