@@ -22,14 +22,14 @@
 namespace Accessibility {
     public static Plug plug;
 
-    public Accessibility.Backend.Keyboard           keyboard_settings;
-    public Accessibility.Backend.A11y               a11y_settings;
-    public Accessibility.Backend.Magnifier          magnifier_settings;
-    public Accessibility.Backend.Applications       applications_settings;
-    public Accessibility.Backend.WmPreferences      wm_preferences_settings;
-    public Accessibility.Backend.Peripherals        peripherals_settings;
-    public Accessibility.Backend.Mouse              mouse_settings;
-    public Accessibility.Backend.MediaKeys          media_keys_settings;
+    public Accessibility.Backend.Keyboard keyboard_settings;
+    public Accessibility.Backend.A11y a11y_settings;
+    public Accessibility.Backend.Magnifier magnifier_settings;
+    public Accessibility.Backend.Applications applications_settings;
+    public Accessibility.Backend.WmPreferences wm_preferences_settings;
+    public Accessibility.Backend.Peripherals peripherals_settings;
+    public Accessibility.Backend.Mouse mouse_settings;
+    public Accessibility.Backend.MediaKeys media_keys_settings;
     public Settings? animations_settings;
 
     public class Plug : Switchboard.Plug {
@@ -51,14 +51,14 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                keyboard_settings =         new Accessibility.Backend.Keyboard ();
-                a11y_settings =             new Accessibility.Backend.A11y ();
-                magnifier_settings =        new Accessibility.Backend.Magnifier ();
-                applications_settings =     new Accessibility.Backend.Applications ();
-                wm_preferences_settings =   new Accessibility.Backend.WmPreferences ();
-                peripherals_settings =      new Accessibility.Backend.Peripherals ();
-                mouse_settings =            new Accessibility.Backend.Mouse ();
-                media_keys_settings =       new Accessibility.Backend.MediaKeys ();
+                keyboard_settings = new Accessibility.Backend.Keyboard ();
+                a11y_settings = new Accessibility.Backend.A11y ();
+                magnifier_settings = new Accessibility.Backend.Magnifier ();
+                applications_settings = new Accessibility.Backend.Applications ();
+                wm_preferences_settings = new Accessibility.Backend.WmPreferences ();
+                peripherals_settings = new Accessibility.Backend.Peripherals ();
+                mouse_settings = new Accessibility.Backend.Mouse ();
+                media_keys_settings = new Accessibility.Backend.MediaKeys ();
 
                 paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 categories = new Categories ();
