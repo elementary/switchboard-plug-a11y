@@ -20,7 +20,7 @@
  */
 
 public class Accessibility.Backend.Keyboard : Granite.Services.Settings {
-    public bool enable  { get; set; }
+    public bool enable { get; set; }
     public bool slowkeys_enable { get; set; }
     public bool slowkeys_beep_press { get; set; }
     public bool slowkeys_beep_accept { get; set; }
@@ -47,9 +47,9 @@ public class Accessibility.Backend.MediaKeys : Granite.Services.Settings {
     }
     public string clean_screenreader () {
         var builder = new StringBuilder ();
-        if (screenreader.contains ("Alt"))     builder.append (("Alt+"));
-        if (screenreader.contains ("Shift"))   builder.append (("Shift+"));
-        if (screenreader.contains ("Super"))   builder.append (("Super+"));
+        if (screenreader.contains ("Alt")) builder.append (("Alt+"));
+        if (screenreader.contains ("Shift")) builder.append (("Shift+"));
+        if (screenreader.contains ("Super")) builder.append (("Super+"));
         if (screenreader.contains ("Primary")) builder.append (("Ctrl+"));
 
         var clean = screenreader.replace ("<", "");
@@ -94,7 +94,11 @@ public class Accessibility.Backend.Magnifier : Granite.Services.Settings {
     public void set_crosshairs_color (Gdk.RGBA rgba) {
         string[] colors = rgba.to_string ().split (",", 3);
 
-        string color_string = "#%2x%2x%2x".printf (int.parse (colors[0].replace ("rgb(","")), int.parse (colors[1]), int.parse (colors[2].replace (")", "")));
+        string color_string = "#%2x%2x%2x".printf (
+            int.parse (colors[0].replace ("rgb(", "")),
+            int.parse (colors[1]),
+            int.parse (colors[2].replace (")", ""))
+        );
 
         cross_hairs_color = color_string.replace (" ", "0").up ();
     }
@@ -109,10 +113,10 @@ public class Accessibility.Backend.Magnifier : Granite.Services.Settings {
     public int get_position () {
         switch (screen_position) {
             case "full-screen": return 0;
-            case "top-half":    return 1;
+            case "top-half": return 1;
             case "bottom-half": return 2;
-            case "left-half":   return 3;
-            case "right-half":  return 4;
+            case "left-half": return 3;
+            case "right-half": return 4;
         }
         return 0;
     }
