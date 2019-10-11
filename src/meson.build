@@ -6,8 +6,7 @@ plug_files = files(
     'Panes/Typing.vala',
     'Panes/Keyboard.vala',
     'Panes/Clicking.vala',
-    'Panes/Audio.vala',
-    'Backend/Settings.vala'
+    'Panes/Audio.vala'
 )
 
 switchboard_dep = dependency('switchboard-2.0')

@@ -51,13 +51,15 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
         grid.add (mouse_settings_label);
         grid.show_all ();
 
-        peripherals_settings.schema.bind ("double-click", dc_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
+        var peripherals_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
+        peripherals_settings.bind ("double-click", dc_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
 
-        mouse_settings.schema.bind ("dwell-click-enabled", hc_delay, "sensitive", SettingsBindFlags.GET);
-        mouse_settings.schema.bind ("dwell-click-enabled", hc_enable, "active", SettingsBindFlags.DEFAULT);
-        mouse_settings.schema.bind ("dwell-click-enabled", hc_threshold, "sensitive", SettingsBindFlags.GET);
+        var mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
+        mouse_settings.bind ("dwell-click-enabled", hc_delay, "sensitive", SettingsBindFlags.GET);
+        mouse_settings.bind ("dwell-click-enabled", hc_enable, "active", SettingsBindFlags.DEFAULT);
+        mouse_settings.bind ("dwell-click-enabled", hc_threshold, "sensitive", SettingsBindFlags.GET);
 
-        mouse_settings.schema.bind ("dwell-time", hc_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
-        mouse_settings.schema.bind ("dwell-threshold", hc_threshold_adjustment, "value", SettingsBindFlags.DEFAULT);
+        mouse_settings.bind ("dwell-time", hc_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
+        mouse_settings.bind ("dwell-threshold", hc_threshold_adjustment, "value", SettingsBindFlags.DEFAULT);
     }
 }

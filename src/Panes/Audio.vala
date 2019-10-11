@@ -29,11 +29,13 @@ public class Accessibility.Panes.Audio : Categories.Pane {
     }
 
     construct {
+        var media_keys_settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.media-keys");
+
         var reader_label = new Granite.HeaderLabel (_("Screen Reader"));
 
         var reader_box = new Accessibility.Widgets.SettingsBox ();
         var read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
-        var shortcut_label = new Gtk.Label (media_keys_settings.clean_screenreader ());
+        var shortcut_label = new Gtk.Label (Granite.accel_to_string (media_keys_settings.get_string ("screenreader")));
         reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
 
         var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
@@ -44,10 +46,10 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         grid.add (audio_settings);
         grid.show_all ();
 
-        applications_settings.schema.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.applications_settings.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
 
         media_keys_settings.changed.connect (() => {
-            shortcut_label.label = media_keys_settings.clean_screenreader ();
+            shortcut_label.label = Granite.accel_to_string (media_keys_settings.get_string ("screenreader"));
         });
     }
 }
