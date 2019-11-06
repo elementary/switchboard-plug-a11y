@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
+"POT-Creation-Date: 2019-11-06 23:37+0000\n"
 "PO-Revision-Date: 2017-04-17 14:36+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,232 +16,170 @@ msgstr ""
 "X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
-#: src/Plug.vala:48
+#: src/Plug.vala:45
 msgid "Universal Access"
 msgstr "Univerzalni pristup"
 
-#: src/Plug.vala:49
+#: src/Plug.vala:46
 msgid "Configure accessibility features"
 msgstr "Prilagodite značajke pristupaćnosti"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:111
 msgid "Accessibility Features"
 msgstr "Značajke pristupaćnosti"
 
-#: src/Plug.vala:124 src/Panes/General.vala:25
-msgid "General"
-msgstr "Općenito"
-
-#: src/Plug.vala:124 src/Panes/General.vala:33
-msgid "Animations"
-msgstr "Animacije"
-
-#: src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
-#: src/Plug.vala:129 src/Panes/Display.vala:26
-msgid "Display"
-msgstr "Zaslon"
-
-#: src/Plug.vala:126 src/Panes/Display.vala:39
-msgid "High contrast theme"
-msgstr "Tema visokog kontrasta"
-
-#: src/Plug.vala:127 src/Panes/Display.vala:43
-msgid "Panel transparency"
-msgstr ""
-
-#: src/Plug.vala:128 src/Panes/Display.vala:50
-msgid "Text size"
-msgstr "Veličina teksta"
-
-#: src/Plug.vala:129
-#, fuzzy
-msgid "Font size"
-msgstr "Veličina slova"
-
-#: src/Plug.vala:130 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
-#: src/Plug.vala:135 src/Plug.vala:136 src/Panes/Audio.vala:26
+#: src/Plug.vala:112 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
+#: src/Plug.vala:117 src/Plug.vala:118 src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Zvuk"
 
-#: src/Plug.vala:131 src/Widgets/Categories.vala:59
+#: src/Plug.vala:113 src/Widgets/Categories.vala:48
 msgid "Hearing"
 msgstr "Slušanje"
 
-#: src/Plug.vala:132 src/Panes/Audio.vala:32
+#: src/Plug.vala:114
 msgid "Visual Alerts"
 msgstr "Vizualna upozorenja"
 
-#: src/Plug.vala:133
+#: src/Plug.vala:115
 msgid "Flash screen"
 msgstr ""
 
-#: src/Plug.vala:134 src/Panes/Audio.vala:37
+#: src/Plug.vala:116 src/Panes/Audio.vala:32
 msgid "Screen Reader"
 msgstr "Čitač zaslona"
 
-#: src/Plug.vala:135
+#: src/Plug.vala:117
 msgid "Audio descriptions"
 msgstr ""
 
-#: src/Plug.vala:136
+#: src/Plug.vala:118
 #, fuzzy
 msgid "keyboard shortcut"
 msgstr "Prečac tipkovnice"
 
-#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
-#: src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143 src/Plug.vala:144
-#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
+#: src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
+#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Tipkanje"
 
-#: src/Plug.vala:138 src/Panes/Typing.vala:44
+#: src/Plug.vala:120 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Zaslonska tipkovnica"
 
-#: src/Plug.vala:139 src/Panes/Typing.vala:31
+#: src/Plug.vala:121 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Odgoda tipkanja"
 
-#: src/Plug.vala:140 src/Panes/Typing.vala:47
+#: src/Plug.vala:122 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Odgoda između pritiska tipke (spore tipke)"
 
-#: src/Plug.vala:141 src/Panes/Typing.vala:48
+#: src/Plug.vala:123 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Zvučno upozorenje kada je tipka pritisnuta"
 
-#: src/Plug.vala:142 src/Panes/Typing.vala:49
+#: src/Plug.vala:124 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Zvučno upozorenje kada je tipka prihvaćena"
 
-#: src/Plug.vala:143 src/Plug.vala:147 src/Panes/Typing.vala:50
+#: src/Plug.vala:125 src/Plug.vala:129 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Zvučno upozorenje kada je tipka odbijena"
 
-#: src/Plug.vala:144
+#: src/Plug.vala:126
 #, fuzzy
 msgid "Typing Delay length"
 msgstr "Odgoda tipkanja"
 
-#: src/Plug.vala:145 src/Panes/Typing.vala:32
+#: src/Plug.vala:127 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Brzo tipkanje"
 
-#: src/Plug.vala:146 src/Panes/Typing.vala:54
+#: src/Plug.vala:128 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Zanemari duge duple pritiske tipke (odbijene tipke)"
 
-#: src/Plug.vala:148
+#: src/Plug.vala:130
 #, fuzzy
 msgid "Fast Typing Delay length"
 msgstr "Odgoda tipkanja"
 
-#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
+#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
 #: src/Panes/Keyboard.vala:25
 msgid "Keyboard"
 msgstr "Tipkovnica"
 
-#: src/Plug.vala:150 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:132 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Zvučno upozorenje kada je tipka zaključavanja pritisnuta"
 
-#: src/Plug.vala:151 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:133 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Koristi tipke izmjenjivača u slijedu (pričvrstive tipkke)"
 
-#: src/Plug.vala:152 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:134 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Zvučno upozorenje kada je tipka izmjenjivača pritisnuta"
 
-#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
-#: src/Panes/Pointing.vala:25
-msgid "Pointing"
-msgstr "Pokazivač"
-
-#: src/Plug.vala:154 src/Panes/Pointing.vala:31
-msgid "Keypad Control"
-msgstr "Upravljanje brojčanom stranom tipkovnice"
-
-#: src/Plug.vala:155 src/Panes/Pointing.vala:38
-msgid "Control pointer using keypad"
-msgstr ""
-"Upravljanje pokazivačem pomoću tipka strelica na brojčanoj strani tipkovnice"
-
-#: src/Plug.vala:156 src/Panes/Pointing.vala:39
-msgid "Cursor speed"
-msgstr "Brzina pokazivača miša"
-
-#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
-#: src/Plug.vala:161 src/Plug.vala:162 src/Plug.vala:163
+#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
+#: src/Plug.vala:139 src/Plug.vala:140 src/Plug.vala:141
 #: src/Panes/Clicking.vala:25
 msgid "Clicking"
 msgstr "Klikanje"
 
-#: src/Plug.vala:158 src/Panes/Clicking.vala:42
+#: src/Plug.vala:136 src/Panes/Clicking.vala:36
 msgid "Double-click speed"
 msgstr "Brzina dvostrukog klika"
 
-#: src/Plug.vala:159 src/Panes/Clicking.vala:45
+#: src/Plug.vala:137
 msgid "Hold primary button to trigger secondary click"
 msgstr "Drži glavnu tipku za pokretanje drugog klika"
 
-#: src/Plug.vala:160
+#: src/Plug.vala:138
 #, fuzzy
 msgid "Simulated secondary click delay"
 msgstr "Simulirani drugi klik"
 
-#: src/Plug.vala:161 src/Panes/Clicking.vala:49
+#: src/Plug.vala:139 src/Panes/Clicking.vala:41
 msgid "Click when the cursor hovers"
 msgstr "Klikni kada pokazivač miša lebdi"
 
-#: src/Plug.vala:162
+#: src/Plug.vala:140
 #, fuzzy
 msgid "Hover click delay"
 msgstr "Odgoda lebdenja"
 
-#: src/Plug.vala:163 src/Panes/Clicking.vala:51
+#: src/Plug.vala:141 src/Panes/Clicking.vala:43
 msgid "Motion threshold"
 msgstr "Prag gibanja"
 
-#: src/Widgets/Categories.vala:57
-msgid "Seeing"
-msgstr "Gledanje"
+#: src/Panes/Audio.vala:35
+msgid "Provide audio descriptions for items on the screen"
+msgstr "Omogući zvučne opise za stavke na zaslonu"
 
-#: src/Widgets/Categories.vala:61
-msgid "Interaction"
-msgstr "Interakcija"
+#: src/Panes/Audio.vala:37
+msgid "Keyboard shortcut"
+msgstr "Prečac tipkovnice"
 
-#: src/Panes/Typing.vala:34
-#, fuzzy
-msgid "On-screen keyboard settings…"
-msgstr "Postavke zaslonske tipkovnice..."
+#: src/Panes/Audio.vala:39
+msgid "Sound settings…"
+msgstr "Postavke zvuka…"
 
-#: src/Panes/Typing.vala:37 src/Panes/Keyboard.vala:33
-#, fuzzy
-msgid "Keyboard settings…"
-msgstr "Postavke tipkovnice..."
+#: src/Panes/Clicking.vala:38
+msgid "Hover Click"
+msgstr "Klik prelaska mišem"
 
-#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
-msgid "Delay length"
-msgstr "Trajanje odgode"
+#: src/Panes/Clicking.vala:42
+msgid "Hover delay"
+msgstr "Odgoda lebdenja"
 
-#: src/Panes/Pointing.vala:34 src/Panes/Clicking.vala:33
+#: src/Panes/Clicking.vala:45
 msgid "Mouse settings…"
 msgstr "Postavke miša…"
-
-#: src/Panes/Pointing.vala:51 src/Panes/Display.vala:64
-msgid "Normal"
-msgstr "Normalna"
-
-#: src/Panes/Pointing.vala:53 src/Panes/Display.vala:66
-msgid "Large"
-msgstr "Velika"
-
-#: src/Panes/Pointing.vala:55 src/Panes/Display.vala:68
-msgid "Larger"
-msgstr "Veća"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -251,49 +189,86 @@ msgstr "Tipke zaključavanja"
 msgid "Modifier Keys"
 msgstr "Tipke izmjenjivača"
 
-#: src/Panes/Display.vala:32
-msgid "Color"
-msgstr "Boja"
+#: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
+#, fuzzy
+msgid "Keyboard settings…"
+msgstr "Postavke tipkovnice..."
 
-#: src/Panes/Display.vala:33
-msgid "Reading"
-msgstr "Čitanje"
+#: src/Panes/Typing.vala:34
+#, fuzzy
+msgid "On-screen keyboard settings…"
+msgstr "Postavke zaslonske tipkovnice..."
 
-#: src/Panes/Display.vala:34
-msgid "Display settings…"
-msgstr "Postavke zaslona…"
+#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
+msgid "Delay length"
+msgstr "Trajanje odgode"
 
-#: src/Panes/Clicking.vala:31
-msgid "Simulated Secondary Click"
-msgstr "Simulirani drugi klik"
+#: src/Widgets/Categories.vala:50
+msgid "Interaction"
+msgstr "Interakcija"
 
-#: src/Panes/Clicking.vala:32
-msgid "Hover Click"
-msgstr "Klik prelaska mišem"
+#~ msgid "General"
+#~ msgstr "Općenito"
 
-#: src/Panes/Clicking.vala:46
-msgid "Simulated click delay"
-msgstr "Simuliraj odgodu klika"
+#~ msgid "Animations"
+#~ msgstr "Animacije"
 
-#: src/Panes/Clicking.vala:50
-msgid "Hover delay"
-msgstr "Odgoda lebdenja"
+#~ msgid "Display"
+#~ msgstr "Zaslon"
 
-#: src/Panes/Audio.vala:35
-msgid "Flash the screen when an alert sound occurs"
-msgstr "Zabljesni zaslon kada se oglasi zvučno upozorenje"
+#~ msgid "High contrast theme"
+#~ msgstr "Tema visokog kontrasta"
 
-#: src/Panes/Audio.vala:40
-msgid "Provide audio descriptions for items on the screen"
-msgstr "Omogući zvučne opise za stavke na zaslonu"
+#~ msgid "Text size"
+#~ msgstr "Veličina teksta"
 
-#: src/Panes/Audio.vala:42
-msgid "Keyboard shortcut"
-msgstr "Prečac tipkovnice"
+#, fuzzy
+#~ msgid "Font size"
+#~ msgstr "Veličina slova"
 
-#: src/Panes/Audio.vala:44
-msgid "Sound settings…"
-msgstr "Postavke zvuka…"
+#~ msgid "Pointing"
+#~ msgstr "Pokazivač"
+
+#~ msgid "Keypad Control"
+#~ msgstr "Upravljanje brojčanom stranom tipkovnice"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr ""
+#~ "Upravljanje pokazivačem pomoću tipka strelica na brojčanoj strani "
+#~ "tipkovnice"
+
+#~ msgid "Cursor speed"
+#~ msgstr "Brzina pokazivača miša"
+
+#~ msgid "Seeing"
+#~ msgstr "Gledanje"
+
+#~ msgid "Normal"
+#~ msgstr "Normalna"
+
+#~ msgid "Large"
+#~ msgstr "Velika"
+
+#~ msgid "Larger"
+#~ msgstr "Veća"
+
+#~ msgid "Color"
+#~ msgstr "Boja"
+
+#~ msgid "Reading"
+#~ msgstr "Čitanje"
+
+#~ msgid "Display settings…"
+#~ msgstr "Postavke zaslona…"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Simulirani drugi klik"
+
+#~ msgid "Simulated click delay"
+#~ msgstr "Simuliraj odgodu klika"
+
+#~ msgid "Flash the screen when an alert sound occurs"
+#~ msgstr "Zabljesni zaslon kada se oglasi zvučno upozorenje"
 
 #~ msgid "Accessibility Display Features"
 #~ msgstr "Značajke pristupaćnosti zaslona"
