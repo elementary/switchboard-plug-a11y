@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:37+0000\n"
+"POT-Creation-Date: 2019-11-07 16:17+0000\n"
 "PO-Revision-Date: 2019-05-29 04:04+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -26,3 +26,11 @@ msgstr "Configurações de Acesso Universal"
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
 msgstr "Configurar recursos de acessibilidade"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:10
+msgid "Remove panes whose settings now live somewhere else"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:11
+msgid "Updated translations"
+msgstr ""
