@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-07 16:17+0000\n"
-"PO-Revision-Date: 2019-11-11 12:24+0000\n"
+"PO-Revision-Date: 2019-11-16 17:24+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/es/>\n"
@@ -29,7 +29,7 @@ msgstr "Configurar las funciones de accesibilidad"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:10
 msgid "Remove panes whose settings now live somewhere else"
-msgstr ""
+msgstr "Eliminar paneles cuya configuración ahora vive en otro lugar"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:11
 msgid "Updated translations"
