@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2019-05-15 18:14+0000\n"
+"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"PO-Revision-Date: 2019-11-09 12:25+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
@@ -26,3 +26,11 @@ msgstr "Definições de acesso universal"
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
 msgstr "Configurar recursos de acessibilidade"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:10
+msgid "Remove panes whose settings now live somewhere else"
+msgstr "Remove painéis cujas definições agora vivem noutro lugar"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:11
+msgid "Updated translations"
+msgstr "Traduções atualizadas"

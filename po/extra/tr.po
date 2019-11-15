@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
+"POT-Creation-Date: 2019-11-07 16:17+0000\n"
 "PO-Revision-Date: 2019-05-15 18:14+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -26,3 +26,11 @@ msgstr "Evrensel Erişim Ayarları"
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
 msgstr "Erişilebilirlik özelliklerini yapılandırın"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:10
+msgid "Remove panes whose settings now live somewhere else"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:11
+msgid "Updated translations"
+msgstr ""
