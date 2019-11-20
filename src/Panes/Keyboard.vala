@@ -47,10 +47,10 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         grid.add (kb_settings_label);
         grid.show_all ();
 
-        keyboard_settings.schema.bind ("togglekeys-enable", lk_beep, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("stickykeys-enable", mk_enable, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("stickykeys-modifier-beep", mk_beep, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("togglekeys-enable", lk_beep, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("stickykeys-enable", mk_enable, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("stickykeys-modifier-beep", mk_beep, "active", SettingsBindFlags.DEFAULT);
 
-        keyboard_settings.schema.bind ("stickykeys-enable", mk_beep, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("stickykeys-enable", mk_beep, "sensitive", SettingsBindFlags.GET);
     }
 }

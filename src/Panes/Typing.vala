@@ -64,22 +64,23 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         grid.add (kb_settings_label);
         grid.show_all ();
 
-        applications_settings.schema.bind ("screen-keyboard-enabled", screen_keyboard, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-enable", sk_enable, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-beep-press", sk_pressed, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-beep-accept", sk_accepted, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-beep-reject", sk_rejected, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("slowkeys-delay", sk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("bouncekeys-enable", bk_enable, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("bouncekeys-beep-reject", bk_rejected, "active", SettingsBindFlags.DEFAULT);
-        keyboard_settings.schema.bind ("bouncekeys-delay", bk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.applications_settings.bind ("screen-keyboard-enabled", screen_keyboard, "active", SettingsBindFlags.DEFAULT);
 
-        keyboard_settings.schema.bind ("slowkeys-enable", sk_pressed, "sensitive", SettingsBindFlags.GET);
-        keyboard_settings.schema.bind ("slowkeys-enable", sk_accepted, "sensitive", SettingsBindFlags.GET);
-        keyboard_settings.schema.bind ("slowkeys-enable", sk_rejected, "sensitive", SettingsBindFlags.GET);
-        keyboard_settings.schema.bind ("slowkeys-enable", sk_delay, "sensitive", SettingsBindFlags.GET);
-        keyboard_settings.schema.bind ("bouncekeys-enable", bk_rejected, "sensitive", SettingsBindFlags.GET);
-        keyboard_settings.schema.bind ("bouncekeys-enable", bk_delay, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-enable", sk_enable, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-beep-press", sk_pressed, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-beep-accept", sk_accepted, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-beep-reject", sk_rejected, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-delay", sk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("bouncekeys-enable", bk_enable, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("bouncekeys-beep-reject", bk_rejected, "active", SettingsBindFlags.DEFAULT);
+        Accessibility.Plug.keyboard_settings.bind ("bouncekeys-delay", bk_delay_adjustment, "value", SettingsBindFlags.DEFAULT);
+
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-enable", sk_pressed, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-enable", sk_accepted, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-enable", sk_rejected, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("slowkeys-enable", sk_delay, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("bouncekeys-enable", bk_rejected, "sensitive", SettingsBindFlags.GET);
+        Accessibility.Plug.keyboard_settings.bind ("bouncekeys-enable", bk_delay, "sensitive", SettingsBindFlags.GET);
 
         onboard_settings_label.clicked.connect (() => {
             try {

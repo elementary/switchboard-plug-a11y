@@ -1,6 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2015 Pantheon Developers (https://launchpad.net/switchboardswitchboard-plug-a11y)
+ * Copyright 2015-2019 elementary, Inc (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -20,21 +19,12 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 namespace Accessibility {
-    public static Plug plug;
-
-    public Accessibility.Backend.Keyboard keyboard_settings;
-    public Accessibility.Backend.A11y a11y_settings;
-    public Accessibility.Backend.Magnifier magnifier_settings;
-    public Accessibility.Backend.Applications applications_settings;
-    public Accessibility.Backend.WmPreferences wm_preferences_settings;
-    public Accessibility.Backend.Peripherals peripherals_settings;
-    public Accessibility.Backend.Mouse mouse_settings;
-    public Accessibility.Backend.MediaKeys media_keys_settings;
-    public Settings? animations_settings;
-
     public class Plug : Switchboard.Plug {
         Gtk.Paned paned;
         Accessibility.Categories categories;
+
+        public static GLib.Settings applications_settings;
+        public static GLib.Settings keyboard_settings;
 
         public Plug () {
             var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -46,20 +36,15 @@ namespace Accessibility {
                     description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility",
                     supported_settings: settings);
-            plug = this;
+        }
+
+        static construct {
+            applications_settings = new GLib.Settings ("org.gnome.desktop.a11y.applications");
+            keyboard_settings = new GLib.Settings ("org.gnome.desktop.a11y.keyboard");
         }
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                keyboard_settings = new Accessibility.Backend.Keyboard ();
-                a11y_settings = new Accessibility.Backend.A11y ();
-                magnifier_settings = new Accessibility.Backend.Magnifier ();
-                applications_settings = new Accessibility.Backend.Applications ();
-                wm_preferences_settings = new Accessibility.Backend.WmPreferences ();
-                peripherals_settings = new Accessibility.Backend.Peripherals ();
-                mouse_settings = new Accessibility.Backend.Mouse ();
-                media_keys_settings = new Accessibility.Backend.MediaKeys ();
-
                 paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 categories = new Categories ();
                 paned.pack1 (categories, false, false);
