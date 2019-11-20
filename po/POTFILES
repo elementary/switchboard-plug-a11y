@@ -1,5 +1,4 @@
 src/Plug.vala
-src/Backend/Settings.vala
 src/Panes/Audio.vala
 src/Panes/Clicking.vala
 src/Panes/Keyboard.vala
