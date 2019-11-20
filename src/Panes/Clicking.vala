@@ -28,12 +28,8 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
     }
 
     construct {
-        var dc_speed_adjustment = new Gtk.Adjustment (0, 300, 1500, 0.1, 0.1, 0.1);
         var hc_delay_adjustment = new Gtk.Adjustment (0, 0, 2, 0.1, 0.1, 0.1);
         var hc_threshold_adjustment = new Gtk.Adjustment (0, 0, 30, 0.1, 0.1, 0.1);
-
-        var click_box = new Accessibility.Widgets.SettingsBox ();
-        click_box.add_scale (_("Double-click speed"), dc_speed_adjustment);
 
         var hover_label = new Granite.HeaderLabel (_("Hover Click"));
 
@@ -45,14 +41,10 @@ public class Accessibility.Panes.Clicking : Categories.Pane {
         var mouse_settings_label = new Accessibility.Widgets.LinkLabel (_("Mouse settings…"), "settings://input/mouse");
         mouse_settings_label.vexpand = true;
 
-        grid.add (click_box);
         grid.add (hover_label);
         grid.add (hover_box);
         grid.add (mouse_settings_label);
         grid.show_all ();
-
-        var peripherals_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
-        peripherals_settings.bind ("double-click", dc_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         var mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         mouse_settings.bind ("dwell-click-enabled", hc_delay, "sensitive", SettingsBindFlags.GET);
