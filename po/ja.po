@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-07 16:17+0000\n"
-"PO-Revision-Date: 2019-09-04 23:22+0000\n"
+"PO-Revision-Date: 2019-12-01 10:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -133,7 +133,7 @@ msgstr "ダブルクリックの速度"
 
 #: src/Plug.vala:137
 msgid "Hold primary button to trigger secondary click"
-msgstr "主ボタンを押し続けることで副ボタンクリックとする"
+msgstr "主ボタンの長押しで副ボタンクリック"
 
 #: src/Plug.vala:138
 msgid "Simulated secondary click delay"
