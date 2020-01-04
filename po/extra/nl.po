@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-07 16:17+0000\n"
-"PO-Revision-Date: 2020-01-01 16:07+0000\n"
+"PO-Revision-Date: 2020-01-05 17:07+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/nl/>\n"
@@ -21,15 +21,16 @@ msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
-msgstr ""
+msgstr "Universele toegangsinstellingen"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Configureer toegankelijkheidsfuncties"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:10
 msgid "Remove panes whose settings now live somewhere else"
 msgstr ""
+"Knoppen verwijderd van instellingen die ergens anders zijn ondergebracht"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:11
 msgid "Updated translations"
