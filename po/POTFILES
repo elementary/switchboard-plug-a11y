@@ -1,6 +1,5 @@
 src/Plug.vala
 src/Panes/Audio.vala
-src/Panes/Clicking.vala
 src/Panes/Keyboard.vala
 src/Panes/Typing.vala
 src/Widgets/Categories.vala
