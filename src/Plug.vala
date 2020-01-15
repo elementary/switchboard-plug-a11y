@@ -84,9 +84,6 @@ namespace Accessibility {
                 case "Pointing":
                     categories.set_row_number (5);
                     break;
-                case "Clicking":
-                    categories.set_row_number (6);
-                    break;
             }
         }
 
@@ -117,13 +114,6 @@ namespace Accessibility {
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a lock key is pressed")), "Keyboard");
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Use modifier keys in sequence (sticky keys)")), "Keyboard");
             search_results.set ("%s → %s → %s".printf (display_name, _("Keyboard"), _("Beep when a modifier key is pressed")), "Keyboard");
-            search_results.set ("%s → %s".printf (display_name, _("Clicking")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Double-click speed")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Hold primary button to trigger secondary click")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Simulated secondary click delay")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Click when the cursor hovers")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Hover click delay")), "Clicking");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Clicking"), _("Motion threshold")), "Clicking");
             return search_results;
         }
     }
