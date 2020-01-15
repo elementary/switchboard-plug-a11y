@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"POT-Creation-Date: 2020-01-15 22:26+0000\n"
 "PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
@@ -15,165 +15,123 @@ msgstr ""
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
-#: src/Plug.vala:45
+#: src/Plug.vala:35
 msgid "Universal Access"
 msgstr "Universel Tilgængelighed"
 
-#: src/Plug.vala:46
+#: src/Plug.vala:36
 msgid "Configure accessibility features"
 msgstr "Konfigurer tilgængelighedsfunktioner"
 
-#: src/Plug.vala:111
+#: src/Plug.vala:93
 msgid "Accessibility Features"
 msgstr "Tilgængelighedsfunktioner"
 
-#: src/Plug.vala:112 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
-#: src/Plug.vala:117 src/Plug.vala:118 src/Panes/Audio.vala:26
+#: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Lyd"
 
-#: src/Plug.vala:113 src/Widgets/Categories.vala:48
+#: src/Plug.vala:95 src/Widgets/Categories.vala:46
 msgid "Hearing"
 msgstr "Hørelse"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:96
 msgid "Visual Alerts"
 msgstr "Visuelle Advarsler"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:97
 msgid "Flash screen"
 msgstr "Flash skærmen"
 
-#: src/Plug.vala:116 src/Panes/Audio.vala:32
+#: src/Plug.vala:98 src/Panes/Audio.vala:34
 msgid "Screen Reader"
 msgstr "Skærmlæser"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:99
 msgid "Audio descriptions"
 msgstr "Lydbeskrivelser"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:100
 msgid "keyboard shortcut"
 msgstr "tastaturgenvej"
 
-#: src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
-#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
+#: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
+#: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
+#: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Indtastning"
 
-#: src/Plug.vala:120 src/Panes/Typing.vala:44
+#: src/Plug.vala:102 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Skærmtastatur"
 
-#: src/Plug.vala:121 src/Panes/Typing.vala:31
+#: src/Plug.vala:103 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Indtastningsudsættelser"
 
-#: src/Plug.vala:122 src/Panes/Typing.vala:47
+#: src/Plug.vala:104 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Forsinkelse mellem tastetryk (langsomme taster)"
 
-#: src/Plug.vala:123 src/Panes/Typing.vala:48
+#: src/Plug.vala:105 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Bip når der trykkes på en tast"
 
-#: src/Plug.vala:124 src/Panes/Typing.vala:49
+#: src/Plug.vala:106 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Bip når en tast accepteres"
 
-#: src/Plug.vala:125 src/Plug.vala:129 src/Panes/Typing.vala:50
+#: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Bip når en tast afvises"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:108
 msgid "Typing Delay length"
 msgstr "Tasteforsinkelseslængde"
 
-#: src/Plug.vala:127 src/Panes/Typing.vala:32
+#: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Hurtigt Tastning"
 
-#: src/Plug.vala:128 src/Panes/Typing.vala:54
+#: src/Plug.vala:110 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorer hurtige gentagne tryk på samme tast (bounce keys)"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:112
 msgid "Fast Typing Delay length"
 msgstr "Hurtig Taste Udsættelseslængde"
 
-#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#: src/Plug.vala:132 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:114 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Bip når der trykkes på en låsetast"
 
-#: src/Plug.vala:133 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Anvend modifikationstaster i sekvens (klæbrige taster)"
 
-#: src/Plug.vala:134 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:116 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Bip når der trykkes på en modifikationstast"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Plug.vala:139 src/Plug.vala:140 src/Plug.vala:141
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Klik"
-
-#: src/Plug.vala:136 src/Panes/Clicking.vala:36
-msgid "Double-click speed"
-msgstr "Dobbeltklik-hastighed"
-
-#: src/Plug.vala:137
-msgid "Hold primary button to trigger secondary click"
-msgstr "Hold primær knap nede for at udløse et sekundært klik"
-
-#: src/Plug.vala:138
-msgid "Simulated secondary click delay"
-msgstr "Simuleret sekundært klik udsættelse"
-
-#: src/Plug.vala:139 src/Panes/Clicking.vala:41
-msgid "Click when the cursor hovers"
-msgstr "Klik når markøren svæver over"
-
-#: src/Plug.vala:140
-msgid "Hover click delay"
-msgstr "Svæveklik udsættelse"
-
-#: src/Plug.vala:141 src/Panes/Clicking.vala:43
-msgid "Motion threshold"
-msgstr "Tilbageholdenhed ved bevægelse"
-
-#: src/Panes/Audio.vala:35
+#: src/Panes/Audio.vala:37
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Giv lydbeskrivelser for elementer på skærmen"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:39
 msgid "Keyboard shortcut"
 msgstr "Tastaturgenvej"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:41
 msgid "Sound settings…"
 msgstr "Lydindstillinger…"
-
-#: src/Panes/Clicking.vala:38
-msgid "Hover Click"
-msgstr "Svæveklik"
-
-#: src/Panes/Clicking.vala:42
-msgid "Hover delay"
-msgstr "Svæveforsinkelse"
-
-#: src/Panes/Clicking.vala:45
-msgid "Mouse settings…"
-msgstr "Museindstillinger…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -195,9 +153,39 @@ msgstr "Skærmtastatur indstillinger…"
 msgid "Delay length"
 msgstr "Længde på forsinkelse"
 
-#: src/Widgets/Categories.vala:50
+#: src/Widgets/Categories.vala:48
 msgid "Interaction"
 msgstr "Interaktion"
+
+#~ msgid "Clicking"
+#~ msgstr "Klik"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Dobbeltklik-hastighed"
+
+#~ msgid "Hold primary button to trigger secondary click"
+#~ msgstr "Hold primær knap nede for at udløse et sekundært klik"
+
+#~ msgid "Simulated secondary click delay"
+#~ msgstr "Simuleret sekundært klik udsættelse"
+
+#~ msgid "Click when the cursor hovers"
+#~ msgstr "Klik når markøren svæver over"
+
+#~ msgid "Hover click delay"
+#~ msgstr "Svæveklik udsættelse"
+
+#~ msgid "Motion threshold"
+#~ msgstr "Tilbageholdenhed ved bevægelse"
+
+#~ msgid "Hover Click"
+#~ msgstr "Svæveklik"
+
+#~ msgid "Hover delay"
+#~ msgstr "Svæveforsinkelse"
+
+#~ msgid "Mouse settings…"
+#~ msgstr "Museindstillinger…"
 
 #~ msgid "General"
 #~ msgstr "Generelt"

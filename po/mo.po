@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"POT-Creation-Date: 2020-01-15 22:26+0000\n"
 "PO-Revision-Date: 2018-05-27 12:38+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
@@ -13,171 +13,127 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: src/Plug.vala:45
+#: src/Plug.vala:35
 msgid "Universal Access"
 msgstr "Acces universal"
 
-#: src/Plug.vala:46
+#: src/Plug.vala:36
 msgid "Configure accessibility features"
 msgstr "Configurați caracteristicile de accesibilitate"
 
-#: src/Plug.vala:111
+#: src/Plug.vala:93
 msgid "Accessibility Features"
 msgstr "Facilități de accesibilitate"
 
-#: src/Plug.vala:112 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
-#: src/Plug.vala:117 src/Plug.vala:118 src/Panes/Audio.vala:26
+#: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Auditiv"
 
-#: src/Plug.vala:113 src/Widgets/Categories.vala:48
+#: src/Plug.vala:95 src/Widgets/Categories.vala:46
 msgid "Hearing"
 msgstr "Auz"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:96
 msgid "Visual Alerts"
 msgstr "Alerte Vizuale"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:97
 msgid "Flash screen"
 msgstr ""
 
-#: src/Plug.vala:116 src/Panes/Audio.vala:32
+#: src/Plug.vala:98 src/Panes/Audio.vala:34
 msgid "Screen Reader"
 msgstr "Cititor de ecran"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:99
 msgid "Audio descriptions"
 msgstr ""
 
-#: src/Plug.vala:118
+#: src/Plug.vala:100
 #, fuzzy
 msgid "keyboard shortcut"
 msgstr "Comanda rapidă de la tastatură"
 
-#: src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
-#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
+#: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
+#: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
+#: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Tastare"
 
-#: src/Plug.vala:120 src/Panes/Typing.vala:44
+#: src/Plug.vala:102 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Tastatură pe ecran"
 
-#: src/Plug.vala:121 src/Panes/Typing.vala:31
+#: src/Plug.vala:103 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Retrasul tastării"
 
-#: src/Plug.vala:122 src/Panes/Typing.vala:47
+#: src/Plug.vala:104 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Întârziere între apăsările tastelor (taste lente)"
 
-#: src/Plug.vala:123 src/Panes/Typing.vala:48
+#: src/Plug.vala:105 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Beep când este apăsată o tastă"
 
-#: src/Plug.vala:124 src/Panes/Typing.vala:49
+#: src/Plug.vala:106 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Beep când este acceptată o cheie"
 
-#: src/Plug.vala:125 src/Plug.vala:129 src/Panes/Typing.vala:50
+#: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Beep când o cheie este respinsă"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:108
 #, fuzzy
 msgid "Typing Delay length"
 msgstr "Retras de scriere"
 
-#: src/Plug.vala:127 src/Panes/Typing.vala:32
+#: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Tastarea rapidă"
 
-#: src/Plug.vala:128 src/Panes/Typing.vala:54
+#: src/Plug.vala:110 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignoră repetarea rapidă a tastelor duplicate (tastele de bounce)"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:112
 #, fuzzy
 msgid "Fast Typing Delay length"
 msgstr "Retras de scriere"
 
-#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
 #, fuzzy
 msgid "Keyboard"
 msgstr "Sunetul tastaturii"
 
-#: src/Plug.vala:132 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:114 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Beep când este apăsată o tastă de blocare"
 
-#: src/Plug.vala:133 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Utilizați tastele modificatoare în ordine (tastele lipicioase)"
 
-#: src/Plug.vala:134 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:116 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Beep când este apăsată o tastă modificatoare"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Plug.vala:139 src/Plug.vala:140 src/Plug.vala:141
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Făcând clic"
-
-#: src/Plug.vala:136 src/Panes/Clicking.vala:36
-msgid "Double-click speed"
-msgstr "Viteza când faceți dublu clic"
-
-#: src/Plug.vala:137
-msgid "Hold primary button to trigger secondary click"
-msgstr "Țineți apăsat butonul primar pentru a declanșa clic secundar"
-
-#: src/Plug.vala:138
-#, fuzzy
-msgid "Simulated secondary click delay"
-msgstr "Clic secundar simulat"
-
-#: src/Plug.vala:139 src/Panes/Clicking.vala:41
-msgid "Click when the cursor hovers"
-msgstr "Faceți clic atunci când cursorul se deplasează"
-
-#: src/Plug.vala:140
-#, fuzzy
-msgid "Hover click delay"
-msgstr "Întârziere de deplasare"
-
-#: src/Plug.vala:141 src/Panes/Clicking.vala:43
-msgid "Motion threshold"
-msgstr "Limita de mișcare"
-
-#: src/Panes/Audio.vala:35
+#: src/Panes/Audio.vala:37
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Furnizați descrieri audio pentru elementele de pe ecran"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:39
 msgid "Keyboard shortcut"
 msgstr "Comanda rapidă de la tastatură"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:41
 msgid "Sound settings…"
 msgstr "Setări de sunet …"
-
-#: src/Panes/Clicking.vala:38
-msgid "Hover Click"
-msgstr "HoverClick"
-
-#: src/Panes/Clicking.vala:42
-msgid "Hover delay"
-msgstr "Întârziere de deplasare"
-
-#: src/Panes/Clicking.vala:45
-msgid "Mouse settings…"
-msgstr "Setările mouse-ului …"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -201,9 +157,41 @@ msgstr "Setările de tastatură pe ecran ..."
 msgid "Delay length"
 msgstr "Lungime de retras"
 
-#: src/Widgets/Categories.vala:50
+#: src/Widgets/Categories.vala:48
 msgid "Interaction"
 msgstr "Interacţiune"
+
+#~ msgid "Clicking"
+#~ msgstr "Făcând clic"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Viteza când faceți dublu clic"
+
+#~ msgid "Hold primary button to trigger secondary click"
+#~ msgstr "Țineți apăsat butonul primar pentru a declanșa clic secundar"
+
+#, fuzzy
+#~ msgid "Simulated secondary click delay"
+#~ msgstr "Clic secundar simulat"
+
+#~ msgid "Click when the cursor hovers"
+#~ msgstr "Faceți clic atunci când cursorul se deplasează"
+
+#, fuzzy
+#~ msgid "Hover click delay"
+#~ msgstr "Întârziere de deplasare"
+
+#~ msgid "Motion threshold"
+#~ msgstr "Limita de mișcare"
+
+#~ msgid "Hover Click"
+#~ msgstr "HoverClick"
+
+#~ msgid "Hover delay"
+#~ msgstr "Întârziere de deplasare"
+
+#~ msgid "Mouse settings…"
+#~ msgstr "Setările mouse-ului …"
 
 #~ msgid "General"
 #~ msgstr "Generală"

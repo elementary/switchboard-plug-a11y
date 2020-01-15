@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"POT-Creation-Date: 2020-01-15 22:26+0000\n"
 "PO-Revision-Date: 2018-10-16 13:39+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
@@ -15,166 +15,123 @@ msgstr ""
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-12-21 05:42+0000\n"
 
-#: src/Plug.vala:45
+#: src/Plug.vala:35
 msgid "Universal Access"
 msgstr "Accés universal"
 
-#: src/Plug.vala:46
+#: src/Plug.vala:36
 msgid "Configure accessibility features"
 msgstr "Configureu les funcions d'accessibilitat"
 
-#: src/Plug.vala:111
+#: src/Plug.vala:93
 msgid "Accessibility Features"
 msgstr "Funcions d'accessibilitat"
 
-#: src/Plug.vala:112 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
-#: src/Plug.vala:117 src/Plug.vala:118 src/Panes/Audio.vala:26
+#: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
 msgid "Audio"
 msgstr "Àudio"
 
-#: src/Plug.vala:113 src/Widgets/Categories.vala:48
+#: src/Plug.vala:95 src/Widgets/Categories.vala:46
 msgid "Hearing"
 msgstr "Audició"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:96
 msgid "Visual Alerts"
 msgstr "Alertes visuals"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:97
 msgid "Flash screen"
 msgstr "Pantalla de benvinguda"
 
-#: src/Plug.vala:116 src/Panes/Audio.vala:32
+#: src/Plug.vala:98 src/Panes/Audio.vala:34
 msgid "Screen Reader"
 msgstr "Lector de pantalla"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:99
 msgid "Audio descriptions"
 msgstr "Descripcions en àudio"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:100
 msgid "keyboard shortcut"
 msgstr "drecera del teclat"
 
-#: src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
-#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
+#: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
+#: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
+#: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Escriptura"
 
-#: src/Plug.vala:120 src/Panes/Typing.vala:44
+#: src/Plug.vala:102 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Teclat a la pantalla"
 
-#: src/Plug.vala:121 src/Panes/Typing.vala:31
+#: src/Plug.vala:103 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Retards de tecleig"
 
-#: src/Plug.vala:122 src/Panes/Typing.vala:47
+#: src/Plug.vala:104 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Retard entre pulsacions de tecles (tecles lentes)"
 
-#: src/Plug.vala:123 src/Panes/Typing.vala:48
+#: src/Plug.vala:105 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Fes un senyal acústic quan es premi una tecla"
 
-#: src/Plug.vala:124 src/Panes/Typing.vala:49
+#: src/Plug.vala:106 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Fes un senyal acústic quan s'accepti una tecla"
 
-#: src/Plug.vala:125 src/Plug.vala:129 src/Panes/Typing.vala:50
+#: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Fes un senyal acústic quan es rebutgi una tecla"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:108
 msgid "Typing Delay length"
 msgstr "Extensió del retard del tecleig"
 
-#: src/Plug.vala:127 src/Panes/Typing.vala:32
+#: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Tecleig ràpid"
 
-#: src/Plug.vala:128 src/Panes/Typing.vala:54
+#: src/Plug.vala:110 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignora les pulsacions ràpides de tecles duplicades (tecles de rebot)"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:112
 msgid "Fast Typing Delay length"
 msgstr "Extensió del retard del tecleig ràpid"
 
-#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
 msgid "Keyboard"
 msgstr "Teclat"
 
-#: src/Plug.vala:132 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:114 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Fes un senyal acústic quan es premi una tecla de bloqueig"
 
-#: src/Plug.vala:133 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Usa les tecles de modificació en seqüència (tecles enganxoses)"
 
-#: src/Plug.vala:134 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:116 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Fes un senyal acústic quan es premi una tecla de modificació"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Plug.vala:139 src/Plug.vala:140 src/Plug.vala:141
-#: src/Panes/Clicking.vala:25
-msgid "Clicking"
-msgstr "Clics"
-
-#: src/Plug.vala:136 src/Panes/Clicking.vala:36
-msgid "Double-click speed"
-msgstr "Velocitat del doble clic"
-
-#: src/Plug.vala:137
-msgid "Hold primary button to trigger secondary click"
-msgstr ""
-"Manteniu pressionat el botó principal per desencadenar un clic secundari"
-
-#: src/Plug.vala:138
-msgid "Simulated secondary click delay"
-msgstr "Retard del clic secundari simulat"
-
-#: src/Plug.vala:139 src/Panes/Clicking.vala:41
-msgid "Click when the cursor hovers"
-msgstr "Fes clic quan el cursor hi floti pel damunt"
-
-#: src/Plug.vala:140
-msgid "Hover click delay"
-msgstr "Retard del clic de flotació"
-
-#: src/Plug.vala:141 src/Panes/Clicking.vala:43
-msgid "Motion threshold"
-msgstr "Llindar de moviment"
-
-#: src/Panes/Audio.vala:35
+#: src/Panes/Audio.vala:37
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Proporciona descriptors d'àudio per a elements a la pantalla"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:39
 msgid "Keyboard shortcut"
 msgstr "Drecera del teclat"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:41
 msgid "Sound settings…"
 msgstr "Paràmetres del so…"
-
-#: src/Panes/Clicking.vala:38
-msgid "Hover Click"
-msgstr "Clic de flotació"
-
-#: src/Panes/Clicking.vala:42
-msgid "Hover delay"
-msgstr "Retard de la flotació"
-
-#: src/Panes/Clicking.vala:45
-msgid "Mouse settings…"
-msgstr "Paràmetres del ratolí…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
@@ -196,9 +153,40 @@ msgstr "Paràmetres del teclat a la pantalla…"
 msgid "Delay length"
 msgstr "Durada del retard"
 
-#: src/Widgets/Categories.vala:50
+#: src/Widgets/Categories.vala:48
 msgid "Interaction"
 msgstr "Interacció"
+
+#~ msgid "Clicking"
+#~ msgstr "Clics"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Velocitat del doble clic"
+
+#~ msgid "Hold primary button to trigger secondary click"
+#~ msgstr ""
+#~ "Manteniu pressionat el botó principal per desencadenar un clic secundari"
+
+#~ msgid "Simulated secondary click delay"
+#~ msgstr "Retard del clic secundari simulat"
+
+#~ msgid "Click when the cursor hovers"
+#~ msgstr "Fes clic quan el cursor hi floti pel damunt"
+
+#~ msgid "Hover click delay"
+#~ msgstr "Retard del clic de flotació"
+
+#~ msgid "Motion threshold"
+#~ msgstr "Llindar de moviment"
+
+#~ msgid "Hover Click"
+#~ msgstr "Clic de flotació"
+
+#~ msgid "Hover delay"
+#~ msgstr "Retard de la flotació"
+
+#~ msgid "Mouse settings…"
+#~ msgstr "Paràmetres del ratolí…"
 
 #~ msgid "General"
 #~ msgstr "Generals"
