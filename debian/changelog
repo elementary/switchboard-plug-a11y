@@ -1,3 +1,40 @@
+switchboard-plug-a11y (2.2.0) bionic; urgency=medium
+
+  * Release 2.2.0 (#69)
+  * Update screenshot
+  * Update translation files
+  * Update translation template
+  * Remove last clicking setting (#68)
+  * Clicking: Remove double-click setting (#67)
+  * Update POTFILES
+  * Replace Granite.Services.Settings with GLib.Settings (#65)
+  * Update translation template
+  * AppData: Add 2.2.0 release info
+  * Add Release to Actions
+  * Update translation template
+  * Update POTFILES
+  * Add Gettext Updates to Actions
+  * Split deb packaging into its own branch
+  * run installation in CI (#63)
+  * Add Lint to CI (#61)
+  * lint src files with vala-lint (#62)
+  * Test with GitHub CI (#60)
+  * Delete CODE_OF_CONDUCT.md
+  * Delete FUNDING.yml
+  * build: fix install path for switchboard plug  (#58)
+  * Clicking: Remove simulated secondary click (#56)
+  * Audio: remove alert flash setting (#57)
+  * Remove Pointing settings (#52)
+  * Remove the Display pane (#51)
+  * Plug: Change code name to RDNN
+  * Add Silesian and update translation template
+  * Update extra POTFILES
+  * Create FUNDING.yml
+  * Rename Appdata to use the right RDNN (#48)
+  * Add AppData and translations (#46)
+
+ -- elementary OS Team <builds@elementary.io>  Wed, 01 Apr 2020 23:29:22 +0000
+
 switchboard-plug-a11y (2.1.3) bionic; urgency=medium
 
   * New upstream release.
