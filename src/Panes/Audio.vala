@@ -21,6 +21,21 @@
  */
 
 public class Accessibility.Panes.Audio : Categories.Pane {
+    private static GLib.Settings media_keys_settings;
+
+    private string _screenreader_shortcut_keys = "";
+    public string screenreader_shortcut_keys {
+        get {
+            string?[] granite_accel_strings = null;
+            foreach (var key in media_keys_settings.get_strv ("screenreader")) {
+                granite_accel_strings += Granite.accel_to_string (key);
+            }
+
+            _screenreader_shortcut_keys = string.joinv (_(", "), granite_accel_strings);
+            return _screenreader_shortcut_keys;
+        }
+    }
+
     public Audio () {
         Object (
             label_string: _("Audio"),
@@ -28,14 +43,16 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         );
     }
 
-    construct {
-        var media_keys_settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.media-keys");
+    static construct {
+        media_keys_settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.media-keys");
+    }
 
+    construct {
         var reader_label = new Granite.HeaderLabel (_("Screen Reader"));
 
         var reader_box = new Accessibility.Widgets.SettingsBox ();
         var read_items = reader_box.add_switch (_("Provide audio descriptions for items on the screen"));
-        var shortcut_label = new Gtk.Label (Granite.accel_to_string (media_keys_settings.get_string ("screenreader")));
+        var shortcut_label = new Gtk.Label (screenreader_shortcut_keys);
         reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
 
         var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
@@ -49,7 +66,7 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         Accessibility.Plug.applications_settings.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
 
         media_keys_settings.changed.connect (() => {
-            shortcut_label.label = Granite.accel_to_string (media_keys_settings.get_string ("screenreader"));
+            shortcut_label.label = screenreader_shortcut_keys;
         });
     }
 }
