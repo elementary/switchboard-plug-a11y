@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
 "PO-Revision-Date: 2020-03-26 23:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -27,10 +27,15 @@ msgstr "הגדרות גישה אוניברסלית"
 msgid "Configure accessibility features"
 msgstr "הגדרת תכונות נגישות"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:10
-msgid "Remove panes whose settings now live somewhere else"
-msgstr "הסרת לוחות שההגדרות שלהם חיות מעתה במקומות אחרים"
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:13
+msgid "Fix screenreader shortcut keys aren't shown"
+msgstr ""
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:11
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:14
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:21
 msgid "Updated translations"
 msgstr "תרגומים עודכנו"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+msgid "Remove panes whose settings now live somewhere else"
+msgstr "הסרת לוחות שההגדרות שלהם חיות מעתה במקומות אחרים"
