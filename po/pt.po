@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2020-03-24 23:09+0000\n"
+"PO-Revision-Date: 2020-08-20 16:17+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/pt/>\n"
@@ -123,7 +123,7 @@ msgstr "Emitir um som ao premir uma tecla modificadora"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
