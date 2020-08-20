@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2020-04-30 17:10+0000\n"
+"PO-Revision-Date: 2020-08-20 16:17+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/pt/>\n"
@@ -29,7 +29,7 @@ msgstr "Configurar funcionalidades de acessibilidade"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:13
 msgid "Fix screenreader shortcut keys aren't shown"
-msgstr ""
+msgstr "As teclas de atalho do leitor de ecrã não são mostradas"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:21
