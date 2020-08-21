@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2015-2016 elementary LLC. (https://launchpad.net/switchboardswitchboard-plug-a11y)
+* Copyright (c) 2015-2020 elementary, Inc (https://elementary.io)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -38,26 +38,6 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         show_all ();
     }
 
-    public Gtk.ComboBox add_combo_box (string title) {
-        var renderer = new Gtk.CellRendererText ();
-
-        var combo = new Gtk.ComboBox ();
-        combo.margin_end = 6;
-        combo.width_request = 180;
-        combo.pack_start (renderer, true);
-        combo.add_attribute (renderer, "text", 0);
-
-        var settings_box = new EmptyBox (title, has_childen);
-        settings_box.grid.add (combo);
-        bind_sensitivity (combo, settings_box);
-
-        list_box.add (settings_box);
-        show_all ();
-
-        has_childen = true;
-        return combo;
-    }
-
     public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
         var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
         scale.margin_end = 6;
@@ -90,7 +70,7 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         return toggle;
     }
 
-    public void bind_sensitivity (Gtk.Widget widget, EmptyBox settings_box ) {
+    private void bind_sensitivity (Gtk.Widget widget, EmptyBox settings_box) {
         widget.bind_property ("sensitive", settings_box, "sensitive", BindingFlags.SYNC_CREATE | BindingFlags.BIDIRECTIONAL);
     }
 
