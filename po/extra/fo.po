@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 16:17+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
 "PO-Revision-Date: 2018-12-10 09:22-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,10 +25,15 @@ msgstr ""
 msgid "Configure accessibility features"
 msgstr ""
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:10
-msgid "Remove panes whose settings now live somewhere else"
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:13
+msgid "Fix screenreader shortcut keys aren't shown"
 msgstr ""
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:11
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:14
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:21
 msgid "Updated translations"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+msgid "Remove panes whose settings now live somewhere else"
 msgstr ""

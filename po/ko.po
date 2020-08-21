@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 22:26+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
 "PO-Revision-Date: 2018-10-20 03:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
@@ -28,7 +28,7 @@ msgid "Accessibility Features"
 msgstr "편리한 기능"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "오디오"
 
@@ -44,7 +44,7 @@ msgstr "알림 표시"
 msgid "Flash screen"
 msgstr "플래시 스크린"
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:34
+#: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "스크린 리더"
 
@@ -121,15 +121,19 @@ msgstr "설정 키를 차례로 사용 (고정 키)"
 msgid "Beep when a modifier key is pressed"
 msgstr "설정 키가 눌리면 삐 소리 내기"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:34
+msgid ", "
+msgstr ""
+
+#: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
 msgstr "화면에 표시된 항목에 오디오로 된 설명 제공하기"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
 msgstr "키보드 단축키"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:58
 msgid "Sound settings…"
 msgstr "소리 설정…"
 

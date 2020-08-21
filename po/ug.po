@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 22:26+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
 "PO-Revision-Date: 2016-12-30 17:33+0000\n"
 "Last-Translator: ablimet <Unknown>\n"
 "Language-Team: \n"
@@ -26,7 +26,7 @@ msgid "Accessibility Features"
 msgstr "قۇشۇمچە ئىقتىدارلىرى"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "ئۈن ھججىتى"
 
@@ -42,7 +42,7 @@ msgstr "كۆرۈنمە يۈزلۈك ئاگاھلاندۇرۇش"
 msgid "Flash screen"
 msgstr ""
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:34
+#: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "ئېكران ئوقۇغۇچ"
 
@@ -122,15 +122,19 @@ msgstr "قوشۇمچە كۇنۇپكىلارنى تەرتىپ بويىچە ئىش
 msgid "Beep when a modifier key is pressed"
 msgstr "قوشۇمچە كۇنۇپكا بىسىلغاندا زىل چىلىش"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:34
+msgid ", "
+msgstr ""
+
+#: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
 msgstr "ئىكراندىكى تۈرلەرگە ئاۋاز چۈشەندۈرۈشى تەمىنلەش"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
 msgstr "كۇنۇپكا تاختىسى قولاي كۇنۇپكىلىرى"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:58
 msgid "Sound settings…"
 msgstr "ئاۋاز تەڭشەكلىرى...."
 

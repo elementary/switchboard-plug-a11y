@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 22:26+0000\n"
-"PO-Revision-Date: 2019-12-01 10:25+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
+"PO-Revision-Date: 2020-08-20 16:17+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -28,7 +28,7 @@ msgid "Accessibility Features"
 msgstr "アクセシビリティー機能"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "オーディオ"
 
@@ -44,7 +44,7 @@ msgstr "視覚的な警告"
 msgid "Flash screen"
 msgstr "画面の点滅"
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:34
+#: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "スクリーンリーダー"
 
@@ -121,15 +121,19 @@ msgstr "順番に修飾キーをつかう (固定キー)"
 msgid "Beep when a modifier key is pressed"
 msgstr "修飾キーが押されたときにビープ音を鳴らす"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:34
+msgid ", "
+msgstr "、 "
+
+#: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
 msgstr "画面上の項目について音声ガイドを提供"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
 msgstr "キーボードショートカット"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:58
 msgid "Sound settings…"
 msgstr "サウンドの設定…"
 

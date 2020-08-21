@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 22:26+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
 "PO-Revision-Date: 2017-04-17 14:36+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <https://l10n.elementary.io/projects/switchboard/"
@@ -29,7 +29,7 @@ msgid "Accessibility Features"
 msgstr "Značajke pristupaćnosti"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "Zvuk"
 
@@ -45,7 +45,7 @@ msgstr "Vizualna upozorenja"
 msgid "Flash screen"
 msgstr ""
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:34
+#: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "Čitač zaslona"
 
@@ -125,15 +125,19 @@ msgstr "Koristi tipke izmjenjivača u slijedu (pričvrstive tipkke)"
 msgid "Beep when a modifier key is pressed"
 msgstr "Zvučno upozorenje kada je tipka izmjenjivača pritisnuta"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:34
+msgid ", "
+msgstr ""
+
+#: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Omogući zvučne opise za stavke na zaslonu"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
 msgstr "Prečac tipkovnice"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:58
 msgid "Sound settings…"
 msgstr "Postavke zvuka…"
 

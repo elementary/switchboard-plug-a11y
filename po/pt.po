@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 22:26+0000\n"
-"PO-Revision-Date: 2020-03-24 23:09+0000\n"
+"POT-Creation-Date: 2020-08-19 17:39+0000\n"
+"PO-Revision-Date: 2020-08-20 16:17+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/pt/>\n"
@@ -28,7 +28,7 @@ msgid "Accessibility Features"
 msgstr "Opções de acessibilidade"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:26
+#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "Áudio"
 
@@ -44,7 +44,7 @@ msgstr "Alertas visuais"
 msgid "Flash screen"
 msgstr "Ecrã flash"
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:34
+#: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "Leitor de ecrã"
 
@@ -121,15 +121,19 @@ msgstr "Usar teclas modificadoras em sequência (teclas fixas)"
 msgid "Beep when a modifier key is pressed"
 msgstr "Emitir um som ao premir uma tecla modificadora"
 
-#: src/Panes/Audio.vala:37
+#: src/Panes/Audio.vala:34
+msgid ", "
+msgstr ", "
+
+#: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
 msgstr "Disponibilizar descrições áudio para os itens no ecrã"
 
-#: src/Panes/Audio.vala:39
+#: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
 msgstr "Tecla de atalho"
 
-#: src/Panes/Audio.vala:41
+#: src/Panes/Audio.vala:58
 msgid "Sound settings…"
 msgstr "Definições de som…"
 
