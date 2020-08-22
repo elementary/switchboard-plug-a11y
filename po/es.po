@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2019-10-07 15:23+0000\n"
-"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"PO-Revision-Date: 2020-08-23 15:13+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-07 06:48+0000\n"
 
 #: src/Plug.vala:35
@@ -21,11 +21,11 @@ msgstr "Acceso universal"
 
 #: src/Plug.vala:36
 msgid "Configure accessibility features"
-msgstr "Configurar las funciones de accesibilidad"
+msgstr "Configure las funciones de accesibilidad"
 
 #: src/Plug.vala:93
 msgid "Accessibility Features"
-msgstr "Características de accesibilidad"
+msgstr "Funciones de accesibilidad"
 
 #: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
 #: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
@@ -34,7 +34,7 @@ msgstr "Audio"
 
 #: src/Plug.vala:95 src/Widgets/Categories.vala:46
 msgid "Hearing"
-msgstr "Oyendo"
+msgstr "Audición"
 
 #: src/Plug.vala:96
 msgid "Visual Alerts"
@@ -42,7 +42,7 @@ msgstr "Alertas visuales"
 
 #: src/Plug.vala:97
 msgid "Flash screen"
-msgstr "Parpadear pantalla"
+msgstr "Hacer parpadear pantalla"
 
 #: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
@@ -69,7 +69,7 @@ msgstr "Teclado en pantalla"
 
 #: src/Plug.vala:103 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr "Retardos de escritura"
+msgstr "Demoras de escritura"
 
 #: src/Plug.vala:104 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
@@ -77,20 +77,20 @@ msgstr "Retardo entre pulsaciones de teclas (teclas lentas)"
 
 #: src/Plug.vala:105 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
-msgstr "Sonar al pulsar una tecla"
+msgstr "Emitir pitido al oprimir una tecla"
 
 #: src/Plug.vala:106 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
-msgstr "Sonar cuando la tecla sea aceptada"
+msgstr "Emitir pitido al aceptarse una tecla"
 
 #: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr "Sonar cuando una tecla sea rechazada"
+msgstr "Emitir pitido al rechazarse una tecla"
 
 #: src/Plug.vala:108
 msgid "Typing Delay length"
-msgstr "Retardo de escritura"
+msgstr "Duración de retardo de escritura"
 
 #: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -102,7 +102,7 @@ msgstr "Ignorar el duplicado rápido al presionar teclas (teclas rebotadas)"
 
 #: src/Plug.vala:112
 msgid "Fast Typing Delay length"
-msgstr "Longitud de retardo de escritura rápida"
+msgstr "Duración de retardo de escritura rápida"
 
 #: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
@@ -111,7 +111,7 @@ msgstr "Teclado"
 
 #: src/Plug.vala:114 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr "Sonar cuando se pulse una tecla de bloqueo"
+msgstr "Emitir pitido al oprimir una tecla de bloqueo"
 
 #: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
@@ -123,11 +123,11 @@ msgstr "Sonar cuando se pulse una tecla modificadora"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Proporcione descripciones de audio para los elementos en la pantalla"
+msgstr "Proporcionar descripciones en audio de los elementos en pantalla"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
@@ -135,7 +135,7 @@ msgstr "Atajo de teclado"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
-msgstr "Ajustes de sonido…"
+msgstr "Configuración de sonido…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
