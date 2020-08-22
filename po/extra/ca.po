@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2019-11-09 12:24+0000\n"
+"PO-Revision-Date: 2020-08-23 15:13+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
@@ -30,6 +30,8 @@ msgstr "Configureu les funcions d'accessibilitat."
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:13
 msgid "Fix screenreader shortcut keys aren't shown"
 msgstr ""
+"Correcció de les tecles de drecera de la pantalla del lector de pantalla que "
+"no es mostren"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:21
