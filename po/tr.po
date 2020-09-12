@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2019-09-28 13:23+0000\n"
+"PO-Revision-Date: 2020-09-13 21:14+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/tr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-19 06:00+0000\n"
 
 #: src/Plug.vala:35
@@ -123,7 +123,7 @@ msgstr "Değiştirici bir tuşa basıldığında bip sesi çıkar"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
