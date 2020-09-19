@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2020-09-12 18:14+0000\n"
+"PO-Revision-Date: 2020-09-20 14:33+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/uk/>\n"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
-msgstr "Налаштування звуку..."
+msgstr "Параметри звуку…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
