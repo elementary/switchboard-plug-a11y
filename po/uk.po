@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2020-09-24 16:44+0000\n"
+"PO-Revision-Date: 2020-10-01 22:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/uk/>\n"
@@ -43,7 +43,7 @@ msgstr "Візуальні оповіщення"
 
 #: src/Plug.vala:97
 msgid "Flash screen"
-msgstr ""
+msgstr "Блимання екрана"
 
 #: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
@@ -51,12 +51,11 @@ msgstr "Читання з екрану"
 
 #: src/Plug.vala:99
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Звукоописи"
 
 #: src/Plug.vala:100
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Звук клавіатури"
+msgstr "комбінація клавіш клавіатури"
 
 #: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
 #: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
@@ -67,19 +66,19 @@ msgstr "Набирання"
 
 #: src/Plug.vala:102 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr "Екранна клавіятура"
+msgstr "Екранна клавіатура"
 
 #: src/Plug.vala:103 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr ""
+msgstr "Затримки набору тексту"
 
 #: src/Plug.vala:104 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
-msgstr ""
+msgstr "Затримка між натисканням клавіш (повільні клавіші)"
 
 #: src/Plug.vala:105 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "Звуковий сигнал під час натискання клавіш"
 
 #: src/Plug.vala:106 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
@@ -88,23 +87,24 @@ msgstr "Подавати сигнал, якщо клавішу прийнято"
 #: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr "Гудок, коли клавішу відпущено"
+msgstr "Звуковий сигнал, коли клавішу відхилено"
 
 #: src/Plug.vala:108
 msgid "Typing Delay length"
-msgstr ""
+msgstr "Тривалість затримки під час набору тексту"
 
 #: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr ""
+msgstr "Швидке введення тексту"
 
 #: src/Plug.vala:110 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
+"Нехтувати швидкими повторюваними натисканнями клавіш (відхилені клавіші)"
 
 #: src/Plug.vala:112
 msgid "Fast Typing Delay length"
-msgstr ""
+msgstr "Тривалість затримки під час швидкого набору тексту"
 
 #: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
@@ -117,23 +117,23 @@ msgstr "Звуковий сигнал під час натискання кла�
 
 #: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr ""
+msgstr "Використовувати клавіші-модифікатори послідовно (липкі клавіші)"
 
 #: src/Plug.vala:116 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
-msgstr ""
+msgstr "Звуковий сигнал під час натискання клавіші-модифікатора"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr ""
+msgstr "Надавати звукові описи елементів на екрані"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Комбінація клавіш"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
@@ -148,18 +148,16 @@ msgid "Modifier Keys"
 msgstr "Клавіші-модифікатори"
 
 #: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Налаштування клавіатури..."
+msgstr "Параметри клавіатури…"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "Екранна клавіятура"
+msgstr "Екранна клавіатура…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr ""
+msgstr "Тривалість затримки"
 
 #: src/Widgets/Categories.vala:48
 msgid "Interaction"
