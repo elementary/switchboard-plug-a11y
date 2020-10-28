@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2019-11-25 09:25+0000\n"
+"PO-Revision-Date: 2020-10-29 18:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
@@ -30,6 +30,7 @@ msgstr "प्रवेशयोग्यता वैशिष्ट्ये �
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:13
 msgid "Fix screenreader shortcut keys aren't shown"
 msgstr ""
+"स्क्रीनरीडर शॉर्टकट की दर्शविल्या जात नाहीत संबंधित समस्यांचे निराकरण करा"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:21
