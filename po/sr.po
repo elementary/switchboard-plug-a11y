@@ -4,15 +4,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2017-01-07 14:57+0000\n"
+"PO-Revision-Date: 2020-12-19 12:16+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <(nothing)>\n"
+"Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-08 06:01+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: src/Plug.vala:35
 msgid "Universal Access"
@@ -41,7 +44,7 @@ msgstr "Визуелна упозорења"
 
 #: src/Plug.vala:97
 msgid "Flash screen"
-msgstr ""
+msgstr "Трептај екрана"
 
 #: src/Plug.vala:98 src/Panes/Audio.vala:51
 msgid "Screen Reader"
@@ -49,12 +52,11 @@ msgstr "Читач екрана"
 
 #: src/Plug.vala:99
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Звучни описи"
 
 #: src/Plug.vala:100
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Пречице тастатуре"
+msgstr "пречице тастатуре"
 
 #: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
 #: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
@@ -86,12 +88,11 @@ msgstr "Запишти када је тастер прихваћен"
 #: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr "Запишти када је тастер одбачен"
+msgstr "Запишти када је тастер одбијен"
 
 #: src/Plug.vala:108
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Застој куцања"
+msgstr "Трајање застоја куцања"
 
 #: src/Plug.vala:109 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -102,9 +103,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Занемари брзе узастопне двоструке притиске тастера (одскочни тастери)"
 
 #: src/Plug.vala:112
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Застој куцања"
+msgstr "Трајање застоја брзог куцања"
 
 #: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
 #: src/Panes/Keyboard.vala:25
@@ -117,7 +117,7 @@ msgstr "Запишти када је притиснут тастер закљу�
 
 #: src/Plug.vala:115 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
-msgstr "Користи тастере измењивача у низуз (лепљиви тастери)"
+msgstr "Користи тастере измењивача у низу (лепљиви тастери)"
 
 #: src/Plug.vala:116 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
@@ -125,11 +125,11 @@ msgstr "Запишти када је притиснут тастер измењ�
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Обезбеди звучни опис за ставке на екрану"
+msgstr "Обезбеђује звучни опис за ставке на екрану"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
@@ -148,14 +148,12 @@ msgid "Modifier Keys"
 msgstr "Тастери измењивача"
 
 #: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Подешавања тастатуре..."
+msgstr "Подешавања тастатуре…"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "Подешавања тастатуре на екрану..."
+msgstr "Поставке тастатуре на екрану…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
