@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2021-01-22 08:41+0000\n"
+"PO-Revision-Date: 2021-01-25 07:22+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/zh_Hans/>\n"
@@ -127,7 +127,7 @@ msgstr "， "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr "为屏幕上的项目提供音频描述"
+msgstr "为屏幕内容提供音频描述"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
