@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 17:39+0000\n"
-"PO-Revision-Date: 2018-11-22 20:03+0000\n"
-"Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
-"Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-03-04 16:26+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -55,7 +55,7 @@ msgstr "Аудиоописание"
 
 #: src/Plug.vala:100
 msgid "keyboard shortcut"
-msgstr "комбинация клавиш"
+msgstr "горячие клавиши"
 
 #: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
 #: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
@@ -132,7 +132,7 @@ msgstr "Аудиоописание элементов на экране"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
-msgstr "Комбинации клавиш"
+msgstr "Горячие клавиши"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
