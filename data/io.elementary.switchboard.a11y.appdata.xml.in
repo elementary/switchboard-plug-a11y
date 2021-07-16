@@ -30,7 +30,13 @@
   </releases>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-audio.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-typing.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-keyboard.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://elementary.io</url>
