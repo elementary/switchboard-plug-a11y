@@ -45,14 +45,36 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (paned == null) {
-                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-                categories = new Categories ();
-                paned.pack1 (categories, false, false);
                 var stack = new Gtk.Stack ();
-                paned.add2 (stack);
+
+                categories = new Categories ();
                 categories.set_stack (stack);
 
+                var indicator_label = new Granite.HeaderLabel (_("Show in Panel")) {
+                    margin_start = 3
+                };
+
+                var indicator_switch = new Gtk.Switch () {
+                    margin = 6,
+                    margin_end = 3
+                };
+
+                var footer = new Gtk.ActionBar ();
+                footer.get_style_context ().add_class (Gtk.STYLE_CLASS_INLINE_TOOLBAR);
+                footer.pack_start (indicator_label);
+                footer.pack_end (indicator_switch);
+
+                var sidebar = new Gtk.Grid ();
+                sidebar.attach (categories, 0, 0);
+                sidebar.attach (footer, 0, 1);
+
+                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+                paned.pack1 (sidebar, false, false);
+                paned.add2 (stack);
                 paned.show_all ();
+
+                var panel_settings = new Settings ("io.elementary.desktop.wingpanel.a11y");
+                panel_settings.bind ("show-indicator", indicator_switch, "active", SettingsBindFlags.DEFAULT);
             }
 
             return paned;
