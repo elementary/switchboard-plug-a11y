@@ -92,7 +92,6 @@ namespace Accessibility {
                 };
 
                 grid.add (infobar);
-                grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
                 grid.add (paned);
 
                 grid.show_all ();
