@@ -1,3 +1,17 @@
+switchboard-plug-a11y (2.3.0) bionic; urgency=medium
+
+  * Release 2.3.0 (#77)
+  * Update translation files
+  * Update translation template
+  * Inform about other accessibility features (#78)
+  * Add switch to show panel indicator (#76)
+  * LINGUAS: sort, remove en_US
+  * SettingBox: Remove unused and less scope (#74)
+  * Audio: Fix screenreader shortcut keys aren't shown (#73)
+  * Add Icon & Gettext domain (#71)
+
+ -- elementary OS Team <builds@elementary.io>  Fri, 16 Jul 2021 18:02:26 +0000
+
 switchboard-plug-a11y (2.2.0) bionic; urgency=medium
 
   * Release 2.2.0 (#69)
