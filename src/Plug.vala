@@ -1,5 +1,5 @@
 /*-
- * Copyright 2015-2019 elementary, Inc (https://elementary.io)
+ * Copyright 2015–2021 elementary, Inc (https://elementary.io)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -20,7 +20,7 @@
  */
 namespace Accessibility {
     public class Plug : Switchboard.Plug {
-        Gtk.Paned paned;
+        Gtk.Grid grid;
         Accessibility.Categories categories;
 
         public static GLib.Settings applications_settings;
@@ -44,7 +44,22 @@ namespace Accessibility {
         }
 
         public override Gtk.Widget get_widget () {
-            if (paned == null) {
+            if (grid == null) {
+                var info_title = _("More accessibility features can be found throughout System Settings.");
+                var info_details = _("Check the relevant settings pages or search from the All Settings screen.");
+
+                var info_label = new Gtk.Label ("<b>%s</b> %s".printf (info_title, info_details)) {
+                    use_markup = true,
+                    wrap = true,
+                    xalign = 0
+                };
+
+                var infobar = new Gtk.InfoBar ();
+
+                // Need to pack_start for proper spacing and margins
+                var infobar_box = (Gtk.Box) infobar.get_content_area ();
+                infobar_box.pack_start (info_label);
+
                 var stack = new Gtk.Stack ();
 
                 categories = new Categories ();
@@ -68,16 +83,24 @@ namespace Accessibility {
                 sidebar.attach (categories, 0, 0);
                 sidebar.attach (footer, 0, 1);
 
-                paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+                var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
                 paned.pack1 (sidebar, false, false);
                 paned.add2 (stack);
-                paned.show_all ();
+
+                grid = new Gtk.Grid () {
+                    orientation = Gtk.Orientation.VERTICAL
+                };
+
+                grid.add (infobar);
+                grid.add (paned);
+
+                grid.show_all ();
 
                 var panel_settings = new Settings ("io.elementary.desktop.wingpanel.a11y");
                 panel_settings.bind ("show-indicator", indicator_switch, "active", SettingsBindFlags.DEFAULT);
             }
 
-            return paned;
+            return grid;
         }
 
         public override void shown () {
