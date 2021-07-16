@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 17:09+0000\n"
+"POT-Creation-Date: 2021-07-16 17:55+0000\n"
 "PO-Revision-Date: 2020-12-19 12:16+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -47,10 +47,14 @@ msgid "Add a switch to show the indicator in the Panel"
 msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
+msgid "Point out how to find other accessibility features in System Settings"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:27
 msgid "Updated translations"
 msgstr "Освежени преводи"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:25
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Remove panes whose settings now live somewhere else"
 msgstr "Уклони окна чије поставке сада постоје негде другде"

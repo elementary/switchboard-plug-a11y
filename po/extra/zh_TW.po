@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 17:09+0000\n"
+"POT-Creation-Date: 2021-07-16 17:55+0000\n"
 "PO-Revision-Date: 2020-03-01 14:09+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -44,10 +44,14 @@ msgid "Add a switch to show the indicator in the Panel"
 msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
+msgid "Point out how to find other accessibility features in System Settings"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:27
 msgid "Updated translations"
 msgstr "翻譯更新"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:25
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Remove panes whose settings now live somewhere else"
 msgstr ""

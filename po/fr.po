@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 17:09+0000\n"
+"POT-Creation-Date: 2021-07-16 17:55+0000\n"
 "PO-Revision-Date: 2020-08-20 16:17+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -23,105 +23,114 @@ msgstr "Accessibilité"
 msgid "Configure accessibility features"
 msgstr "Configuration des fonctionnalités d'accessibilité"
 
-#: src/Plug.vala:53
+#: src/Plug.vala:48
+msgid "More accessibility features can be found throughout System Settings."
+msgstr ""
+
+#: src/Plug.vala:49
+msgid ""
+"Check the relevant settings pages or search from the All Settings screen."
+msgstr ""
+
+#: src/Plug.vala:68
 msgid "Show in Panel"
 msgstr ""
 
-#: src/Plug.vala:115
+#: src/Plug.vala:138
 msgid "Accessibility Features"
 msgstr "Fonctionnalités d'accessibilité"
 
-#: src/Plug.vala:116 src/Plug.vala:118 src/Plug.vala:119 src/Plug.vala:120
-#: src/Plug.vala:121 src/Plug.vala:122 src/Panes/Audio.vala:41
+#: src/Plug.vala:139 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
+#: src/Plug.vala:144 src/Plug.vala:145 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "Audio"
 
-#: src/Plug.vala:117 src/Widgets/Categories.vala:46
+#: src/Plug.vala:140 src/Widgets/Categories.vala:46
 msgid "Hearing"
 msgstr "Audition"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:141
 msgid "Visual Alerts"
 msgstr "Alertes visuelles"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:142
 msgid "Flash screen"
 msgstr "Flasher l'écran"
 
-#: src/Plug.vala:120 src/Panes/Audio.vala:51
+#: src/Plug.vala:143 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "Lecteur d'écran"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:144
 msgid "Audio descriptions"
 msgstr "Descriptions sonores"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:145
 msgid "keyboard shortcut"
 msgstr "Raccourci clavier"
 
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
-#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
-#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
+#: src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149
+#: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
+#: src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Saisie"
 
-#: src/Plug.vala:124 src/Panes/Typing.vala:44
+#: src/Plug.vala:147 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Clavier visuel"
 
-#: src/Plug.vala:125 src/Panes/Typing.vala:31
+#: src/Plug.vala:148 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Délai de saisie"
 
-#: src/Plug.vala:126 src/Panes/Typing.vala:47
+#: src/Plug.vala:149 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Délai avant la prise en compte de l'appui de touches (touches lentes)"
 
-#: src/Plug.vala:127 src/Panes/Typing.vala:48
+#: src/Plug.vala:150 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Émettre un bip lors d'un appui sur une touche"
 
-#: src/Plug.vala:128 src/Panes/Typing.vala:49
+#: src/Plug.vala:151 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Émettre un bip lorsqu'une touche est acceptée"
 
-#: src/Plug.vala:129 src/Plug.vala:133 src/Panes/Typing.vala:50
+#: src/Plug.vala:152 src/Plug.vala:156 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Émettre un bip lorsqu'une touche est refusée"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:153
 msgid "Typing Delay length"
 msgstr "Délai de la saisie"
 
-#: src/Plug.vala:131 src/Panes/Typing.vala:32
+#: src/Plug.vala:154 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Saisie rapide"
 
-#: src/Plug.vala:132 src/Panes/Typing.vala:54
+#: src/Plug.vala:155 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorer les répétitions d'appui (touches filtres)"
 
-#: src/Plug.vala:134
+#: src/Plug.vala:157
 msgid "Fast Typing Delay length"
 msgstr "Délai de la saisie rapide"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
+#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Panes/Keyboard.vala:25
 msgid "Keyboard"
 msgstr "Clavier"
 
-#: src/Plug.vala:136 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:159 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Émettre un bip lorsque la touche de verrouillage est appuyée"
 
-#: src/Plug.vala:137 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:160 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Utiliser les touches modificateurs en séquence (sticky keys)"
 
-#: src/Plug.vala:138 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:161 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Émettre un bip lorsqu'une touche de modification est appuyée"
 
