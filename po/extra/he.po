@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2020-08-25 06:13+0000\n"
+"PO-Revision-Date: 2021-07-17 07:44+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
@@ -29,25 +29,23 @@ msgstr "הגדרת תכונות נגישות"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
-msgstr ""
+msgstr "תיקונים:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#, fuzzy
-#| msgid "Fix screenreader shortcut keys aren't shown"
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr "תיקון לכך שמקשי הקיצור למקריא המסך אינם מופיעים"
+msgstr "וידוא שקיצור המקשים של מקריא המסך מופיעים"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
-msgstr ""
+msgstr "עדכונים משניים:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "נוסף מתג להצגת המחוון בלוח"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
-msgstr ""
+msgstr "הוספת ציון כיצד למצוא יכולות נגישות נוספות בהגדרות המערכת"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
