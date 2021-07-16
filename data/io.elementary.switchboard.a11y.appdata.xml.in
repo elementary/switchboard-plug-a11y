@@ -7,10 +7,15 @@
   <icon type="stock">preferences-desktop-accessibility</icon>
   <translation type="gettext">accessibility-plug</translation>
   <releases>
-    <release version="2.2.1" date="2020-08-19" urgency="low">
+    <release version="2.2.1" date="2021-07-16" urgency="low">
       <description>
+        <p>Fixes:</p>
         <ul>
-          <li>Fix screenreader shortcut keys aren't shown</li>
+          <li>Ensure screen reader shortcut keys are shown</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Add a switch to show the indicator in the Panel</li>
           <li>Updated translations</li>
         </ul>
       </description>
