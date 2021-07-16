@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 17:39+0000\n"
+"POT-Creation-Date: 2021-07-16 17:09+0000\n"
 "PO-Revision-Date: 2020-10-24 13:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -27,17 +27,31 @@ msgstr "Impostazioni di accesso universale"
 msgid "Configure accessibility features"
 msgstr "Configura le funzioni di accessibilità"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:13
-msgid "Fix screenreader shortcut keys aren't shown"
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:12
+msgid "Fixes:"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:14
+#, fuzzy
+#| msgid "Fix screenreader shortcut keys aren't shown"
+msgid "Ensure screen reader shortcut keys are shown"
 msgstr ""
 "Corrette le scorciatoie da tastiera del lettore dello schermo che non "
 "venivano visualizzate"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:21
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:16
+msgid "Minor updates:"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:18
+msgid "Add a switch to show the indicator in the Panel"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:19
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Updated translations"
 msgstr "Traduzioni aggiornate"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:25
 msgid "Remove panes whose settings now live somewhere else"
 msgstr "Rimossi i pannelli le cui impostazioni sono state spostate altrove"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 17:39+0000\n"
+"POT-Creation-Date: 2021-07-16 17:09+0000\n"
 "PO-Revision-Date: 2020-10-29 18:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -27,16 +27,29 @@ msgstr "सार्वत्रिक प्रवेश सेटिंग्�
 msgid "Configure accessibility features"
 msgstr "प्रवेशयोग्यता वैशिष्ट्ये कॉन्फिगर करा"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:13
-msgid "Fix screenreader shortcut keys aren't shown"
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:12
+msgid "Fixes:"
 msgstr ""
-"स्क्रीनरीडर शॉर्टकट की दर्शविल्या जात नाहीत संबंधित समस्यांचे निराकरण करा"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:21
+#, fuzzy
+#| msgid "Fix screenreader shortcut keys aren't shown"
+msgid "Ensure screen reader shortcut keys are shown"
+msgstr "स्क्रीनरीडर शॉर्टकट की दर्शविल्या जात नाहीत संबंधित समस्यांचे निराकरण करा"
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:16
+msgid "Minor updates:"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:18
+msgid "Add a switch to show the indicator in the Panel"
+msgstr ""
+
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:19
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Updated translations"
 msgstr "अद्ययावत भाषांतर"
 
-#: data/io.elementary.switchboard.a11y.appdata.xml.in:20
+#: data/io.elementary.switchboard.a11y.appdata.xml.in:25
 msgid "Remove panes whose settings now live somewhere else"
 msgstr "ज्यांच्या सेटिंग्ज आता इतरत्र जिवंत आहेत त्या पॅन हटवा"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 17:39+0000\n"
+"POT-Creation-Date: 2021-07-16 17:09+0000\n"
 "PO-Revision-Date: 2018-11-04 14:57+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/switchboard/"
@@ -24,101 +24,105 @@ msgstr "Univerzalni pristup"
 msgid "Configure accessibility features"
 msgstr "Podesi funkcionalnosti pristupačnosti"
 
-#: src/Plug.vala:93
+#: src/Plug.vala:53
+msgid "Show in Panel"
+msgstr ""
+
+#: src/Plug.vala:115
 msgid "Accessibility Features"
 msgstr "Funkcionalnosti pristupačnosti"
 
-#: src/Plug.vala:94 src/Plug.vala:96 src/Plug.vala:97 src/Plug.vala:98
-#: src/Plug.vala:99 src/Plug.vala:100 src/Panes/Audio.vala:41
+#: src/Plug.vala:116 src/Plug.vala:118 src/Plug.vala:119 src/Plug.vala:120
+#: src/Plug.vala:121 src/Plug.vala:122 src/Panes/Audio.vala:41
 msgid "Audio"
 msgstr "Zvuk"
 
-#: src/Plug.vala:95 src/Widgets/Categories.vala:46
+#: src/Plug.vala:117 src/Widgets/Categories.vala:46
 msgid "Hearing"
 msgstr "Sluh"
 
-#: src/Plug.vala:96
+#: src/Plug.vala:118
 msgid "Visual Alerts"
 msgstr "Vizuelna upozorenja"
 
-#: src/Plug.vala:97
+#: src/Plug.vala:119
 msgid "Flash screen"
 msgstr "Treperenje ekrana"
 
-#: src/Plug.vala:98 src/Panes/Audio.vala:51
+#: src/Plug.vala:120 src/Panes/Audio.vala:51
 msgid "Screen Reader"
 msgstr "Čitač ekrana"
 
-#: src/Plug.vala:99
+#: src/Plug.vala:121
 msgid "Audio descriptions"
 msgstr "Zvučni opisi"
 
-#: src/Plug.vala:100
+#: src/Plug.vala:122
 msgid "keyboard shortcut"
 msgstr "prečica na tastaturi"
 
-#: src/Plug.vala:101 src/Plug.vala:102 src/Plug.vala:103 src/Plug.vala:104
-#: src/Plug.vala:105 src/Plug.vala:106 src/Plug.vala:107 src/Plug.vala:108
-#: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
+#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130
+#: src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134
 #: src/Panes/Typing.vala:25
 msgid "Typing"
 msgstr "Kucanje"
 
-#: src/Plug.vala:102 src/Panes/Typing.vala:44
+#: src/Plug.vala:124 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
 msgstr "Tastatura na ekranu"
 
-#: src/Plug.vala:103 src/Panes/Typing.vala:31
+#: src/Plug.vala:125 src/Panes/Typing.vala:31
 msgid "Typing Delays"
 msgstr "Odgoda kucanja"
 
-#: src/Plug.vala:104 src/Panes/Typing.vala:47
+#: src/Plug.vala:126 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
 msgstr "Odgoda između pritiskanja tipki (spore tipke)"
 
-#: src/Plug.vala:105 src/Panes/Typing.vala:48
+#: src/Plug.vala:127 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
 msgstr "Zapišti kada je pritisnuta tipka"
 
-#: src/Plug.vala:106 src/Panes/Typing.vala:49
+#: src/Plug.vala:128 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
 msgstr "Zapišti kada je prihvaćena tipka"
 
-#: src/Plug.vala:107 src/Plug.vala:111 src/Panes/Typing.vala:50
+#: src/Plug.vala:129 src/Plug.vala:133 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
 msgstr "Zapišta kada je tipka odbijena"
 
-#: src/Plug.vala:108
+#: src/Plug.vala:130
 msgid "Typing Delay length"
 msgstr "Dužina odgode kucanja"
 
-#: src/Plug.vala:109 src/Panes/Typing.vala:32
+#: src/Plug.vala:131 src/Panes/Typing.vala:32
 msgid "Fast Typing"
 msgstr "Brzo kucanje"
 
-#: src/Plug.vala:110 src/Panes/Typing.vala:54
+#: src/Plug.vala:132 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignoriraj brze dvostruke pritiske tipki (skočne tipke)"
 
-#: src/Plug.vala:112
+#: src/Plug.vala:134
 msgid "Fast Typing Delay length"
 msgstr "Dužina odgode brzog kucanja"
 
-#: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
+#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
 #: src/Panes/Keyboard.vala:25
 msgid "Keyboard"
 msgstr "Tastatura"
 
-#: src/Plug.vala:114 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:136 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
 msgstr "Zapišti kada je tipka pritisnuta"
 
-#: src/Plug.vala:115 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:137 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr "Koristi tipke izmjenjivača u redoslijedu (sticky tipke)"
 
-#: src/Plug.vala:116 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:138 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
 msgstr "Zapišti kada je tipka izmjenjivača pritisnuta"
 
