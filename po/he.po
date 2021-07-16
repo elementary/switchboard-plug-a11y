@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2020-08-25 06:13+0000\n"
+"PO-Revision-Date: 2021-07-17 07:44+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/he/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -25,16 +25,16 @@ msgstr "הגדרת תכונות נגישות"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "ניתן למצוא יכולות נגישות נוספות ברחבי הגדרות המערכת."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
-msgstr ""
+msgstr "מוטב לסקור את עמודי ההגדרות המתאימים או לחפש מהמסך של כל ההגדרות."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "הצגה בלוח"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
