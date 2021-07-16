@@ -45,8 +45,8 @@ namespace Accessibility {
 
         public override Gtk.Widget get_widget () {
             if (grid == null) {
-                var info_title = _("Looking for more settings?");
-                var info_details = _("Accessibility features can be found throughout System Settings. Check the relevant settings pages or use the search bar from the All Settings screen.");
+                var info_title = _("More accessibility features can be found throughout System Settings.");
+                var info_details = _("Check the relevant settings pages or search from the All Settings screen.");
 
                 var info_label = new Gtk.Label ("<b>%s</b> %s".printf (info_title, info_details)) {
                     use_markup = true,
