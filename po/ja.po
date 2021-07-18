@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-07-17 07:44+0000\n"
+"PO-Revision-Date: 2021-07-18 12:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ja/>\n"
@@ -30,7 +30,7 @@ msgstr "アクセシビリティー機能の設定項目は”システム設定
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
-msgstr "関連する設定ページを確認するか、”すべての設定”画面から検索してみてください。"
+msgstr "関連する設定ページを確認するか、“すべての設定”画面から検索してみてください。"
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
