@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2020-08-23 15:13+0000\n"
+"PO-Revision-Date: 2021-07-19 19:06+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ca/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-12-21 05:42+0000\n"
 
 #: src/Plug.vala:35
@@ -26,15 +26,18 @@ msgstr "Configureu les funcions d'accessibilitat"
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
 msgstr ""
+"Podeu trobar més funcions d'accessibilitat a la configuració del sistema."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Consulteu les pàgines de configuració rellevants o cerqueu a la pantalla de "
+"Totes les configuracions."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Es mostra al plafó."
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
