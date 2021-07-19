@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2018-12-07 00:38+0000\n"
-"Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
-"Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-07-19 19:06+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -26,6 +26,7 @@ msgstr "Hallitse esteettömyysasetuksia"
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
 msgstr ""
+"Lisää esteettömyysominaisuuksia on saatavilla järjestelmän asetusten kautta."
 
 #: src/Plug.vala:49
 msgid ""
@@ -34,7 +35,7 @@ msgstr ""
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Näytä paneelissa"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
