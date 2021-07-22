@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-02-13 13:01+0000\n"
+"PO-Revision-Date: 2021-07-22 17:45+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-a11y/nb/>\n"
@@ -24,17 +24,19 @@ msgid "Configure accessibility features"
 msgstr "Sett opp tilgjengelighetsfunksjoner"
 
 #: src/Plug.vala:48
+#, fuzzy
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "Flere tilgjengelighetsfunksjoner er å finne i systeminnstillingene."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Sjekk de relevante innstillingssidene, eller søk fra «Alle innstillinger»."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Vis i panel"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
