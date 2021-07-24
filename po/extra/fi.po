@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-07-22 01:39+0000\n"
+"PO-Revision-Date: 2021-07-24 17:19+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/fi/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
-msgstr ""
+msgstr "Pienet päivitykset:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
