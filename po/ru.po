@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-03-11 00:14+0000\n"
+"PO-Revision-Date: 2021-07-25 12:21+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ru/>\n"
@@ -26,7 +26,7 @@ msgstr "Настроить специальные возможности"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "Больше специальных возможностей можно найти в параметрах системы."
 
 #: src/Plug.vala:49
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Показать на панели"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
@@ -68,7 +68,7 @@ msgstr "Аудиоописание"
 
 #: src/Plug.vala:145
 msgid "keyboard shortcut"
-msgstr "горячие клавиши"
+msgstr "сочетание клавиш"
 
 #: src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
@@ -145,7 +145,7 @@ msgstr "Аудиоописание элементов на экране"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
-msgstr "Горячие клавиши"
+msgstr "Сочетание клавиш"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
