@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-07-30 18:07+0000\n"
+"PO-Revision-Date: 2021-07-30 20:57+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/fr/>\n"
@@ -32,12 +32,10 @@ msgid "Fixes:"
 msgstr "Corrections :"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#, fuzzy
-#| msgid "Fix screenreader shortcut keys aren't shown"
 msgid "Ensure screen reader shortcut keys are shown"
 msgstr ""
-"Correction des touches de raccourci pour le lecteur d'écran qui ne "
-"s'affichaient pas"
+"Nous nous sommes assurés que les raccourcis claviers du lecteur d'écran "
+"soient affichés"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
@@ -45,11 +43,13 @@ msgstr "Mises à jour mineures :"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "Ajout d'une option pour afficher l'indicateur dans le panneau"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
 msgstr ""
+"Information sur la façon de trouver les autres paramètres d'accessibilité "
+"dans les paramètres du système"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
