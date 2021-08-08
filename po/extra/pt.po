@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-07-19 19:06+0000\n"
+"PO-Revision-Date: 2021-08-08 14:22+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/pt/>\n"
@@ -29,13 +29,11 @@ msgstr "Configurar funcionalidades de acessibilidade"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
-msgstr ""
+msgstr "Correções:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#, fuzzy
-#| msgid "Fix screenreader shortcut keys aren't shown"
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr "As teclas de atalho do leitor de ecrã não são mostradas"
+msgstr "Assegura que as teclas de atalho do leitor de ecrã são mostradas"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
@@ -43,11 +41,13 @@ msgstr "Pequenas atualizações:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "Adiciona um interruptor para mostrar o indicador no Painel"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
 msgstr ""
+"Aponta como encontrar outras funcionalidade de acessibilidade em Definições "
+"do Sistema"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
