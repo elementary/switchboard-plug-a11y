@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-07-25 12:21+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2021-08-14 01:28+0000\n"
+"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ru/>\n"
 "Language: ru\n"
@@ -18,20 +18,22 @@ msgstr ""
 
 #: src/Plug.vala:35
 msgid "Universal Access"
-msgstr "Универсальный доступ"
+msgstr "Универсальная доступность"
 
 #: src/Plug.vala:36
 msgid "Configure accessibility features"
-msgstr "Настроить специальные возможности"
+msgstr "Настройка функций доступности"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr "Больше специальных возможностей можно найти в параметрах системы."
+msgstr "Больше функций доступности можно найти в Параметрах системы."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Проверьте соответствующие страницы параметров или выполните поиск на экране «"
+"Все параметры»."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
@@ -39,7 +41,7 @@ msgstr "Показать на панели"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
-msgstr "Специальные возможности"
+msgstr "Функции доступности"
 
 #: src/Plug.vala:139 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Panes/Audio.vala:41
