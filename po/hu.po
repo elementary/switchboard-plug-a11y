@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2018-06-18 00:06+0000\n"
-"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
-"Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-08-24 21:51+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -21,20 +21,24 @@ msgstr "Kisegítő lehetőségek"
 
 #: src/Plug.vala:36
 msgid "Configure accessibility features"
-msgstr "Kisegítő lehetőségeket beállítása"
+msgstr "Kisegítő lehetőségek beállítása"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
 msgstr ""
+"További kisegítő lehetőségek érhetők el a Rendszerbeállítások különféle "
+"részeiben."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Nyissa meg a megfelelő beállításokat vagy keressen rájuk a Minden beállítás "
+"oldalon."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Megjelenítés a felső állapotsávon"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
@@ -55,7 +59,7 @@ msgstr "Vizuális figyelmeztetések"
 
 #: src/Plug.vala:142
 msgid "Flash screen"
-msgstr ""
+msgstr "Képernyő villogtatása"
 
 #: src/Plug.vala:143 src/Panes/Audio.vala:51
 msgid "Screen Reader"
@@ -63,12 +67,11 @@ msgstr "Képernyőolvasó"
 
 #: src/Plug.vala:144
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Hangleírások"
 
 #: src/Plug.vala:145
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Billentyűparancs"
+msgstr "billentyűparancs"
 
 #: src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
@@ -79,11 +82,11 @@ msgstr "Gépelés"
 
 #: src/Plug.vala:147 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr "Képernyő billentyűzet"
+msgstr "Képernyőn lévő billentyűzet"
 
 #: src/Plug.vala:148 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr "Gépelés késleltetések"
+msgstr "Gépelési késleltetések"
 
 #: src/Plug.vala:149 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
@@ -103,9 +106,8 @@ msgid "Beep when a key is rejected"
 msgstr "Hangjelzés gombnyomás elutasításakor"
 
 #: src/Plug.vala:153
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Gépelés késleltetés"
+msgstr "Gépelés késleltetésének hossza"
 
 #: src/Plug.vala:154 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -116,19 +118,17 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Gyorsan ismétlődő gombnyomások figyelmen kívül hagyása"
 
 #: src/Plug.vala:157
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Gépelés késleltetés"
+msgstr "Gyorsírás késleltetésének hossza"
 
 #: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Panes/Keyboard.vala:25
-#, fuzzy
 msgid "Keyboard"
-msgstr "Billentyűzet hangok"
+msgstr "Billentyűzet"
 
 #: src/Plug.vala:159 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
+msgstr "Hangjelzés lezáróbillentyűk lenyomásánál"
 
 #: src/Plug.vala:160 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
@@ -140,7 +140,7 @@ msgstr "Hangjelzés módosítóbillentyűk lenyomásánál"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
@@ -156,25 +156,23 @@ msgstr "Hangbeállítások…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
-msgstr "Zároló gombok"
+msgstr "Lezáróbillentyűk"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
 msgstr "Módosítóbillentyűk"
 
 #: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "Billentyűzet beállítások..."
+msgstr "Billentyűzetbeállítások…"
 
 #: src/Panes/Typing.vala:34
-#, fuzzy
 msgid "On-screen keyboard settings…"
-msgstr "A képernyő-billentyűzet beállításai..."
+msgstr "A képernyő-billentyűzet beállításai…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr "Késleltetés hosszúsága"
+msgstr "Késleltetés hossza"
 
 #: src/Widgets/Categories.vala:48
 msgid "Interaction"
