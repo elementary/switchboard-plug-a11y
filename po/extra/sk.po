@@ -8,48 +8,52 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2018-12-10 09:22-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-24 18:20+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
+"universal-access-plug-extra/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
-msgstr ""
+msgstr "Nastavenia univerzálneho prístupu"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Nastavujte funkcie prístupnosti"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
-msgstr ""
+msgstr "Opravy:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr ""
+msgstr "Zaručené, že skratky pre čítačku obrazovky sú zobrazované"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
-msgstr ""
+msgstr "Menšie aktualizácie:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "Pridaný prepínač na zobrazenie indikátora v Paneli"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
 msgstr ""
+"Spomenúť, kde hľadať ďalšie nastavenia prístupnosti v Systémových "
+"nastaveniach"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Aktualizované preklady"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Remove panes whose settings now live somewhere else"
-msgstr ""
+msgstr "Odstránené panely s nastaveniami, ktoré sú už k dispozícii inde"
