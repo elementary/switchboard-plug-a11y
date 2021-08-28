@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
 "PO-Revision-Date: 2021-08-28 16:04+0000\n"
-"Last-Translator: Cleiton Floss <cleitonfloss@tutanota.de>\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/sk/>\n"
 "Language: sk\n"
@@ -21,24 +21,26 @@ msgstr "Univerzálny prístup"
 
 #: src/Plug.vala:36
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Nastavujte funkcie prístupnosti"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "Viac funkcií prístupnosti nájdete v rôznych častiach Nastavení systému."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Skontrolujte súvisiace stránky nastavení alebo použite políčko vyhľadávania "
+"vo Všetkých nastaveniach."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Zobraziť v paneli"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
-msgstr ""
+msgstr "Funkcie prístupnosti"
 
 #: src/Plug.vala:139 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Panes/Audio.vala:41
@@ -51,11 +53,11 @@ msgstr "Sluch"
 
 #: src/Plug.vala:141
 msgid "Visual Alerts"
-msgstr "Vizuálne výstrahy"
+msgstr "Vizuálne upozornenia"
 
 #: src/Plug.vala:142
 msgid "Flash screen"
-msgstr ""
+msgstr "Prebliknúť obrazovku"
 
 #: src/Plug.vala:143 src/Panes/Audio.vala:51
 msgid "Screen Reader"
@@ -63,12 +65,11 @@ msgstr "Čítačka obrazovky"
 
 #: src/Plug.vala:144
 msgid "Audio descriptions"
-msgstr ""
+msgstr "Zvukové popisy"
 
 #: src/Plug.vala:145
-#, fuzzy
 msgid "keyboard shortcut"
-msgstr "Klávesové skratky"
+msgstr "klávesová skratka"
 
 #: src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
@@ -91,7 +92,7 @@ msgstr "Oneskorenie medzi stlačenými klávesami (pomalé klávesy)"
 
 #: src/Plug.vala:150 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
-msgstr "Pípnuť keď je klávesa stlačená"
+msgstr "Zapípať pri stlačení klávesy"
 
 #: src/Plug.vala:151 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
@@ -103,9 +104,8 @@ msgid "Beep when a key is rejected"
 msgstr "Zapípať pri odmietnutí klávesy"
 
 #: src/Plug.vala:153
-#, fuzzy
 msgid "Typing Delay length"
-msgstr "Dĺžka oneskorenia"
+msgstr "Oneskorenie pri písaní"
 
 #: src/Plug.vala:154 src/Panes/Typing.vala:32
 msgid "Fast Typing"
@@ -116,9 +116,8 @@ msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr "Ignorovať rýchle duplicitne stlačené klávesy (odskakujúce klávesy)"
 
 #: src/Plug.vala:157
-#, fuzzy
 msgid "Fast Typing Delay length"
-msgstr "Dĺžka oneskorenia"
+msgstr "Oneskorenie pri rýchlom písaní"
 
 #: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Panes/Keyboard.vala:25
@@ -127,7 +126,7 @@ msgstr "Klávesnica"
 
 #: src/Plug.vala:159 src/Panes/Keyboard.vala:37
 msgid "Beep when a lock key is pressed"
-msgstr "Pípnuť keď je zamykacia klávesa stlačená"
+msgstr "Zapípať pri stlačení zamykacej klávesy"
 
 #: src/Plug.vala:160 src/Panes/Keyboard.vala:40
 msgid "Use modifier keys in sequence (sticky keys)"
@@ -135,19 +134,19 @@ msgstr "Použiť modifikačné klávesy za sebou (lepkavé klávesy)"
 
 #: src/Plug.vala:161 src/Panes/Keyboard.vala:41
 msgid "Beep when a modifier key is pressed"
-msgstr "Pípnuť keď modifikačná klávesa je stlačená"
+msgstr "Zapípať pri stlačení modifikačnej klávesy"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Poskytovať zvukový popis pre položky na obrazovke"
+msgstr "Poskytnúť zvukový popis položiek na obrazovke"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
-msgstr "Klávesové skratky"
+msgstr "Klávesová skratka"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
