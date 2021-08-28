@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2016-01-11 14:00+0000\n"
-"Last-Translator: Lukáš Papík <stereo839@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-08-28 16:04+0000\n"
+"Last-Translator: Cleiton Floss <cleitonfloss@tutanota.de>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/sk/>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: src/Plug.vala:35
 msgid "Universal Access"
@@ -149,7 +151,7 @@ msgstr "Klávesové skratky"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
-msgstr "Zvukové nastavenia..."
+msgstr "Zvukové nastavenia…"
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
