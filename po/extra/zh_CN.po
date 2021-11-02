@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-11-01 10:01+0000\n"
+"PO-Revision-Date: 2021-11-02 05:56+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/universal-access-plug-extra/zh_Hans/>\n"
@@ -21,19 +21,19 @@ msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
-msgstr ""
+msgstr "通用辅助设置"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "配置辅助功能"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
-msgstr ""
+msgstr "修复:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr ""
+msgstr "确保显示屏幕阅读器快捷键"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
@@ -41,11 +41,11 @@ msgstr "次要更新："
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "添加在面板中显示指示器选项"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
-msgstr ""
+msgstr "指出如何在系统设置中查找其他辅助功能"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
@@ -54,4 +54,4 @@ msgstr "翻译更新"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Remove panes whose settings now live somewhere else"
-msgstr ""
+msgstr "删除其设置现在位于其他地方的窗格"
