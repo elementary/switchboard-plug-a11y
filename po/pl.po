@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2018-10-16 10:33+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-11-08 09:18+0000\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -26,16 +26,17 @@ msgstr "Konfiguruj funkcje ułatwienia dostępu"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "Więcej funkcji ułatwienia dostępu można znaleźć w ustawieniach systemu."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Sprawdź powiązane strony ustawień lub szukaj z ekranu wszystkich ustawień."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Pokaż w panelu"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
@@ -138,7 +139,7 @@ msgstr "Odtwórz dźwięk, kiedy klawisz modyfikujący jest naciśnięty"
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
