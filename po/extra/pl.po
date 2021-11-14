@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-11-08 08:35+0000\n"
+"PO-Revision-Date: 2021-11-14 18:25+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/pl/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:5
 msgid "Universal Access Settings"
-msgstr ""
+msgstr "Ustawienia uniwersalnego dostępu"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "Skonfiguruj funkcje dostępności"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
@@ -34,7 +34,7 @@ msgstr "Poprawki:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr ""
+msgstr "Upewniono się, że skróty czytnika ekranu są pokazane"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
@@ -42,11 +42,13 @@ msgstr "Mniejsze aktualizacje:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "Dodano przełącznik do pokazania wskaźnika w panelu"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
 msgstr ""
+"Dodano informacje w jaki sposób znaleźć inne ustawienia dostępności w "
+"ustawieniach systemu"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
@@ -55,4 +57,4 @@ msgstr "Zaktualizowane tłumaczenia"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:26
 msgid "Remove panes whose settings now live somewhere else"
-msgstr ""
+msgstr "Usunięto panele, których ustawienia zostały przeniesione gdzie indziej"
