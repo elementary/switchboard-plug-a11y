@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2020-08-25 06:13+0000\n"
+"PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/cs/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-27 05:54+0000\n"
 
 #: src/Plug.vala:35
@@ -25,16 +25,18 @@ msgstr "Nastavit možnosti zpřístupnění"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "Další funkce pro zpřístupnění jsou k dispozici v Nastavení systému."
 
 #: src/Plug.vala:49
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
+"Podívejte se na odpovídající stránky nastavení nebo vyhledejte v pohledu "
+"Všechna nastavení."
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "Zobrazit v panelu"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
