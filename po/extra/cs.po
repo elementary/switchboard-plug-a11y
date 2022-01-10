@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2022-01-10 12:16+0000\n"
+"PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/cs/>\n"
@@ -32,10 +32,8 @@ msgid "Fixes:"
 msgstr "Opravy:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
-#, fuzzy
-#| msgid "Fix screenreader shortcut keys aren't shown"
 msgid "Ensure screen reader shortcut keys are shown"
-msgstr "Opraveno nezobrazování klávesových zkratek čtečky obrazovky"
+msgstr "Zajištěno zobrazování klávesových zkratek čtečky obrazovky"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:16
 msgid "Minor updates:"
@@ -43,11 +41,12 @@ msgstr "Drobné aktualizace:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:18
 msgid "Add a switch to show the indicator in the Panel"
-msgstr ""
+msgstr "Přidán přepínač pro zobrazování indikátorů na panelu"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:19
 msgid "Point out how to find other accessibility features in System Settings"
 msgstr ""
+"Ukázání na to jak najít ostatní funkce pro zpřístupnění v Nastavení systému"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:20
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:27
