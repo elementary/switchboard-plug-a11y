@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-08-28 17:06+0000\n"
+"PO-Revision-Date: 2022-02-05 22:24+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/sk/>\n"
@@ -142,7 +142,7 @@ msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
-msgstr "Poskytnúť zvukový popis položiek na obrazovke"
+msgstr "Poskytuje zvukový popis položiek na obrazovke"
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
