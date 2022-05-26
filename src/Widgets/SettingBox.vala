@@ -17,21 +17,22 @@
 * Boston, MA 02110-1301, USA.
 */
 
-public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
+public class Accessibility.Widgets.SettingsBox : Gtk.Box {
     private Gtk.ListBox list_box;
-    private bool has_childen = false;
 
     construct {
-        list_box = new Gtk.ListBox ();
+        list_box = new Gtk.ListBox () {
+            hexpand = true,
+            show_separators = true
+        };
+        list_box.add_css_class ("rich-list");
+        list_box.add_css_class ("frame");
 
-        child = list_box;
+        append (list_box);
     }
 
     public void add_widget (string title, Gtk.Widget widget) {
-        has_childen = true;
-        widget.margin_end = 6;
-
-        var settings_box = new EmptyBox (title, has_childen);
+        var settings_box = new EmptyBox (title);
         settings_box.box.append (widget);
         bind_sensitivity (widget, settings_box);
 
@@ -40,31 +41,27 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
 
     public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
         var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
-        scale.margin_end = 6;
         scale.width_request = 250;
         scale.draw_value = false;
 
-        var settings_box = new EmptyBox (title, has_childen);
+        var settings_box = new EmptyBox (title);
         settings_box.box.append (scale);
         bind_sensitivity (scale, settings_box);
 
         list_box.append (settings_box);
 
-        has_childen = true;
         return scale;
     }
 
     public Gtk.Switch add_switch (string title) {
         var toggle = new Gtk.Switch ();
-        toggle.margin_end = 6;
 
-        var settings_box = new EmptyBox (title, has_childen);
+        var settings_box = new EmptyBox (title);
         settings_box.box.append (toggle);
         bind_sensitivity (toggle, settings_box);
 
         list_box.append (settings_box);
 
-        has_childen = true;
         return toggle;
     }
 
@@ -76,38 +73,20 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
         public Gtk.Box box;
         public Gtk.Label label;
 
-        public EmptyBox (string title, bool add_separator) {
+        public EmptyBox (string title) {
             activatable = false;
             selectable = false;
 
-            label = new Gtk.Label (title) {
-                margin_top = 8,
-                margin_end = 8,
-                margin_bottom = 8,
-                margin_start = 8
-            };
+            label = new Gtk.Label (title);
             label.hexpand = true;
             label.halign = Gtk.Align.START;
 
             box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
-                hexpand = true,
-                halign = Gtk.Align.END,
-                margin_end = 4,
-                margin_top = 8,
-                margin_bottom = 8
-            }
-;
+                valign = Gtk.Align.CENTER
+            };
+            box.append (label);
 
-            var main_grid = new Gtk.Grid ();
-            main_grid.attach (label, 0, 1);
-            main_grid.attach (box, 1, 1);
-
-            child = main_grid;
-
-            if (add_separator) {
-                var separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
-                main_grid.attach (separator, 0, 0, 2, 1);
-            }
+            child = box;
         }
     }
 }
