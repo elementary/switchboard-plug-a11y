@@ -8,8 +8,8 @@
 You'll need the following dependencies:
 
 * libswitchboard-2.0-dev
-* libgranite-dev
-* libgtk-3-dev
+* libgranite-7-dev
+* libgtk-4-dev
 * meson
 * valac (>= 0.22)
 

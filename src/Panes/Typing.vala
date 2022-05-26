@@ -34,8 +34,12 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         var onboard_settings_label = new Gtk.LinkButton.with_label ("", _("On-screen keyboard settings…"));
         onboard_settings_label.halign = Gtk.Align.END;
 
-        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings…"), "settings://input/keyboard/behavior");
-        kb_settings_label.vexpand = true;
+        var kb_settings_label = new Gtk.LinkButton.with_label ("settings://input/keyboard/behavior", _("Keyboard settings…")) {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
+            hexpand = true,
+            vexpand = true
+        };
 
         var sk_delay_adjustment = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
         var bk_delay_adjustment = new Gtk.Adjustment (0, 0, 2001, 1, 1, 1);
@@ -55,14 +59,13 @@ public class Accessibility.Panes.Typing : Categories.Pane {
         var bk_rejected = typing_box.add_switch (_("Beep when a key is rejected"));
         var bk_delay = typing_box.add_scale (_("Delay length"), bk_delay_adjustment);
 
-        grid.add (screen_box);
-        grid.add (onboard_settings_label);
-        grid.add (delay_label);
-        grid.add (delay_box);
-        grid.add (typing_label);
-        grid.add (typing_box);
-        grid.add (kb_settings_label);
-        grid.show_all ();
+        box.append (screen_box);
+        box.append (onboard_settings_label);
+        box.append (delay_label);
+        box.append (delay_box);
+        box.append (typing_label);
+        box.append (typing_box);
+        box.append (kb_settings_label);
 
         Accessibility.Plug.applications_settings.bind ("screen-keyboard-enabled", screen_keyboard, "active", SettingsBindFlags.DEFAULT);
 

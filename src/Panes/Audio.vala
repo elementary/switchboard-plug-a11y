@@ -55,13 +55,16 @@ public class Accessibility.Panes.Audio : Categories.Pane {
         var shortcut_label = new Gtk.Label (screenreader_shortcut_keys);
         reader_box.add_widget (_("Keyboard shortcut"), shortcut_label);
 
-        var audio_settings = new Accessibility.Widgets.LinkLabel (_("Sound settings…"), "settings://sound");
-        audio_settings.vexpand = true;
+        var audio_settings = new Gtk.LinkButton.with_label ("settings://sound", _("Sound settings…")) {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
+            hexpand = true,
+            vexpand = true
+        };
 
-        grid.add (reader_label);
-        grid.add (reader_box);
-        grid.add (audio_settings);
-        grid.show_all ();
+        box.append (reader_label);
+        box.append (reader_box);
+        box.append (audio_settings);
 
         Accessibility.Plug.applications_settings.bind ("screen-reader-enabled", read_items, "active", SettingsBindFlags.DEFAULT);
 

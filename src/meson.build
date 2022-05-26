@@ -1,7 +1,6 @@
 plug_files = files(
     'Plug.vala',
     'Widgets/SettingBox.vala',
-    'Widgets/Label.vala',
     'Widgets/Categories.vala',
     'Panes/Typing.vala',
     'Panes/Keyboard.vala',
@@ -19,8 +18,8 @@ shared_module(
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite'),
-        dependency('gtk+-3.0'),
+        dependency('granite-7'),
+        dependency('gtk4'),
         switchboard_dep
     ],
     install: true,
