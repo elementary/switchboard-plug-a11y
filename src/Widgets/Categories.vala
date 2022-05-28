@@ -25,14 +25,12 @@ public class Accessibility.Categories : Gtk.Box {
     private Gtk.ListBox list_box;
 
     construct {
-        set_size_request (176, 10);
-
         var audio = new Panes.Audio ();
         var typing = new Panes.Typing ();
         var keyboard = new Panes.Keyboard ();
 
         list_box = new Gtk.ListBox () {
-            hexpand = true,
+            width_request = 200,
             vexpand = true
         };
 
@@ -65,6 +63,9 @@ public class Accessibility.Categories : Gtk.Box {
                 page.added = true;
                 stack.add_child (page.pane);
             }
+
+            var leaflet = (Adw.Leaflet) get_ancestor (typeof (Adw.Leaflet));
+            leaflet.visible_child = stack;
 
             stack.set_visible_child (page.pane);
         });
@@ -106,6 +107,7 @@ public class Accessibility.Categories : Gtk.Box {
             };
 
             pane = new Gtk.ScrolledWindow () {
+                hscrollbar_policy = Gtk.PolicyType.NEVER,
                 child = box
             };
 

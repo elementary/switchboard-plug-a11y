@@ -85,16 +85,17 @@ namespace Accessibility {
                 sidebar.attach (categories, 0, 0);
                 sidebar.attach (footer, 0, 1);
 
-                var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
-                    start_child = sidebar,
-                    resize_start_child = false,
-                    shrink_start_child = false,
-                    end_child = stack
+                var leaflet = new Adw.Leaflet () {
+                    can_navigate_back = true,
+                    can_navigate_forward = true,
+                    homogeneous = false
                 };
+                leaflet.append (sidebar);
+                leaflet.append (stack);
 
                 box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
                 box.append (infobar);
-                box.append (paned);
+                box.append (leaflet);
 
                 var panel_settings = new Settings ("io.elementary.desktop.wingpanel.a11y");
                 panel_settings.bind ("show-indicator", indicator_switch, "active", SettingsBindFlags.DEFAULT);
