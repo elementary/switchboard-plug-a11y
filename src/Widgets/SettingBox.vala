@@ -33,6 +33,10 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Box {
 
     public void add_widget (string title, Gtk.Widget widget) {
         var settings_box = new EmptyBox (title);
+
+        widget.halign = Gtk.Align.END;
+        widget.hexpand = true;
+
         settings_box.box.append (widget);
         bind_sensitivity (widget, settings_box);
 
@@ -40,8 +44,9 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Box {
     }
 
     public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
-        var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
-        scale.width_request = 250;
+        var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment) {
+            hexpand = true
+        };
         scale.draw_value = false;
 
         var settings_box = new EmptyBox (title);
@@ -54,7 +59,11 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Box {
     }
 
     public Gtk.Switch add_switch (string title) {
-        var toggle = new Gtk.Switch ();
+        var toggle = new Gtk.Switch () {
+            halign = Gtk.Align.END,
+            hexpand = true,
+            valign = Gtk.Align.CENTER
+        };
 
         var settings_box = new EmptyBox (title);
         settings_box.box.append (toggle);
@@ -77,11 +86,11 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Box {
             activatable = false;
             selectable = false;
 
-            label = new Gtk.Label (title);
-            label.hexpand = true;
-            label.halign = Gtk.Align.START;
+            label = new Gtk.Label (title) {
+                wrap = true
+            };
 
-            box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
+            box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
                 valign = Gtk.Align.CENTER
             };
             box.append (label);
