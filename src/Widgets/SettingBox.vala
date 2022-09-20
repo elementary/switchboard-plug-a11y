@@ -25,8 +25,8 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Box {
             hexpand = true,
             show_separators = true
         };
-        list_box.add_css_class ("rich-list");
-        list_box.add_css_class ("frame");
+        list_box.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        list_box.add_css_class (Granite.STYLE_CLASS_FRAME);
 
         append (list_box);
     }
