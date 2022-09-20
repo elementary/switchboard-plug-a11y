@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://code.launchpad.net/switchboardswitchboard-plug-a11y
+Source: https://github.com/elementary/switchboard-plug-a11y
 
 Files: *
 Copyright: Copyright (C) 2011-2015 Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
