@@ -20,26 +20,32 @@
 * Authored by: Corentin Noël <corentin@elementary.io>
 */
 
-public class Accessibility.Categories : Gtk.ScrolledWindow {
+public class Accessibility.Categories : Gtk.Box {
     private Gtk.Stack stack;
     private Gtk.ListBox list_box;
 
     construct {
-        hscrollbar_policy = Gtk.PolicyType.NEVER;
         set_size_request (176, 10);
 
         var audio = new Panes.Audio ();
         var typing = new Panes.Typing ();
         var keyboard = new Panes.Keyboard ();
 
-        list_box = new Gtk.ListBox ();
-        list_box.expand = true;
+        list_box = new Gtk.ListBox () {
+            hexpand = true,
+            vexpand = true
+        };
 
-        list_box.add (audio);
-        list_box.add (typing);
-        list_box.add (keyboard);
+        list_box.append (audio);
+        list_box.append (typing);
+        list_box.append (keyboard);
 
-        add (list_box);
+        var scrolled = new Gtk.ScrolledWindow () {
+            hscrollbar_policy = Gtk.PolicyType.NEVER,
+            child = list_box
+        };
+
+        append (scrolled);
 
         list_box.set_header_func ((row, before) => {
             if (row == audio) {
@@ -57,7 +63,7 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
 
             if (page.added == false) {
                 page.added = true;
-                stack.add (page.pane);
+                stack.add_child (page.pane);
             }
 
             stack.set_visible_child (page.pane);
@@ -80,42 +86,47 @@ public class Accessibility.Categories : Gtk.ScrolledWindow {
     public class Pane : Gtk.ListBoxRow {
         public bool added = false;
         public Gtk.ScrolledWindow pane { public get; private set; }
-        public Gtk.Grid grid { public get; private set; }
         public string icon_name { get; construct; }
         public string label_string { get; construct; }
+
+        protected Gtk.Box box;
 
         public Pane (string label_string, string icon_name) {
             Object (label_string: label_string, icon_name: icon_name);
         }
 
         construct {
-            grid = new Gtk.Grid ();
-            grid.orientation = Gtk.Orientation.VERTICAL;
-            grid.margin = 12;
-            grid.margin_top = 24;
-            grid.row_spacing = 12;
-            grid.column_spacing = 0;
-            grid.expand = true;
-            grid.show ();
+            box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
+                margin_top = 24,
+                margin_end = 12,
+                margin_bottom = 12,
+                margin_start = 12,
+                hexpand = true,
+                vexpand = true
+            };
 
-            pane = new Gtk.ScrolledWindow (null, null);
-            pane.add (grid);
-            pane.show ();
+            pane = new Gtk.ScrolledWindow () {
+                child = box
+            };
 
             var label = new Gtk.Label (label_string);
             label.hexpand = true;
             label.halign = Gtk.Align.START;
 
-            var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DND);
+            var image = new Gtk.Image.from_icon_name (icon_name) {
+                pixel_size = 32
+            };
 
-            var rowgrid = new Gtk.Grid ();
-            rowgrid.orientation = Gtk.Orientation.HORIZONTAL;
-            rowgrid.column_spacing = 6;
-            rowgrid.margin = 3;
-            rowgrid.margin_start = 12;
-            rowgrid.add (image);
-            rowgrid.add (label);
-            add (rowgrid);
+            var row_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+                margin_top = 3,
+                margin_end = 3,
+                margin_bottom = 3,
+                margin_start = 12
+            };
+            row_box.append (image);
+            row_box.append (label);
+
+            child = row_box;
         }
     }
 }

@@ -3,5 +3,4 @@ src/Panes/Audio.vala
 src/Panes/Keyboard.vala
 src/Panes/Typing.vala
 src/Widgets/Categories.vala
-src/Widgets/Label.vala
 src/Widgets/SettingBox.vala

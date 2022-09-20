@@ -30,8 +30,13 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
     construct {
         var lock_label = new Granite.HeaderLabel (_("Lock Keys"));
         var modifier_label = new Granite.HeaderLabel (_("Modifier Keys"));
-        var kb_settings_label = new Accessibility.Widgets.LinkLabel (_("Keyboard settings…"), "settings://input/keyboard/behavior");
-        kb_settings_label.vexpand = true;
+
+        var kb_settings_label = new Gtk.LinkButton.with_label ("settings://input/keyboard/behavior", _("Keyboard settings…")) {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
+            hexpand = true,
+            vexpand = true
+        };
 
         var lock_box = new Accessibility.Widgets.SettingsBox ();
         var lk_beep = lock_box.add_switch (_("Beep when a lock key is pressed"));
@@ -40,12 +45,11 @@ public class Accessibility.Panes.Keyboard : Categories.Pane {
         var mk_enable = modifier_box.add_switch (_("Use modifier keys in sequence (sticky keys)"));
         var mk_beep = modifier_box.add_switch (_("Beep when a modifier key is pressed"));
 
-        grid.add (lock_label);
-        grid.add (lock_box);
-        grid.add (modifier_label);
-        grid.add (modifier_box);
-        grid.add (kb_settings_label);
-        grid.show_all ();
+        box.append (lock_label);
+        box.append (lock_box);
+        box.append (modifier_label);
+        box.append (modifier_box);
+        box.append (kb_settings_label);
 
         Accessibility.Plug.keyboard_settings.bind ("togglekeys-enable", lk_beep, "active", SettingsBindFlags.DEFAULT);
         Accessibility.Plug.keyboard_settings.bind ("stickykeys-enable", mk_enable, "active", SettingsBindFlags.DEFAULT);

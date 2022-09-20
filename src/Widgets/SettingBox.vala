@@ -17,56 +17,60 @@
 * Boston, MA 02110-1301, USA.
 */
 
-public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
+public class Accessibility.Widgets.SettingsBox : Gtk.Box {
     private Gtk.ListBox list_box;
-    private bool has_childen = false;
 
     construct {
-        list_box = new Gtk.ListBox ();
-        this.add (list_box);
+        list_box = new Gtk.ListBox () {
+            hexpand = true,
+            show_separators = true
+        };
+        list_box.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        list_box.add_css_class (Granite.STYLE_CLASS_FRAME);
+
+        append (list_box);
     }
 
     public void add_widget (string title, Gtk.Widget widget) {
-        has_childen = true;
-        widget.margin_end = 6;
+        var settings_box = new EmptyBox (title);
 
-        var settings_box = new EmptyBox (title, has_childen);
-        settings_box.grid.add (widget);
+        widget.halign = Gtk.Align.END;
+        widget.hexpand = true;
+
+        settings_box.box.append (widget);
         bind_sensitivity (widget, settings_box);
 
-        list_box.add (settings_box);
-        show_all ();
+        list_box.append (settings_box);
     }
 
     public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
-        var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
-        scale.margin_end = 6;
-        scale.width_request = 250;
+        var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment) {
+            hexpand = true
+        };
         scale.draw_value = false;
 
-        var settings_box = new EmptyBox (title, has_childen);
-        settings_box.grid.add (scale);
+        var settings_box = new EmptyBox (title);
+        settings_box.box.append (scale);
         bind_sensitivity (scale, settings_box);
 
-        list_box.add (settings_box);
-        show_all ();
+        list_box.append (settings_box);
 
-        has_childen = true;
         return scale;
     }
 
     public Gtk.Switch add_switch (string title) {
-        var toggle = new Gtk.Switch ();
-        toggle.margin_end = 6;
+        var toggle = new Gtk.Switch () {
+            halign = Gtk.Align.END,
+            hexpand = true,
+            valign = Gtk.Align.CENTER
+        };
 
-        var settings_box = new EmptyBox (title, has_childen);
-        settings_box.grid.add (toggle);
+        var settings_box = new EmptyBox (title);
+        settings_box.box.append (toggle);
         bind_sensitivity (toggle, settings_box);
 
-        list_box.add (settings_box);
-        show_all ();
+        list_box.append (settings_box);
 
-        has_childen = true;
         return toggle;
     }
 
@@ -75,36 +79,23 @@ public class Accessibility.Widgets.SettingsBox : Gtk.Frame {
     }
 
     public class EmptyBox : Gtk.ListBoxRow {
-        public Gtk.Grid grid;
+        public Gtk.Box box;
         public Gtk.Label label;
 
-        public EmptyBox (string title, bool add_separator) {
+        public EmptyBox (string title) {
             activatable = false;
             selectable = false;
 
-            label = new Gtk.Label (title);
-            label.hexpand = true;
-            label.halign = Gtk.Align.START;
-            label.margin = 8;
+            label = new Gtk.Label (title) {
+                wrap = true
+            };
 
-            grid = new Gtk.Grid ();
-            grid.hexpand = true;
-            grid.halign = Gtk.Align.END;
-            grid.margin_end = 4;
-            grid.margin_top = 8;
-            grid.margin_bottom = 8;
+            box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+                valign = Gtk.Align.CENTER
+            };
+            box.append (label);
 
-            var main_grid = new Gtk.Grid ();
-            main_grid.attach (label, 0, 1, 1, 1);
-            main_grid.attach (grid, 1, 1, 1, 1);
-            add (main_grid);
-
-            if (add_separator) {
-                var separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
-                main_grid.attach (separator, 0, 0, 2, 1);
-            }
-
-            show_all ();
+            child = box;
         }
     }
 }

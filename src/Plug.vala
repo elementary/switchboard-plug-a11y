@@ -20,7 +20,7 @@
  */
 namespace Accessibility {
     public class Plug : Switchboard.Plug {
-        Gtk.Grid grid;
+        private Gtk.Box box;
         Accessibility.Categories categories;
 
         public static GLib.Settings applications_settings;
@@ -34,7 +34,7 @@ namespace Accessibility {
             settings.set ("universal-access", null);
 
             Object (category: Category.SYSTEM,
-                    code_name: "io.elementary.switchboard.a11y",
+                    code_name: "io.elementary.settings.a11y",
                     display_name: _("Universal Access"),
                     description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility",
@@ -47,7 +47,7 @@ namespace Accessibility {
         }
 
         public override Gtk.Widget get_widget () {
-            if (grid == null) {
+            if (box == null) {
                 var info_title = _("More accessibility features can be found throughout System Settings.");
                 var info_details = _("Check the relevant settings pages or search from the All Settings screen.");
 
@@ -58,10 +58,7 @@ namespace Accessibility {
                 };
 
                 var infobar = new Gtk.InfoBar ();
-
-                // Need to pack_start for proper spacing and margins
-                var infobar_box = (Gtk.Box) infobar.get_content_area ();
-                infobar_box.pack_start (info_label);
+                infobar.add_child (info_label);
 
                 var stack = new Gtk.Stack ();
 
@@ -73,12 +70,14 @@ namespace Accessibility {
                 };
 
                 var indicator_switch = new Gtk.Switch () {
-                    margin = 6,
-                    margin_end = 3
+                    margin_top = 6,
+                    margin_end = 3,
+                    margin_bottom = 6,
+                    margin_start = 6
                 };
 
                 var footer = new Gtk.ActionBar ();
-                footer.get_style_context ().add_class (Gtk.STYLE_CLASS_INLINE_TOOLBAR);
+                footer.get_style_context ().add_class (Granite.STYLE_CLASS_FLAT);
                 footer.pack_start (indicator_label);
                 footer.pack_end (indicator_switch);
 
@@ -86,24 +85,22 @@ namespace Accessibility {
                 sidebar.attach (categories, 0, 0);
                 sidebar.attach (footer, 0, 1);
 
-                var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-                paned.pack1 (sidebar, false, false);
-                paned.add2 (stack);
-
-                grid = new Gtk.Grid () {
-                    orientation = Gtk.Orientation.VERTICAL
+                var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
+                    start_child = sidebar,
+                    resize_start_child = false,
+                    shrink_start_child = false,
+                    end_child = stack
                 };
 
-                grid.add (infobar);
-                grid.add (paned);
-
-                grid.show_all ();
+                box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+                box.append (infobar);
+                box.append (paned);
 
                 var panel_settings = new Settings ("io.elementary.desktop.wingpanel.a11y");
                 panel_settings.bind ("show-indicator", indicator_switch, "active", SettingsBindFlags.DEFAULT);
             }
 
-            return grid;
+            return box;
         }
 
         public override void shown () {
