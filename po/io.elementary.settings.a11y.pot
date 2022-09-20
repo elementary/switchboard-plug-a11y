@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the accessibility-plug package.
+# This file is distributed under the same license as the io.elementary.settings.a11y package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: accessibility-plug\n"
+"Project-Id-Version: io.elementary.settings.a11y\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 17:55+0000\n"
+"POT-Creation-Date: 2022-09-20 11:03-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Plug.vala:35
+#: src/Plug.vala:38
 msgid "Universal Access"
 msgstr ""
 
-#: src/Plug.vala:36
+#: src/Plug.vala:39
 msgid "Configure accessibility features"
 msgstr ""
 
-#: src/Plug.vala:48
+#: src/Plug.vala:51
 msgid "More accessibility features can be found throughout System Settings."
 msgstr ""
 
-#: src/Plug.vala:49
+#: src/Plug.vala:52
 msgid ""
 "Check the relevant settings pages or search from the All Settings screen."
 msgstr ""
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Audio"
 msgstr ""
 
-#: src/Plug.vala:140 src/Widgets/Categories.vala:46
+#: src/Plug.vala:140 src/Widgets/Categories.vala:52
 msgid "Hearing"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Typing"
 msgstr ""
 
-#: src/Plug.vala:147 src/Panes/Typing.vala:44
+#: src/Plug.vala:147 src/Panes/Typing.vala:48
 msgid "On-screen keyboard"
 msgstr ""
 
@@ -86,20 +86,20 @@ msgstr ""
 msgid "Typing Delays"
 msgstr ""
 
-#: src/Plug.vala:149 src/Panes/Typing.vala:47
+#: src/Plug.vala:149 src/Panes/Typing.vala:51
 msgid "Delay between key presses (slow keys)"
 msgstr ""
 
-#: src/Plug.vala:150 src/Panes/Typing.vala:48
+#: src/Plug.vala:150 src/Panes/Typing.vala:52
 msgid "Beep when a key is pressed"
 msgstr ""
 
-#: src/Plug.vala:151 src/Panes/Typing.vala:49
+#: src/Plug.vala:151 src/Panes/Typing.vala:53
 msgid "Beep when a key is accepted"
 msgstr ""
 
-#: src/Plug.vala:152 src/Plug.vala:156 src/Panes/Typing.vala:50
-#: src/Panes/Typing.vala:55
+#: src/Plug.vala:152 src/Plug.vala:156 src/Panes/Typing.vala:54
+#: src/Panes/Typing.vala:59
 msgid "Beep when a key is rejected"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Fast Typing"
 msgstr ""
 
-#: src/Plug.vala:155 src/Panes/Typing.vala:54
+#: src/Plug.vala:155 src/Panes/Typing.vala:58
 msgid "Ignore fast duplicate keypresses (bounce keys)"
 msgstr ""
 
@@ -124,15 +124,15 @@ msgstr ""
 msgid "Keyboard"
 msgstr ""
 
-#: src/Plug.vala:159 src/Panes/Keyboard.vala:37
+#: src/Plug.vala:159 src/Panes/Keyboard.vala:42
 msgid "Beep when a lock key is pressed"
 msgstr ""
 
-#: src/Plug.vala:160 src/Panes/Keyboard.vala:40
+#: src/Plug.vala:160 src/Panes/Keyboard.vala:45
 msgid "Use modifier keys in sequence (sticky keys)"
 msgstr ""
 
-#: src/Plug.vala:161 src/Panes/Keyboard.vala:41
+#: src/Plug.vala:161 src/Panes/Keyboard.vala:46
 msgid "Beep when a modifier key is pressed"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Modifier Keys"
 msgstr ""
 
-#: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
+#: src/Panes/Keyboard.vala:34 src/Panes/Typing.vala:37
 msgid "Keyboard settings…"
 msgstr ""
 
@@ -168,10 +168,10 @@ msgstr ""
 msgid "On-screen keyboard settings…"
 msgstr ""
 
-#: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
+#: src/Panes/Typing.vala:55 src/Panes/Typing.vala:60
 msgid "Delay length"
 msgstr ""
 
-#: src/Widgets/Categories.vala:48
+#: src/Widgets/Categories.vala:54
 msgid "Interaction"
 msgstr ""

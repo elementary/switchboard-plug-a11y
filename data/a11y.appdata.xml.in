@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>io.elementary.switchboard.a11y</id>
-  <extends>io.elementary.switchboard</extends>
+  <id>io.elementary.settings.a11y</id>
+  <extends>io.elementary.settings</extends>
   <name>Universal Access Settings</name>
   <summary>Configure accessibility features</summary>
   <icon type="stock">preferences-desktop-accessibility</icon>
-  <translation type="gettext">accessibility-plug</translation>
   <releases>
     <release version="2.3.0" date="2021-07-16" urgency="low">
       <description>
@@ -30,13 +29,13 @@
   </releases>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-audio.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/main/data/screenshot-audio.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-typing.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/main/data/screenshot-typing.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/master/data/screenshot-keyboard.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-a11y/main/data/screenshot-keyboard.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://elementary.io</url>

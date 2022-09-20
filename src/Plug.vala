@@ -34,7 +34,7 @@ namespace Accessibility {
             settings.set ("universal-access", null);
 
             Object (category: Category.SYSTEM,
-                    code_name: "io.elementary.switchboard.a11y",
+                    code_name: "io.elementary.settings.a11y",
                     display_name: _("Universal Access"),
                     description: _("Configure accessibility features"),
                     icon: "preferences-desktop-accessibility",
