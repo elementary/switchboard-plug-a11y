@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Russian (Desktop)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2021-12-18 16:47+0000\n"
-"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
+"PO-Revision-Date: 2022-10-01 15:29+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/ru/>\n"
 "Language: ru\n"
@@ -102,7 +102,7 @@ msgstr "Звуковой сигнал при принятии клавиши"
 #: src/Plug.vala:152 src/Plug.vala:156 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr "Звуковой сигнал при отпускании клавиши"
+msgstr "Звуковой сигнал при отклонении клавиши"
 
 #: src/Plug.vala:153
 msgid "Typing Delay length"
@@ -114,7 +114,8 @@ msgstr "Быстрый ввод"
 
 #: src/Plug.vala:155 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
-msgstr "Игнорировать быстро повторяющиеся нажатия клавиш"
+msgstr ""
+"Игнорировать быстро повторяющиеся нажатия клавиш (отскакивающие клавиши)"
 
 #: src/Plug.vala:157
 msgid "Fast Typing Delay length"
