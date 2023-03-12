@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2015-11-28 20:57+0000\n"
-"Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-12 14:25+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-a11y/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
 
 #: src/Plug.vala:35
 msgid "Universal Access"
@@ -19,7 +21,7 @@ msgstr "უნივერსალური წვდომა"
 
 #: src/Plug.vala:36
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "წვდომადობის თვისებების მორგება"
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
@@ -32,16 +34,16 @@ msgstr ""
 
 #: src/Plug.vala:68
 msgid "Show in Panel"
-msgstr ""
+msgstr "პანელზე ჩვენება"
 
 #: src/Plug.vala:138
 msgid "Accessibility Features"
-msgstr ""
+msgstr "წვდომადობის თვისებები"
 
 #: src/Plug.vala:139 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Panes/Audio.vala:41
 msgid "Audio"
-msgstr ""
+msgstr "აუდიო"
 
 #: src/Plug.vala:140 src/Widgets/Categories.vala:46
 msgid "Hearing"
@@ -49,38 +51,38 @@ msgstr "მოსმენა"
 
 #: src/Plug.vala:141
 msgid "Visual Alerts"
-msgstr ""
+msgstr "ვიზუალური გართხილებები"
 
 #: src/Plug.vala:142
 msgid "Flash screen"
-msgstr ""
+msgstr "ეკრანის ციმციმი"
 
 #: src/Plug.vala:143 src/Panes/Audio.vala:51
 msgid "Screen Reader"
-msgstr ""
+msgstr "ეკრანის მკითხველი"
 
 #: src/Plug.vala:144
 msgid "Audio descriptions"
-msgstr ""
+msgstr "ხმის აღწერები"
 
 #: src/Plug.vala:145
 msgid "keyboard shortcut"
-msgstr ""
+msgstr "კლავიატურის მალსახმობი"
 
 #: src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157
 #: src/Panes/Typing.vala:25
 msgid "Typing"
-msgstr ""
+msgstr "აკრეფა"
 
 #: src/Plug.vala:147 src/Panes/Typing.vala:44
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "ეკრანის კლავიატურა"
 
 #: src/Plug.vala:148 src/Panes/Typing.vala:31
 msgid "Typing Delays"
-msgstr ""
+msgstr "კრეფის დაყოვნებები"
 
 #: src/Plug.vala:149 src/Panes/Typing.vala:47
 msgid "Delay between key presses (slow keys)"
@@ -88,24 +90,24 @@ msgstr ""
 
 #: src/Plug.vala:150 src/Panes/Typing.vala:48
 msgid "Beep when a key is pressed"
-msgstr ""
+msgstr "პიპინი, თუ ღილაკი დაჭერილია"
 
 #: src/Plug.vala:151 src/Panes/Typing.vala:49
 msgid "Beep when a key is accepted"
-msgstr ""
+msgstr "პიპინი,როდესაც ღილაკი მიღებულია"
 
 #: src/Plug.vala:152 src/Plug.vala:156 src/Panes/Typing.vala:50
 #: src/Panes/Typing.vala:55
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "პიპინი ღილაკის უარყოფის შემთხვევაში"
 
 #: src/Plug.vala:153
 msgid "Typing Delay length"
-msgstr ""
+msgstr "კრეფის დაყოვნების ხანგრძლივობა"
 
 #: src/Plug.vala:154 src/Panes/Typing.vala:32
 msgid "Fast Typing"
-msgstr ""
+msgstr "სწრაფი კრეფა"
 
 #: src/Plug.vala:155 src/Panes/Typing.vala:54
 msgid "Ignore fast duplicate keypresses (bounce keys)"
@@ -113,7 +115,7 @@ msgstr ""
 
 #: src/Plug.vala:157
 msgid "Fast Typing Delay length"
-msgstr ""
+msgstr "სწრაფი კრეფის დაყოვნების ხანგრძლივობა"
 
 #: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Panes/Keyboard.vala:25
@@ -134,7 +136,7 @@ msgstr ""
 
 #: src/Panes/Audio.vala:34
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Panes/Audio.vala:54
 msgid "Provide audio descriptions for items on the screen"
@@ -142,7 +144,7 @@ msgstr ""
 
 #: src/Panes/Audio.vala:56
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "კლავიატურის მალსახმობი"
 
 #: src/Panes/Audio.vala:58
 msgid "Sound settings…"
@@ -150,24 +152,23 @@ msgstr ""
 
 #: src/Panes/Keyboard.vala:31
 msgid "Lock Keys"
-msgstr ""
+msgstr "ღილაკების დაბლოკვა"
 
 #: src/Panes/Keyboard.vala:32
 msgid "Modifier Keys"
-msgstr ""
+msgstr "მოდიფიკატორი ღილაკები"
 
 #: src/Panes/Keyboard.vala:33 src/Panes/Typing.vala:37
-#, fuzzy
 msgid "Keyboard settings…"
-msgstr "დისპლეი პარამეტრები..."
+msgstr "კლავიატურის მორგება…"
 
 #: src/Panes/Typing.vala:34
 msgid "On-screen keyboard settings…"
-msgstr ""
+msgstr "ეკრანის კლავიატურის მორგება…"
 
 #: src/Panes/Typing.vala:51 src/Panes/Typing.vala:56
 msgid "Delay length"
-msgstr ""
+msgstr "დაყოვნების ხანგრძლივობა"
 
 #: src/Widgets/Categories.vala:48
 msgid "Interaction"
