@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2023-03-11 14:25+0000\n"
+"PO-Revision-Date: 2023-03-12 14:25+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "universal-access-plug-extra/ka/>\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:6
 msgid "Configure accessibility features"
-msgstr ""
+msgstr "წვდომადობის თვისებების მორგება"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:12
 msgid "Fixes:"
-msgstr ""
+msgstr "შეცდომების გასწორებები:"
 
 #: data/io.elementary.switchboard.a11y.appdata.xml.in:14
 msgid "Ensure screen reader shortcut keys are shown"
