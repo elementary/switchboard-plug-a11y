@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 17:55+0000\n"
-"PO-Revision-Date: 2020-10-29 18:15+0000\n"
+"PO-Revision-Date: 2023-03-21 18:59+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-a11y/mr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.16.4\n"
 "X-Launchpad-Export-Date: 2016-11-25 06:57+0000\n"
 
 #: src/Plug.vala:35
@@ -25,7 +25,7 @@ msgstr "प्रवेशयोग्यता वैशिष्ट्ये �
 
 #: src/Plug.vala:48
 msgid "More accessibility features can be found throughout System Settings."
-msgstr ""
+msgstr "अधिक प्रवेशयोग्यता वैशिष्ट्ये संपूर्ण सिस्टम सेटिंग्जमध्ये आढळू शकतात."
 
 #: src/Plug.vala:49
 msgid ""
